@@ -3,8 +3,8 @@
 <head>
 	<meta charset="utf-8"/>
 	<title>AIFA - Fitness Artificial Intelligence</title>
-	<link rel="stylesheet" href="normalize.css" type="text/css"/>
-	<link rel="stylesheet" href="style.css" type="text/css"/>
+	<link rel="stylesheet" href="css/normalize.css" type="text/css"/>
+	<link rel="stylesheet" href="css/style.css" type="text/css"/>
 	
 </head>
 <body>
@@ -17,16 +17,18 @@
 			<h1>Artificial Intelligence Fitness App</h1>
 			<h2>Your very own personal trainer!</h2>
 			<div id="login_header">
-				<label>Login</label>
+				<input type="submit" value="Login" id="button_login" />
 			</div>
 		</section>
 		<section id="logged_in">
-			<div id="logo_header_image"></div>
+			<a href="#">
+				<img src="images/placeholder.png"/>
+			</a>
 			<h1>Artificial Intelligence Fitness App</h1>
 			<h2>Your very own personal trainer!</h2>
 			<div id="logoff_header">
-				<label>My Account</label>
-				<label>Logoff</label>
+				<a href="pages/account.html">My Account</a>
+				<input type="submit" value="Logoff" id="button_logoff" />
 			</div>
 		</section>
 	</header>
@@ -37,7 +39,7 @@
 				<li><a href="pages/recipes.html" title="recipes">Recipes</a></li>
 				<li><a href="pages/weight_loss.html" title="weight_loss">Weight Loss</a></li>
 			</li>
-			<li><a href="pages/recommended_products.html">Recommeded Products</a></li>
+			<li><a href="pages/recommended_products.html">Recommended Products</a></li>
 			<li><a href="pages/news.html">News</a></li>
 			<li><a href="pages/faq.html">FAQ's</a></li>
 			<li><a href="pages/about_us.html">About us</a></li>
@@ -61,6 +63,6 @@
 		<div class="footer_space"></div>
 	</footer>
 </div>
-<script src="nameit.js"></script>
+<script src="scripts/default.js"></script>
 </body>
 </html>
