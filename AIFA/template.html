@@ -14,13 +14,15 @@
 	<div id="login_div">
 		<p>Login to your AIFA account</p>
 		<label>Username:</label>
-		<input type="text" name="username">
+		<input type="text" name="username" id="username_input" maxlength="15">
 		<br><br>
 		<label>Password:</label>
-		<input type="password" name="password"><br><br>
+		<input type="password" name="password" id="password_input" maxlength="15"><br><br>
 		<input type="submit" value="Login" id="button_login_final">
 		<input type="submit" value="Cancel" id="button_login_cancel">
 	</div>
+	
+	<div id="login_bg"></div>
 	
 	<div id="homepage">	
 		<header id="main_header">
@@ -39,7 +41,7 @@
 					<input type="submit" value="Login" id="button_login" />
 				</div>
 				<div id="logoff_header">
-					<label>Welcome, USER</label></br/>
+					<label>Welcome, <span id="username_output">USER</span></label></br/>
 					<label>Account Type: <strong>PREMIUM</strong></label><br/>
 					<a href="pages/account.html">My Account</a><br/>
 					<input type="submit" value="Logoff" id="button_logoff" />
