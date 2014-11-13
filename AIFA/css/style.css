@@ -1,0 +1,18 @@
+body{
+	background: #EFFBF8;
+	width:100%;
+}
+
+#homepage{
+	width: 90%;
+	margin: 0 auto;
+}
+header{
+	width: 100%;
+	margin: 0 auto;
+}
+
+#logo{
+	float:left;
+	margin-right:2em;
+}

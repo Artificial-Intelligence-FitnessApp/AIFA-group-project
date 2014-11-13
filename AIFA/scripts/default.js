@@ -5,17 +5,17 @@ document.getElementById("button_logoff").addEventListener("click", login);
 
 var loggedIn = false;
 
-document.getElementById("logged_in").style.display = "none";
-document.getElementById("logged_off").style.display = "block";
+document.getElementById("login_header").style.display = "block";
+document.getElementById("logoff_header").style.display = "none";
 
 function login(){
 	if(loggedIn === false){
 		loggedIn = true;
-		document.getElementById("logged_in").style.display = "block";
-		document.getElementById("logged_off").style.display = "none";
+		document.getElementById("login_header").style.display = "none";
+		document.getElementById("logoff_header").style.display = "block";
 	} else {
 		loggedIn = false;
-		document.getElementById("logged_in").style.display = "none";
-		document.getElementById("logged_off").style.display = "block";
+		document.getElementById("login_header").style.display = "block";
+		document.getElementById("logoff_header").style.display = "none";
 	}
 }
