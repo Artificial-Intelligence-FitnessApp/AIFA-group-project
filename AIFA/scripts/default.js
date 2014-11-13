@@ -1,12 +1,17 @@
 //This file is used on all pages for login control on the header and for other global code.
 
-document.getElementById("button_login").addEventListener("click", login);
+
+//User Account Section
+document.getElementById("button_login").addEventListener("click", loginShow);
 document.getElementById("button_logoff").addEventListener("click", login);
+document.getElementById("button_login_final").addEventListener("click", loginFinal);
+document.getElementById("button_login_cancel").addEventListener("click", loginCancel);
 
 var loggedIn = false;
 
 document.getElementById("login_header").style.display = "block";
 document.getElementById("logoff_header").style.display = "none";
+document.getElementById("login_div").style.display = "none";
 
 function login(){
 	if(loggedIn === false){
@@ -19,3 +24,17 @@ function login(){
 		document.getElementById("logoff_header").style.display = "none";
 	}
 }
+
+function loginFinal(){
+}
+
+function loginShow(){
+	document.getElementById("login_div").style.display = "block";
+	$("").addCla
+}
+
+function loginCancel(){
+
+}
+
+//Nav Section

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content ="width=device-width"/>
+		<title>AIFA - Artificial Intelligence Fitness App | Homepage</title>
+		<link rel="stylesheet" href="css/normalize.css" type="text/css"/>
+		<link rel="stylesheet" href="css/style.css" type="text/css"/>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<script src="scripts/jquery.js"></script>
+	</head>
+	<body>
+	
+	<div id="login_div">
+		<p>Login to your AIFA account</p>
+		<label>Username:</label>
+		<input type="text" name="username">
+		<br><br>
+		<label>Password:</label>
+		<input type="password" name="password"><br><br>
+		<input type="submit" value="Login" id="button_login_final">
+		<input type="submit" value="Cancel" id="button_login_cancel">
+	</div>
+	
+	<div id="homepage">	
+		<header id="main_header">
+			<figure id="logo">
+				<a href="#">
+					<img src="images/placeholder.png"/>
+				</a>
+			</figure>
+			<div id="header_text_wrapper">
+				<h1>Artificial Intelligence Fitness App</h1>
+				<h2>Your very own personal trainer!</h2>
+			</div>
+			<div id="login_container">
+				<div id="login_header">
+					<label>Not logged in</label></br/>
+					<input type="submit" value="Login" id="button_login" />
+				</div>
+				<div id="logoff_header">
+					<label>Welcome, USER</label></br/>
+					<label>Account Type: <strong>PREMIUM</strong></label><br/>
+					<a href="pages/account.html">My Account</a><br/>
+					<input type="submit" value="Logoff" id="button_logoff" />
+				</div>
+			</div>
+		</header>
+		<nav>
+				<a href="#">Home</a> |
+				<a href="#">Nutrition</a> |
+				<a href="pages/recipes.html" title="recipes">Recipes</a> |
+				<a href="pages/weight_loss.html" title="weight_loss">Weight Loss</a> |
+				<a href="pages/recommended_products.html">Recommended Products</a> |
+				<a href="pages/news.html">News</a> |
+				<a href="pages/faq.html">FAQ</a> |
+				<a href="pages/about_us.html">About us</a>	
+		</nav>
+		
+		<!-- Use your own seperate CSS files to change the style of individual pages. DO NOT CHANGE style.css!!! EVAR!!! -->
+		<!-- Place content between the "main_section" section! -->
+		<section id="main_section">
+			<h1>Heading 1 Example</h1>
+			<h2>Heading 2 Example</h2>
+			<h3>Heading 3 Example</h3>
+			<h4>Heading 4 Example</h4>
+			<h5>Heading 5 Example</h5>
+			<h6>Heading 6 Example</h6>
+			
+			<p>Here is an example of content</p>
+			
+			Semester 1 Subjects:
+			<ul>
+				<li>HTML</li>
+				<li>Programming</li>
+				<li>Maths</li>
+				<li>PPD</li>
+				<li>Intro to Computing</li>
+			</ul>
+		</section>
+		<!-- Place content between these the "main_section" section! -->
+		<footer>
+			<div class="footer_space"></div>
+			<div class="footer_space">
+				<figure>
+					<img src="images/placeholder.png" />
+				</figure>
+				<div><a href=""/>AppStore</a></div>
+				<div><a href=""/>Google Play</a></div>
+				<div><a href=""/>Windows Store</a></div>
+			</div>
+			<div class="footer_space"></div>
+		</footer>
+	</div>
+	<script src="scripts/default.js"></script>
+	</body>
+</html>
