@@ -1,18 +1,46 @@
 body{
 	background: #EFFBF8;
-	width:100%;
 }
 
-#homepage{
-	width: 90%;
-	margin: 0 auto;
-}
 header{
 	width: 100%;
 	margin: 0 auto;
+	margin-bottom: 1em;
 }
 
-#logo{
-	float:left;
-	margin-right:2em;
+nav{
+	text-align: center;
+}
+
+footer{
+
+}
+
+header, nav, footer{
+	background-color: orange;
+}
+
+#homepage{
+	width: 960px;
+	margin: 0 auto;
+	background: orange;
+}
+
+#main_section{
+	background: yellow;
+}
+
+#main_header{
+	float: left;
+	margin: 0 auto;
+}
+
+#logo, #header_text_wrapper{
+	float: left;
+}
+
+#login_container{
+	float: right;
+	margin-top: 16px;
+	margin-right: 40px;
 }
