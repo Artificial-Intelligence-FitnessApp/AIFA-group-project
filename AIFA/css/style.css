@@ -24,15 +24,26 @@ header, nav, footer{
 	width: 960px;
 	margin: 0 auto;
 	background: orange;
+	border-left: 2px solid black;
+	border-right: 2px solid black;
 }
 
 #main_section{
 	background: yellow;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
 }
 
 #main_header{
 	float: left;
 	margin: 0 auto;
+}
+
+.footer_space{
+	margin: 0 auto;
+	height: 100%;
+	width: 33%;
+	text-align: center;
 }
 
 #logo, #header_text_wrapper{
@@ -43,4 +54,8 @@ header, nav, footer{
 	float: right;
 	margin-top: 16px;
 	margin-right: 40px;
+	background: white;
+	padding: 5px;
+	border: 2px solid black;
+	text-align: right;
 }
