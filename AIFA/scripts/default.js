@@ -54,11 +54,11 @@ function toggleList(){
 	if(menuDown === false){
 		menuDown = true;
 		console.log("Anim");
-		$("footer").animate({ "top": "+=50px" }, "slow" );
-		$("#main_section").animate({ "top": "+=50px" }, "slow" );
+		$("footer").animate({ "top": "+=45px" }, "slow" );
+		$("#main_section").animate({ "top": "+=45px" }, "slow" );
 	} else {
 		menuDown = false;
-		$("footer").animate({ "top": "-=50px" }, "slow" );
-		$("#main_section").animate({ "top": "-=50px" }, "slow" );
+		$("footer").animate({ "top": "-=45px" }, "slow" );
+		$("#main_section").animate({ "top": "-=45px" }, "slow" );
 	}
 }

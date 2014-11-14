@@ -31,13 +31,12 @@ header, nav, footer{
 	width: 960px;
 	margin: 0 auto;
 	background: orange;
-	border-left: 2px solid black;
-	border-right: 2px solid black;
 }
 
 #main_section{
 	background: yellow;
 	position: relative;
+	top: -45px;
 	border-top: 2px solid black;
 	border-bottom: 2px solid black;
 }
@@ -45,6 +44,7 @@ header, nav, footer{
 #main_header{
 	float: left;
 	margin: 0 auto;
+	border-top: 2px solid black;
 }
 
 #login_div{
@@ -84,6 +84,11 @@ header, nav, footer{
 	padding: 5px;
 	border: 2px solid black;
 	text-align: right;
+}
+
+#nav_drop{
+	position: relative;
+	left: 200px;
 }
 
 .nav_element{
