@@ -1,111 +1,111 @@
-/* This is the "master css file" for the whole website! Don't go changing anything in here! I'm serious! >:( 
-
--Aaron
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
 */
 
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/*==============our code starts here======================*/
+
 body{
-	background: #EFFBF8;
+	width:100%;
+}
+#homepage{/*initialize height to other part work with porcenge*/
+	height:780px;
 }
 
-header{
-	width: 100%;
-	margin: 0 auto;
-	margin-bottom: 1em;
+/*========================HEADER==============================*/
+#main_header, #main_header a{
+	width:100%;
+	height:25%;
+	font-family:"Calibri Light", "Franklin Gothic Book", Arial, sams-serif;
+	color:white;
+	text-decoration:none;
 }
-
-nav{
-	text-align: center;
-}
-
-footer{
-	text-align: center;
-	position: relative;
-	border-bottom: 2px solid black;
-}
-
-header, nav, footer{
-	background-color: orange;
-}
-
-#homepage{
-	width: 960px;
-	margin: 0 auto;
-	background: orange;
-}
-
-#main_section{
-	background: yellow;
-	position: relative;
-	top: -45px;
-	border-top: 2px solid black;
-	border-bottom: 2px solid black;
-}
-
 #main_header{
-	float: left;
-	margin: 0 auto;
-	border-top: 2px solid black;
+	background-color:#2EFE2E;
+	background:linear-gradient(#0F0100 0%,#2EFE2E 65%);
+	background:-moz-linear-gradient(#0F0100 0%,#2EFE2E 65%);
+	background:-o-linear-gradient(#0F0100 0%,#2EFE2E 65%);
+	background:-webkit-linear-gradient(#0F0100 0%,#2EFE2E 65%);
+	background:-ms-linear-gradient(#0F0100 0%,#2EFE2E 65%);
 }
-
-#login_div{
-	position: fixed;
-	top: 50%;
-	left: 50%;
-	margin-top: -90px;
-	margin-left: -150px;
-	background: white;
-	width: 300px;
-	height: 180px;
-	text-align: center;
-	border: 2px solid black;
-	z-index: 2;
+#head_wrap{
+	width:90%;
+	margin:0 auto;
 }
-
-#logo, #header_text_wrapper{
-	float: left;
+#logo{
+	float:left;
 }
-
-#login_bg{
-	background: black;
-	opacity: 0.6;
-	position: absolute;
-	top: 0;
-	left: 0;
-	height: 100%;
-	width: 100%;
-	z-index: 1;
+#main_headings{
+	padding:2em;
+	margin-left:1em;
+	float:left;
 }
-
+	header h1, h2{
+		text-decoration:underline;
+	}
+	header h1{
+		font-size:2.5em;
+	}
+	header h2{
+		font-size:2em;
+	}
 #login_container{
-	float: right;
-	margin-top: 16px;
-	margin-right: 40px;
-	background: white;
-	padding: 5px;
-	border: 2px solid black;
-	text-align: right;
+	float:right;
+	padding: 
 }
 
-#nav_drop{
-	position: relative;
-	left: 200px;
-}
 
-.nav_element{
-	background: red;
-	color: white;
-	padding: .5em;
-	margin-bottom: 5px;
-	display: inline-block;
-	border: 2px solid black;
-	-webkit-transition: all 0.2s ease-in-out;
-    -moz-transition: all 0.2s ease-in-out;
-    -o-transition: all 0.2s ease-in-out;
-    -ms-transition: all 0.2s ease-in-out;
-    transition: all 0.2s ease-in-out;
-}
+/*=====================NAVIGATION=============================*/
 
-.nav_element:hover{
-	background: blue;
-	cursor: pointer;
-}
+
+/*=====================FOOTER=================================*/
+
+
+
+/*====================MEDIA QUERIE============================*/
