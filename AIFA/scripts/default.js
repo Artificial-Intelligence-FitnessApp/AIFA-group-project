@@ -43,22 +43,3 @@ function loginCancel(){
 	document.getElementById("username_input").value = "";
 	document.getElementById("password_input").value = "";
 }
-
-//Nav Section
-
-document.getElementById("button_drop_menu").addEventListener("click", toggleList);
-
-var menuDown = false;
-
-function toggleList(){
-	if(menuDown === false){
-		menuDown = true;
-		console.log("Anim");
-		$("footer").animate({ "top": "+=45px" }, "slow" );
-		$("#main_section").animate({ "top": "+=45px" }, "slow" );
-	} else {
-		menuDown = false;
-		$("footer").animate({ "top": "-=45px" }, "slow" );
-		$("#main_section").animate({ "top": "-=45px" }, "slow" );
-	}
-}
