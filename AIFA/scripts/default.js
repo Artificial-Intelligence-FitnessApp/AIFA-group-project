@@ -45,3 +45,20 @@ function loginCancel(){
 }
 
 //Nav Section
+
+document.getElementById("button_drop_menu").addEventListener("click", toggleList);
+
+var menuDown = false;
+
+function toggleList(){
+	if(menuDown === false){
+		menuDown = true;
+		console.log("Anim");
+		$("footer").animate({ "top": "+=50px" }, "slow" );
+		$("#main_section").animate({ "top": "+=50px" }, "slow" );
+	} else {
+		menuDown = false;
+		$("footer").animate({ "top": "-=50px" }, "slow" );
+		$("#main_section").animate({ "top": "-=50px" }, "slow" );
+	}
+}

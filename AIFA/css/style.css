@@ -19,6 +19,7 @@ nav{
 
 footer{
 	text-align: center;
+	position: relative;
 	border-bottom: 2px solid black;
 }
 
@@ -36,6 +37,7 @@ header, nav, footer{
 
 #main_section{
 	background: yellow;
+	position: relative;
 	border-top: 2px solid black;
 	border-bottom: 2px solid black;
 }
@@ -82,10 +84,6 @@ header, nav, footer{
 	padding: 5px;
 	border: 2px solid black;
 	text-align: right;
-}
-
-#clear_fix{
-	clear: both;
 }
 
 .nav_element{
