@@ -1,64 +1,22 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
+/*Default Reset*/
+aside, article, section, header, footer, nav{display:block;}
+html,body,div,h1,h2,h3,h4,h5,h6,p,ul,li,a{
+	margin:0; 
+	padding:0; 
+	text-decoration:none;
 }
 
 
 
-/*==============our code starts here======================*/
-
+/*==============STARTS HERE===================================*/
 body{
 	width:100%;
 }
-#homepage{/*initialize height to other part work with porcenge*/
+#homepage{/*initialize height to other part work with percentage*/
 	height:780px;
 }
 
-/*========================HEADER==============================*/
+/*========================HEADER SECTION========================*/
 #main_header, #main_header a{
 	width:100%;
 	height:25%;
@@ -67,12 +25,12 @@ body{
 	text-decoration:none;
 }
 #main_header{
-	background-color:#2EFE2E;
-	background:linear-gradient(#0F0100 0%,#2EFE2E 65%);
-	background:-moz-linear-gradient(#0F0100 0%,#2EFE2E 65%);
-	background:-o-linear-gradient(#0F0100 0%,#2EFE2E 65%);
-	background:-webkit-linear-gradient(#0F0100 0%,#2EFE2E 65%);
-	background:-ms-linear-gradient(#0F0100 0%,#2EFE2E 65%);
+	background-color:#58FAAC;
+	background:linear-gradient(#0F0100 0%,#58FAAC 65%);
+	background:-moz-linear-gradient(#0F0100 0%,#58FAAC 65%);
+	background:-o-linear-gradient(#0F0100 0%,#58FAAC 65%);
+	background:-webkit-linear-gradient(#0F0100 0%,#58FAAC 65%);
+	background:-ms-linear-gradient(#0F0100 0%,#58FAAC 65%);
 }
 #head_wrap{
 	width:90%;
@@ -104,8 +62,25 @@ body{
 /*=====================NAVIGATION=============================*/
 
 
-/*=====================FOOTER=================================*/
+/*===================MAIN SECTION=============================*/
+#main_section{
+	padding-top:2em;
+	width:90%;
+	margin:0 auto;
+	background:#F8FBEF;
+}
+#content{
+	float:left;
 
+}
+
+
+/*=====================FOOTER=================================*
+ border-width: 3px solid black;
+-webkit-border-image: -webkit-linear-gradient(black, rgba(0, 0, 0, 0)) 1 100%; 
+-moz-border-image: -moz-linear-gradient(black, rgba(0, 0, 0, 0)) 1 100%; 
+-o-border-image: -o-linear-gradient(black, rgba(0, 0, 0, 0)) 1 100%; 
+border-image: linear-gradient(to bottom, black, rgba(0, 0, 0, 0)) 1 100%;*/
 
 
 /*====================MEDIA QUERIE============================*/
