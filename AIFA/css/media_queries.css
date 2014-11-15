@@ -1,33 +1,30 @@
 /*====================MEDIA QUERIE============================*/
-@media screen and (max-width:920px){
-	header h1{
-		font-size:1.8em;
+@media screen and (max-width:940px){
+	body{
+		font-size:1em;
 	}
-	header h2{
-		font-size:1.5em;
-	}	
-	#login_container{
-		float:none;
-		width:40%;
-		position:absolute;
-		top:6em;
-	}
-	.log_button{
-		
-	}
-	
-/*===============NAVIGATION BAR==========================*/		
-	#main_nav, #main_nav li{
-		float:none;
-	}
-}
-
-@media screen and (max-width:800px){
 	body h1{
-		font-size:1.8em;
+		font-size:2em;
 	}
 	body h2{
-		font-size:1.5em;
+		font-size:1.7em;
+	}	
+
+/*===============NAVIGATION BAR==========================*/		
+	#main_nav, #main_nav li{
+		float:none;
+	}
+}
+
+@media screen and (max-width:860px){
+	body{
+		font-size:.9em;
+	}
+	body h1{
+		font-size:2em;
+	}
+	body h2{
+		font-size:1.7em;
 	}	
 	
 /*===============NAVIGATION BAR==========================*/		
@@ -37,35 +34,86 @@
 	
 
 }
-@media screen and (max-width:720px){
+@media screen and (max-width:800px){
+	body{
+		font-size:.8em;
+	}
+	body h1{
+		font-size:2em;
+	}
+	body h2{
+		font-size:1.7em;
+	}	
+}
+@media screen and (max-width:768px){
 	body h1{
 		font-size:1.5em;
 	}
 	body h2{
 		font-size:1.3em;
 	}
-	
+	#login_container{
+		float:none;
+		width:40%;
+		position:absolute;
+		top:8em;
+	}
 /*===============NAVIGATION BAR==========================*/	
 	#navDesk{
-		height:2.16em;
+		height:2.4em;
 	}
 	#navDesk .main_nav li a:hover{
 		height:2.5em;
 	}
 	#navDesk .main_nav li{
-		font-size:.9em;
+		font-size:1em;
 	}
 	#main_section{
 		padding:2em;
 		margin:0 auto;
-		width:140%;
 	}
 	#navDesk .current{
 		border-bottom:.43em solid #AD9B7F;
 	}
 
 }
+@media screen and (max-width:600px){
+	body h1{
+		font-size:1.3em;
+	}
+	body h2{
+		font-size:1.1em;
+	}
+	#main_header{
+		border-bottom:.3em solid #C38F00;
+	}
+/*===============NAVIGATION BAR==========================*/	
+	#navDesk{
+		display:none;
+	}
+	#nav-icon{
+		background-image:url('images/nav-icon.png');
+		background-repeat:no-repeat;
+		width:50px;
+		height:50px;
 
+	}
+	#navTablet{
+		background:#C38F00;
+		background:linear-gradient(#C38F00, #F8FBEF, #000);
+		background:-moz-linear-gradient(#C38F00, #F8FBEF, #000);
+		background:-o-linear-gradient(#C38F00, #F8FBEF, #000);
+		background:-webkit-linear-gradient(#C38F00, #F8FBEF, #000);
+		background:-ms-linear-gradient(#C38F00, #F8FBEF, #000);	
+		//margin-top:3em;		
+		display:block;
+		
+	}
+	#navTablet .main_nav li{
+		float:none;
+	}
+	
+}
 @media screen and (max-width:480px){
 	header h1{
 		font-size:1.2em;
