@@ -1,16 +1,27 @@
 /*====================MEDIA QUERIE============================*/
 @media screen and (max-width:920px){
 	header h1{
-		font-size:2em;
+		font-size:1.8em;
 	}
 	header h2{
-		font-size:1.7em;
+		font-size:1.5em;
 	}	
+	#login_container{
+		float:none;
+		width:40%;
+		position:absolute;
+		top:6em;
+	}
+	.log_button{
+		
+	}
+	
+/*===============NAVIGATION BAR==========================*/		
 	#main_nav, #main_nav li{
 		float:none;
 	}
-
 }
+
 @media screen and (max-width:800px){
 	body h1{
 		font-size:1.8em;
@@ -18,11 +29,43 @@
 	body h2{
 		font-size:1.5em;
 	}	
+	
+/*===============NAVIGATION BAR==========================*/		
 	#main_nav, #main_nav li{
 		float:none;
 	}
+	
 
 }
+@media screen and (max-width:720px){
+	body h1{
+		font-size:1.5em;
+	}
+	body h2{
+		font-size:1.3em;
+	}
+	
+/*===============NAVIGATION BAR==========================*/	
+	#navDesk{
+		height:2.16em;
+	}
+	#navDesk .main_nav li a:hover{
+		height:2.5em;
+	}
+	#navDesk .main_nav li{
+		font-size:.9em;
+	}
+	#main_section{
+		padding:2em;
+		margin:0 auto;
+		width:140%;
+	}
+	#navDesk .current{
+		border-bottom:.43em solid #AD9B7F;
+	}
+
+}
+
 @media screen and (max-width:480px){
 	header h1{
 		font-size:1.2em;
@@ -30,8 +73,8 @@
 	header h2{
 		font-size:.9em;
 	}
-	#main_nav, #main_nav li{
-	float:none;
+	#navDesk{
+		position:absolute;
+		left:-9000em;
 	}
-
 }
