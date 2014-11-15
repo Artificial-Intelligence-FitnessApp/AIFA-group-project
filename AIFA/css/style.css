@@ -118,12 +118,41 @@ a{
 	color:#DF7401;
 	font-weight:bold;
 }
+/*=============login and buttons layout=======================*/
+
 #login_container{
 	float:right;
 	padding: 
 }
+.log_button{
+	background:rgb(223,116,1);
+	color:#F8FBEF;
+	padding:0 1em;
+	height:2.2em;
+	margin:.2em .2em;
+	border:1px solid rgb(245,173,95);
+	font-family:Helvetica, sans-serif;
+	font-weight:100;
+	font-size:1em;
+	text-transform:lowercase;
+	letter-spacing:.045em;
+	text-align:center;
+	text-decoration:none;
+	white-space:nowrap;
+	/*line-height;2.4em;*/
+	cursor:pointer;
+	border-radius:.325em;
+	box-shadow:inset 0px 1px 3px rgb(245,201,155);/*option1*/
+	-webkit-box-shadow:inset 0px 1px 3px rgb(245,201,155);
+	/*box-shadow:inset 5px 5px 5px 5px black;/*option2*/
+	/*box-shadow:inset 5px 5px 5px 5px black;/*option3*/
+}
+.log_button:hover{
 
+}
+.log_button:acitve, .log_button:focus{
 
+}
 /*=====================NAVIGATION=============================*/
 #navTablet{
 	display:none;
@@ -168,7 +197,7 @@ a{
 	margin-top:.5em;
 	width:18em;
 	height:8em;
-	border:.5em solid #DF7401;
+	border:.5em solid #DF7401;/*---kind of orange--*/
 	border-bottom-left-radius:.4em;
 	border-bottom-right-radius:.4em;
 	position:absolute;
@@ -230,7 +259,7 @@ a{
 	padding-top:2em;
 	width:90%;
 	margin:0 auto;
-	background:#F8FBEF;
+	background:#F8FBEF;/*--kind of white*/
 }
 #sidebar{
 	float:right;

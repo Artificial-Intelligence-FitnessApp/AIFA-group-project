@@ -96,23 +96,45 @@
 		background-repeat:no-repeat;
 		width:50px;
 		height:50px;
-
 	}
-	#navTablet{
+	#navTablet{		
+		display:block;
+		width:45%;
+		height:38%;
+		margin-left:2em;
+	}
+	#navTablet .main_nav li a{
 		background:#C38F00;
 		background:linear-gradient(#C38F00, #F8FBEF, #000);
 		background:-moz-linear-gradient(#C38F00, #F8FBEF, #000);
 		background:-o-linear-gradient(#C38F00, #F8FBEF, #000);
 		background:-webkit-linear-gradient(#C38F00, #F8FBEF, #000);
-		background:-ms-linear-gradient(#C38F00, #F8FBEF, #000);	
-		//margin-top:3em;		
-		display:block;
-		
-	}
-	#navTablet .main_nav li{
+		background:-ms-linear-gradient(#C38F00, #F8FBEF, #000);		
 		float:none;
+		list-style:none;
+		text-decoration:none;
+		padding:.9em;
+		display:block;
+		width:25em;
+		line-height:1em;
+		font-size:1em;
+		text-decoration:none;
+		color:#DF7401;
+		border-bottom:.125em solid white;
 	}
-	
+	#navTablet li a:hover, #navTablet li a:focus{
+		background:#58FAAC;
+		background:linear-gradient(#58FAAC, #F8FBEF, #000);
+		background:-moz-linear-gradient(#58FAAC, #F8FBEF, #000);
+		background:-o-linear-gradient(#58FAAC, #F8FBEF, #000);
+		background:-webkit-linear-gradient(#58FAAC, #F8FBEF, #000);
+		background:-ms-linear-gradient(#58FAAC #F8FBEF, #000);			
+		border-left:.4em solid white;
+		width:24.6em;
+	}
+	#navTablet li:last-child a{
+		border-bottom:none;
+	}
 }
 @media screen and (max-width:480px){
 	header h1{
