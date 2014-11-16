@@ -22,5 +22,5 @@ $(window).resize(function(){
 
 //handle menu for small screens
 function smMenu(){
-	$()
+	$('.main_nav').before('<div
 }

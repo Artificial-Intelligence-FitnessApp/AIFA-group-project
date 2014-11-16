@@ -1,30 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="utf-8"/>
-	<title>AIFA - Fitness Artificial Intelligence</title>
-	<link rel="stylesheet" href="normalize.css" type="text/css"/>
-	<link rel="stylesheet" href="style.css" type="text/css"/>
+	<head>
+		<meta charset="utf-8"/>
+		<title>AIFA - Artificial Intelligence Fitness App | Homepage</title>
+		<meta name="viewport" content="initial-scale=1.0, width=device-width" />
+		<link rel="stylesheet" href="../css/style.css" type="text/css"/>
+		<link rel="stylesheet" href="../css/media_queries.css" type="text/css"/>
+		<!--[if gte IE 9]>
+			<style type="text/css">
+			.gradient {
+				filter: none;
+			}
+			</style>
+		<![endif]-->
+	</head>
+	<body>
+	<div id="homepage">	
+	<!----------------login box--------------------------->
+	<form id="login_div">
+		<div id="log-box">
+			<div id="close-icon"></div>
+			<div id="logoIn"></div>
+			<p>Login to your AIFA account</p>
+			<label>Username:</label>
+			<input type="text" name="username" id="username_input" maxlength="15"></br>
+			<label>Password:</label>
+			<input type="password" name="password" id="password_input" maxlength="15">
+		</div>	
+	</form>	<!----------------END OF IT--------------------------->
 	
-</head>
-<body>
-<div id="account">	
-	<header>
-		<h1>AIFA</h1>
-	</header>
-	<nav>
-		<ul>
-			<li><a href="../index.html">Home</a></li>
+		<!----------------header section--------------------------->
+		<header id="main_header">
+		<div id="head_wrap">
+			<figure id="logo">
+				<a href="#">
+					<img src="images/placeholder.png"/>
+				</a>
+			</figure>
+				<section id="main_headings">
+					<h1>Artificial Intelligence Fitness App</h1>
+					<h2>Your very own personal trainer!</h2>	
+				</section>
+		</div>
+			<div id="login_container">
+				<p class="logged_in">Welcome, USER</p>
+				<label><a href="pages/account.html" class="logged_in" >My Account</a><label><br/>
+				<input type="submit" value="Login" id="button_login" class="log_button"/>
+				<input type="submit" value="Logoff" id="button_logoff" class="log_button" />
+			</div>
+		</header><!----------------END OF IT--------------------------->
+		
+		<!----------------Navigation section-------------------------->
+		<nav id="navDesk" class="cf">
+			<ul class="main_nav">
+				<li><a href="../index.html" class="current">Home</a></li>
+				<li><a href="#">Nutrition</a>
+					<ul class="submenu">
+						<li><a href="recipes.html" title="recipes">Recipes</a></li>
+						<li><a href="weight_loss.html" title="weight_loss">Weight Loss</a></li>
+					</ul>
+				</li>
+				<li class="products"><a href="recommended_products.html">Recommeded Products</a></li>
+				<li><a href="news.html">News</a></li>
+				<li><a href="faq.html">FAQ's</a></li>
+				<li><a href="about_us.html">About us</a></li>
+			</ul>	
+		</nav>
+	
+<!----TABLE PORTRAIT NAVIGATION----->
+	<div id="nav-icon">
+		<span class="nav-icon">Click to Navigation<span>
+	</div>
+	<nav id="navTablet" class="cf">
+		<ul class="main_nav">
+			<li><a href="../index.html" class="current">Home</a></li>
 			<li><a href="#">Nutrition</a>
-				<li><a href="recipes.html" title="recipes">Recipes</a></li>
-				<li><a href="weight_loss.html" title="weight_loss">Weight Loss</a></li>
+				<ul class="submenu">
+					<li><a href="recipes.html" title="recipes">Recipes</a></li>
+					<li><a href="weight_loss.html" title="weight_loss">Weight Loss</a></li>
+				</ul>
 			</li>
-			<li><a href="recommended_products.html">Recommeded Products</a></li>
+			<li class="products"><a href="recommended_products.html">Recommeded Products</a></li>
 			<li><a href="news.html">News</a></li>
 			<li><a href="faq.html">FAQ's</a></li>
 			<li><a href="about_us.html">About us</a></li>
 		</ul>	
-	</nav>
+	</nav>	
 	<article>
 		<section>
 		</section>

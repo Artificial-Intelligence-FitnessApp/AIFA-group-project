@@ -1,4 +1,33 @@
 /*====================MEDIA QUERIE============================*/
+@media screen and (min-width:1280px){
+	#homepage{
+		margin:0 auto;
+	}
+}
+@media screen and (max-width:1100px){
+/*--------------------Login Form--------------------*/		
+	#login_div{
+		width:100%;
+		height:100%;
+	}
+	#close-icon{
+		left:19em;
+		top:-5.7;
+	}
+	#logoIn{
+		margin:-2em;
+		position:relative;
+		top:-2em;
+	}
+	#log-box{
+		left:5em;
+		width:15em;
+		height:5em;
+		line-height:1.6em;
+		font-size:1.5em;
+	}
+}
+
 @media screen and (max-width:1000px){
 	body{
 		font-size:1em;
@@ -9,6 +38,8 @@
 	.log_button p, .log_button{
 		width:4.4em;
 	}
+
+	
 /*===============NAVIGATION BAR==========================*/		
 	#main_nav, #main_nav li{
 		float:none;
@@ -39,6 +70,14 @@
 	#main_headings{
 		font-size:.8em;
 	}
+/*--------------------Login Form--------------------*/		
+	#logoIn{
+		display:none;
+	}
+	#log-box{
+		font-size:1.4em;
+		line-height;1.3em;
+	}	
 }
 @media screen and (max-width:768px){
 	body{
@@ -96,23 +135,26 @@
 	width:10em;
 }
 /*===============NAVIGATION BAR==========================*/	
-	#nav-icon{
-		display:block;
-	}	
 	#navDesk{
 		display:none;
 	}
 	#nav-icon{
-		background-image:url('images/nav-icon.png');
-		background-repeat:no-repeat;
-		width:50px;
-		height:50px;
+		display:block;
+	}		
+	#tabWrap{
+		background:#DF7401;
+		width:55%;
+		height:320px;
+		position:absolute;
+		z-index:-1;
+		display:block;
+		margin:-2.4em -2.6em;
 	}
 	#navTablet{		
 		display:block;
 		width:45%;
 		height:38%;
-		margin-left:2em;
+		margin:2.4em 2.6em;
 	}
 	#navTablet .main_nav li{
 		float:none;
@@ -128,7 +170,6 @@
 		background: -ms-linear-gradient(top,  #c38f00 0%,#f8fbef 50%,#000000 100%); /* IE10+ */
 		background: linear-gradient(to bottom,  #c38f00 0%,#f8fbef 50%,#000000 100%); /* W3C */
 		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c38f00', endColorstr='#000000',GradientType=0 ); /* IE6-8 */
-	
 		float:none;
 		list-style:none;
 		text-decoration:none;
@@ -177,10 +218,18 @@
 	}
 	#main_headings{
 		font-size:.8em;
-	}
-	#nav-icon{
-		display:none;
 	}	
+/*--------------------Login Form--------------------*/	
+	#log-box{
+		width:30%;
+		height:10%;
+	}
+	#log-box p, #log-box label, #log-box input{
+		margin-top:-5em;
+	}
+	#close-icon{
+		left:14em;
+	}
 }
 @media screen and (max-width:480px){
 	body{
@@ -208,6 +257,20 @@
 	.log_button{
 		width:100%;
 	}
+/*--------------------Login Form--------------------*/	
+	#log-box{
+		margin-left:-1.8em;
+		font-size:1em;
+	}
+	#log-box p, #log-box label, #log-box input{
+		margin-top:-5em;
+	}
+	#log-box input{
+		width:100%;
+	}
+	#close-icon{
+		left:14em;
+	}	
 	
 /*===============NAVIGATION BAR==========================*/		
 	#navDesk{
@@ -219,7 +282,7 @@
 		margin:0;
 	}
 	#navTablet .main_nav li a{
-		font-size:1.5em;
+		font-size:1.3em;
 		text-align:center;
 	}	
 }

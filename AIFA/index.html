@@ -16,6 +16,20 @@
 	</head>
 	<body>
 	<div id="homepage">	
+	
+	<!----------------login box--------------------------->
+	<form id="login_div">
+		<div id="log-box">
+			<div id="close-icon"></div>
+			<div id="logoIn"></div>
+			<p>Login to your AIFA account</p>
+			<label>Username:</label>
+			<input type="text" name="username" id="username_input" maxlength="15"></br>
+			<label>Password:</label>
+			<input type="password" name="password" id="password_input" maxlength="15">
+		</div>	
+	</form>	<!----------------END OF IT--------------------------->
+		<!----------------header section--------------------------->
 		<header id="main_header">
 		<div id="head_wrap">
 			<figure id="logo">
@@ -34,44 +48,46 @@
 				<input type="submit" value="Login" id="button_login" class="log_button"/>
 				<input type="submit" value="Logoff" id="button_logoff" class="log_button" />
 			</div>
-		</header>
-	<nav id="navDesk" class="cf">
-		<ul class="main_nav">
-			<li><a href="../index.html" class="current">Home</a></li>
-			<li><a href="#">Nutrition</a>
-				<ul class="submenu">
-					<li><a href="recipes.html" title="recipes">Recipes</a></li>
-					<li><a href="weight_loss.html" title="weight_loss">Weight Loss</a></li>
-				</ul>
-			</li>
-			<li class="products"><a href="recommended_products.html">Recommeded Products</a></li>
-			<li><a href="news.html">News</a></li>
-			<li><a href="faq.html">FAQ's</a></li>
-			<li><a href="about_us.html">About us</a></li>
-		</ul>	
-	</nav>
+		</header><!----------------END OF IT--------------------------->
+		<!----------------Navigation of desktop--------------------------->	
+		<nav id="navDesk" class="cf">
+			<ul class="main_nav">
+				<li><a href="../index.html" class="current">Home</a></li>
+				<li><a href="#">Nutrition</a>
+					<ul class="submenu">
+						<li><a href="pages/recipes.html" title="recipes">Recipes</a></li>
+						<li><a href="pages/weight_loss.html" title="weight_loss">Weight Loss</a></li>
+					</ul>
+				</li>
+				<li class="products"><a href="pages/recommended_products.html">Recommeded Products</a></li>
+				<li><a href="pages/news.html">News</a></li>
+				<li><a href="pages/faq.html">FAQ's</a></li>
+				<li><a href="pages/about_us.html">About us</a></li>
+			</ul>	
+		</nav>	<!----------------END OF IT--------------------------->
 	
 <!----TABLE PORTRAIT NAVIGATION----->
-	<div id="nav-icon">
-		<span class="nav-icon">Click to Navigation<span>
-	</div>
 	<nav id="navTablet" class="cf">
+	<div id="tabWrap">
+		<div id="nav-icon">
+			<span class="nav-icon">Click to Navigate<span>
+		</div>
+	</div>
+
 		<ul class="main_nav">
 			<li><a href="../index.html" class="current">Home</a></li>
 			<li><a href="#">Nutrition</a>
 				<ul class="submenu">
-					<li><a href="recipes.html" title="recipes">Recipes</a></li>
-					<li><a href="weight_loss.html" title="weight_loss">Weight Loss</a></li>
+					<li><a href="pages/recipes.html" title="recipes">Recipes</a></li>
+					<li><a href="pages/weight_loss.html" title="weight_loss">Weight Loss</a></li>
 				</ul>
 			</li>
-			<li class="products"><a href="recommended_products.html">Recommeded Products</a></li>
-			<li><a href="news.html">News</a></li>
-			<li><a href="faq.html">FAQ's</a></li>
-			<li><a href="about_us.html">About us</a></li>
+			<li class="products"><a href="pages/recommended_products.html">Recommeded Products</a></li>
+			<li><a href="pages/news.html">News</a></li>
+			<li><a href="pages/faq.html">FAQ's</a></li>
+			<li><a href="pages/about_us.html">About us</a></li>
 		</ul>	
-	</nav>	
-
-	
+	</nav>	<!----------------END OF IT--------------------------->
 	
 		<!-- Main Section wrapper box-->
 		<section id="main_section">
@@ -184,10 +200,10 @@
 		</section>
 		
 		<footer>
-			<div class="footer_space">
+			<div class="column columnOne">
 			
 			</div>
-			<div class="footer_space">
+			<div class="column columnTwo">
 				<figure>
 					<img src="images/placeholder.png" />
 				</figure>
@@ -195,9 +211,12 @@
 				<div><a href=""/>Google Play</a></div>
 				<div><a href=""/>Windows Store</a></div>
 			</div>
-			<div class="footer_space"></div>
+			<div class="column columnThree">
+			
+			</div>
 		</footer>
 	</div>
+	
 	<script src="scripts/jquery.js"></script>
 	<script src="scripts/default.js"></script>
 	</body>
