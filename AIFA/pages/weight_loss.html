@@ -16,6 +16,7 @@
 	</head>
 	<body>
 	<div id="homepage">	
+	
 	<!----------------login box--------------------------->
 	<form id="login_div">
 		<div id="log-box">
@@ -27,9 +28,8 @@
 			<label>Password:</label>
 			<input type="password" name="password" id="password_input" maxlength="15">
 		</div>	
-	</form>	<!----------------END OF IT--------------------------->
-	
-		<!----------------header section--------------------------->	
+	</form>	<!----------------End of it --------------------------->
+		<!----------------header section--------------------------->
 		<header id="main_header">
 		<div id="head_wrap">
 			<figure id="logo">
@@ -44,20 +44,19 @@
 		</div>
 			<div id="login_container">
 				<p class="logged_in">Welcome, USER</p>
-				<label><a href="pages/account.html" class="logged_in" >My Account</a><label><br/>
-				<input type="submit" value="Login" id="button_login" class="log_button"/>
-				<input type="submit" value="Logoff" id="button_logoff" class="log_button" />
+				<label><a href="account.html" class="logged_in" >My Account</a><label><br/>
+				<input type="submit" value="Login" id="button_login" class="log_on log"/>
+				<input type="submit" value="Logoff" id="button_logoff" class="log_off log" />
 			</div>
-		</header><!----------------END OF IT--------------------------->
-		
-		<!----------------Navgigation section--------------------------->
+		</header><!----------------End of it --------------------------->
+		<!----------------Navigation of desktop--------------------------->	
 		<nav id="navDesk" class="cf">
 			<ul class="main_nav">
 				<li><a href="../index.html">Home</a></li>
-				<li><a href="#" class="current">Nutrition</a>
+				<li><a href="#">Nutrition</a>
 					<ul class="submenu">
-						<li><a href="recipes.html" title="recipes">Recipes</a></li>
-						<li><a href="weight_loss.html" title="weight_loss">Weight Loss</a></li>
+						<li><a href="recipes.html">Recipes</a></li>
+						<li><a href="#" class="current">Weight Loss</a></li>
 					</ul>
 				</li>
 				<li class="products"><a href="recommended_products.html">Recommeded Products</a></li>
@@ -65,35 +64,52 @@
 				<li><a href="faq.html">FAQ's</a></li>
 				<li><a href="about_us.html">About us</a></li>
 			</ul>	
-		</nav><!----------------END OF IT--------------------------->
+		</nav>	<!----------------End of it --------------------------->
 	
 <!----TABLE PORTRAIT NAVIGATION----->
-	<div id="nav-icon">
-		<span class="nav-icon">Click to Navigation<span>
-	</div>
-	<nav id="navTablet" class="cf">
-		<ul class="main_nav">
-			<li><a href="../index.html">Home</a></li>
-			<li><a href="#" class="current">Nutrition</a>
-				<ul class="submenu">
-					<li><a href="recipes.html" title="recipes">Recipes</a></li>
-					<li><a href="weight_loss.html">Weight Loss</a></li>
-				</ul>
-			</li>
-			<li class="products"><a href="recommended_products.html">Recommeded Products</a></li>
-			<li><a href="news.html">News</a></li>
-			<li><a href="faq.html">FAQ's</a></li>
-			<li><a href="about_us.html">About us</a></li>
-		</ul>	
-	</nav>	
-
-	
+		<div id="menu-trigger" title="menu button">
+			<figure id="menu-button"></figure>
+			<span class="menu-text">Menu</span>
+		</div>
+		<nav id="navTablet" class="cf">
+			<ul class="main_nav">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="#" class="sub">Nutrition</a>
+					<ul class="submenu">
+						<li><a href="recipes.html">Recipes</a></li>
+						<li><a href="#" class="current">Weight Loss</a></li>
+					</ul>
+				</li>
+				<li class="products"><a href="recommended_products.html">Recommeded Products</a></li>
+				<li><a href="news.html">News</a></li>
+				<li><a href="faq.html">FAQ's</a></li>
+				<li><a href="about_us.html">About us</a></li>
+			</ul>	
+		</nav>	<!----------------End of it --------------------------->
 	<article>
 		<section>
 		</section>
 	</article>
-	<footer>
-	</footer>
+		<footer>
+			<div id="subfooter">
+				<div class="column columnOne">
+				
+				</div>
+				<div class="column columnTwo">
+					<figure>
+						<img src="images/placeholder.png" />
+					</figure>
+					<div><a href=""/>AppStore</a></div>
+					<div><a href=""/>Google Play</a></div>
+					<div><a href=""/>Windows Store</a></div>
+				</div>
+				<div class="column columnThree">
+				
+				</div>
+			</div>	
+			<div id="footer">
+			</div>
+		</footer>
 </div>
 <script src="nameit.js"></script>
 </body>
