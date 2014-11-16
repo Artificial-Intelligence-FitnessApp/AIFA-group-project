@@ -137,24 +137,27 @@
 /*===============NAVIGATION BAR==========================*/	
 	#navDesk{
 		display:none;
+	}	
+	#menu-button{
+		background-image:url('../images/nav-icon.png');
+		background-repeat:no-repeat;
+		width:50px;
+		height:50px;
+	}	
+	.menu-text{
+		display:none;
 	}
-	#nav-icon{
+	#menu-button{
 		display:block;
-	}		
-	#tabWrap{
-		background:#DF7401;
-		width:55%;
-		height:320px;
-		position:absolute;
-		z-index:-1;
-		display:block;
-		margin:-2.4em -2.6em;
 	}
 	#navTablet{		
-		display:block;
+		display:none;
 		width:45%;
 		height:38%;
-		margin:2.4em 2.6em;
+		margin:-1.4em 1.6em;
+	}
+	.submenu{
+		display:none;
 	}
 	#navTablet .main_nav li{
 		float:none;
@@ -257,6 +260,7 @@
 	.log_button{
 		width:100%;
 	}
+
 /*--------------------Login Form--------------------*/	
 	#log-box{
 		margin-left:-1.8em;
@@ -275,6 +279,12 @@
 /*===============NAVIGATION BAR==========================*/		
 	#navDesk{
 		display:none;
+	}
+	#menu-button{
+		display:none;
+	}
+	.menu-text{
+		display:block;
 	}
 	#navTablet{
 		width:100%;
