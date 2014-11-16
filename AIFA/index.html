@@ -6,6 +6,13 @@
 		<meta name="viewport" content="initial-scale=1.0, width=device-width" />
 		<link rel="stylesheet" href="css/style.css" type="text/css"/>
 		<link rel="stylesheet" href="css/media_queries.css" type="text/css"/>
+		<!--[if gte IE 9]>
+			<style type="text/css">
+			.gradient {
+				filter: none;
+			}
+			</style>
+		<![endif]-->
 	</head>
 	<body>
 	<div id="homepage">	
@@ -20,14 +27,13 @@
 					<h1>Artificial Intelligence Fitness App</h1>
 					<h2>Your very own personal trainer!</h2>	
 				</section>
-		
+		</div>
 			<div id="login_container">
-				<label class="logged_in">Welcome, USER</label></br/>
+				<p class="logged_in">Welcome, USER</p>
 				<label><a href="pages/account.html" class="logged_in" >My Account</a><label><br/>
 				<input type="submit" value="Login" id="button_login" class="log_button"/>
 				<input type="submit" value="Logoff" id="button_logoff" class="log_button" />
 			</div>
-		</div>	
 		</header>
 	<nav id="navDesk" class="cf">
 		<ul class="main_nav">
@@ -192,6 +198,7 @@
 			<div class="footer_space"></div>
 		</footer>
 	</div>
+	<script src="scripts/jquery.js"></script>
 	<script src="scripts/default.js"></script>
 	</body>
 </html>

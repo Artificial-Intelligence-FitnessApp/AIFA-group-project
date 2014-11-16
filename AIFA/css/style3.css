@@ -1,0 +1,327 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*Clear Default*/
+.cf:before,
+.cf:after{
+	content:"";
+	display:table;
+}
+.cf:after{
+	clear:both;
+}
+/*FOR IE 6,7 (triger hasLayout)*/
+.cf{
+	zoom:1;
+}
+
+/*==============body defaults===================================*/
+body{
+	width:100%;
+	line-height:1.4;
+	margin:0 auto;
+	font-family:Georgia, Verdana, "Times New Roman", serif;
+}
+h1,h2,h3,h4{
+	font-family:"Calibri Light", "Franklin Gothic Book", Arial, sams-serif;
+}
+h1{
+	font-size:2.4em;
+}
+h2{
+	font-size:1.9em;
+}
+h3,h4{
+	font-size:1.2em;
+	font-weight:bold;
+}
+#homepage{/*initialize height to other part work with percentage*/
+	height:780px;
+}
+a{
+	text-decoration:none
+}
+
+/*========================HEADER SECTION========================*/
+#main_header, #main_header a{
+	width:100%;
+	height:25%;
+	color:white;
+	text-decoration:none;
+}
+#main_header{
+	background: #000000; /* Old browsers */
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSI1NiUiIHN0b3AtY29sb3I9IiMwMDAwMDAiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjZjhmYmVmIiBzdG9wLW9wYWNpdHk9IjEiLz4KICA8L2xpbmVhckdyYWRpZW50PgogIDxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjZ3JhZC11Y2dnLWdlbmVyYXRlZCkiIC8+Cjwvc3ZnPg==);
+	background: -moz-linear-gradient(top,  #000000 56%, #f8fbef 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(56%,#000000), color-stop(100%,#f8fbef)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #000000 56%,#f8fbef 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #000000 56%,#f8fbef 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #000000 56%,#f8fbef 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #000000 56%,#f8fbef 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#f8fbef',GradientType=0 ); /* IE6-8 */
+
+
+}
+#head_wrap{
+	width:90%;
+	margin:0 auto;
+}
+#logo{
+	float:left;
+}
+#main_headings{
+	padding:2em;
+	margin-left:1em;
+	float:left;
+	color:#DF7401;
+	font-weight:bold;
+}
+
+/*=============login and buttons layout=======================*/
+#login_container{
+	float:right;
+	padding: 
+}
+.log_button{
+	background:#DF7401;
+	color:#F8FBEF;
+	padding:0 1em;
+	height:2.2em;
+	margin:.2em .2em;
+	border:1px solid #f5ad5f;
+	font-family:Helvetica, sans-serif;
+	font-weight:100;
+	font-size:1em;
+	text-transform:lowercase;
+	letter-spacing:.045em;
+	text-align:center;
+	text-decoration:none;
+	white-space:nowrap;
+	/*line-height;2.4em;*/
+	cursor:pointer;
+	border-radius:.325em;
+	box-shadow:inset 0px 1px 3px rgb(245,201,155);/*option1*/
+	-webkit-box-shadow:inset 0px 1px 3px rgb(245,201,155);
+	/*box-shadow:inset 5px 5px 5px 5px black;/*option2*/
+	/*box-shadow:inset 5px 5px 5px 5px black;/*option3*/
+	background: #df7401; /* Old browsers */
+	
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2RmNzQwMSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmOGZiZWYiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	/*conditional filter to none for IE9 SVG*/
+	
+	background: -moz-linear-gradient(top,  #df7401 0%, #f8fbef 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#df7401), color-stop(100%,#f8fbef)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #df7401 0%,#f8fbef 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #df7401 0%,#f8fbef 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #df7401 0%,#f8fbef 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #df7401 0%,#f8fbef 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#df7401', endColorstr='#f8fbef',GradientType=0 ); /* IE6-8 */
+
+}
+.log_button:hover{
+	background: #f8fbef; /* Old browsers */
+	
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2Y4ZmJlZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNkZjc0MDEiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+
+	background: -moz-linear-gradient(top,  #f8fbef 0%, #df7401 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f8fbef), color-stop(100%,#df7401)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #f8fbef 0%,#df7401 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #f8fbef 0%,#df7401 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #f8fbef 0%,#df7401 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #f8fbef 0%,#df7401 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8fbef', endColorstr='#df7401',GradientType=0 ); /* IE6-8 */
+	color:#df7401;
+}
+.log_button:active, .log_button:focus{
+	background: #774107; /* Old browsers */
+	
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzc3NDEwNyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNhOGM4NGEiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	
+	background: -moz-linear-gradient(top,  #774107 0%, #a8c84a 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#774107), color-stop(100%,#a8c84a)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #774107 0%,#a8c84a 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #774107 0%,#a8c84a 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #774107 0%,#a8c84a 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #774107 0%,#a8c84a 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#774107', endColorstr='#a8c84a',GradientType=0 ); /* IE6-8 */
+	color:white;
+}
+
+/*=====================NAVIGATION=============================*/
+#navTablet{
+	display:none;
+}
+#navDesk{
+	height:2.3em;
+	background:#F8FBEF;
+	border-bottom:.3em solid #DF7401;
+}
+#navDesk .main_nav,.main_nav li{
+	float:left;
+	list-style:none;
+}
+#navDesk .main_nav{
+	margin-left:4em;
+}
+#navDesk .main_nav{
+	height:2em;
+	background:#F8FBEF;
+}
+#navDesk li{
+	position:relative;
+}
+#navDesk .main_nav li{
+	border-right:.1em solid #0B610B;
+	height:2.4em;/*if I couldn't fix the submenu to down will take it out*/
+}
+#navDesk .main_nav li a{
+	display:block;
+	line-height:2em;
+	padding:0 1em;
+	color:#DF7401;
+}
+#navDesk .main_nav li a:hover{
+	background:#DF7401;
+	height:2.3em;
+	display:block;
+	color:#F8FBEF;
+}
+/*----------dropdown menu-----------*/
+#navDesk ul.submenu{
+	background:#F8FBEF;
+	margin-top:.5em;
+	width:18em;
+	height:8em;
+	border:.5em solid #DF7401;/*---kind of orange--*/
+	border-bottom-left-radius:.4em;
+	border-bottom-right-radius:.4em;
+	position:absolute;
+	top:2em;
+	float:none;
+	left:-9000em;
+	/*--   CSS TRANSITIONS   --*/
+	max-height:0;
+	-moz-transition:max-height 0.7s ease-in-out;
+	-webkit-transition:max-height 0.7s ease-in-out;
+	-o-transition:max-height 0.7s ease-in-out;
+	transition:max-height 0.7s ease-in-out;	
+	overflow:hidden;
+	/*--   CSS TRANSITIONS   --*/
+}
+#navDesk ul.submenu li{
+	float:none;
+	border:none;
+	background:#F8FBEF;
+}
+#navDesk .main_nav li:hover ul{
+	left:0;
+	max-height:10em;/*--   CSS TRANSITIONS   --*/
+}
+#navDesk .main_nav > li:hover > a{
+	background:#DF7401;
+	height:2.3em;
+}
+#navDesk ul.submenu li a{
+	margin-left:.3em;
+	padding:.2em 1em;
+	white-space:nowrap;
+	position:absolute;
+	color:#DF7401;
+}
+#navDesk ul.submenu:last-child li{
+	margin-top:1em;
+}
+#navDesk ul.submenu a:hover{
+	background:#F8FBEF;
+	color:#DF7401;
+	border-bottom:.1em solid #000;
+	width:80%;	
+}
+#navDesk .current, #navDesk .main_nav a:hover.current{
+	background:#AD9B7F;
+	color:#DF7401;
+	border-bottom:.4em solid #AD9B7F;
+	cursor:default;
+}
+#navDesk .main_nav a:hover.current{
+	border-bottom:.1em solid #AD9B7F;
+}
+
+
+
+/*===================MAIN SECTION=============================*/
+#main_section{
+	padding-top:2em;
+	width:90%;
+	margin:0 auto;
+	background:#F8FBEF;/*--kind of white*/
+}
+#sidebar{
+	float:right;
+	width:36%;
+}
+#content{
+	float:left;
+	width:64%;
+}
+
+/*===============FOOTER SECTION==================================*/
+footer{
+	width:100%;
+	clear:both;
+}
+#footer_space{
+	float:left;
+	outline:1px solid red;/*------remove after finish the footer------*/
+}
+
+
