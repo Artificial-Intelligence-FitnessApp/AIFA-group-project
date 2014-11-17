@@ -29,6 +29,13 @@
 	#navTablet{
 		display:none;
 	}
+		/*===================Section area============================*/
+	.article{
+		width:29.3%;
+		height:160px;
+		padding:.4em .4em;
+		margin:.3em .3em .3em .5em;
+	}
 }
 
 @media screen and (max-width:1000px){
@@ -41,7 +48,13 @@
 	.log_button p, .log_button{
 		width:4.4em;
 	}
-
+	/*===================Section area============================*/
+	.article{
+		width:29.3%;
+		height:130px;
+		padding:.4em .4em;
+		margin:.3em .3em .3em .5em;
+	}
 	
 /*===============NAVIGATION BAR==========================*/		
 	#main_nav, #main_nav li{
@@ -64,6 +77,13 @@
 		float:none;
 	}
 	
+/*===================Section area============================*/
+	.article{
+		width:29.3%;
+		height:110px;
+		padding:.4em .4em;
+		margin:.3em .3em .3em .5em;
+	}	
 
 }
 @media screen and (max-width:800px){
@@ -80,7 +100,14 @@
 	#log-box{
 		font-size:1.4em;
 		line-height;1.3em;
-	}	
+	}
+/*===================Section area============================*/
+	#content{
+		width:100%;
+	}
+	#sidebar{
+		float:none;
+	}
 }
 @media screen and (max-width:768px){
 	body{
@@ -96,6 +123,7 @@
 		position:absolute;
 		top:10em;
 	}
+	
 /*===============NAVIGATION BAR==========================*/	
 	#navDesk{
 		height:2.45em;
@@ -113,7 +141,13 @@
 	#navDesk .current{
 		border-bottom:.47em solid #AD9B7F;
 	}
-
+/*========================Content area============================*/
+	#content{
+		width:100%;
+	}
+	#sidebar{
+		float:none;
+	}
 }
 @media screen and (max-width:600px){
 	body{
@@ -215,6 +249,12 @@
 	#content{
 		float:none;
 		width:100%;
+		padding:1em;
+	}
+	.article{
+		float:none;
+		width:95%;
+		height:170px;
 	}
 }
 
