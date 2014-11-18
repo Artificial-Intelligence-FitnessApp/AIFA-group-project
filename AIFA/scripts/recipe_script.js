@@ -32,6 +32,7 @@ function loadApp() {
 
 // Load the HTML4 version if there's not CSS transform
 
+/*
 yepnope({
 	test : Modernizr.csstransforms,
 	yep: ['../../lib/turn.min.js'],
@@ -39,4 +40,5 @@ yepnope({
 	both: ['../../lib/scissor.min.js', 'css/double-page.css'],
 	complete: loadApp
 });
+*/
 }
