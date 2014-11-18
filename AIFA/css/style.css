@@ -626,6 +626,7 @@ background-image:url(../pages/j.jpg);
 
 #faq_content>h3 {
 	border: 2px solid black;
+	color: black;
 	border-radius: 15px;
 	background: #999;
     font-weight:700;
@@ -633,12 +634,22 @@ background-image:url(../pages/j.jpg);
     cursor:pointer;
 }
 
+#faq_content>h3:hover, #faq_content>h3.close:hover {
+	background: #494;
+	color: white;
+}
+
 #faq_content>h3.close {
-    background: #777;
+    background: #333;
+	color: white;
 }
 
 .faq_answer{
 	padding-left:24px;
 	margin-bottom: 5px;
+}
+
+.faq_seperator{
+	margin-top: 5px;
 }
 /*=============================About Us Content=================================================*/
