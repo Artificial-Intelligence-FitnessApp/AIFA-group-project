@@ -615,4 +615,30 @@ background-image:url('../pasta.jpg');
 
 /*=============================Recommended Products Content=================================================*/
 /*=============================FAQ Content=================================================*/
+#faq_content{
+	width:100%;
+	background:yellow;
+}
+
+.faq_answer{
+	display: none;
+}
+
+#faq_content>h3 {
+	border: 2px solid black;
+	border-radius: 15px;
+	background: #999;
+    font-weight:700;
+    padding-left:24px;
+    cursor:pointer;
+}
+
+#faq_content>h3.close {
+    background: #777;
+}
+
+.faq_answer{
+	padding-left:24px;
+	margin-bottom: 5px;
+}
 /*=============================About Us Content=================================================*/
