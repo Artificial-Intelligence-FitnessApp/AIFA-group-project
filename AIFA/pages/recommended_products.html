@@ -2,10 +2,11 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8"/>
-		<title>AIFA - Artificial Intelligence Fitness App | Homepage</title>
+		<title>AIFA - Artificial Intelligence Fitness App | Recommended Products</title>
 		<meta name="viewport" content="initial-scale=1.0, width=device-width" />
 		<link rel="stylesheet" href="../css/style.css" type="text/css"/>
 		<link rel="stylesheet" href="../css/media_queries.css" type="text/css"/>
+		<script src="../scripts/jquery.js"></script>
 		<!--[if gte IE 9]>
 			<style type="text/css">
 			.gradient {
@@ -28,13 +29,13 @@
 			<label>Password:</label>
 			<input type="password" name="password" id="password_input" maxlength="15">
 		</div>	
-	</form>	<!----------------End of it --------------------------->
+	</form>	<!----------------END OF IT--------------------------->
 		<!----------------header section--------------------------->
 		<header id="main_header">
 		<div id="head_wrap">
 			<figure id="logo">
 				<a href="#">
-					<img src="images/placeholder.png"/>
+					<img src="../images/placeholder.png"/>
 				</a>
 			</figure>
 				<section id="main_headings">
@@ -44,27 +45,27 @@
 		</div>
 			<div id="login_container">
 				<p class="logged_in">Welcome, USER</p>
-				<label><a href="account.html" class="logged_in" >My Account</a><label><br/>
+				<label class="logged_in"><a href="account.html" class="logged_in" >My Account</a><label><br/>
 				<input type="submit" value="Login" id="button_login" class="log_on log"/>
 				<input type="submit" value="Logoff" id="button_logoff" class="log_off log" />
 			</div>
-		</header><!----------------End of it --------------------------->
+		</header><!----------------END OF IT--------------------------->
 		<!----------------Navigation of desktop--------------------------->	
 		<nav id="navDesk" class="cf">
 			<ul class="main_nav">
 				<li><a href="../index.html">Home</a></li>
 				<li><a href="#">Nutrition</a>
 					<ul class="submenu">
-						<li><a href="recipes.html">Recipes</a></li>
-						<li><a href="weight_loss.html">Weight Loss</a></li>
+						<li><a href="recipes.html" title="recipes">Recipes</a></li>
+						<li><a href="weight_loss.html" title="weight_loss">Weight Loss</a></li>
 					</ul>
 				</li>
-				<li class="products"><a href="#" class="current">Recommeded Products</a></li>
+				<li class="products"><a href="#" class="current">Recommended Products</a></li>
 				<li><a href="news.html">News</a></li>
-				<li><a href="faq.html">FAQ's</a></li>
+				<li><a href="faq.html">FAQ</a></li>
 				<li><a href="about_us.html">About us</a></li>
 			</ul>	
-		</nav>	<!----------------End of it --------------------------->
+		</nav>	<!----------------END OF IT--------------------------->
 	
 <!----TABLE PORTRAIT NAVIGATION----->
 		<div id="menu-trigger" title="menu button">
@@ -73,44 +74,50 @@
 		</div>
 		<nav id="navTablet" class="cf">
 			<ul class="main_nav">
-				<li><a href="index.html">Home</a></li>
-				<li><a href="#" class="sub">Nutrition</a>
+				<li><a href="../index.html">Home</a></li>
+				<li><a href="#">Nutrition</a>
 					<ul class="submenu">
-						<li><a href="recipes.html">Recipes</a></li>
-						<li><a href="weight_loss.html">Weight Loss</a></li>
+						<li><a href="recipes.html" title="recipes">Recipes</a></li>
+						<li><a href="weight_loss.html" title="weight_loss">Weight Loss</a></li>
 					</ul>
 				</li>
-				<li class="products"><a href="#" class="current">Recommeded Products</a></li>
+				<li class="products"><a href="#" class="current">Recommended Products</a></li>
 				<li><a href="news.html">News</a></li>
-				<li><a href="faq.html">FAQ's</a></li>
+				<li><a href="faq.html">FAQ</a></li>
 				<li><a href="about_us.html">About us</a></li>
 			</ul>	
-		</nav>	<!----------------End of it --------------------------->
-	<article>
-		<section>
+		</nav>	<!----------------END OF IT--------------------------->
+	
+	
+			<figure id="banner">
+			</figure>	
+		<!-- Main Section wrapper box-->
+		<section id="main_section">
+			<section id="content">
+				
+			</section>	
 		</section>
-	</article>
+		
 		<footer>
 			<div id="subfooter">
-				<div class="column columnOne">
-				
+				<div class="column" id="columnOne">
+			
 				</div>
-				<div class="column columnTwo">
-					<figure>
-						<img src="images/placeholder.png" />
-					</figure>
-					<div><a href=""/>AppStore</a></div>
-					<div><a href=""/>Google Play</a></div>
-					<div><a href=""/>Windows Store</a></div>
+				<div class="column" id="columnTwo">
+					<div id="tryit" class="appButton"><a href=""/>Try me on</a></div>
+					<div id="apple" class="appButton"><a href=""/>AppStore</a></div>
+					<div id="google" class="appButton"><a href=""/>Google Play</a></div>
+					<div id="win" class="appButton"><a href=""/>Windows Store</a></div>
 				</div>
-				<div class="column columnThree">
+				<div class="column" id="columnThree">
 				
 				</div>
 			</div>	
 			<div id="footer">
 			</div>
 		</footer>
-</div>
-<script src="nameit.js"></script>
-</body>
+	</div>
+	<script src="../scripts/default.js"></script>
+	<script src="../scripts/responsive.js"></script>
+	</body>
 </html>
