@@ -620,6 +620,10 @@ background-image:url('../images/pasta.jpg');
 	background:yellow;
 }
 
+#faq_header{
+	padding-left:24px;
+}
+
 .faq_answer{
 	display: none;
 }
@@ -646,10 +650,10 @@ background-image:url('../images/pasta.jpg');
 
 .faq_answer{
 	padding-left:24px;
-	margin-bottom: 5px;
 }
 
 .faq_seperator{
-	margin-top: 5px;
+	padding-top: 5px;
+	background: yellow;
 }
 /*=============================About Us Content=================================================*/
