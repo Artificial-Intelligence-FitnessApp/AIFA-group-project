@@ -268,8 +268,9 @@ a{
 	padding:0 1em;
 	color:#F8FBEF;
 }
-#navDesk .main_nav li a:hover{
+#navDesk .main_nav li:hover a:hover{
 	background:#DF7401;
+	color: white;
 	height:2.3em;
 	display:block;
 }
@@ -318,10 +319,14 @@ a{
 #navDesk ul.submenu:last-child li{
 	margin-top:1em;
 }
+
+#navDesk ul.submenu a{
+	width: 18em;
+}
+
 #navDesk ul.submenu a:hover{
 	background:#F8FBEF;
 	color:#DF7401;
-	border-bottom:.1em solid #000;
 	width:80%;	
 }
 #navDesk .current, #navDesk .main_nav a:hover.current{
