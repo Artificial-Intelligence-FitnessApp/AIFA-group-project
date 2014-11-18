@@ -28,7 +28,7 @@
 			<label>Password:</label>
 			<input type="password" name="password" id="password_input" maxlength="15">
 		</div>	
-	</form>	<!----------------End of it --------------------------->
+	</form>	<!----------------END OF IT--------------------------->
 		<!----------------header section--------------------------->
 		<header id="main_header">
 		<div id="head_wrap">
@@ -44,27 +44,27 @@
 		</div>
 			<div id="login_container">
 				<p class="logged_in">Welcome, USER</p>
-				<label><a href="account.html" class="logged_in" >My Account</a><label><br/>
+				<label class="logged_in"><a href="pages/account.html" class="logged_in" >My Account</a><label><br/>
 				<input type="submit" value="Login" id="button_login" class="log_on log"/>
 				<input type="submit" value="Logoff" id="button_logoff" class="log_off log" />
 			</div>
-		</header><!----------------End of it --------------------------->
+		</header><!----------------END OF IT--------------------------->
 		<!----------------Navigation of desktop--------------------------->	
 		<nav id="navDesk" class="cf">
 			<ul class="main_nav">
-				<li><a href="../index.html">Home</a></li>
+				<li><a href="#" class="current">Home</a></li>
 				<li><a href="#">Nutrition</a>
-					<ul class="submenu" class="current">
-						<li><a href="#">Recipes</a></li>
-						<li><a href="weight_loss.html">Weight Loss</a></li>
+					<ul class="submenu">
+						<li><a href="pages/recipes.html" title="recipes">Recipes</a></li>
+						<li><a href="pages/weight_loss.html" title="weight_loss">Weight Loss</a></li>
 					</ul>
 				</li>
-				<li class="products"><a href="recommended_products.html">Recommeded Products</a></li>
-				<li><a href="news.html">News</a></li>
-				<li><a href="faq.html">FAQ's</a></li>
-				<li><a href="about_us.html">About us</a></li>
+				<li class="products"><a href="pages/recommended_products.html">Recommeded Products</a></li>
+				<li><a href="pages/news.html">News</a></li>
+				<li><a href="pages/faq.html">FAQ's</a></li>
+				<li><a href="pages/about_us.html">About us</a></li>
 			</ul>	
-		</nav>	<!----------------End of it --------------------------->
+		</nav>	<!----------------END OF IT--------------------------->
 	
 <!----TABLE PORTRAIT NAVIGATION----->
 		<div id="menu-trigger" title="menu button">
@@ -73,44 +73,109 @@
 		</div>
 		<nav id="navTablet" class="cf">
 			<ul class="main_nav">
-				<li><a href="index.html">Home</a></li>
+				<li><a href="index.html" class="current">Home</a></li>
 				<li><a href="#" class="sub">Nutrition</a>
-					<ul class="submenu" class="current">
-						<li><a href="#">Recipes</a></li>
-						<li><a href="weight_loss.html">Weight Loss</a></li>
+					<ul class="submenu">
+						<li><a href="pages/recipes.html" title="recipes">Recipes</a></li>
+						<li><a href="pages/weight_loss.html" title="weight_loss">Weight Loss</a></li>
 					</ul>
 				</li>
-				<li class="products"><a href="recommended_products.html">Recommeded Products</a></li>
-				<li><a href="news.html">News</a></li>
-				<li><a href="faq.html">FAQ's</a></li>
-				<li><a href="about_us.html">About us</a></li>
+				<li class="products"><a href="pages/recommended_products.html">Recommeded Products</a></li>
+				<li><a href="pages/news.html">News</a></li>
+				<li><a href="pages/faq.html">FAQ's</a></li>
+				<li><a href="pages/about_us.html">About us</a></li>
 			</ul>	
-		</nav>	<!----------------End of it --------------------------->	
-	<article>
-		<section>
-		</section>
-	</article>
+		</nav>	<!----------------END OF IT--------------------------->
+	
+	
+		<!-- Main Section wrapper box-->
+		<section id="main_section">
+				<!----------content---------->
+			<section id="recipes_content">
+			<h1>Test!</h1>
+			<div class="flipbook-viewport">
+				<div class="container">
+				<div class="flipbook">
+					<div id="recipe_page1"></div>
+					<div id="recipe_page2"></div>
+					<div id="recipe_page3"></div>
+					<div id="recipe_page4"></div>
+					<div id="recipe_page5"></div>
+					<div id="recipe_page6"></div>
+					<div id="recipe_page7"></div>
+				</div>
+				</div>
+			</div>
+			</section>	
+		
 		<footer>
 			<div id="subfooter">
-				<div class="column columnOne">
-				
+				<div class="column" id="columnOne">
+			
 				</div>
-				<div class="column columnTwo">
-					<figure>
-						<img src="images/placeholder.png" />
-					</figure>
-					<div><a href=""/>AppStore</a></div>
-					<div><a href=""/>Google Play</a></div>
-					<div><a href=""/>Windows Store</a></div>
+				<div class="column" id="columnTwo">
+					<div id="tryit" class="appButton"><a href=""/>Try me on</a></div>
+					<div id="apple" class="appButton"><a href=""/>AppStore</a></div>
+					<div id="google" class="appButton"><a href=""/>Google Play</a></div>
+					<div id="win" class="appButton"><a href=""/>Windows Store</a></div>
 				</div>
-				<div class="column columnThree">
+				<div class="column" id="columnThree">
 				
 				</div>
 			</div>	
 			<div id="footer">
 			</div>
 		</footer>
-</div>
-<script src="nameit.js"></script>
+	</div>
+	
+	<script src="scripts/jquery.js"></script>
+	<script src="scripts/default.js"></script>
+	<script src="scripts/responsive.js"></script>
+<script type="text/javascript">
+
+function loadApp() {
+
+	var flipbook = $('.flipbook');
+
+ 	// Check if the CSS was already loaded
+	
+	if (flipbook.width()==0 || flipbook.height()==0) {
+		setTimeout(loadApp, 10);
+		return;
+	}
+
+	$('.flipbook .double').scissor();
+
+	// Create the flipbook
+
+	$('.flipbook').turn({
+			// Elevation
+
+			elevation: 50,
+			
+			// Enable gradients
+
+			gradients: true,
+			
+			// Auto center this flipbook
+
+			autoCenter: true
+
+	});
+}
+
+// Load the HTML4 version if there's not CSS transform
+
+yepnope({
+	test : Modernizr.csstransforms,
+	yep: ['../../lib/turn.min.js'],
+	nope: ['../../lib/turn.html4.min.js'],
+	both: ['../../lib/scissor.min.js', 'css/double-page.css'],
+	complete: loadApp
+});
+
+</script>
+
+
 </body>
 </html>
