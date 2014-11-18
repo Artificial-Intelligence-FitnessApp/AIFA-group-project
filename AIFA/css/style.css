@@ -608,8 +608,8 @@ article img{
 	height:400px;
 	background-size:100% 100%;
 }
-#recipe_page1{
-background-image:url(../pages/j.jpg);
+.recipe_double{
+background-image:url('../images/pasta.jpg');
 }
 
 
