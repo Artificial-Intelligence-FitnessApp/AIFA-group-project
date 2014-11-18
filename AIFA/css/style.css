@@ -506,10 +506,11 @@ footer{
 	float:left;
 	width:70%;
 	background:yellow;
+	margin:0 auto;
 	
 }
 
-article{
+.article{
 	width:28.9%;
 	height:210px;
 	background:red;
@@ -517,17 +518,20 @@ article{
 	float:left;
 	margin:.4em .4em .4em .6em;
 }
-article h2{
+.article h2{
 	font-size:1.4em;
 	font-weight:bold;
 }
-article p{
-	font-size:.8em;
+.article p{
+	font-size:.7em;
 }
-article img{
+.article img{
 	max-width:100%;
 }
 #arnold_lg{
+	display:none;
+}
+#arnold_xsm{
 	display:none;
 }
 .expand{
