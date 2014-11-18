@@ -238,7 +238,7 @@ a{
 
 }
 
-/*=====================NAVIGATION=============================*/
+/*====================Navigation Area============================*/
 #navDesk{
 	height:2.3em;
 	background:#58FAAC;
@@ -315,6 +315,10 @@ a{
 	position:absolute;
 	color:#DF7401;
 }
+#navDesk ul.submenu a{
+	width: 18em;
+}
+
 #navDesk ul.submenu:last-child li{
 	margin-top:1em;
 }
@@ -370,27 +374,6 @@ a{
 	background:yellow;
 	
 }
-.article{
-	width:29.5%;
-	height:210px;
-	background:red;
-	padding:.5em .5em;
-	float:left;
-	margin:.4em .4em .4em .6em;
-}
-.article h2{
-	font-size:1.5em;
-	font-weight:bold;
-}
-.article p{
-	font-size:.8em;
-}
-#arnold_lg{
-	display:none;
-}
-.expand{
-	display:none;
-}
 /*=================SIDE BAR====================================*/
 #sidebar{
 	background:blue;
@@ -406,28 +389,33 @@ footer{
 }
 #subfooter{
 	background:#412C19;
-	height:200px;
+	height:220px;
 	padding:.5em .4em;
 }
 
 .column{
 	border-right:2px solid #000;
 	width:32.3%;
-	height:200px;
+	height:100%;
 	float:left;
 }
 .column:last-child{
 	border-right:none;
 }
 .appButton{
+	margin:0 auto;
 	font-family:Helvetica, sans-serif;
 	font-weight:bold;
-	font-size:1.4em;
+	font-size:1em;
 	letter-spacing:.045em;
 	text-align:center;
 	text-decoration:none;
 	white-space:nowrap;
 	cursor:pointer;
+}
+#apple, #google, #win{
+	width:50%;
+	margin:.6em 0 0 em;
 }
 #tryit{
 	background:#DF7401;
@@ -435,8 +423,7 @@ footer{
 	padding:0 1em;
 	width:6em;
 	height:4em;
-	margin:0 auto;
-	border:6px solid #BCC6CC;
+	border:5px solid #BCC6CC;
 	border-radius:.4em;
 	box-shadow:5px 5px 5px 5px black;
 	box-shadow:5px 5px 5px 5px black;
@@ -480,7 +467,6 @@ footer{
 	color:#FFF;
 }
 .appButton{
-	margin-top:.3em;
 	background:#white;
 	color:#999;
 	padding:.2em;
@@ -505,3 +491,45 @@ footer{
 	height:70px;
 }
 
+/*============================================================*/
+/*DO NOT EDIT CONTENT ABOVE THESE COMMENTS! THESE ARE DEFAULTS*/
+/*IF YOU ARE SEEING THIS SAM, WE FORGOT TO DELETE THIS LINE!*/
+/*============================================================*/
+
+/*=============================HOMEPAGE CONTENT=================================================*/
+#banner{
+	width:96%;
+	margin:0 auto;
+	background:#000;
+}
+
+article{
+	width:28.9%;
+	height:210px;
+	background:red;
+	padding:.5em .5em;
+	float:left;
+	margin:.4em .4em .4em .6em;
+}
+article h2{
+	font-size:1.4em;
+	font-weight:bold;
+}
+article p{
+	font-size:.8em;
+}
+article img{
+	max-width:100%;
+}
+#arnold_lg{
+	display:none;
+}
+.expand{
+	display:none;
+}
+
+/*=============================Weight loss Content=================================================*/
+/*=============================Recipes Content=================================================*/
+/*=============================Recommended Products Content=================================================*/
+/*=============================FAQ Content=================================================*/
+/*=============================About Us Content=================================================*/

@@ -4,6 +4,16 @@
 		margin:0 auto;
 	}
 }
+@media screen and (max-width:1200px){
+	article h2{
+		font-size:1.2em;
+	}
+	article p{
+		font-size.6em;
+	}
+	
+}
+
 @media screen and (max-width:1100px){
 /*--------------------Login Form--------------------*/		
 	#login_div{
@@ -30,15 +40,14 @@
 		display:none;
 	}
 		/*===================Section area============================*/
-	.article{
+	article{
 		width:29.3%;
-		height:160px;
-		padding:.4em .4em;
-		margin:.3em .3em .3em .5em;
+		height:180px;
+
 	}
 }
 
-@media screen and (max-width:1000px){
+@media screen and (max-width:1024px){/*---- Kindle device ----*/
 	body{
 		font-size:1em;
 	}
@@ -49,7 +58,7 @@
 		width:4.4em;
 	}
 	/*===================Section area============================*/
-	.article{
+	article{
 		width:29.3%;
 		height:130px;
 		padding:.4em .4em;
@@ -78,7 +87,7 @@
 	}
 	
 /*===================Section area============================*/
-	.article{
+	article{
 		width:29.3%;
 		height:110px;
 		padding:.4em .4em;
@@ -86,7 +95,7 @@
 	}	
 
 }
-@media screen and (max-width:800px){
+@media screen and (max-width:800px){/*--- Tablet landscaping & smartphone-*/
 	body{
 		font-size:.7em;
 	}
@@ -109,7 +118,7 @@
 		float:none;
 	}
 }
-@media screen and (max-width:768px){
+@media screen and (max-width:768px){/*------- Tablet Portrait & Iphone 6plus ------*/
 	body{
 		font-size:.7em;
 	}
@@ -149,7 +158,7 @@
 		float:none;
 	}
 }
-@media screen and (max-width:600px){
+@media screen and (max-width:668px){/*--- Iphone 6----*/
 	body{
 		font-size:.7em;
 	}
@@ -258,7 +267,7 @@
 	}
 }
 
-@media screen and (max-width:550px){
+@media screen and (max-width:569px){/*--- Iphone 5 ---*/
 	body{
 		font-size:.7em;
 	}
@@ -277,7 +286,7 @@
 		left:14em;
 	}
 }
-@media screen and (max-width:500px){
+@media screen and (max-width:480px){/*---- Mobile Iphone 4-----*/
 	body{
 		font-size:.7em;
 	}
@@ -291,10 +300,9 @@
 	
 	#main_headings{
 		float:none;
-		font-size:.8em;
-		width:90%;
+		width:80%;
 		text-align:center;
-		font-size:.8em;		
+		font-size:.7em;		
 	}
 	#login_container{
 		margin-top:3em;
@@ -310,14 +318,26 @@
 		font-size:1em;
 	}
 	#log-box p, #log-box label, #log-box input{
-		margin-top:-5em;
+		margin-top:-9em;
+		font-size:.6em;
 	}
 	#log-box input{
 		width:100%;
 	}
 	#close-icon{
-		left:14em;
+		left:13em;
+		top:-6em;
 	}	
+	
+	.log{
+		position:relative;
+		top:-3.3em;
+		margin-left:10em;
+
+	}
+	.logged_in{
+		margin-top:3em;
+	}
 	
 /*===============NAVIGATION BAR==========================*/		
 	div.nav_expanded{
@@ -334,11 +354,31 @@
 	}
 	#navTablet{
 		width:100%;
-		height:100%;
+		height:31.6%;
 		margin:0;
 	}
 	#navTablet .main_nav li a{
 		font-size:1.3em;
 		text-align:center;
 	}	
+}
+
+@media screen and (max-width:361px){/*---- Smartphone Portrait -----*/
+	#main_headings{
+		width:70%;
+		text-align:center;
+		font-size:.7em;		
+	}
+	#main_header{
+		background:#000;
+	}
+	footer{
+		margin:0;
+		padding:0;
+
+	}
+	.column{
+;
+	}
+
 }
