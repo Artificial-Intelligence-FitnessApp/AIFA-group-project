@@ -532,9 +532,18 @@ article img{
 /*=============================Weight loss Content=================================================*/
 /*=============================Recipes Content=================================================*/
 /* Basic sample */
-
+.screen{
+background: rgba(0,0,0, 0.6);
+	width:100%;
+	height:100%;
+	z-index:2;
+	position:absolute;
+	top:2em;
+	/* display:none; */
+}
 #recipes_content{
 	width:100%;
+	
 }
 .flipbook-viewport{
 	width:100%;
@@ -601,6 +610,7 @@ article img{
 	background-image:url('../images/pasta.jpg');
 	
 }
+
 
 
 /*=============================Recommended Products Content=================================================*/
