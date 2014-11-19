@@ -508,11 +508,11 @@ article img{
 /*=============================Weight loss Content=================================================*/
 /*=============================Recipes Content=================================================*/
 /* Basic sample */
-#recipes_screen{
+.recipes_screen{
 	background: rgba(0,0,0, 0.6);
 	width:100%;
 	height:100%;
-	z-index:-2;
+	z-index:-1;
 	position:absolute;
 	top:0;
 	left:0;
@@ -521,15 +521,32 @@ article img{
 
 #recipes_content{
 	width:100%;
-	
+	z-index:-2;
 }
+
+h2{
+	text-align:center;
+}
+#recipe_page1{
+	background-image:url('../images/turkey-pie.jpg');
+}
+
+#recipeBook2_page1{
+	background-image:url('../images/turkey-pie.jpg');
+}
+
 .flipbook-viewport{
 	width:100%;
 }
 
+.flipbook-viewport#recipe_page1{
+	margin:0 auto;
+	clear:both;
+}
+
  .flipbook-viewport #recipes_container{
 	margin:0 auto;
-	clear: both;
+	clear:both;
 	
 }  
 
@@ -584,9 +601,7 @@ article img{
 	height:400px;
 	background-size:100%;
 }
-#recipe_page1{
-	background-image:url('../images/pasta.jpg');
-}
+
 
 
 
