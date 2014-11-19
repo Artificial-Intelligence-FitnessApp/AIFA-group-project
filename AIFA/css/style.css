@@ -549,9 +549,10 @@ article img{
 /*=============================Recipes Content=================================================*/
 /* Basic sample */
 
-#recipe_content{
+#recipes_content{
 	width:100%;
 	background:yellow;
+	clear: both;
 }
 
 
@@ -561,12 +562,12 @@ article img{
 	height:100%;
 }
 
-.flipbook-viewport .container{
+/* .flipbook-viewport .container{
 	position:absolute;
 	top:50%;
 	left:50%;
 	margin:auto;
-}
+} */
 
 .flipbook-viewport .flipbook{
 	width:800px;
@@ -619,11 +620,9 @@ article img{
 	height:400px;
 	background-size:100% 100%;
 }
-.recipe_double{
+#recipe_page1{
 background-image:url('../images/pasta.jpg');
 }
-
-
 /*=============================Recommended Products Content=================================================*/
 /*=============================FAQ Content=================================================*/
 #faq_content{
