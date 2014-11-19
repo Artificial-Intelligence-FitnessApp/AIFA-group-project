@@ -1,6 +1,7 @@
 /*====================MEDIA QUERIE============================*/
-@media screen and (min-width:1280px){
-	#homepage{
+@media screen and (min-width:1366px){
+	#main_section{
+		width:70%;
 		margin:0 auto;
 	}
 }
