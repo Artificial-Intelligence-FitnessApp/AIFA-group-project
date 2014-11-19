@@ -238,7 +238,7 @@ a{
 
 }
 
-/*====================Navigation Area============================*/
+/*====================NAVIGATION AREA ============================*/
 #navDesk{
 	height:2.3em;
 	background:#58FAAC;
@@ -268,9 +268,8 @@ a{
 	padding:0 1em;
 	color:#F8FBEF;
 }
-#navDesk .main_nav li:hover a:hover{
+#navDesk .main_nav li a:hover{
 	background:#DF7401;
-	color: white;
 	height:2.3em;
 	display:block;
 }
@@ -323,14 +322,9 @@ a{
 #navDesk ul.submenu:last-child li{
 	margin-top:1em;
 }
-
-#navDesk ul.submenu a{
-	width: 18em;
-}
-
 #navDesk ul.submenu a:hover{
-	background:#F8FBEF;
-	color:#DF7401;
+	background:#DF7401;
+	color:#F8FBEF;
 	width:80%;	
 }
 #navDesk .current, #navDesk .main_nav a:hover.current{
@@ -370,7 +364,7 @@ a{
 }
 /*===================MAIN SECTION=============================*/
 #main_section{
-	background:blue/*#F8FBEF;--kind of white*/
+	background:#F8FBEF;/*--kind of white*/
 	
 }
 /*=================SIDE BAR====================================*/
@@ -437,10 +431,10 @@ footer{
 	background: -ms-linear-gradient(top,  #000 0%,#f8fbef 100%); /* IE10+ */
 	background: linear-gradient(to bottom,  #000 0%,#f8fbef 100%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000', endColorstr='#f8fbef',GradientType=0 ); /* IE6-8 */
-	transition:background 0.3s linear 0s, color .3s linear 0s;
+/* 	transition:background 0.3s linear 0s, color .3s linear 0s;
 	-webkit-transition:background 0.3s linear 0s, color .3s linear 0s;
 	-moz-transition:background 0.3s linear 0s, color .3s linear 0s;
-	-o-transition:background 0.3s linear 0s, color .3s linear 0s;
+	-o-transition:background 0.3s linear 0s, color .3s linear 0s; */
 }
 #tryit > a{
 	position:relative;
@@ -455,10 +449,10 @@ footer{
 	box-shadow:5px 5px 5px 5px black;
 	box-shadow:5px 5px 5px 5px black;
 	background: #000; 
-	transition:background 0.3s linear 0s, color .3s linear 0s;
+/*	transition:background 0.3s linear 0s, color .3s linear 0s;
 	-webkit-transition:background 0.3s linear 0s, color .3s linear 0s;
 	-moz-transition:background 0.3s linear 0s, color .3s linear 0s;
-	-o-transition:background 0.3s linear 0s, color .3s linear 0s;
+	-o-transition:background 0.3s linear 0s, color .3s linear 0s;*/
 
 }
 #tryit:hover, #tryit a:hover, .appButton:hover, .appButton a:hover{
@@ -466,6 +460,7 @@ footer{
 	color:#FFF;
 }
 .appButton{
+	margin:.4em;
 	background:#white;
 	color:#999;
 	padding:.2em;
@@ -479,7 +474,7 @@ footer{
 	color:red;
 }
 #columnOne{
-	
+
 }
 #columnTwo{
 }
@@ -538,10 +533,9 @@ article img{
 /*=============================Recipes Content=================================================*/
 /* Basic sample */
 
-#recipes_content{
+#recipe_content{
 	width:100%;
 	background:yellow;
-	clear: both;
 }
 
 
@@ -551,12 +545,12 @@ article img{
 	height:100%;
 }
 
-/* .flipbook-viewport .container{
+.flipbook-viewport .container{
 	position:absolute;
 	top:50%;
 	left:50%;
 	margin:auto;
-} */
+}
 
 .flipbook-viewport .flipbook{
 	width:800px;
@@ -609,9 +603,11 @@ article img{
 	height:400px;
 	background-size:100% 100%;
 }
-#recipe_page1{
+.recipe_double{
 background-image:url('../images/pasta.jpg');
 }
+
+
 /*=============================Recommended Products Content=================================================*/
 /*=============================FAQ Content=================================================*/
 #faq_content{
@@ -633,11 +629,11 @@ background-image:url('../images/pasta.jpg');
 }
 
 .faq_answer{
-	padding:2em;
+	margin:2em;
 	display: none;
 }
 #faq_content>h3 {
-	margin-top:.3em;
+	margin:.3em;
 	color: black;
 	padding:.2em;
 	background: #999;
@@ -648,4 +644,5 @@ background-image:url('../images/pasta.jpg');
 	background:#DF7401;
 	color: white;
 }
+
 /*=============================About Us Content=================================================*/

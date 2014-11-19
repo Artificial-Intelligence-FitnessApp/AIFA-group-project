@@ -169,7 +169,10 @@
 	}
 	#art-one, #art-two, #art-four, #art-five{
 		margin-right:.2em;
-	}	
+	}
+	#faq_content{
+		width:100%;
+	}
 	#sidebar{
 		float:none;
 	}
