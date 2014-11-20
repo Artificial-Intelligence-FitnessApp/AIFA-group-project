@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8"/>
+		<title>AIFA - Artificial Intelligence Fitness App | Homepage</title>
+		<meta name="viewport" content="initial-scale=1.0, width=device-width" />
+		<link rel="stylesheet" href="../css/style.css" type="text/css"/>
+		<link rel="stylesheet" href="../css/media_queries.css" type="text/css"/>
+		<script src="../scripts/jquery.js"></script>
+		<script src="../scripts/turnjs4/lib/scissor.js"></script>
+		<script src="../scripts/turnjs4/lib/turn.js"></script>
+		<script src="../scripts/turnjs4/lib/zoom.js"></script>
+		<script src="../scripts/turnjs4/extras/modernizr.2.5.3.min.js"></script>
+		<!--[if gte IE 9]>
+			<style type="text/css">
+			.gradient {
+				filter: none;
+			}
+			</style>
+		<![endif]-->
+	</head>
+	<body>
+	<div id="homepage">	
+	
+	<!----------------login box--------------------------->
+	<form id="login_div">
+		<div id="log-box">
+			<div id="close-icon"></div>
+			<div id="logoIn"></div>
+			<p>Login to your AIFA account</p>
+			<label>Username:</label>
+			<input type="text" name="username" id="username_input" maxlength="15"></br>
+			<label>Password:</label>
+			<input type="password" name="password" id="password_input" maxlength="15">
+		</div>	
+	</form>	<!----------------END OF IT--------------------------->
+		<!----------------header section--------------------------->
+		<header id="main_header">
+		<div id="head_wrap">
+			<figure id="logo">
+				<a href="#">
+					<img src="images/placeholder.png"/>
+				</a>
+			</figure>
+				<section id="main_headings">
+					<h1>Artificial Intelligence Fitness App</h1>
+					<h2>Your very own personal trainer!</h2>	
+				</section>
+		</div>
+			<div id="login_container">
+				<p class="logged_in">Welcome, USER</p>
+				<label class="logged_in"><a href="pages/account.html" class="logged_in" >My Account</a><label><br/>
+				<input type="submit" value="Login" id="button_login" class="log_on log"/>
+				<input type="submit" value="Logoff" id="button_logoff" class="log_off log" />
+			</div>
+		</header><!----------------END OF IT--------------------------->
+		<!----------------Navigation of desktop--------------------------->	
+		<nav id="navDesk" class="cf">
+			<ul class="main_nav">
+				<li><a href="#" class="current">Home</a></li>
+				<li><a href="#">Nutrition</a>
+					<ul class="submenu">
+						<li><a href="pages/recipes.html" title="recipes">Recipes</a></li>
+						<li><a href="pages/weight_loss.html" title="weight_loss">Weight Loss</a></li>
+					</ul>
+				</li>
+				<li class="products"><a href="pages/recommended_products.html">Recommeded Products</a></li>
+				<li><a href="pages/news.html">News</a></li>
+				<li><a href="pages/faq.html">FAQ's</a></li>
+				<li><a href="pages/about_us.html">About us</a></li>
+			</ul>	
+		</nav>	<!----------------END OF IT--------------------------->
+	
+<!----TABLE PORTRAIT NAVIGATION----->
+		<div id="menu-trigger" title="menu button">
+			<figure id="menu-button"></figure>
+			<span class="menu-text">Menu</span>
+		</div>
+		<nav id="navTablet" class="cf">
+			<ul class="main_nav">
+				<li><a href="index.html" class="current">Home</a></li>
+				<li><a href="#" class="sub">Nutrition</a>
+					<ul class="submenu">
+						<li><a href="pages/recipes.html" title="recipes">Recipes</a></li>
+						<li><a href="pages/weight_loss.html" title="weight_loss">Weight Loss</a></li>
+					</ul>
+				</li>
+				<li class="products"><a href="pages/recommended_products.html">Recommeded Products</a></li>
+				<li><a href="pages/news.html">News</a></li>
+				<li><a href="pages/faq.html">FAQ's</a></li>
+				<li><a href="pages/about_us.html">About us</a></li>
+			</ul>	
+		</nav>	<!----------------END OF IT--------------------------->
+	
+	
+				<!----------------END OF IT--------------------------->
+	
+	
+		<!-- Main Section wrapper box-->
+		
+		<section id="main_section">
+				<!----------content---------->
+			<section id="recipes_content" >
+			<div class="recipes_screen"></div>
+			<div class="flipbook-viewport">
+				<div id="recipes_container">
+					<br><br>
+					<h2>Turkey Pie Recipe</h2>
+				<div class="flipbook">
+					<div id="recipe_page1">
+						
+						<a class="recipes_screen"></a>
+					</div>
+					<div id="recipe_page2">
+						<br><br>
+						<div class="page2_wrapper">
+							<div class="servings">
+								<h6>Servings</h6>
+								<p>6-8</p>
+							</div>
+							<div class="prep">
+								<h6>Prep Time</h6>
+								<p>30 mins.</p>
+							</div>
+							<div class="cookTime">
+								<h6>Cook Time</h6>
+								<p>1 Hr.</p>
+							</div>
+						</div>
+						<div class="recipe_ingredients">
+							<h5>Ingredients:</h5>
+							<p>2 tablespoons of butter</p>
+							<p>1 cup chopped onion</p>
+							<p>1 small onion,minced</p>
+							<p>2 stalks celery,chopped</p>
+							<p>2 carrots,diced</p>
+							<p>1 turkey,obv</p>
+							<p>3 tablespoons dried parsley</p>
+							<p>3 tablespoons all-purpose flavour</p>
+							<p>3 tablespoons dried parsley</p>
+							<p>1/2 cup of milk</p>
+						</div>
+						
+					</div>
+					<div id="recipe_page3">
+						<br><br>
+						<div class="page3_wrapper">
+							<div class="recipe_calories">
+								<h6>Calories*</h6> <!-- * means per serving will be added later at the bottom -->
+								<p>350.0</p>
+							</div>
+							<div class="recipe_fat">
+							<h6>Fat*</h6>
+							<p>19g</p>
+						
+							</div>
+							<div class="recipe_carbs">
+								<h6>Carbs*</h6>
+								<p>50g</p>
+							</div>
+							<div class="recipe_protein">
+								<h6>Protein</h6>
+								<p>9g</p>
+							</div>
+						</div>
+						
+					</div>
+					<div id="recipe_page4"></div>
+					<div id="recipe_page5"></div>
+					<div id="recipe_page6"></div>
+					<div id="recipe_page7"></div>
+				</div>
+				</div>
+			</div>
+			</section>	
+		
+		<footer>
+			<div id="subfooter">
+				<div class="column" id="columnOne">
+			
+				</div>
+				<div class="column" id="columnTwo">
+					<div id="tryit" class="appButton"><a href=""/>Try me on</a></div>
+					<div id="apple" class="appButton"><a href=""/>AppStore</a></div>
+					<div id="google" class="appButton"><a href=""/>Google Play</a></div>
+					<div id="win" class="appButton"><a href=""/>Windows Store</a></div>
+				</div>
+				<div class="column" id="columnThree">
+				
+				</div>
+			</div>	
+			<div id="footer">
+			</div>
+		</footer>
+	</div>
+	<script src="../scripts/recipe_script.js"></script>
+	<script src="../scripts/default.js"></script>
+	<script src="../scripts/responsive.js"></script>
+
+</body>
+</html>
