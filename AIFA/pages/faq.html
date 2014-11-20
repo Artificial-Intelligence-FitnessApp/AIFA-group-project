@@ -45,7 +45,7 @@
 		</div>
 			<div id="login_container">
 				<p class="logged_in">Welcome, USER</p>
-				<label class="logged_in"><a href="pages/account.html" class="logged_in" >My Account</a><label><br />
+				<label class="logged_in"><a href="pages/account.html" class="logged_in" >My Account</a><label>
 				<input type="submit" value="Login" id="button_login" class="log_on log"/>
 				<input type="submit" value="Logoff" id="button_logoff" class="log_off log" />
 			</div>
@@ -137,7 +137,7 @@
 					</div>
 					
 					
-					<h3>If I lift weights, will I get bigger muscles?</h3>
+					<h3>If I life weights, will I get bigger muscles?</h3>
 					<div class="faq_answer">
 						<p>Whether or not your clients will get bigger muscles (hypertrophy) depends on three basic factors: genetics, gender and training intensity. Genetics is mostly manifested as muscle fiber type; people with predominantly fast-twitch fibers acquire larger muscles more easily than people with predominantly slow-twitch fibers. In relation to gender, males acquire larger muscles than females do, because males have greater amounts of testosterone and other sex hormones that influence protein metabolism (Tipton 2001). Thus, females experience less muscle hypertrophy with strength improvement than males do (Lewis et al. 1986). Training intensity is the only factor you can control. </p>
 						
@@ -219,7 +219,7 @@
 						<p>According to the American College of Sports Medicine (ACSM), your clients should exercise 20 to 60 minutes, three to five days a week for health/fitness promotion (ACSM 1995). Exercising only three days a week may be enough for previously sedentary clients to improve their fitness, but it will take more exercise to see further improvements. Improvements in aerobic power (VO2 max), cholesterol levels, body composition and cardiovascular health are all augmented the more often you exercise (Duncan et al. 1991; Gettman et al. 1976; Milesis et al. 1976). However, it is important that your clients do not progress too soon or exercise excessively, since both these behaviors can lead to overuse injuries. </p>
 						<p>Clients are often told they should not lift weights on consecutive days, whereas they are encouraged to do cardiovascular exercise as often as they can. However, there is nothing wrong with lifting weights every day, just as there is nothing wrong with running every day. Muscles do not know the difference between lifting weights or running; the only thing muscles know how to do is to contract to overcome a resistance. Whether your clients need to lift weights every day depends on their fitness goals. For basic gains in strength, your clients need to lift weights only two to three times a week. For more advanced clients, lifting weights more often is fine, and the training program can be organized using easy and hard days, just as with cardiovascular workouts. Keep in mind that some experts recommend not working the same muscle groups two days in succession, in order to give the muscles time to adapt. </p>
 					</div>
-					<div id="faq_seperator"></div>
+					
 			</section>	
 		</section>
 		
@@ -243,7 +243,16 @@
 		</footer>
 	</div>
 	
-	<script src="../scripts/faq_script.js"></script>
+	<script>
+		$(document).ready(function() {
+			$('#faq_content h3').click(function() {
+
+				$(this).next('.faq_answer').slideToggle(500);
+				$(this).toggleClass('close');
+
+			});
+		});
+	</script>
 	<script src="../scripts/default.js"></script>
 	<script src="../scripts/responsive.js"></script>
 	</body>
