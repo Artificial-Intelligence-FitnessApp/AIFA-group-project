@@ -1,0 +1,412 @@
+/*====================MEDIA QUERIE============================*/
+@media screen and (min-width:1366px){
+	#main_section{
+		width:70%;
+		margin:0 auto;
+	}
+}
+@media screen and (max-width:1100px){
+/*--------------------Login Form--------------------*/		
+	#login_div{
+		width:100%;
+		height:100%;
+	}
+	#close-icon{
+		left:19em;
+		top:-5.7;
+	}
+	#logoIn{
+		margin:-2em;
+		position:relative;
+		top:-2em;
+	}
+	#log-box{
+		left:5em;
+		width:15em;
+		height:5em;
+		line-height:1.6em;
+		font-size:1.5em;
+	}
+	#navTablet{
+		display:none;
+	}
+		/*===================Section area============================*/
+	.article{
+		width:28.3%;
+		height:180px;
+
+	}
+	.article h2{
+		font-size:.9em;
+	}
+	.article p{
+		font-size:.6em;
+	}
+	.article{
+		margin:.3em;
+	}
+}
+
+@media screen and (max-width:1024px){/*---- Kindle device ----*/
+	body{
+		font-size:1em;
+	}
+	#main_headings{
+		font-size:.8em;
+	}
+	.log_button p, .log_button{
+		width:4.4em;
+	}
+	/*===================Section area============================*/
+	.article {
+		width:29%;
+		height:160px;
+	}
+	
+/*===============NAVIGATION BAR==========================*/		
+	#main_nav, #main_nav li{
+		float:none;
+	}
+}
+
+@media screen and (max-width:920px){
+	body{
+		font-size:.8em;
+	}
+	#main_headings{
+		font-size:.8em;
+	}	
+	.log_button p, .log_button{
+		width:4em;
+	}	
+/*===============NAVIGATION BAR==========================*/		
+	#main_nav, #main_nav li{
+		float:none;
+	}
+	
+/*===================Section area============================*/
+	.article{
+		width:29.9%;
+		height:145px;
+		padding:.4em .4em;
+	}	
+
+}
+@media screen and (max-width:800px){/*--- Tablet landscaping & smartphone-*/
+	body{
+		font-size:.7em;
+	}
+	#main_headings{
+		font-size:.8em;
+	}
+/*--------------------Login Form--------------------*/		
+	#logoIn{
+		display:none;
+	}
+	#log-box{
+		font-size:1.4em;
+		line-height;1.3em;
+	}
+/*===================Section area============================*/
+	#main_section{
+		padding:2em;
+	}
+	#content{
+		width:100%;
+	}
+	#sidebar{
+		float:none;
+	}
+	.article{
+		width:33;
+		height:180px;
+		margin:.6em;
+	}
+	.article h2{
+		font-size:1.4em;
+	}
+	.article p{
+		font-size:.9em;
+	}
+}
+@media screen and (max-width:768px){/*------- Tablet Portrait & Iphone 6plus ------*/
+	body{
+		font-size:.7em;
+	}
+	#main_headings{
+		font-size:.8em;
+	}
+	#login_container{
+		margin-left:3.5em;
+		float:none;
+		width:40%;
+		position:absolute;
+		top:10em;
+	}
+	
+/*===============NAVIGATION BAR==========================*/	
+	#navDesk{
+		height:2.45em;
+	}
+	#navDesk .main_nav li a:hover{
+		height:2.5em;
+	}
+	#navDesk .main_nav li{
+		font-size:1em;
+	}
+	#main_section{
+		padding:1.2em;
+		margin:0 auto;
+	}
+	#navDesk .current{
+		border-bottom:.47em solid #AD9B7F;
+	}
+/*========================Content area============================*/
+	#content{
+		width:100%;
+	}
+	#art-one, #art-two, #art-three{
+		margin-bottom:.2em;
+	}
+	#art-one, #art-two, #art-four, #art-five{
+		margin-right:.2em;
+	}
+	#faq_content{
+		width:100%;
+	}
+	#sidebar{
+		float:none;
+	}
+}
+@media screen and (max-width:668px){/*--- Iphone 6----*/
+	body{
+		font-size:.7em;
+	}
+	#main_headings{
+		font-size:.8em;
+		text-align:center;
+	}
+	#main_header{
+		border-bottom:.3em solid #C38F00;
+	}
+/*=============login and buttons layout==================*/
+#login_container{
+	margin-top:.5em;
+}
+.log_button{
+	display:table;
+	position:relative;
+	left:10em;
+	top:-3em;
+	width:10em;
+}
+/*===============NAVIGATION BAR==========================*/	
+	#navDesk{
+		display:none;
+	}	
+	#menu-button{
+		background:#000;
+		background-image:url('../images/nav-icon.png');
+		background-repeat:no-repeat;
+		width:100%;
+		height:50px;
+	}	
+	.menu-text{
+		display:none;
+	}
+	#menu-button{
+		display:block;
+	}
+	#navTablet{		
+		display:none;
+		width:45%;
+		height:38%;
+		position:absolute;
+		margin-top:-2em;
+	}
+	.submenu{
+		display:none;
+	}
+	#navTablet .main_nav li{
+		float:none;
+	}
+	#navTablet .main_nav li a{
+		background:#28343B;
+		float:none;
+		list-style:none;
+		text-decoration:none;
+		padding:1em;
+		display:block;
+		line-height:1.2em;
+		font-size:1.4em;
+		text-decoration:none;
+		text-align:center;
+		color:#DF7401;
+		border-bottom:.125em solid #000;
+	}
+	#navTablet li a:hover, #navTablet li a:focus{
+		/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+		background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwLjY1Ii8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNkZjc0MDEiIHN0b3Atb3BhY2l0eT0iMCIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+		background: -moz-linear-gradient(top,  rgba(0,0,0,0.65) 0%, rgba(223,116,1,0) 100%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.65)), color-stop(100%,rgba(223,116,1,0))); /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(top,  rgba(0,0,0,0.65) 0%,rgba(223,116,1,0) 100%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(top,  rgba(0,0,0,0.65) 0%,rgba(223,116,1,0) 100%); /* Opera 11.10+ */
+		background: -ms-linear-gradient(top,  rgba(0,0,0,0.65) 0%,rgba(223,116,1,0) 100%); /* IE10+ */
+		background: linear-gradient(to bottom,  rgba(0,0,0,0.65) 0%,rgba(223,116,1,0) 100%); /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00df7401',GradientType=0 ); /* IE6-8 */
+	
+		border-left:.4% solid white;
+	}
+	#navTablet li:last-child a{
+		border-bottom:none;
+	}
+/*=====================SECTION=======================*/
+	#sidebar{
+		float:none;
+		width:100%;
+		height:300px;
+		outline:1px solid red;/* remove after done*/
+		clear:both;
+	}
+	#main_section{
+		margin-top:-1.7em;
+
+	}
+	#content{
+		float:none;
+		width:100%;
+	}
+	.article img{
+		float:left;
+		padding:1em;
+	}
+	.article{
+		float:none;
+		width:95%;
+		height:170px;
+	}
+	.article h2{
+		font-size:2.3em;
+		margin-top:.2em;
+	}
+	.article p{
+		font-size:1.4em;
+	}
+}
+
+
+@media screen and (max-width:569px){/*--- Iphone 5 ---*/
+	body{
+		font-size:.7em;
+	}
+	#main_headings{
+		font-size:.8em;
+	}	
+/*--------------------Login Form--------------------*/	
+	#log-box{
+		width:30%;
+		height:10%;
+	}
+	#log-box p, #log-box label, #log-box input{
+		margin-top:-5em;
+	}
+	#close-icon{
+		left:14em;
+	}
+}
+@media screen and (max-width:480px){/*---- Mobile Iphone 4-----*/
+	body{
+		font-size:.7em;
+	}
+	#main_header{
+		height:35%;
+	}
+	#logo{
+		width:100%;
+		margin:0 auto;
+	}
+	
+	#main_headings{
+		float:none;
+		width:80%;
+		text-align:center;
+		font-size:.7em;		
+	}
+	#login_container{
+		margin-top:3em;
+		font-size:1.2em;
+	}
+	.log_button{
+		width:100%;
+	}
+
+/*--------------------Login Form--------------------*/	
+	#log-box{
+		margin-left:-1.8em;
+		font-size:1em;
+	}
+	#log-box p, #log-box label, #log-box input{
+		margin-top:-9em;
+		font-size:.6em;
+	}
+	#log-box input{
+		width:100%;
+	}
+	#close-icon{
+		left:13em;
+		top:-6em;
+	}	
+	
+	.log{
+		position:relative;
+		top:-3.3em;
+		margin-left:10em;
+
+	}
+	.logged_in{
+		margin-top:3em;
+	}
+	
+/*===============NAVIGATION BAR==========================*/		
+	div.nav_expanded{
+		display:block;
+	}
+	#navDesk{
+		display:none;
+	}
+	#menu-button{
+		display:none;
+	}
+	.menu-text{
+		display:block;
+	}
+	#navTablet{
+		width:100%;
+		height:31.6%;
+		margin:0;
+		position:absolute;
+		top:27em;
+	}
+	#navTablet .main_nav li a{
+		font-size:1.3em;
+		text-align:center;
+	}	
+}
+
+@media screen and (max-width:361px){/*---- Smartphone Portrait -----*/
+	#main_headings{
+		width:70%;
+		text-align:center;
+		font-size:.7em;		
+	}
+	#main_header{
+		background:#000;
+	}
+	footer{
+		margin:0;
+		padding:0;
+
+	}
+	.column{
+;
+	}
