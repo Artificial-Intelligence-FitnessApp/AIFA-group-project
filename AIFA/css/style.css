@@ -500,17 +500,14 @@ iframe{
 }
 
 .flipbook-viewport .container{
-	position:absolute;
-	top:50%;
-	left:50%;
+
 	margin:auto;
 }
 
 .flipbook-viewport .flipbook{
 	width:800px;
 	height:400px;
-	left:-400px;
-	top:-200px;
+
 }
 
 .flipbook-viewport .page{
