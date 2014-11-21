@@ -293,11 +293,11 @@ a{
 #navDesk .current, #navDesk .main_nav a:hover.current{
 	background:#AD9B7F;
 	color:#eee;
-	border-bottom:.4em solid #AD9B7F;
+	border-bottom:.6em solid #AD9B7F;
 	cursor:default;
 }
 #navDesk .main_nav a:hover.current{
-	border-bottom:.1em solid #AD9B7F;
+	border-bottom:.29em solid #AD9B7F;
 }
 
 
@@ -338,21 +338,97 @@ footer{
 	background:#999999;
 	background-image:url('../images/aifa-footer.png');
 	background-repeat:no-repeat;
-	height:420px;
+	height:620px;
 	padding:.5em .4em;
 }
 
-/* .column{
+.column{
 	margin-top:10em;
-	border-right:2px solid #000;
 	width:32.3%;
-	height:60%;
 	float:left;
 }
 .column:last-child{
 	border-right:none;
 }
- */
+/*---------columen one---------*/
+#news{
+	height:1.6em;
+}
+#submitnews{
+	border:.2em solid #DF7401;
+	background:#DF7401;
+	margin:.2em 0 0 -.4em;
+	height:2.09em;
+}
+#newsletter{
+	color:red;
+	font-size:1.2em;
+	font-weight:bold;
+	letter-spacing:.1em;
+	text-transform:uppercase;
+}
+#newsLetter, iframe, #columnOne p{
+	margin-left:1em;
+}
+#columnOne p{
+	line-height:1.5;
+	
+}
+iframe{
+	max-width:100%;
+	border:.6em solid white;
+	border-radius:.2em;
+	cursor:default;
+	color:#5C5C5C	
+}
+/*---------column two---------*/
+#columnTwo p:first-child{
+	font-family:Ariel, sans-serif;
+	font-size:1.2em;
+	margin:1em 3em;
+	text-align:center;
+	text-transform:uppercase;
+}
+.appStore, .appStore a{
+	text-indent:-9999em;
+	width:218px;
+	height:64px;
+	display:block;	
+	margin:0 auto;
+}
+#apple{
+	background-image:url('../images/apple.png');
+	background-repeat:no-repeat;	
+}
+#apple:hover{
+	background-image:url('../images/apple-hover.png');
+	background-repeat:no-repeat;
+}
+#google{
+	background-image:url('../images/google.png');
+	background-repeat:no-repeat;	
+}
+#google:hover{
+	background-image:url('../images/google-hover.png');
+	background-repeat:no-repeat;	
+}
+#win{
+	background-image:url('../images/win.png');
+	background-repeat:no-repeat;	
+}
+#win:hover{
+	background-image:url('../images/win-hover.png');
+	background-repeat:no-repeat;	
+}
+#amazon{
+	background-image:url('../images/amazon.png');
+	background-repeat:no-repeat;	
+}
+#amazon:hover{
+	background-image:url('../images/amazon-hover.png');
+	background-repeat:no-repeat;	
+}
+
 #footer{
 	background:#20160D;
 	height:70px;
