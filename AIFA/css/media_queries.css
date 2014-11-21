@@ -131,6 +131,11 @@
 	.article p{
 		font-size:.9em;
 	}
+/*=======================footer===============================*/
+#copyright{
+	margin-right:8em;
+}
+
 }
 @media screen and (max-width:768px){/*------- Tablet Portrait & Iphone 6plus ------*/
 	body{
@@ -180,6 +185,27 @@
 	#sidebar{
 		float:none;
 	}
+	
+/*====================subfooter==========================*/
+	#subfooter{
+		width:100%;
+		height:800px;
+	}
+	.column{
+		width:48%;
+		font-size:1.2em;
+		line-height:1.6;
+	}
+	.column span{
+		font-size:1.4em;
+	}
+	
+	#columnOne, #columnTwo{
+		margin-top:14em;	
+	}
+	#footer span{
+		font-size:1.2em;
+	}	
 }
 @media screen and (max-width:668px){/*--- Iphone 6----*/
 	body{
@@ -295,9 +321,16 @@
 	.article p{
 		font-size:1.4em;
 	}
+/*=======================footer===============================*/
+	#footer span, #copyrightSymbol, #copyright, .designers{
+		float:none;
+		font-size:1.2em;
+	}	
+	#copyright, #credits span{
+		margin-left:4em;
+	}	
+
 }
-
-
 @media screen and (max-width:569px){/*--- Iphone 5 ---*/
 	body{
 		font-size:.7em;
@@ -315,6 +348,32 @@
 	}
 	#close-icon{
 		left:14em;
+	}
+/*====================subfooter==========================*/
+	#subfooter{
+		height:1000px;
+		width:100%;
+	}
+	.column{
+		float:none;
+		width:100%;
+		font-size:1.2em;
+	}
+	#columnOne{
+		margin:14em 3em 0 3em;	
+	}
+	#columnTwo{
+		margin-top:-.5em;
+		margin-left:-4em;
+	}
+	
+/*=======================footer===============================*/
+	#footer span, #copyrightSymbol, #copyright, .designers{
+		float:none;
+		font-size:1.2em;
+	}
+	#copyright, #credits span{
+		margin-left:4em;
 	}
 }
 @media screen and (max-width:480px){/*---- Mobile Iphone 4-----*/
@@ -393,7 +452,21 @@
 	#navTablet .main_nav li a{
 		font-size:1.3em;
 		text-align:center;
-	}	
+	}
+	
+	#credits img{
+		display:none;
+	}
+	#group{
+		display:block;
+	}
+	#group li{
+		float:left;
+		margin:0 auto;
+	}
+	#group a{
+		font-style:none;
+	}
 }
 
 @media screen and (max-width:361px){/*---- Smartphone Portrait -----*/

@@ -352,13 +352,20 @@ footer{
 }
 /*---------columen one---------*/
 #news{
-	height:1.6em;
+	height:1.8em;
+	border-top:.2em solid #999;
+	border-left:.2em solid #999;
+	border-bottom:.2em solid #ccc;
+	border-right:.2em solid #ccc;
 }
 #submitnews{
-	border:.2em solid #DF7401;
+	border-top:.2em solid #DF7401;
+	border-left:.2em solid #DF7401;
+	border-bottom:.2em solid #894803;
+	border-right:.2em solid #894803;
 	background:#DF7401;
 	margin:.2em 0 0 -.4em;
-	height:2.09em;
+	height:2.3em;
 }
 #newsletter{
 	color:red;
@@ -428,10 +435,92 @@ iframe{
 	background-image:url('../images/amazon-hover.png');
 	background-repeat:no-repeat;	
 }
+/*---------column thre and four-----------*/
+	.column span{
+		color:#fff;
+		font-style:underline;
+		line-height:3;
+	}	
+	#columnThree{
+		float:right;
+	}
+	#columnFour{
+		float:right;
+		margin-top:-.3em;
+	}
 
+	#useful-links a, #social-network a{
+		color:#000;
+	}
+	#useful-links a:hover{
+		color:#DF7401;
+		background:#F8FBEF;
+		padding:.2em;
+		border-radius:.2em;
+	}
+	#facebook{
+		list-style-image:url('../images/Facebook.png');
+	}
+	#facebook a:hover{
+		background:#5775AE;
+		color:#fff;
+	}
+	#twitter{
+		list-style-image:url('../images/twitter.png');
+	}
+	#twitter a:hover{
+		background:#ADEBED;
+		color:#357EB3;
+	}
+	#linkedin{
+		list-style-image:url('../images/linkedin.png');
+	}
+	#linkedin a:hover{
+		background:#145487;
+		color:#fff;
+	}
+	#instagram{
+		list-style-image:url('../images/instagram.png');
+	}
+	#instagram a:hover{
+		background:#C4B29C;
+		color:#A7775D;
+	}
+	#facebook:hover a, #twitter a:hover, #linkedin a:hover, #instagram a:hover{
+		padding:.2em .3em .2em .3em;
+		border-radius:.2em;
+	}
 #footer{
 	background:#20160D;
 	height:70px;
+}
+#footer span{
+	float:left;
+}
+#group{
+	display:none;
+}
+#copyrightSymbol{
+	float:left;
+	margin-left:2em;
+	background-image:url('../images/copyright1.png');
+	background-repeat:no-repeat;	
+	width:50px;
+	height:50px;
+}
+#copyright{
+	margin:2em 20em 0 0;
+}
+#credits span{
+	margin-top:2em;
+}
+.designers {
+	max-width:100%;
+	margin-left:.4em;
+	padding:.2em;
+	border-radius:50%;
+	box-shadow:.2em .2em .1em .1em #888888;
+	float:left;
 }
 
 /*============================================================*/
@@ -490,6 +579,7 @@ iframe{
 #recipe_content{
 	width:100%;
 	background:yellow;
+	z-index:-2;
 }
 
 
