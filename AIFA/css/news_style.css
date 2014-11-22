@@ -8,22 +8,27 @@
 #news_spacer{
 	padding-top: 5px;
 }
-.news_answer{
-	margin:2em;
-	display: none;
-}
-.news_answer>p{
-	margin-bottom:1em;
-}
-#news_section>h3 {
+.news_headline{
 	margin-top:.3em;
 	color: black;
 	padding:.2em;
 	background: #999;
     font-weight:700;
     cursor:pointer;
+	width: 100%;
+	display: inline-block;
 }
-#news_section>h3:hover, #news_content>h3.close:hover {
+.news_headline:hover{
 	background:#DF7401;
 	color: white;
+}
+.news_headline>p{
+	margin-left: 5px;
+	width: 80%;
+	font-family:"Calibri Light", "Franklin Gothic Book", Arial, sams-serif;
+	font-weight: .9em;
+	float: right;
+}
+.news_headline>img{
+	float: left;
 }
