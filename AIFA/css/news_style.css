@@ -1,0 +1,29 @@
+#news_section{
+	margin:0 auto;
+	width:70%;
+}
+#news_header{
+	text-align:center;
+}
+#news_spacer{
+	padding-top: 5px;
+}
+.news_answer{
+	margin:2em;
+	display: none;
+}
+.news_answer>p{
+	margin-bottom:1em;
+}
+#news_section>h3 {
+	margin-top:.3em;
+	color: black;
+	padding:.2em;
+	background: #999;
+    font-weight:700;
+    cursor:pointer;
+}
+#news_section>h3:hover, #news_content>h3.close:hover {
+	background:#DF7401;
+	color: white;
+}

@@ -1,4 +1,4 @@
-#faq_content{
+#faq_section{
 	margin:0 auto;
 	width:70%;
 }
@@ -15,7 +15,7 @@
 .faq_answer>p{
 	margin-bottom:1em;
 }
-#faq_content>h3 {
+#faq_section>h3 {
 	margin-top:.3em;
 	color: black;
 	padding:.2em;
@@ -23,7 +23,7 @@
     font-weight:700;
     cursor:pointer;
 }
-#faq_content>h3:hover, #faq_content>h3.close:hover {
+#faq_section>h3:hover, #faq_section>h3.close:hover {
 	background:#DF7401;
 	color: white;
 }

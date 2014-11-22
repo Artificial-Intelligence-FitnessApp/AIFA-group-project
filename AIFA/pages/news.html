@@ -2,10 +2,12 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8"/>
-		<title>AIFA - Artificial Intelligence Fitness App | Homepage</title>
+		<title>AIFA - Artificial Intelligence Fitness App | FAQ</title>
 		<meta name="viewport" content="initial-scale=1.0, width=device-width" />
 		<link rel="stylesheet" href="../css/style.css" type="text/css"/>
+		<link rel="stylesheet" href="../css/news_style.css" type="text/css"/>
 		<link rel="stylesheet" href="../css/media_queries.css" type="text/css"/>
+		<script src="../scripts/jquery.js"></script>
 		<!--[if gte IE 9]>
 			<style type="text/css">
 			.gradient {
@@ -28,7 +30,7 @@
 			<label>Password:</label>
 			<input type="password" name="password" id="password_input" maxlength="15">
 		</div>	
-	</form>	<!----------------End of it --------------------------->
+	</form>	<!----------------END OF IT--------------------------->
 		<!----------------header section--------------------------->
 		<header id="main_header">
 		<div id="head_wrap">
@@ -44,11 +46,11 @@
 		</div>
 			<div id="login_container">
 				<p class="logged_in">Welcome, USER</p>
-				<label><a href="account.html" class="logged_in" >My Account</a><label><br/>
+				<label class="logged_in"><a href="account.html" class="logged_in" >My Account</a><label><br />
 				<input type="submit" value="Login" id="button_login" class="log_on log"/>
 				<input type="submit" value="Logoff" id="button_logoff" class="log_off log" />
 			</div>
-		</header><!----------------End of it --------------------------->
+		</header><!----------------END OF IT--------------------------->
 		<!----------------Navigation of desktop--------------------------->	
 		<nav id="navDesk" class="cf">
 			<ul class="main_nav">
@@ -64,7 +66,7 @@
 				<li><a href="faq.html">FAQ</a></li>
 				<li><a href="about_us.html">About us</a></li>
 			</ul>	
-		</nav>	<!----------------End of it --------------------------->
+		</nav>	<!----------------END OF IT--------------------------->
 	
 <!----TABLE PORTRAIT NAVIGATION----->
 		<div id="menu-trigger" title="menu button">
@@ -73,24 +75,27 @@
 		</div>
 		<nav id="navTablet" class="cf">
 			<ul class="main_nav">
-				<li><a href="../index.html">Home</a></li>
+				<li><a href="index.html">Home</a></li>
 				<li><a href="#" class="sub">Nutrition</a>
 					<ul class="submenu">
 						<li><a href="recipes.html">Recipes</a></li>
 						<li><a href="weight_loss.html">Weight Loss</a></li>
 					</ul>
 				</li>
-				<li class="products"><a href="recommended_products.html">Recommeded Products</a></li>
-				<li><a href="#" class="current">News</a></li>
-				<li><a href="faq.html">FAQ's</a></li>
+				<li class="products"><a href="recommended_products.html">Recommended Products</a></li>
+				<li><a href="news.html">News</a></li>
+				<li><a href="faq.html">FAQ</a></li>
 				<li><a href="about_us.html">About us</a></li>
 			</ul>	
-		</nav>	<!----------------End of it --------------------------->
-	<article>
-		<section>
-			TEST
+		</nav>	<!----------------END OF IT--------------------------->
+		<!-- Main Section wrapper box-->
+		<section id="news_section">
+			<div id="news_header">
+				<h2>Fitness News</h2>
+				<p>Welcome to the News page! Click on a heading to read an article!</p>
+			</div>
 		</section>
-	</article>
+		
 		<footer>
 			<div id="subfooter">
 				<div class="column" id="columnOne">
@@ -156,6 +161,7 @@
 				</div>			
 			</div>
 		</footer>
-</div>
-</body>
+	</div>
+	<script src="../scripts/responsive.js"></script>
+	</body>
 </html>
