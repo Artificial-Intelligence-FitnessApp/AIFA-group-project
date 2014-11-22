@@ -481,14 +481,31 @@ iframe{
 	}
 	#instagram{
 		list-style-image:url('../images/instagram.png');
+		margin-bottom:2em;
 	}
 	#instagram a:hover{
 		background:#C4B29C;
 		color:#A7775D;
+		margin-bottom:2em;
 	}
 	#facebook:hover a, #twitter a:hover, #linkedin a:hover, #instagram a:hover{
 		padding:.2em .3em .2em .3em;
 		border-radius:.2em;
+	}
+	#terms{
+		color:red;
+		margin-top:2em;
+	}
+	#terms:hover{
+		color:#DF7401;
+	}
+	#termsDownload{
+		float:right;
+		background-image:url('../images/adobe.png');
+		background-repeat:no-repeat;
+		width:30px;
+		height:32px;
+		margin-right:10em;
 	}
 #footer{
 	background:#20160D;
