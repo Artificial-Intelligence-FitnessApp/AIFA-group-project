@@ -19,11 +19,10 @@
 }
 #news_popup_header{
 	border-bottom: .3em solid #DF7401;
-	height: 15%;
 }
 #news_popup_header>h3{
 	text-align: center;
-	font-size: 4em;
+	font-size: 2.5em;
 }
 #news_popup_content{
 	width: 100%;
@@ -32,11 +31,9 @@
 #news_popup_content>div{
 	float: left;
 	width: 75%;
-	height: 90%;
+	height: 85%;
 	margin-left: 2.5%;
 	margin-top: 1.5%;
-	margin-bottom: 1.5%;
-	display: block;
 	overflow-y: scroll;
 }
 #news_popup_content>div>p{
