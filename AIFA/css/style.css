@@ -138,9 +138,6 @@ a{
 }
 #main_header{
 	background: #2980b9;
-	background-image:url('../images/aifa-header.png');
-	background-image:no-repeat;
-
 }
 #head_wrap{
 	width:90%;
@@ -509,12 +506,16 @@ iframe{
 #footer{
 	background:#20160D;
 	height:70px;
+	color:#999999;
 }
 #footer span{
 	float:left;
 }
 #group{
 	display:none;
+}
+#group li a{
+	color:#999999;
 }
 #copyrightSymbol{
 	float:left;
@@ -547,7 +548,7 @@ iframe{
 /*=============================HOMEPAGE CONTENT=================================================*/
 #banner{
 	width:100%;
-	height:450px;
+	height:374px;
 	margin:0 auto;
 	background:#000;
 }

@@ -3,8 +3,8 @@
 /*===========================================================*/
 
 @media screen and (min-width:1366px){
-	#main_section{
-		width:70%;
+	body{
+		width:66.6%;
 		margin:0 auto;
 	}
 }
@@ -68,6 +68,9 @@
 		width:4.4em;
 	}
 	/*===================Section area============================*/
+	#banner{
+		height:300px;
+	}
 	.fitnessBook {
 		width:29%;
 		height:160px;
@@ -98,6 +101,9 @@
 	}
 	
 /*===================Section area============================*/
+	#banner{
+		height:280px;
+	}
 	.fitnessBook{
 		width:29.9%;
 		height:145px;
@@ -183,6 +189,9 @@
 /*========================Content area============================*/
 	#content{
 		width:100%;
+	}
+	#banner{
+		height:200px;
 	}
 	#art-one, #art-two, #art-three{
 		margin-bottom:.2em;
@@ -358,7 +367,9 @@
 	#close-icon{
 		left:14em;
 	}
-	
+	#banner{
+		height:160px;
+	}
 /*=======================footer===============================*/
 	#subfooter{
 		height:1200px;
@@ -377,8 +388,13 @@
 	#columnThree, #columnFour{
 		width:90%;
 	}
+	#terms{
+		margin:0;
+	}
 	#termsDownload{
-		margin-right:9em;
+		position:absolute;
+		left:16em;
+		margin-top:-2em;
 	}	
 	
 /*------------ sub --------------*/
@@ -493,29 +509,34 @@
 		font-size:1.3em;
 		text-align:center;
 	}
+
 	#footer{
 		height:100px;
 	}
 	#group{
 		float:left;
+		margin-left:20em;
 	}
 
 }
 
-@media screen and (max-width:361px){/*---- Smartphone Portrait -----*/
+@media screen and (max-width:361px){/*---- Smartphone Portrait -----*//*------max size developed------------*/
 	#main_headings{
 		width:70%;
 		text-align:center;
 		font-size:.7em;		
-	}
-	#main_header{
-		background:#000;
 	}
 	footer{
 		margin:0;
 		padding:0;
 
 	}
-	.column{
-
+	#credits, #group a{
+		margin:0;
+	}
+	#group{
+		margin-left:1.6em;
+	}
+	#group a{
+		margin:1em;
 	}
