@@ -138,11 +138,9 @@ a{
 }
 #main_header{
 	background: #2980b9;
-<<<<<<< HEAD
 	background-image:url('../images/aifa-header.png');
 	background-image:no-repeat;
-=======
->>>>>>> ac513186bee4999727ac9b96979bfe784159fcd9
+
 }
 #head_wrap{
 	width:90%;
@@ -323,7 +321,8 @@ a{
 }
 /*=================SIDE BAR====================================*/
 #sidebar{
-	background:blue;
+	margin:0 auto;
+	outline:1px solid red;/*remove after it*/
 	width:30%;
 	height:480px;
 	float:left;
@@ -337,7 +336,7 @@ footer{
 #subfooter{
 	background:#999999;
 	background-image:url('../images/aifa-footer.png');
-	background-repeat:no-repeat;
+	background-repeat:repeat-x;
 	height:620px;
 	padding:.5em .4em;
 }
@@ -556,38 +555,63 @@ iframe{
 #content{
 	float:left;
 	width:70%;
-	background:yellow;
+
 	margin:0 auto;
 	
 }
 
-.article{
+.fitnessBook{
 	width:28.9%;
 	height:210px;
-	background:red;
+	background: rgb(0, 0, 0);
+	background: rgba(0, 0, 0, 0.3); 
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#50990000,endColorstr=#50990000); 
+    zoom: 1;	
 	padding:.5em .5em;
 	float:left;
 	margin:.4em .4em .4em .6em;
 }
-.article h2{
-	font-size:1.4em;
+.fitnessBook h2{
+	font-size:1.2em;
 	font-weight:bold;
 }
-.article p{
+.fitnessBook p{
 	font-size:.7em;
 }
-.article img{
+.fitnessBook img{
 	max-width:100%;
+	border:.4em solid #F8FBEF;
 }
-#arnold_lg{
+.big{
 	display:none;
 }
-#arnold_xsm{
+
+#healthybody{
 	display:none;
 }
-.expand{
+#myth{
 	display:none;
 }
+.expanded{
+	display:none;
+}
+.promo{
+	margin:.5em .2em .2em .2em;
+	width:90%;
+	height:150px;
+	background: rgb(0, 0, 0);
+	background: rgba(0, 0, 0, 0.3); 
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#50990000,endColorstr=#50990000); 
+    zoom: 1;
+}
+.within-promo-wrap{
+	margin:0 auto;
+	width:90%;
+	height:130px;
+	background:#F8FBEF;
+}
+/*-----------Side Bar---------------*/
+
 
 /*=============================Weight loss Content=================================================*/
 /*=============================Recipes Content=================================================*/

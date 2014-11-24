@@ -34,19 +34,22 @@
 		display:none;
 	}
 		/*===================Section area============================*/
-	.article{
+	.fitnessBook{
 		width:28.3%;
 		height:180px;
 
 	}
-	.article h2{
+	.fitnessBook h2{
 		font-size:.9em;
 	}
-	.article p{
+	.fitnessBook p{
 		font-size:.6em;
 	}
-	.article{
+	.fitnessBook{
 		margin:.3em;
+	}
+	.fitnessBook img{
+		max-width:90%;
 	}
 	
 	#termsDownload{
@@ -65,7 +68,7 @@
 		width:4.4em;
 	}
 	/*===================Section area============================*/
-	.article {
+	.fitnessBook {
 		width:29%;
 		height:160px;
 	}
@@ -95,11 +98,14 @@
 	}
 	
 /*===================Section area============================*/
-	.article{
+	.fitnessBook{
 		width:29.9%;
 		height:145px;
 		padding:.4em .4em;
 	}	
+	#sidebar{
+		width:90%;
+	}
 
 }
 @media screen and (max-width:800px){/*--- Tablet landscaping & smartphone-*/
@@ -124,20 +130,18 @@
 	#content{
 		width:100%;
 	}
-	#sidebar{
-		float:none;
-	}
-	.article{
+	.fitnessBook{
 		width:33;
 		height:180px;
 		margin:.6em;
 	}
-	.article h2{
+	.fitnessBook h2{
 		font-size:1.4em;
 	}
-	.article p{
+	.fitnessBook p{
 		font-size:.9em;
 	}
+		
 /*=======================footer===============================*/
 #copyright{
 	margin-right:8em;
@@ -189,10 +193,7 @@
 	#faq_content{
 		width:100%;
 	}
-	#sidebar{
-		float:none;
-	}
-	
+
 /*====================subfooter==========================*/
 	#subfooter{
 		width:100%;
@@ -302,13 +303,6 @@
 		border-bottom:none;
 	}
 /*=====================SECTION=======================*/
-	#sidebar{
-		float:none;
-		width:100%;
-		height:300px;
-		outline:1px solid red;/* remove after done*/
-		clear:both;
-	}
 	#main_section{
 		margin-top:-1.7em;
 
@@ -317,21 +311,21 @@
 		float:none;
 		width:100%;
 	}
-	.article img{
+	.fitnessBook img{
+		max-width:50%;
 		float:left;
-		padding:1em;
 	}
-	.article{
+	.fitnessBook{
 		float:none;
 		width:95%;
 		height:170px;
+		padding
 	}
-	.article h2{
-		font-size:2.3em;
-		margin-top:.2em;
+	.fitnessBook h2{
+		font-size:2.1em;
 	}
-	.article p{
-		font-size:1.4em;
+	.fitnessBook p{
+		font-size:1.2em;
 	}
 	
 /*=======================footer===============================*/
@@ -364,6 +358,7 @@
 	#close-icon{
 		left:14em;
 	}
+	
 /*=======================footer===============================*/
 	#subfooter{
 		height:1200px;
@@ -498,7 +493,6 @@
 		font-size:1.3em;
 		text-align:center;
 	}
-
 	#footer{
 		height:100px;
 	}
