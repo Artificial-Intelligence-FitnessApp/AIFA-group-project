@@ -80,9 +80,6 @@
 	background:#DF7401;
 	color: white;
 }
-.news_headling>div{
-	float: left;
-}
 .news_headline>div>h3{
 	font-size: 1.5em;
 	margin-left: 5px;
