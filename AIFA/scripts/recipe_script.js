@@ -29,6 +29,7 @@ function loadApp() {
 
 		});
 		
+		
 		$(".flipbook").hover(function(){
 			$(".recipes_screen").fadeTo(100, 1);
 		},	function(){
@@ -37,8 +38,7 @@ function loadApp() {
 				$(this).hide();
 			});
 		});
-		
-	
+
 // Load the HTML4 version if there's not CSS transform
 
 /*
@@ -51,4 +51,3 @@ yepnope({
 });
 */
 }
-

@@ -1,8 +1,17 @@
+/*=============================================================*/
 /*====================MEDIA QUERIE============================*/
+/*===========================================================*/
 @media screen and (min-width:1366px){
-	#main_section{
-		width:70%;
+	body{
+		width:66.6%;
 		margin:0 auto;
+	}
+	#news_popup{
+		width:55%;
+		margin-left:14em;
+	}
+	#news_bg{
+		margin-left:-26em;
 	}
 }
 @media screen and (max-width:1100px){
@@ -31,19 +40,26 @@
 		display:none;
 	}
 		/*===================Section area============================*/
-	.article{
+	.fitnessBook{
 		width:28.3%;
 		height:180px;
 
 	}
-	.article h2{
+	.fitnessBook h2{
 		font-size:.9em;
 	}
-	.article p{
+	.fitnessBook p{
 		font-size:.6em;
 	}
-	.article{
+	.fitnessBook{
 		margin:.3em;
+	}
+	.fitnessBook img{
+		max-width:90%;
+	}
+	
+	#termsDownload{
+		margin-right:8em;
 	}
 }
 
@@ -58,7 +74,10 @@
 		width:4.4em;
 	}
 	/*===================Section area============================*/
-	.article {
+	#banner{
+		height:300px;
+	}
+	.fitnessBook {
 		width:29%;
 		height:160px;
 	}
@@ -66,6 +85,9 @@
 /*===============NAVIGATION BAR==========================*/		
 	#main_nav, #main_nav li{
 		float:none;
+	}
+	#termsDownload{
+		margin-right:6em;
 	}
 }
 
@@ -85,11 +107,17 @@
 	}
 	
 /*===================Section area============================*/
-	.article{
+	#banner{
+		height:280px;
+	}
+	.fitnessBook{
 		width:29.9%;
 		height:145px;
 		padding:.4em .4em;
 	}	
+	#sidebar{
+		width:90%;
+	}
 
 }
 @media screen and (max-width:800px){/*--- Tablet landscaping & smartphone-*/
@@ -114,20 +142,23 @@
 	#content{
 		width:100%;
 	}
-	#sidebar{
-		float:none;
-	}
-	.article{
+	.fitnessBook{
 		width:33;
 		height:180px;
 		margin:.6em;
 	}
-	.article h2{
+	.fitnessBook h2{
 		font-size:1.4em;
 	}
-	.article p{
+	.fitnessBook p{
 		font-size:.9em;
 	}
+		
+/*=======================footer===============================*/
+#copyright{
+	margin-right:8em;
+}
+
 }
 @media screen and (max-width:768px){/*------- Tablet Portrait & Iphone 6plus ------*/
 	body{
@@ -165,6 +196,9 @@
 	#content{
 		width:100%;
 	}
+	#banner{
+		height:200px;
+	}
 	#art-one, #art-two, #art-three{
 		margin-bottom:.2em;
 	}
@@ -174,9 +208,32 @@
 	#faq_content{
 		width:100%;
 	}
-	#sidebar{
-		float:none;
+
+/*====================subfooter==========================*/
+	#subfooter{
+		width:100%;
+		height:800px;
+		padding:0;
 	}
+	.column{
+		width:48%;
+		font-size:1.2em;
+		line-height:1.6;
+		margin:0;
+	}
+	.column span{
+		font-size:1.4em;
+	}
+	
+	#columnOne, #columnTwo{
+		margin-top:14em;	
+	}
+	#termsDownload{
+		margin-right:9em;
+	}	
+	#footer span{
+		font-size:1.2em;
+	}	
 }
 @media screen and (max-width:668px){/*--- Iphone 6----*/
 	body{
@@ -261,13 +318,6 @@
 		border-bottom:none;
 	}
 /*=====================SECTION=======================*/
-	#sidebar{
-		float:none;
-		width:100%;
-		height:300px;
-		outline:1px solid red;/* remove after done*/
-		clear:both;
-	}
 	#main_section{
 		margin-top:-1.7em;
 
@@ -276,25 +326,35 @@
 		float:none;
 		width:100%;
 	}
-	.article img{
+	.fitnessBook img{
+		max-width:50%;
 		float:left;
-		padding:1em;
 	}
-	.article{
+	.fitnessBook{
 		float:none;
 		width:95%;
 		height:170px;
+		padding
 	}
-	.article h2{
-		font-size:2.3em;
-		margin-top:.2em;
+	.fitnessBook h2{
+		font-size:2.1em;
 	}
-	.article p{
-		font-size:1.4em;
+	.fitnessBook p{
+		font-size:1.2em;
 	}
+	
+/*=======================footer===============================*/
+	#termsDownload{
+		margin-right:6em;
+	}	
+	#footer span, #copyrightSymbol, #copyright, .designers{
+		float:none;
+		font-size:1.2em;
+	}	
+	#copyright, #credits span{
+		margin-left:4em;
+	}	
 }
-
-
 @media screen and (max-width:569px){/*--- Iphone 5 ---*/
 	body{
 		font-size:.7em;
@@ -313,6 +373,69 @@
 	#close-icon{
 		left:14em;
 	}
+	#banner{
+		height:160px;
+	}
+/*=======================footer===============================*/
+	#subfooter{
+		height:1200px;
+		width:100%;
+	}
+	.column{
+		float:none;
+		width:100%;
+		font-size:1.2em;
+		margin:0 auto;
+	}
+	#columnOne{
+		position:relative;
+		top:14em;
+	}
+	#columnThree, #columnFour{
+		width:90%;
+	}
+	#terms{
+		margin:0;
+	}
+	#termsDownload{
+		position:absolute;
+		left:16em;
+		margin-top:-2em;
+	}	
+	
+/*------------ sub --------------*/
+	#footer{
+		height:80px;
+	}
+	#footer span{
+		float:left;
+		font-size:1em;
+	}
+	#copyright{
+		margin-left:-.1em;
+	}
+	#credits img{
+		display:none;
+	}
+	#credits{
+		float:none;
+	}
+	#group{
+		display:block;
+		float:right;
+	}
+	#group li{
+		float:left;
+	}
+	#group a{
+		color:#000;
+		margin-right:1.2em;
+	}
+	#group a:hover{
+		color:#DF7401;
+		text-decoration:underline;
+	}
+
 }
 @media screen and (max-width:480px){/*---- Mobile Iphone 4-----*/
 	body{
@@ -339,6 +462,7 @@
 	.log_button{
 		width:100%;
 	}
+	
 
 /*--------------------Login Form--------------------*/	
 	#log-box{
@@ -390,23 +514,35 @@
 	#navTablet .main_nav li a{
 		font-size:1.3em;
 		text-align:center;
-	}	
+	}
+
+	#footer{
+		height:100px;
+	}
+	#group{
+		float:left;
+		margin-left:20em;
+	}
+
 }
 
-@media screen and (max-width:361px){/*---- Smartphone Portrait -----*/
+@media screen and (max-width:361px){/*---- Smartphone Portrait -----*//*------max size developed------------*/
 	#main_headings{
 		width:70%;
 		text-align:center;
 		font-size:.7em;		
-	}
-	#main_header{
-		background:#000;
 	}
 	footer{
 		margin:0;
 		padding:0;
 
 	}
-	.column{
-;
+	#credits, #group a{
+		margin:0;
+	}
+	#group{
+		margin-left:1.6em;
+	}
+	#group a{
+		margin:1em;
 	}

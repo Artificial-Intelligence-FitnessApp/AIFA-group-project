@@ -1,0 +1,99 @@
+#news_section{
+	margin:0 auto;
+	width:70%;
+}
+#news_header{
+	text-align:center;
+}
+#news_popup{
+	width: 80%;
+	height: 80%;
+	position: fixed;
+	background: #F8FBEF;
+	border: .3em solid #DF7401;
+	border-radius: 25px;
+	top: 10%;
+	left: 10%;
+	z-index: 1;
+	display: none;
+}
+#news_popup_header{
+	border-bottom: .3em solid #DF7401;
+}
+#news_popup_header>h3{
+	text-align: center;
+	font-size: 2.5em;
+}
+#news_popup_content{
+	width: 100%;
+	height: 85%;
+}
+#news_popup_content>div{
+	float: left;
+	width: 75%;
+	height: 85%;
+	margin-left: 2.5%;
+	margin-top: 1.5%;
+	overflow-y: scroll;
+}
+#news_popup_content>div>p{
+	margin-bottom: 1em;
+}
+#news_popup_content>div>p:last-child{
+	margin-bottom: 0;
+}
+#news_popup_content>img{
+	float: left;
+	width: 20%;
+	border-right: .3em solid #DF7401;
+	border-bottom: .3em solid #DF7401;
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+}
+#news_bg{
+	background: black;
+	opacity: 0.3;
+	height: 500%;
+	width: 500%;
+	top: -250%;
+	position: fixed;
+	cursor: pointer;
+	z-index: 0;
+	display: none;
+}
+#news_spacer{
+	padding-top: 5px;
+}
+.news_headline{
+	margin-top:.3em;
+	color: black;
+	padding:.2em;
+	background: #999;
+    font-weight: 700;
+    cursor: pointer;
+	width: 100%;
+	display: inline-block;
+	text-align: left;
+}
+.news_headline:hover{
+	background:#DF7401;
+	color: white;
+}
+.news_headline>div>h3{
+	font-size: 1.5em;
+	margin-left: 5px;
+	float: left;
+	width: 80%;
+}
+.news_headline>div>p{
+	margin-left: 5px;
+	width: 80%;
+	font-family:"Calibri Light", "Franklin Gothic Book", Arial, sams-serif;
+	font-weight: .9em;
+	float: left;
+}
+.news_headline>img{
+	float: left;
+	margin: 5px;
+}

@@ -39,7 +39,7 @@
 		<div id="head_wrap">
 			<figure id="logo">
 				<a href="#">
-					<img src="images/placeholder.png"/>
+					<img src="../images/placeholder.png"/>
 				</a>
 			</figure>
 				<section id="main_headings">
@@ -49,7 +49,7 @@
 		</div>
 			<div id="login_container">
 				<p class="logged_in">Welcome, USER</p>
-				<label class="logged_in"><a href="pages/account.html" class="logged_in" >My Account</a><label><br/>
+				<label class="logged_in"><a href="account.html" class="logged_in" >My Account</a><label><br/>
 				<input type="submit" value="Login" id="button_login" class="log_on log"/>
 				<input type="submit" value="Logoff" id="button_logoff" class="log_off log" />
 			</div>
@@ -57,17 +57,17 @@
 		<!----------------Navigation of desktop--------------------------->	
 		<nav id="navDesk" class="cf">
 			<ul class="main_nav">
-				<li><a href="#" class="current">Home</a></li>
+				<li><a href="../index.html">Home</a></li>
 				<li><a href="#">Nutrition</a>
 					<ul class="submenu">
-						<li><a href="pages/recipes.html" title="recipes">Recipes</a></li>
-						<li><a href="pages/weight_loss.html" title="weight_loss">Weight Loss</a></li>
+						<li><a href="recipes.html" class="current">Recipes</a></li>
+						<li><a href="weight_loss.html">Weight Loss</a></li>
 					</ul>
 				</li>
-				<li class="products"><a href="pages/recommended_products.html">Recommeded Products</a></li>
-				<li><a href="pages/news.html">News</a></li>
-				<li><a href="pages/faq.html">FAQ's</a></li>
-				<li><a href="pages/about_us.html">About us</a></li>
+				<li class="products"><a href="recommended_products.html">Recommeded Products</a></li>
+				<li><a href="news.html">News</a></li>
+				<li><a href="faq.html">FAQ's</a></li>
+				<li><a href="about_us.html">About us</a></li>
 			</ul>	
 		</nav>	<!----------------END OF IT--------------------------->
 	
@@ -78,38 +78,46 @@
 		</div>
 		<nav id="navTablet" class="cf">
 			<ul class="main_nav">
-				<li><a href="index.html" class="current">Home</a></li>
-				<li><a href="#" class="sub">Nutrition</a>
+				<li><a href="../index.html">Home</a></li>
+				<li><a href="#" class="sub current">Nutrition</a>
 					<ul class="submenu">
-						<li><a href="pages/recipes.html" title="recipes">Recipes</a></li>
-						<li><a href="pages/weight_loss.html" title="weight_loss">Weight Loss</a></li>
+						<li><a href="#" class="current">Recipes</a></li>
+						<li><a href="weight_loss.html">Weight Loss</a></li>
 					</ul>
 				</li>
-				<li class="products"><a href="pages/recommended_products.html">Recommeded Products</a></li>
-				<li><a href="pages/news.html">News</a></li>
-				<li><a href="pages/faq.html">FAQ's</a></li>
-				<li><a href="pages/about_us.html">About us</a></li>
+				<li class="products"><a href="recommended_products.html">Recommeded Products</a></li>
+				<li><a href="news.html">News</a></li>
+				<li><a href="faq.html">FAQ's</a></li>
+				<li><a href="about_us.html">About us</a></li>
 			</ul>	
 		</nav>	<!----------------END OF IT--------------------------->
 	
 	
-				<!----------------END OF IT--------------------------->
-	
-	
 		<!-- Main Section wrapper box-->
-		
 		<section id="main_section">
 				<!----------content---------->
-			<section id="recipes_content" >
-			<div class="recipes_screen"></div>
+			<section id="recipes_content">
+			
 			<div class="flipbook-viewport">
-				<div id="recipes_container">
-					<br><br>
-					<h2>Turkey Pie Recipe</h2>
+				<div class="container">
 				<div class="flipbook">
-					<div id="recipe_page1">
+					<div id="recipe_cover">
 						
 						<a class="recipes_screen"></a>
+					</div>
+					<div class="recipe_page1">
+						<h2>Table of contents</h2>
+						<p>Turkey-Pie....................page2</p>
+						<p>dfgkjshgk</p>
+						<p>dfgkjshgk</p>
+					</div>
+					<div class="recipe_page1010">
+						<div id="turkey-heading"><h1>Turkey-Pie</h1>
+						</div>
+						<div id="recipe_page1010Body">
+							<img src="../images/turkey-pie.jpg">
+							
+						</div>
 					</div>
 					<div id="recipe_page2">
 						<br><br>
@@ -127,6 +135,7 @@
 								<p>1 Hr.</p>
 							</div>
 						</div>
+						<br>
 						<div class="recipe_ingredients">
 							<h5>Ingredients:</h5>
 							<p>2 tablespoons of butter</p>
@@ -140,7 +149,6 @@
 							<p>3 tablespoons dried parsley</p>
 							<p>1/2 cup of milk</p>
 						</div>
-						
 					</div>
 					<div id="recipe_page3">
 						<br><br>
@@ -170,26 +178,73 @@
 					<div id="recipe_page6"></div>
 					<div id="recipe_page7"></div>
 				</div>
-				</div>
+				
 			</div>
 			</section>	
-		
+			
 		<footer>
 			<div id="subfooter">
 				<div class="column" id="columnOne">
-			
+					<form id="newsLetter">
+						<label for="email" id="newsletter">Newsletter</label></br>
+						<input type="email" id="news" placeholder="type your email"/>
+						<input type="submit" id="submitnews" value="Sign up"/></br>
+					</form>
+						<p>AIFA's Head Office</p>
+						<p>Mayor Street</p>
+						<p>IFSC</p>
+						<p>Dublin 1</p>
+						<iframe src="http://www.yourmapmaker.com/preview.php?a=Mayor Street,Ireland&w=520&h=490&n=AIFA's Office &z=14&t=Map"  scrolling="no" frameborder="0"></iframe>				
 				</div>
-				<div class="column" id="columnTwo">
-					<div id="tryit" class="appButton"><a href=""/>Try me on</a></div>
-					<div id="apple" class="appButton"><a href=""/>AppStore</a></div>
-					<div id="google" class="appButton"><a href=""/>Google Play</a></div>
-					<div id="win" class="appButton"><a href=""/>Windows Store</a></div>
-				</div>
-				<div class="column" id="columnThree">
 				
+				<div class="column" id="columnTwo">
+					<p>Download AIFA</p>
+					<p class="appStore"><a href="" id="apple" alt="Apple app store">Apple store</a></p>
+					<p class="appStore"><a href="" id="google" alt="Google app store">Google store</a></p>
+					<p class="appStore"><a href="" id="win" alt="Windows app store">Windows store</a></p>
+					<p class="appStore"><a href="" id="amazon" alt="amazon app store">Amazon store</a></p>
 				</div>
+				
+				<div class="column" id="columnThree">
+					<span>Useful Fitness links</span>
+					<ul id="useful-links">
+						<li><a href="http://www.ideafit.com/fitness-conferences/idea-world-fitness-convention">Idea World Fitness Convenstion</a></li>
+						<li><a href="http://www.jamieoliver.com/">Jamie Oliver's recipes</a></li>
+						<li><a href="http://www.health.com/health/">Health magazine</a></li>
+						<li><a href="http://www.virginactive.it/">Virgin Active Village Fitness</a></li>
+						<li><a href="http://www.fitnessireland.ie/">Fitness Ireland</a></li>
+						<li><a href="http://www.treinoemfoco.com.br/">Treino em Foco</a></li>
+						<li><a href="http://www.fitnessfirst.co.uk/">Fitnes First</a></li>
+						<li><a href="http://www.fitnessmagazine.com/">Fitness magazine USA</a></li>
+				</div>
+				<div class="column" id="columnFour">
+					<span>Social Networks</span>
+					<ul id="social-network">
+						<li id="facebook"><a href="https://www.facebook.com">Facebook</a></li>
+						<li id="twitter"><a href="https://twitter.com/">Twitter</a></li>
+						<li id="linkedin"><a href="http://linkedin.com">Linkedin</a></li>
+						<li id="instagram"><a href="http://instagram.com">Instagram</a></li>
+					</ul>
+					<a href="" id="terms">Terms and Conditions</a>
+				</div>				
 			</div>	
 			<div id="footer">
+					<span id="copyrightSymbol"></span>
+					<span id="copyright">Copyright 2014</span>
+					
+				<div id="credits">
+					<span>Web design developed by</span>
+					<img class="designers" src="../images/placeperfil.jpg" alt="Web design Aaron"/>
+					<img class="designers" src="../images/placeperfil.jpg" alt="Web design Alexander"/>
+					<img class="designers" src="../images/placeperfil.jpg" alt="Web design Paul"/>
+					<img class="designers" src="../images/wagner.jpg" alt="Web design Wagner"/>
+					<ul id="group">
+						<li><a href="" >Aaron</a></li>
+						<li><a href="" >Alexander</a></li>
+						<li><a href="" >Paul</a></li>
+						<li><a href="" >Wagner</a></li>
+					</ul>
+				</div>			
 			</div>
 		</footer>
 	</div>
