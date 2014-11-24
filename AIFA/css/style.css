@@ -611,8 +611,8 @@ h2{
 }  
 
 .flipbook-viewport .flipbook{
-	width:800px;
-	height:400px;
+	width:50em;
+	height:25em;
 	margin-top:2em;
 	margin-bottom:2em;
 }
