@@ -683,17 +683,7 @@ iframe{
 	background-image:url('../images/RecipeCover.jpg');
 }
 
-#turkey-heading{
-	width:100%;
-	height:10%;
-	margin-left:10em;
-}
 
-
-#recipe_page1010Body{
-	height:85%;
-	width:100%;
-}
 img{
 	max-height:100%;
 	max-width:100%;
@@ -761,6 +751,21 @@ img{
 	background-color:#2ecc71;
 }
 
+.recipe_mainHeading{
+	width:92%;
+	height:20%;
+	clear:both;
+	
+	float:left;
+	text-align:center;
+}
+
+.recipe_mainContent{
+	width:92%;
+	height:40%;
+	
+	float:left;
+}
 
 .flipbook-viewport{
 	overflow:hidden;
@@ -774,16 +779,10 @@ img{
 }
 
 .flipbook-viewport .flipbook{
-<<<<<<< HEAD
 	width:50em;
 	height:25em;
 	margin-top:2em;
 	margin-bottom:2em;
-=======
-	width:800px;
-	height:400px;
-
->>>>>>> 181e33dcffb20f4fc339649f1a8c2a0671950497
 }
 
 .flipbook-viewport .page{
