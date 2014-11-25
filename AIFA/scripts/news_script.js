@@ -31,5 +31,5 @@ $("#news_three").click(function(){
 $("#news_four").click(function(){
 	$("#news_popup_header h3").html($("#news_four div h3").html());
 	$("#news_popup_content img").attr("src", $("#news_one img").attr("src"));
-	$("#news_popup_content div").html($("#news_four div p").html());
+	$("#news_popup_content div").html($("#news_four div").html());
 });
