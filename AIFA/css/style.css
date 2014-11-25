@@ -373,6 +373,10 @@ footer{
 #newsLetter, iframe, #columnOne p{
 	margin-left:1em;
 }
+#newsLetter p{
+	width:20em;
+	font-size:.7em;
+}
 #columnOne p{
 	line-height:1.5;
 	
@@ -556,9 +560,8 @@ iframe{
 #content{
 	float:left;
 	width:70%;
-
 	margin:0 auto;
-	
+	height:800px;
 }
 
 .fitnessBook{
@@ -596,32 +599,166 @@ iframe{
 .expanded{
 	display:none;
 }
-.promo{
-	margin:.5em .2em .2em .2em;
-	width:90%;
-	height:150px;
-	background: rgb(0, 0, 0);
-	background: rgba(0, 0, 0, 0.3); 
-    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#50990000,endColorstr=#50990000); 
-    zoom: 1;
-}
-.within-promo-wrap{
-	margin:0 auto;
-	width:90%;
-	height:130px;
-	background:#F8FBEF;
-}
+
 /*-----------Side Bar---------------*/
+.promo{
+	margin:.0 auto;
+	width:90%;
+	background:#F8FBEF;
+	border:1px solid #999;
+}
+#promoherbalife {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	height: 0;
+}
+#promoherbalife iframe {
+	margin:0 auto;
+	position: absolute;
+	width: 94.5%;
+	height: 94.5%;
+}
+.promo h4, .promo p{
+	width:90%;
+	text-align:center;
+	margin:0 auto;
+}
+.promo a{
+	color:#000;
+}
+.promo a:hover{
+	color:#DF7401;
+}
+.promo h4{
+	margin-top:1.5em;
+	font-size:1em;
+}
+.promo h5{
+	text-decoration:underline;
+	margin-bottom:.6em;
+}
+.promo p{
+	font-size:.8em;
+}
+.showExercise{
+	margin:0 auto;
+	width:70%;
+	font-size:.8em;
+	display:none;
+}
+.showExercise li{
+	border-bottom:1px solid #999;
+	margin-bottom:.6em;
+}
+.showExercise li:hover{
+	background:#FBFBEF;
+	position:relative;
+	left:2em;
+}
+
 
 
 /*=============================Weight loss Content=================================================*/
 /*=============================Recipes Content=================================================*/
 /* Basic sample */
 
+.recipes_screen{
+	background: rgba(0,0,0, 0.6);
+	width:100%;
+	height:100%;
+	z-index:-1;
+	position:absolute;
+	top:0;
+	left:0;
+	display:none;
+}
+
 #recipe_content{
 	width:100%;
 	background:yellow;
 	z-index:-2;
+}
+
+#recipe_cover{
+	background-image:url('../images/Recipes.jpg');
+}
+
+#turkey-heading{
+	width:100%;
+	height:10%;
+	margin-left:10em;
+}
+
+
+#recipe_page1010Body{
+	height:85%;
+	width:100%;
+}
+img{
+	max-height:100%;
+	max-width:100%;
+}
+
+.page2_wrapper{
+	width:100%;
+	
+	background-color:#2ecc71;
+	margin-left:2em;
+}
+
+.servings{
+	width:30%;
+	float:left;
+}
+
+.prep{
+	width:30%;
+	margin-left:2em;
+	float:left;
+}
+
+.cooktime{
+	width:40%;
+	margin-left:2em;
+	float:left;
+}
+
+.recipe_ingredients{
+	width:50%;
+	border-style: solid;
+    border-width: 1px;
+	height:70%;
+	margin-left:2em;
+}
+
+.page3_wrapper{
+	margin-right:2em;
+	background-color:#2ecc71;
+}
+.recipe_calories{
+	
+	background-color:#2ecc71;
+	width:30%;
+	float:left;
+}
+
+.recipe_fat{
+
+	width:30%;
+	float:left;
+	background-color:#2ecc71;
+}
+
+.recipe_carbs{
+	width:20%;
+	float:left;
+	background-color:#2ecc71;
+}
+
+.recipe_protein{
+	width:20%;
+	float:left;
+	background-color:#2ecc71;
 }
 
 
@@ -637,9 +774,16 @@ iframe{
 }
 
 .flipbook-viewport .flipbook{
+<<<<<<< HEAD
+	width:50em;
+	height:25em;
+	margin-top:2em;
+	margin-bottom:2em;
+=======
 	width:800px;
 	height:400px;
 
+>>>>>>> 181e33dcffb20f4fc339649f1a8c2a0671950497
 }
 
 .flipbook-viewport .page{
@@ -685,9 +829,6 @@ iframe{
 	width:800px;
 	height:400px;
 	background-size:100%;
-}
-.recipe_double{
-background-image:url('../images/pasta.jpg');
 }
 
 

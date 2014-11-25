@@ -28,7 +28,16 @@ function loadApp() {
 			autoCenter: true
 
 		});
-
+		
+		
+		$(".flipbook").hover(function(){
+			$(".recipes_screen").fadeTo(100, 1);
+		},	function(){
+			$(".recipes_screen").fadeTo(100, 0,
+		function(){
+				$(this).hide();
+			});
+		});
 
 // Load the HTML4 version if there's not CSS transform
 
