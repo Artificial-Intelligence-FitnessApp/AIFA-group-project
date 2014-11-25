@@ -373,6 +373,10 @@ footer{
 #newsLetter, iframe, #columnOne p{
 	margin-left:1em;
 }
+#newsLetter p{
+	width:20em;
+	font-size:.7em;
+}
 #columnOne p{
 	line-height:1.5;
 	
@@ -556,9 +560,8 @@ iframe{
 #content{
 	float:left;
 	width:70%;
-
 	margin:0 auto;
-	
+	height:800px;
 }
 
 .fitnessBook{
@@ -596,22 +599,63 @@ iframe{
 .expanded{
 	display:none;
 }
-.promo{
-	margin:.5em .2em .2em .2em;
-	width:90%;
-	height:150px;
-	background: rgb(0, 0, 0);
-	background: rgba(0, 0, 0, 0.3); 
-    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#50990000,endColorstr=#50990000); 
-    zoom: 1;
-}
-.within-promo-wrap{
-	margin:0 auto;
-	width:90%;
-	height:130px;
-	background:#F8FBEF;
-}
+
 /*-----------Side Bar---------------*/
+.promo{
+	margin:.0 auto;
+	width:90%;
+	background:#F8FBEF;
+	border:1px solid #999;
+}
+#promoherbalife {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	height: 0;
+}
+#promoherbalife iframe {
+	margin:0 auto;
+	position: absolute;
+	width: 94.5%;
+	height: 94.5%;
+}
+.promo h4, .promo p{
+	width:90%;
+	text-align:center;
+	margin:0 auto;
+}
+.promo a{
+	color:#000;
+}
+.promo a:hover{
+	color:#DF7401;
+}
+.promo h4{
+	margin-top:1.5em;
+	font-size:1em;
+}
+.promo h5{
+	text-decoration:underline;
+	margin-bottom:.6em;
+}
+.promo p{
+	font-size:.8em;
+}
+.showExercise{
+	margin:0 auto;
+	width:70%;
+	font-size:.8em;
+	display:none;
+}
+.showExercise li{
+	border-bottom:1px solid #999;
+	margin-bottom:.6em;
+}
+.showExercise li:hover{
+	background:#FBFBEF;
+	position:relative;
+	left:2em;
+}
+
 
 
 /*=============================Weight loss Content=================================================*/
