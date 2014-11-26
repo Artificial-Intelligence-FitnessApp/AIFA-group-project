@@ -38,6 +38,10 @@ function loadApp() {
 				$(this).hide();
 			});
 		});
+		
+		function turnPage(){
+			$('.flipbook').turn('page', 4);
+		}
 
 // Load the HTML4 version if there's not CSS transform
 
