@@ -3,9 +3,8 @@
 /*===========================================================*/
 @media screen and (min-width:1406px){
 	body{
-		width:1406px;
+		width:66.6%;
 		margin:0 auto;
-		background:
 	}
 	#news_popup{
 		width:55%;
@@ -15,8 +14,17 @@
 		margin-left:-26em;
 	}
 }
-@media screen and (max-width:1100px){
+@media screen and (max-width:1366px){
 /*--------------------Login Form--------------------*/		
+	body{
+		font-size:.99em;
+	}
+	#main_headings{
+		font-size:.8em;
+	}
+	.log_button p, .log_button{
+		width:4.4em;
+	}	
 	#login_div{
 		width:100%;
 		height:100%;
@@ -40,6 +48,9 @@
 	#navTablet{
 		display:none;
 	}
+	#banner{
+		height:300px;
+	}	
 		/*===================Section area============================*/
 	.fitnessBook{
 		width:28.3%;
@@ -62,43 +73,26 @@
 	#termsDownload{
 		margin-right:8em;
 	}
-}
-
-@media screen and (max-width:1024px){/*---- Kindle device ----*/
-	#main_headings{
-		font-size:.8em;
-	}
-	.log_button p, .log_button{
-		width:4.4em;
-	}
-	/*===================Section area============================*/
-	#banner{
-		height:300px;
-	}
-	.fitnessBook {
-		width:29%;
-		height:160px;
-	}
-	
-/*===============NAVIGATION BAR==========================*/		
 	#main_nav, #main_nav li{
 		float:none;
 	}
 	#termsDownload{
 		margin-right:6em;
-	}
-}
-@media screen and (min-width: 920px){
-	body{
-		font-size: 0.99em;
-	}
+	}	
 }
 @media screen and (max-width:920px){
 	body{
-		font-size:.8em;
-	}
+		font-size:.7em;
+	}	
 	#main_headings{
 		font-size:.8em;
+	}
+	#logoIn{
+		display:none;
+	}
+	#log-box{
+		font-size:1.4em;
+		line-height;1.3em;
 	}	
 	.log_button p, .log_button{
 		width:4em;
@@ -116,58 +110,37 @@
 		width:29.9%;
 		height:145px;
 		padding:.4em .4em;
-	}	
-	#sidebar{
-		width:90%;
 	}
-
-}
-@media screen and (max-width:800px){/*--- Tablet landscaping & smartphone-*/
-	body{
-		font-size:.7em;
-	}
-	#main_headings{
-		font-size:.8em;
-	}
-/*--------------------Login Form--------------------*/		
-	#logoIn{
-		display:none;
-	}
-	#log-box{
-		font-size:1.4em;
-		line-height;1.3em;
-	}
-/*===================Section area============================*/
 	#main_section{
 		padding:2em;
 	}
 	#content{
 		width:100%;
 	}
-	.fitnessBook{
-		width:33;
-		height:180px;
-		margin:.6em;
-	}
 	.fitnessBook h2{
 		font-size:1.4em;
 	}
 	.fitnessBook p{
 		font-size:.9em;
+	}	
+	.fitnessBook img{
+		max-width:90%;
+		max-height:90%;
 	}
-		
-/*=======================footer===============================*/
-#copyright{
-	margin-right:8em;
-}
+	#sidebar{
+		width:90%;
+	}
 
 }
-@media screen and (max-width:768px){/*------- Tablet Portrait & Iphone 6plus ------*/
+
+
+@media screen and (max-width:768px){
 	body{
 		font-size:.7em;
 	}
 	#main_headings{
 		font-size:.8em;
+		text-align:center;
 	}
 	#login_container{
 		margin-left:3.5em;
@@ -176,89 +149,10 @@
 		position:absolute;
 		top:10em;
 	}
-	
-/*===============NAVIGATION BAR==========================*/	
-	#navDesk{
-		height:2.45em;
-	}
-	#navDesk .main_nav li a:hover{
-		height:2.5em;
-	}
-	#navDesk .main_nav li{
-		font-size:1em;
-	}
-	#main_section{
-		padding:1.2em;
-		margin:0 auto;
-	}
-	#navDesk .current{
-		border-bottom:.47em solid #AD9B7F;
-	}
-/*========================Content area============================*/
-	#content{
-		width:100%;
-	}
-	#banner{
-		height:200px;
-	}
-	#art-one, #art-two, #art-three{
-		margin-bottom:.2em;
-	}
-	#art-one, #art-two, #art-four, #art-five{
-		margin-right:.2em;
-	}
-	#faq_content{
-		width:100%;
-	}
-
-/*====================subfooter==========================*/
-	#subfooter{
-		width:100%;
-		height:800px;
-		padding:0;
-	}
-	.column{
-		width:48%;
-		font-size:1.2em;
-		line-height:1.6;
-		margin:0;
-	}
-	.column span{
-		font-size:1.4em;
-	}
-	
-	#columnOne, #columnTwo{
-		margin-top:14em;	
-	}
-	#termsDownload{
-		margin-right:9em;
-	}	
-	#footer span{
-		font-size:1.2em;
-	}	
-}
-@media screen and (max-width:668px){/*--- Iphone 6----*/
-	body{
-		font-size:.7em;
-	}
-	#main_headings{
-		font-size:.8em;
-		text-align:center;
-	}
 	#main_header{
 		border-bottom:.3em solid #C38F00;
 	}
-/*=============login and buttons layout==================*/
-#login_container{
-	margin-top:.5em;
-}
-.log_button{
-	display:table;
-	position:relative;
-	left:10em;
-	top:-3em;
-	width:10em;
-}
+	
 /*===============NAVIGATION BAR==========================*/	
 	#navDesk{
 		display:none;
@@ -319,45 +213,50 @@
 	#navTablet li:last-child a{
 		border-bottom:none;
 	}
-/*=====================SECTION=======================*/
-	#main_section{
-		margin-top:-1.7em;
-
-	}
+/*========================Content area============================*/
 	#content{
-		float:none;
 		width:100%;
 	}
-	.fitnessBook img{
-		max-width:50%;
-		float:left;
+	#banner{
+		height:200px;
 	}
-	.fitnessBook{
-		float:none;
-		width:95%;
-		height:170px;
-		padding
+	#art-one, #art-two, #art-three{
+		margin-bottom:.2em;
 	}
-	.fitnessBook h2{
-		font-size:2.1em;
+	#art-one, #art-two, #art-four, #art-five{
+		margin-right:.2em;
 	}
-	.fitnessBook p{
+	#faq_content{
+		width:100%;
+	}
+
+/*====================subfooter==========================*/
+	#subfooter{
+		width:100%;
+		height:800px;
+		padding:0;
+	}
+	.column{
+		width:48%;
 		font-size:1.2em;
+		line-height:1.6;
+		margin:0;
+	}
+	.column span{
+		font-size:1.4em;
 	}
 	
-/*=======================footer===============================*/
+	#columnOne, #columnTwo{
+		margin-top:14em;	
+	}
 	#termsDownload{
-		margin-right:6em;
+		margin-right:9em;
 	}	
-	#footer span, #copyrightSymbol, #copyright, .designers{
-		float:none;
+	#footer span{
 		font-size:1.2em;
 	}	
-	#copyright, #credits span{
-		margin-left:4em;
-	}	
 }
-@media screen and (max-width:569px){/*--- Iphone 5 ---*/
+@media screen and (max-width:569px){
 	body{
 		font-size:.7em;
 	}
@@ -439,7 +338,7 @@
 	}
 
 }
-@media screen and (max-width:480px){/*---- Mobile Iphone 4-----*/
+@media screen and (max-width:480px){
 	body{
 		font-size:.7em;
 	}
@@ -528,7 +427,7 @@
 
 }
 
-@media screen and (max-width:361px){/*---- Smartphone Portrait -----*//*------max size developed------------*/
+@media screen and (max-width:361px){
 	#main_headings{
 		width:70%;
 		text-align:center;
