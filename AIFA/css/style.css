@@ -561,7 +561,7 @@ iframe{
 	float:left;
 	width:70%;
 	margin:0 auto;
-	height:800px;
+	height:980px;
 }
 
 .fitnessBook{
@@ -655,8 +655,33 @@ iframe{
 	position:relative;
 	left:2em;
 }
+.promo > img{
+	max-width:100%;
+	margin:0 auto;
+}
 
-
+/*=============================Articles pages========================================================*/
+#healthy-heart{
+	padding-top:2em;
+	margin:0 auto;
+	width:70%;
+	height:540px;
+	line-height:1.6;
+	text-align:justify;
+}
+.publishBy{
+	width:60%;
+	border-left:4px double #999;
+	margin:1em;
+	padding-left:.7em;
+}
+#BMI{
+	background:red;
+	line-height:1.8;
+}
+.unit{
+	
+}
 
 /*=============================Weight loss Content=================================================*/
 /*=============================Recipes Content=================================================*/
