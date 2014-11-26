@@ -234,22 +234,22 @@ a{
 /*----------dropdown menu-----------*/
 #navDesk ul.submenu{
 	background:#F8FBEF;
-	margin-top:.5em;
+	margin-top:.3em;
 	width:18em;
 	height:8em;
-	border:.5em solid #DF7401;/*---kind of orange--*/
+	border:.4em solid #DF7401;/*---kind of orange--*/
 	border-bottom-left-radius:.4em;
 	border-bottom-right-radius:.4em;
 	position:absolute;
 	top:2em;
 	float:none;
 	left:-9000em;
-	/*--   CSS TRANSITIONS   --*/
-/* 	max-height:0;
-	-moz-transition:max-height 0.7s ease-in-out;
-	-webkit-transition:max-height 0.7s ease-in-out;
-	-o-transition:max-height 0.7s ease-in-out;
-	transition:max-height 0.7s ease-in-out;	 */
+	/*--   CSS TRANSITIONS   --*   I return the transitions so we can have a small code of CSS3*/ 
+ 	max-height:0;
+	-moz-transition:max-height 0.6s ease-in-out;
+	-webkit-transition:max-height 0.6s ease-in-out;
+	-o-transition:max-height 0.6s ease-in-out;
+	transition:max-height 0.6s ease-in-out;	 
 	overflow:hidden;
 	/*--   CSS TRANSITIONS   --*/
 }
@@ -260,11 +260,12 @@ a{
 }
 #navDesk .main_nav li:hover ul{
 	left:0;
-/* 	max-height:10em;/*--   CSS TRANSITIONS   --*/ */
+ 	max-height:10em;/*--   CSS TRANSITIONS   --*/ 
 }
 #navDesk .main_nav > li:hover > a{
 	background:#DF7401;
 	height:2.3em;
+	padding:0 1em;
 }
 #navDesk ul.submenu li a{
 	margin-left:.3em;
@@ -283,16 +284,16 @@ a{
 #navDesk ul.submenu a:hover{
 	background:#DF7401;
 	color:#F8FBEF;
-	width:80%;	
+	width:18em;	
 }
 #navDesk .current, #navDesk .main_nav a:hover.current{
 	background:#AD9B7F;
 	color:#eee;
-	border-bottom:.6em solid #AD9B7F;
+	border-bottom:.536em solid #AD9B7F;
 	cursor:default;
 }
 #navDesk .main_nav a:hover.current{
-	border-bottom:.29em solid #AD9B7F;
+	border-bottom:.26em solid #AD9B7F;
 }
 
 
@@ -347,7 +348,7 @@ footer{
 	border-right:none;
 }
 /*---------columen one---------*/
-#news{
+#news, #weight, #height{
 	height:1.8em;
 	border-top:.2em solid #999;
 	border-left:.2em solid #999;
@@ -602,10 +603,13 @@ iframe{
 
 /*-----------Side Bar---------------*/
 .promo{
-	margin:.0 auto;
+	margin:.2em 1em .4em 1em;
 	width:90%;
 	background:#F8FBEF;
 	border:1px solid #999;
+}
+#healing-fitness{
+	border:none;
 }
 #promoherbalife {
 	position: relative;
@@ -675,12 +679,70 @@ iframe{
 	margin:1em;
 	padding-left:.7em;
 }
+#promo-bmi{
+	background-image:url('../images/bmi-background.jpg');
+	background-repeat:no-repeat;
+	width:343px;
+	height:246px;
+}
 #BMI{
-	background:red;
 	line-height:1.8;
+	margin-left:2em;
+}
+#BMI > label{
+	color:#610B0B;
+}
+#couple{
+	background-image:url('../images/small/couple.png');
+	background-repeat:no-repeat;
+	width:118px;
+	height:95px;
+}
+#gender{
+	float:right;
+	margin-top:-3em;
+	margin-right:8em;
+}
+#male{
+	background:#0072B9;
+	color:#001322;
+}
+#female{
+	background:#E94E6D;
+	color:#5E001A;
+}
+#height, #weight{
+	width:6em;
+	margin-bottom:.3em;
+	height:1.5em;
+	border-radius:.5em;
+}
+#height{
+	margin-left:.2em;
 }
 .unit{
-	
+	width:6em;
+	height:1.9em;
+	background:#610B0B;
+	border-top:.2em solid #999;
+	border-left:.2em solid #999;
+	border-bottom:.2em solid #000;
+	border-right:.2em solid #000;	
+	border-radius:.5em;
+	color:#fff;
+}
+#feet, #kg, #pound, #cm, #gender, .selector{
+	background:#fff;
+	color:#610B0B;
+}
+#submit-unit{
+	margin-left:4em;
+	background:#610B0B;
+	color:#fff;
+	border:.2em groove #000;
+	border-radius:.5em;
+	width:6.5em;
+	height:2em;
 }
 
 /*=============================Weight loss Content=================================================*/

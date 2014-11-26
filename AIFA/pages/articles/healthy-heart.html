@@ -38,7 +38,7 @@
 		</div>
 			<div id="login_container">
 				<p class="logged_in">Welcome, USER</p>
-				<label class="logged_in"><a href="pages/account.html" class="logged_in" >My Account</a></label><br/>
+				<label class="logged_in"><a href="./../../pages/account.html" class="logged_in" >My Account</a></label><br/>
 				<input type="submit" value="Login" id="button_login" class="log_on log">
 				<input type="submit" value="Logoff" id="button_logoff" class="log_off log">
 			</div>
@@ -46,17 +46,17 @@
 		<!-- Navigation of desktop -->	
 		<nav id="navDesk" class="cf">
 			<ul class="main_nav">
-				<li><a href="#" class="current">Home</a></li>
+				<li><a href="./../../index.html">Home</a></li>
 				<li><a href="#">Nutrition</a>
 					<ul class="submenu">
-						<li><a href="pages/recipes.html" title="recipes">Recipes</a></li>
-						<li><a href="pages/weight_loss.html" title="weight_loss">Weight Loss</a></li>
+						<li><a href="../recipes.html" title="recipes">Recipes</a></li>
+						<li><a href="../weight_loss.html" title="weight_loss">Weight Loss</a></li>
 					</ul>
 				</li>
-				<li class="products"><a href="pages/recommended_products.html">Recommeded Products</a></li>
-				<li><a href="pages/news.html">News</a></li>
-				<li><a href="pages/faq.html">FAQ's</a></li>
-				<li><a href="pages/about_us.html">About us</a></li>
+				<li class="products"><a href="../pages/recommended_products.html">Recommeded Products</a></li>
+				<li><a href="../news.html" class="current">News</a></li>
+				<li><a href="../faq.html">FAQ's</a></li>
+				<li><a href="../about_us.html">About us</a></li>
 			</ul>	
 		</nav>	<!-- END OF IT -->
 	
@@ -67,17 +67,17 @@
 		</div>
 		<nav id="navTablet" class="cf">
 			<ul class="main_nav">
-				<li><a href="index.html" class="current">Home</a></li>
-				<li><a href="#" class="sub">Nutrition</a>
+				<li><a href="./../../index.html">Home</a></li>
+				<li><a href="" class="sub">Nutrition</a>
 					<ul class="submenu">
-						<li><a href="pages/recipes.html" title="recipes">Recipes</a></li>
-						<li><a href="pages/weight_loss.html" title="weight_loss">Weight Loss</a></li>
+						<li><a href="../recipes.html" title="recipes">Recipes</a></li>
+						<li><a href="../weight_loss.html" title="weight_loss">Weight Loss</a></li>
 					</ul>
 				</li>
-				<li class="products"><a href="pages/recommended_products.html">Recommeded Products</a></li>
-				<li><a href="pages/news.html">News</a></li>
-				<li><a href="pages/faq.html">FAQ's</a></li>
-				<li><a href="pages/about_us.html">About us</a></li>
+				<li class="products"><a href="../recommended_products.html">Recommeded Products</a></li>
+				<li><a href="../news.html" class="current">News</a></li>
+				<li><a href="../faq.html">FAQ's</a></li>
+				<li><a href="../about_us.html">About us</a></li>
 			</ul>	
 		</nav>	<!-- END OF IT -->
 		<!-- Main Section wrapper box-->
@@ -110,30 +110,31 @@
 			</section>	
 				<!-- sidebar -->
 			<aside id="sidebar">
-				<section class="promo">
+				<section class="promo" id="promo-bmi">
 					<form id="BMI">
+						<div id="couple"></div>
 						<select id="gender">
-							<option value="">Gender</option>
-							<option value="Male" id="male">Male</option>
-							<option value="Female" id="female">Female</option>
+							<option value="" class="selector">Gender</option>
+							<option value="Male" id="male" class="selector">Male</option>
+							<option value="Female" id="female" class="selector">Female</option>
 						</select><br/>
 						<label>Height</label>
-						<input type="text" name="height" size="7" class="unit-box">
+						<input type="text" name="height" size="7" id="height">
 						<select class="unit">
-							<option value="">Unit</option>
-							<option value="Feet">Feet</option>
-							<option value="cm">Centimetre</option>
+							<option value="" class="selector">Unit</option>
+							<option value="Feet" id="feet">Feet</option>
+							<option value="cm" id="cm">Centimetre</option>
 						</select><br/>
 						<label>Weight</label>
-						<input type="text" name="weight" size="7" class="unit-box">
+						<input type="text" name="weight" size="7" id="weight">
 						<select class="unit">
-							<option value="">Unit</option>
-							<option value="pounds">Pounds</option>
-							<option value="kg">Kg</option>
-						</select><br/>
-						<input type="submit" value="Calculate"><br/>
+							<option value="" class="selector">Unit</option>
+							<option value="pounds" id="pound">Pounds</option>
+							<option value="kg" id="kg">Kg</option>
+						</select>
+						<input type="submit" value="Calculate" id="submit-unit"><br/>
 						<label>Result</label>
-						<input type="text" name="result"><br/>					
+						<input type="text" name="result" id="result"><br/>					
 					</form>
 				</section>
 				
