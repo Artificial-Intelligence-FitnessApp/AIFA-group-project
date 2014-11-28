@@ -1,14 +1,3 @@
-a{
-	font-weight: bold;
-	color: #DF7401;
-	text-decoration: none;
-}
-
-a:hover{
-	text-decoration: underline;
-	color: #2980b9;
-}
-
 #news_section{
 	margin:0 auto;
 	width:70%;
@@ -97,4 +86,13 @@ a:hover{
 .news_headline>img{
 	float: left;
 	margin: 5px;
+}
+.news_a{
+	font-weight: bold;
+	color: #DF7401;
+	text-decoration: none;
+}
+.news_a:hover{
+	text-decoration: underline;
+	color: #2980b9;
 }
