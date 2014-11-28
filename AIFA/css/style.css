@@ -314,15 +314,14 @@ a{
 }
 /*===================MAIN SECTION=============================*/
 #main_section{
-	background:#F8FBEF;/*--kind of white*/
+	background:#F8FBEF;
 	
 }
 /*=================SIDE BAR====================================*/
 #sidebar{
 	margin:0 auto;
-	outline:1px solid red;/*remove after it*/
 	width:30%;
-	height:480px;
+	/* height:480px; */
 	float:left;
 
 }
@@ -460,28 +459,28 @@ iframe{
 		border-radius:.2em;
 	}
 	#facebook{
-		list-style-image:url('../images/Facebook.png');
+		list-style-image:url('../images/icons/Facebook.png');
 	}
 	#facebook a:hover{
 		background:#5775AE;
 		color:#fff;
 	}
 	#twitter{
-		list-style-image:url('../images/twitter.png');
+		list-style-image:url('../images/icons/twitter.png');
 	}
 	#twitter a:hover{
 		background:#ADEBED;
 		color:#357EB3;
 	}
 	#linkedin{
-		list-style-image:url('../images/linkedin.png');
+		list-style-image:url('../images/icons/linkedin.png');
 	}
 	#linkedin a:hover{
 		background:#145487;
 		color:#fff;
 	}
 	#instagram{
-		list-style-image:url('../images/instagram.png');
+		list-style-image:url('../images/icons/instagram.png');
 		margin-bottom:2em;
 	}
 	#instagram a:hover{
@@ -502,7 +501,7 @@ iframe{
 	}
 	#termsDownload{
 		float:right;
-		background-image:url('../images/adobe.png');
+		background-image:url('../images/icons/adobe.png');
 		background-repeat:no-repeat;
 		width:30px;
 		height:32px;
@@ -525,7 +524,7 @@ iframe{
 #copyrightSymbol{
 	float:left;
 	margin-left:2em;
-	background-image:url('../images/copyright1.png');
+	background-image:url('../images/icons/copyright1.png');
 	background-repeat:no-repeat;	
 	width:50px;
 	height:50px;
@@ -587,20 +586,12 @@ iframe{
 	max-width:100%;
 	border:.4em solid #F8FBEF;
 }
-.big{
-	display:none;
-}
-
 #healthybody{
 	display:none;
 }
 #myth{
 	display:none;
 }
-.expanded{
-	display:none;
-}
-
 /*-----------Side Bar---------------*/
 .promo{
 	margin:.2em 1em .4em 1em;
@@ -680,9 +671,9 @@ iframe{
 	padding-left:.7em;
 }
 #promo-bmi{
-	background-image:url('../images/bmi-background.jpg');
+	background-image:url('../images/bmi-background.png');
 	background-repeat:no-repeat;
-	width:343px;
+	max-width:100%;
 	height:246px;
 }
 #BMI{
@@ -744,6 +735,114 @@ iframe{
 	width:6.5em;
 	height:2em;
 }
+
+#articles{
+	padding:0 2em 2em 2em;
+	width:59%;
+	box-shadow:1em 1em 1em #000;	
+	margin:1.5em;
+	line-height:1.6;
+	text-align:justify;
+	float:left;
+}
+.hgroup{
+	width:100%;
+}
+#articles h2{
+	margin:0 auto;
+	width:60%;
+	text-align:center;
+	font-weight:bold;
+}
+#articles h3{
+	margin:2em 0 2em 0;
+}
+.wrap-imag, #intro-img, #intro-img2, #fran-wrap-img{
+	border:.2em solid #000;
+	margin-bottom:2em;
+}
+.wrap-img{
+	width:25.750em;
+	height:17.375em;
+}
+#intro-img{
+	width:18.750em;
+	height:18.563em;
+} 
+#intro-img2{
+	width:21.250em;
+	height:14.063em;
+	float:left;
+}
+.profile{
+	float:left;
+	width:44%;
+	padding:0 1em 0 1em;
+	margin-bottom:2em;
+	text-align:left;
+	box-shadow:1em 1em 1em #999;
+}
+#clear{
+	clear:both;
+}
+#fran-wrap-img{
+	width:7.188em;
+	height:9.563em;
+	float:right;
+	padding:.5em;
+	margin-left:2em
+}
+.img{
+	box-shadow:1em 1em 1em #999;
+	max-width:100%;
+	height:100%;
+}
+#list-introduction{
+	width:20em;
+	box-shadow:2em 2em 2em #999;
+	margin:2em;
+}
+.list{
+	list-style-image: url('../images/icons/fit-bullets.png');
+	line-height:2;
+	margin-left:2em;
+}
+.list a{
+	color:#999;
+}
+.list li:hover, .list a:hover{
+	list-style-image: url('../images/icons/fit-bullets-hover.png');
+	color:#2980b9;
+}
+.list li:last-child{
+	margin-bottom:2em;
+}
+.wrap-up{
+	width:98%;
+	height:10%;
+	margin:1em 0 1em 0;
+}
+.up, .up a{
+	width:50px;
+	height:49px;
+	text-indent:-9999em;
+	display:block;
+	float:right;
+
+}
+#up{
+	background-image:url('../images/icons/up.png');
+	background-repeat:no-repeat;
+}
+#up:hover{
+	background-image:url('../images/icons/up-hover.png');
+	background-repeat:no-repeat;
+}
+
+
+
+
+
 
 /*=============================Weight loss Content=================================================*/
 /*=============================Recipes Content=================================================*/

@@ -69,6 +69,11 @@
 	.fitnessBook img{
 		max-width:90%;
 	}
+/* 	.promo{
+		width:90%;
+		float:right;
+		margin:0;
+	}	 */
 	
 	#termsDownload{
 		margin-right:8em;
@@ -127,14 +132,23 @@
 		max-width:90%;
 		max-height:90%;
 	}
-	#sidebar{
-		width:90%;
+	#eleven-mistakes{
+		float:left;
+		width:49%;
 	}
-
+	.img{
+		max-width:90%;
+	}
+	.wrap-img{
+		border:.169em solid #000;
+	}
+	#sidebar{
+		width:41%;
+		margin:0;
+	}
 }
 
-
-@media screen and (max-width:768px){
+@media screen and (max-width:769px){
 	body{
 		font-size:.7em;
 	}
@@ -159,7 +173,7 @@
 	}	
 	#menu-button{
 		background:#000;
-		background-image:url('../images/nav-icon.png');
+		background-image:url('../images/icons/nav-icon.png');
 		background-repeat:no-repeat;
 		width:100%;
 		height:50px;
@@ -216,6 +230,7 @@
 /*========================Content area============================*/
 	#content{
 		width:100%;
+		float:none;
 	}
 	#banner{
 		height:200px;
@@ -228,6 +243,22 @@
 	}
 	#faq_content{
 		width:100%;
+	}
+	#eleven-mistakes{
+		width:100%;
+		float:none;
+		margin:0;
+		padding:1em;
+	}
+	#eleven-mistakes h3, #eleven-mistakes p{
+		width:90%;
+		margin-left:2em;
+	}
+	.up{
+		margin:0;
+	}
+	#sidebar{
+		float:none;
 	}
 
 /*====================subfooter==========================*/
