@@ -9,6 +9,11 @@ $("#news_bg").click(function(){
 	$("#news_popup").css({"display":"none"});
 });
 
+/* Reset Popup Scroll */
+$(".news_headline").click(function(){
+	$("#news_popup_content div").scrollTop(0);
+});
+
 /* Change Popup */
 $("#news_one").click(function(){
 	$("#news_popup_header h2").html($("#news_one h2").html());
