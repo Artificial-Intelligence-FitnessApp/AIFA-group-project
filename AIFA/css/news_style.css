@@ -85,12 +85,16 @@
 	width: 80%;
 }
 .news_headline>div>p{
+	display: none;
+}
+.news_headline>p{
 	margin-left: 5px;
 	width: 80%;
-	height: 100%;
+	height: 50%;
 	font-family:"Calibri Light", "Franklin Gothic Book", Arial, sams-serif;
 	font-weight: .9em;
 	float: left;
+	display: block;
 }
 .news_headline>img{
 	float: left;
