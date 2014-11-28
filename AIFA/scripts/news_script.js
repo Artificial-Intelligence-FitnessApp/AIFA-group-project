@@ -11,25 +11,29 @@ $("#news_bg").click(function(){
 
 /* Change Popup */
 $("#news_one").click(function(){
-	$("#news_popup_header h3").html($("#news_one div h3").html());
+	$("#news_popup_header h3").html($("#news_one h3").html());
 	$("#news_popup_content img").attr("src", $("#news_one img").attr("src"));
-	$("#news_popup_content div").html($("#news_one div p").html());
+	$("#news_popup_content img").attr("alt", $("#news_one img").attr("alt"));
+	$("#news_popup_content div").html($("#news_one div").html());
 });
 
 $("#news_two").click(function(){
-	$("#news_popup_header h3").html($("#news_two div h3").html());
+	$("#news_popup_header h3").html($("#news_two h3").html());
 	$("#news_popup_content img").attr("src", $("#news_one img").attr("src"));
+	$("#news_popup_content img").attr("alt", $("#news_two img").attr("alt"));
 	$("#news_popup_content div").html($("#news_two div p").html());
 });
 
 $("#news_three").click(function(){
-	$("#news_popup_header h3").html($("#news_three div h3").html());
+	$("#news_popup_header h3").html($("#news_three h3").html());
 	$("#news_popup_content img").attr("src", $("#news_one img").attr("src"));
+	$("#news_popup_content img").attr("alt", $("#news_three img").attr("alt"));
 	$("#news_popup_content div").html($("#news_three div p").html());
 });
 
 $("#news_four").click(function(){
-	$("#news_popup_header h3").html($("#news_four div h3").html());
+	$("#news_popup_header h3").html($("#news_four h3").html());
 	$("#news_popup_content img").attr("src", $("#news_one img").attr("src"));
+	$("#news_popup_content img").attr("alt", $("#news_four img").attr("alt"));
 	$("#news_popup_content div").html($("#news_four div").html());
 });

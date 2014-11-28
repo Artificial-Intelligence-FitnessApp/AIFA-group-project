@@ -22,7 +22,6 @@
 }
 #news_popup_header>h3{
 	text-align: center;
-	font-size: 2.5em;
 }
 #news_popup_content{
 	width: 100%;
@@ -31,9 +30,8 @@
 #news_popup_content>div{
 	float: left;
 	width: 75%;
-	height: 85%;
-	margin-left: 2.5%;
-	margin-top: 1.5%;
+	height: 100%;
+	margin: 1.5%;
 	overflow-y: scroll;
 }
 #news_popup_content>div>p{
@@ -80,7 +78,7 @@
 	background:#DF7401;
 	color: white;
 }
-.news_headline>div>h3{
+.news_headline>h3{
 	font-size: 1.5em;
 	margin-left: 5px;
 	float: left;
@@ -89,6 +87,7 @@
 .news_headline>div>p{
 	margin-left: 5px;
 	width: 80%;
+	height: 100%;
 	font-family:"Calibri Light", "Franklin Gothic Book", Arial, sams-serif;
 	font-weight: .9em;
 	float: left;
