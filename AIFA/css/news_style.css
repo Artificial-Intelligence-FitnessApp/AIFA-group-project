@@ -20,7 +20,7 @@
 #news_popup_header{
 	border-bottom: .3em solid #DF7401;
 }
-#news_popup_header>h3{
+#news_popup_header>h2{
 	text-align: center;
 }
 #news_popup_content{
@@ -64,14 +64,7 @@
 	padding-top: 5px;
 }
 .news_headline{
-	margin-top:.3em;
-	color: black;
-	padding:.2em;
-	background: #999;
-    font-weight: 700;
     cursor: pointer;
-	width: 100%;
-	display: inline-block;
 	text-align: left;
 }
 .news_headline:hover{
@@ -84,17 +77,8 @@
 	float: left;
 	width: 80%;
 }
-.news_headline>div>p{
+.news_headline>div{
 	display: none;
-}
-.news_headline>p{
-	margin-left: 5px;
-	width: 80%;
-	height: 50%;
-	font-family:"Calibri Light", "Franklin Gothic Book", Arial, sams-serif;
-	font-weight: .9em;
-	float: left;
-	display: block;
 }
 .news_headline>img{
 	float: left;
