@@ -26,7 +26,7 @@ $("#news_two").click(function(){
 
 $("#news_three").click(function(){
 	$("#news_popup_header h2").html($("#news_three h2").html());
-	$("#news_popup_content img").attr("src", $("#news_thre img").attr("src"));
+	$("#news_popup_content img").attr("src", $("#news_three img").attr("src"));
 	$("#news_popup_content img").attr("alt", $("#news_three img").attr("alt"));
 	$("#news_popup_content div").html($("#news_three div").html());
 });
