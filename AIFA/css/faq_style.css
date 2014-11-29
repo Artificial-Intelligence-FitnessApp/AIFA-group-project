@@ -9,21 +9,21 @@
 	padding-top: 5px;
 }
 .faq_answer{
-	margin:2em;
+	padding-top: 1em;
 	display: none;
 }
 .faq_answer>p{
-	margin-bottom:1em;
+	padding-bottom: 1em;
 }
 #faq_section>h3 {
-	margin-top:.3em;
+	background: #afada7;
+	margin-top: .3em;
 	color: black;
 	padding:.2em;
-	background: #999;
     font-weight:700;
     cursor:pointer;
 }
-#faq_section>h3:hover, #faq_section>h3.close:hover {
+#faq_section>h3:hover{
 	background:#DF7401;
 	color: white;
 }
