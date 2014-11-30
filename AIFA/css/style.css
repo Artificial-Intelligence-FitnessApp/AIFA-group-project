@@ -558,12 +558,13 @@ iframe{
 	-webkit-box-shadow:1em 1em 1em #000;
 	-moz-box-shadow:1em 1em 1em #000;
 	-ms-box-shadow:1em 1em 1em #000;
-	background:url('../images/loader.gif');
+/* 	background:url('../images/loader.gif');
 	background-repeat:no-repeat;
-	background-position:center;
+	background-position:center; */
+	z-index:-1;
 }
 .slider img{
-	width:85%;
+	width:100%;
 	height:374px;
 	display:none;
 }
@@ -635,8 +636,9 @@ iframe{
 	color:#DF7401;
 }
 .promo h4{
-	margin-top:1.5em;
-	font-size:1em;
+	margin:1em 1em 1.5em 1em;
+	font-size:1.3em;
+	border-bottom:.1em solid #DF7401;;
 }
 .promo h5{
 	text-decoration:underline;
@@ -645,20 +647,34 @@ iframe{
 .promo p{
 	font-size:.8em;
 }
-.showExercise{
+#show-chest, #show-back, #show-arms, #show-legs{
+	display:none;
+}
+.exercise-title{
+	margin:0 0 1em 1em;
+	width:10em;
+	padding:.2em;
+	box-shadow:.6em .6em .6em #000;
+	-webkit-box-shadow:.6em .6em .6em #000;
+	-moz-box-shadow:.6em .6em .6em #000;
+	-ms-box-shadow:.6em .6em .6em #000;
+	cursor:pointer;
+}
+.exercise{
 	margin:0 auto;
 	width:70%;
 	font-size:.8em;
-	display:none;
 }
-.showExercise li{
+.exercise li{
 	border-bottom:1px solid #999;
 	margin-bottom:.6em;
+	padding:.2em;
 }
-.showExercise li:hover{
+.exercise li:hover{
 	background:#FBFBEF;
 	position:relative;
 	left:2em;
+	padding:.2em;
 }
 .promo > img{
 	max-width:100%;
