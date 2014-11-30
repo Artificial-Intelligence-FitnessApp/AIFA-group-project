@@ -132,20 +132,27 @@
 		max-width:90%;
 		max-height:90%;
 	}
-	#eleven-mistakes{
+	#articles{
 		float:left;
 		width:49%;
 	}
-	.img{
-		max-width:90%;
+	#intro-img2{
+		width:267px;
+		height:180px;
 	}
-	.wrap-img{
-		border:.169em solid #000;
+	.profile{
+		float:none;
+		width:80%;
+		clear:both;
 	}
+	
 	#sidebar{
 		width:41%;
 		margin:0;
 	}
+	#gender{
+		margin-right:5em;
+	}	
 }
 
 @media screen and (max-width:769px){
@@ -244,22 +251,51 @@
 	#faq_content{
 		width:100%;
 	}
-	#eleven-mistakes{
-		width:100%;
+	#articles{
+		width:97%;
 		float:none;
 		margin:0;
 		padding:1em;
 	}
-	#eleven-mistakes h3, #eleven-mistakes p{
-		width:90%;
-		margin-left:2em;
+	#articles h3, #articles p{
+		width:80%;
+		margin:0 auto;
+	}
+	#articles
+	#article h3{
+		margin-top:2em;
+	}
+	.publishBy{
+		padding:0;
 	}
 	.up{
-		margin:0;
+		margin-top:-5em;
+	}
+	.video-wrapper{
+		margin-left:5em;
+	}
+	#h2-six-packs-article{
+		width:100%;
+	}
+	#articles h3{
+		margin:2em 0 2em 0;
+		font-size:1.5em;
+	}
+	.wrap-img, #intro-img, #intro-img2, #intro-img3{
+		margin-left:6em;
 	}
 	#sidebar{
 		float:none;
+		margin-top:5em;
 	}
+	.promo{
+		clear:both;
+	}
+	#subfooter{
+		background-image:url('../images/aifa-footer-md.png');
+		background-repeat:repeat-x;
+	}	
+
 
 /*====================subfooter==========================*/
 	#subfooter{
@@ -310,7 +346,7 @@
 	}
 /*=======================footer===============================*/
 	#subfooter{
-		height:1200px;
+		/* height:1200px; */
 		width:100%;
 	}
 	.column{
@@ -383,9 +419,9 @@
 	
 	#main_headings{
 		float:none;
-		width:80%;
+		width:85%;
 		text-align:center;
-		font-size:.7em;		
+		font-size:.8em;		
 	}
 	#login_container{
 		margin-top:3em;
@@ -412,7 +448,7 @@
 		left:13em;
 		top:-6em;
 	}	
-	
+	.log, 
 	.log{
 		position:relative;
 		top:-3.3em;
@@ -447,9 +483,48 @@
 		font-size:1.3em;
 		text-align:center;
 	}
-
+	#sidebar{
+		width:100%;
+	}
+	.button{
+		height: 30px;
+		width: 100px;	
+	}
+	.button .outer{
+		border-radius: 13px;
+		-webkit-border-radius: 13px;
+		-moz-border-radius: 13px;
+	}
+	.button .outer .height {
+		border-radius: 15px;
+		-webkit-border-radius: 15px;
+		-moz-border-radius: 15px;
+	}
+	.button .outer .height .inner {
+		border-radius: 15px;
+		-webkit-border-radius: 15px;
+		-moz-border-radius: 15px;
+	}
+	.button:active .outer .height .inner{
+		border-radius: 13px;
+		-webkit-border-radius: 13px;
+		-moz-border-radius: 13px;
+	}
+	#up{
+		background-image:url('../images/icons/up-sm.png');
+		background-repeat:no-repeat;
+	}
+	#up:hover{
+		background-image:url('../images/icons/up-hover-sm.png');
+		background-repeat:no-repeat;
+	}
+	#subfooter{
+		background-image:url('../images/aifa-footer-sm.png');
+		background-repeat:repeat-x;
+		height:1300px;
+	}
 	#footer{
-		height:100px;
+		height:130px;
 	}
 	#group{
 		float:left;

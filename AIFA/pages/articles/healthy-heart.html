@@ -28,7 +28,7 @@
 		<div id="head_wrap">
 			<figure id="logo">
 				<a href="#">
-					<img src="images/placeholder.png">
+					<img src="./../../images/placeholder.png">
 				</a>
 			</figure>
 				<section id="main_headings">
@@ -87,16 +87,20 @@
 			</figure>	
 		
 				<!-- content -->
-			<section id="content" class="articles">
-				<article id="healthy-heart">
+			<article id="articles" class="healing-pg">
+				<section class="hgroup">
 					<h2>The Baby Boomer Heart: Healing Fitness</h2>
-					<h3>When it comes to protecting your heart, fitness plays a key role.</h3>				
-					 <footer class="publishBy">
-						<p>By <a href="http://www.webmd.com/colette-bouchez">Colette Bouchez</a></p>
-						<p>WebMD Feature</p>
-						<p>Reviewed by <a href="http://www.webmd.com/default.htm">Charlotte E. Grayson Mathis, MD</a></p>
-						<p>WebMD Archive</p>
-					</footer>
+				</section>			
+				<figure class="wrap-img">
+					<img class="img" src="../../images/healing-fitness-lg.jpg" alt="image of heart workout"/></a>
+				</figure>	
+				<h3>When it comes to protecting your heart, fitness plays a key role.</h3>				
+				<footer class="publishBy">
+					<p>By <a href="http://www.webmd.com/colette-bouchez">Colette Bouchez</a></p>
+					<p>WebMD Feature</p>
+					<p>Reviewed by <a href="http://www.webmd.com/default.htm">Charlotte E. Grayson Mathis, MD</a></p>
+					<p>WebMD Archive</p>
+				</footer>
 					<p>If you're convinced that working out is only for the young and buff, there's something you should know. Mounting research shows that exercise does more than give you a better shape. It's a key way of protecting your heart.</p>
 					<p>Fitness is absolutely the most powerful predictor of deaths from heart disease and other causes, says Rita Redberg, MD, a cardiologist from the University of California at San Francisco, and the science advisor for the American Heart Association Choose to Move program.</p>
 					<p>Indeed, Redberg says folks who exercise routinely have up to a 50% lower risk of having a heart attack or chest pain, and they have a lower risk of other diseases as well.</p>
@@ -106,8 +110,8 @@
 					<p>In fact, a new study published in the Journal of the American Medical Association found that when it comes to protection from heart disease, being fit might be more important than being thin, particularly for women. In a joint project between the University of Florida and Cedars Sinai Medical Center in Los Angeles, research on some 900 women revealed that those who were at least moderately active were less likely to develop heart disease and related illnesses than women who were less active -- regardless of their weight.</p>
 					<p>And not working out -- at least to your full capacity -- may be extremely damaging. In a study just released by Rush University Medical Center in Chicago, research conducted on nearly 6,000 seemingly healthy women found that those who scored less than 85% of their target fitness rate on a treadmill stress test were twice as likely to develop serious heart disease and related death.</p>
 					<p>Researchers say this study offers the first clear picture of a woman's fitness-related health risks - and they are high.</p.
-				</article>
-			</section>	
+			</article>
+		</section>	
 				<!-- sidebar -->
 			<aside id="sidebar">
 				<section class="promo" id="promo-bmi">
@@ -118,21 +122,25 @@
 							<option value="Male" id="male" class="selector">Male</option>
 							<option value="Female" id="female" class="selector">Female</option>
 						</select><br/>
+						<label>Choose Measurement</label><br/>
+						<input type="radio" name="metric" value="metric" id="metric" checked="metric">Metric(kg's & cm's)
+						<input type="radio" name="metric" value="imperial" id="imperial">Imperial(Lbs & inches)<br/>
 						<label>Height</label>
-						<input type="text" name="height" size="7" id="height">
-						<select class="unit">
-							<option value="" class="selector">Unit</option>
-							<option value="Feet" id="feet">Feet</option>
-							<option value="cm" id="cm">Centimetre</option>
-						</select><br/>
+						<input type="text" name="height" size="7" class="height-weight" placeholder="Cm's">
+						<input type="text" name="feet-inch" size="7" class="feet-inch-lbs" placeholder="feet's">
+						<input type="text" name="feet-inch" size="7" class="feet-inch-lbs" placeholder="inches's">
 						<label>Weight</label>
-						<input type="text" name="weight" size="7" id="weight">
-						<select class="unit">
-							<option value="" class="selector">Unit</option>
-							<option value="pounds" id="pound">Pounds</option>
-							<option value="kg" id="kg">Kg</option>
-						</select>
-						<input type="submit" value="Calculate" id="submit-unit"><br/>
+						<input type="text" name="weight" size="7" class="height-weight" placeholder="Kg's">
+						<input type="text" name="lbs" size="7" class="feet-inch-lbs" placeholder="Lbs">
+						<div class="button" id="submit">
+							<div class="outer">
+								<div class="height">
+									<div class="inner">
+										Calculate
+									</div>
+								</div>
+							</div>
+						</div>
 						<label>Result</label>
 						<input type="text" name="result" id="result"><br/>					
 					</form>
@@ -237,9 +245,9 @@
 		</footer>
 	</div>
 	
-	<script src="scripts/jquery.js"></script>
-	<script src="mainScript.js"></script>
-	<script src="scripts/default.js"></script>
-	<script src="scripts/responsive.js"></script>
+	<script src="./../../scripts/jquery.js"></script>
+	<script src="./../../mainScript.js"></script>
+	<script src="./../../scripts/default.js"></script>
+	<script src="./../../scripts/responsive.js"></script>
 	</body>
 </html>

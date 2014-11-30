@@ -87,23 +87,25 @@
 			</figure>	
 		
 				<!-- content -->
-			<section id="content" class="articles">
-				<article id="myth-truth">
-					<figure class="show-box">
-						<img src="../../images/myth.jpg" alt="photo from the bodybuilding website about the myth and truth"/>
-					</figure>
+			<article id="articles">
+				<section class="hgroup">	
 					<h2>Myth and truth about bodybuilding and Women </h2>
-					<h3>Bodybuilding and Women</h3>
-						<p>One of the main hormones responsible for increasing muscle mass is testosterone, present in both men and women. The difference is that in males, the body produces this substance in larger quantities.</p>
-						<p>Thus, it is impossible for a woman to gain huge muscles by lifting light weight. Those who practice bodybuilding frequently and have a good diet, will have a toned and defined but not masculine body. In professional bodybuilders, other substances are used to achieve a strong body and many muscles.</p>
-						<p>It is also worth remembering that muscle and fat tissues are different, so it is not possible to transform one into the other. What happens is the decrease in fat by increasing metabolism, a result of the gain in muscle mass combined with cardio training and a balanced diet.</p>
-						<p>Some women believe that if they stop training their muscles will be transformed into fat. This is another myth. What happens is decreased due to lack of muscle stimulation and fat gain because of inactivity, and generally leaving the diet. Then:
-						Sedentary lifestyle + bad food = fat gain</p>
-						<p>Unfortunately it is normal to hear that women train to be able to eat whatever they want. Very careful with it! Not because you train you can eat everything and in great quantity.</p>
-						<p>The math is simple: If you eat more calories than you can burn, just fatter. So it is interesting to seek a professional in the area of food and through a balanced diet, getting to the negative balance of calories to positive results.</p>
-						<p>Try combining aerobic and strength training. You may even lose weight just by doing aerobic exercises, however besides losing fat, lose muscle mass as well. In addition to combining the two exercises, you have a sharp burning fat and is still with the firm muscles and minimizes injuries. If you want to train or trains, always look for a professional physical education.</p>
-				</article>
-			</section>
+				</section>	
+				<figure id="intro-img3">
+					<img class="img" src="../../images/myth.jpg" alt="photo from the bodybuilding website about the myth and truth"/>
+				</figure>
+				
+				<h3>Bodybuilding and Women</h3>
+					<p>One of the main hormones responsible for increasing muscle mass is testosterone, present in both men and women. The difference is that in males, the body produces this substance in larger quantities.</p>
+					<p>Thus, it is impossible for a woman to gain huge muscles by lifting light weight. Those who practice bodybuilding frequently and have a good diet, will have a toned and defined but not masculine body. In professional bodybuilders, other substances are used to achieve a strong body and many muscles.</p>
+					<p>It is also worth remembering that muscle and fat tissues are different, so it is not possible to transform one into the other. What happens is the decrease in fat by increasing metabolism, a result of the gain in muscle mass combined with cardio training and a balanced diet.</p>
+					<p>Some women believe that if they stop training their muscles will be transformed into fat. This is another myth. What happens is decreased due to lack of muscle stimulation and fat gain because of inactivity, and generally leaving the diet. Then:
+					<p>Sedentary lifestyle + bad food = fat gain</p>
+					<p>Unfortunately it is normal to hear that women train to be able to eat whatever they want. Very careful with it! Not because you train you can eat everything and in great quantity.</p>
+					<p>The math is simple: If you eat more calories than you can burn, just fatter. So it is interesting to seek a professional in the area of food and through a balanced diet, getting to the negative balance of calories to positive results.</p>
+					<p>Try combining aerobic and strength training. You may even lose weight just by doing aerobic exercises, however besides losing fat, lose muscle mass as well. In addition to combining the two exercises, you have a sharp burning fat and is still with the firm muscles and minimizes injuries. If you want to train or trains, always look for a professional physical education.</p>
+			</article>
+		</section>
 			<!-- sidebar -->
 			<aside id="sidebar">
 				<section class="promo" id="promo-bmi">
@@ -114,21 +116,25 @@
 							<option value="Male" id="male" class="selector">Male</option>
 							<option value="Female" id="female" class="selector">Female</option>
 						</select><br/>
+						<label>Choose Measurement</label><br/>
+						<input type="radio" name="metric" value="metric" id="metric" checked="metric">Metric(kg's & cm's)
+						<input type="radio" name="metric" value="imperial" id="imperial">Imperial(Lbs & inches)<br/>
 						<label>Height</label>
-						<input type="text" name="height" size="7" id="height">
-						<select class="unit">
-							<option value="" class="selector">Unit</option>
-							<option value="Feet" id="feet">Feet</option>
-							<option value="cm" id="cm">Centimetre</option>
-						</select><br/>
+						<input type="text" name="height" size="7" class="height-weight" placeholder="Cm's">
+						<input type="text" name="feet-inch" size="7" class="feet-inch-lbs" placeholder="feet's">
+						<input type="text" name="feet-inch" size="7" class="feet-inch-lbs" placeholder="inches's">
 						<label>Weight</label>
-						<input type="text" name="weight" size="7" id="weight">
-						<select class="unit">
-							<option value="" class="selector">Unit</option>
-							<option value="pounds" id="pound">Pounds</option>
-							<option value="kg" id="kg">Kg</option>
-						</select>
-						<input type="submit" value="Calculate" id="submit-unit"><br/>
+						<input type="text" name="weight" size="7" class="height-weight" placeholder="Kg's">
+						<input type="text" name="lbs" size="7" class="feet-inch-lbs" placeholder="Lbs">
+						<div class="button" id="submit">
+							<div class="outer">
+								<div class="height">
+									<div class="inner">
+										Calculate
+									</div>
+								</div>
+							</div>
+						</div>
 						<label>Result</label>
 						<input type="text" name="result" id="result"><br/>					
 					</form>
@@ -138,9 +144,6 @@
 					
 				</section>
 			</aside>
-						
-		</section>
-		
 		<footer>
 			<div id="subfooter">
 				<div class="column" id="columnOne">
@@ -196,10 +199,10 @@
 					
 				<div id="credits">
 					<span>Web design developed by</span>
-					<img class="designers" src="images/placeperfil.jpg" alt="Web design Aaron"/>
-					<img class="designers" src="images/placeperfil.jpg" alt="Web design Alexander"/>
-					<img class="designers" src="images/placeperfil.jpg" alt="Web design Paul"/>
-					<img class="designers" src="images/wagner.jpg" alt="Web design Wagner"/>
+					<img class="designers" src="../../images/placeperfil.jpg" alt="Web design Aaron"/>
+					<img class="designers" src="../../images/placeperfil.jpg" alt="Web design Alexander"/>
+					<img class="designers" src="../../images/placeperfil.jpg" alt="Web design Paul"/>
+					<img class="designers" src="../../images/wagner.jpg" alt="Web design Wagner"/>
 					<ul id="group">
 						<li><a href="" >Aaron</a></li>
 						<li><a href="" >Alexander</a></li>
