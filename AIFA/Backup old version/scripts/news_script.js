@@ -1,5 +1,5 @@
 /* Toggle Popup */
-$(".headline").click(function(){
+$(".news_headline").click(function(){
 	$("#news_bg").css({"display":"block"});
 	$("#news_popup").css({"display":"inline-block"});
 });
@@ -10,7 +10,7 @@ $("#news_bg").click(function(){
 });
 
 /* Reset Popup Scroll */
-$(".headline").click(function(){
+$(".news_headline").click(function(){
 	$("#news_popup_content div").scrollTop(0);
 });
 

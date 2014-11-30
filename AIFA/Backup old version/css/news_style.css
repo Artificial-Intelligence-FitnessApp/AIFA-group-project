@@ -1,4 +1,7 @@
-
+#news_section{
+	margin:0 auto;
+	width:70%;
+}
 #news_header{
 	text-align:center;
 }
@@ -63,21 +66,26 @@
 .news_bold{
 	font-weight: bold;
 }
-.headline{
+.news_headline{
     cursor: pointer;
 	text-align: left;
 }
-.headline:hover{
+.news_headline:hover{
 	background:#DF7401;
 	color: white;
 }
-.headline>h3{
+.news_headline>h3{
 	font-size: 1.5em;
 	margin-left: 5px;
+	float: left;
 	width: 80%;
 }
-.headline>div{
+.news_headline>div{
 	display: none;
+}
+.news_headline>img{
+	float: left;
+	margin: 5px;
 }
 .news_a{
 	font-weight: bold;
