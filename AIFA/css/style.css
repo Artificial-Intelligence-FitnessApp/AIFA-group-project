@@ -988,7 +988,38 @@ iframe{
 
 
 /*=============================Weight loss Content=================================================*/
+<<<<<<< HEAD
+#seven_hacks_exercise{
+	margin:0 auto;
+	width:70%;
+}
+#seven_hacks_header{
+	text-align:center;
+}
+#seven_hacks{
+	margin:2em;
+	display: none;
+}
+.seven_hacks,h3{
+	margin-bottom:1em;
+}
+.seven_hacks_exercise,h3 {
+	margin-top:.3em;
+	color: black;
+	padding:.2em;
+	background: #2ECCFA;
+    font-weight:700;
+    cursor:pointer;
+}
 
+#seven_hacks,h3:hover, #seven_hacks,h3.close:hover {
+	background:#DF7401;
+	color: white;
+}
+
+=======
+
+>>>>>>> b7331493d72b734b1bc4a0864281bdf24ff005b1
 
 /*=============================Recipes Content=================================================*/
 /* Basic sample */
@@ -1109,11 +1140,25 @@ img{
 	margin:auto;
 }
 
+<<<<<<< HEAD
+.flipbook-viewport .flipbook{
+<<<<<<< HEAD
+	width:50em;
+	height:25em;
+	margin-top:2em;
+	margin-bottom:2em;
+=======
+	width:800px;
+	height:400px;
+
+>>>>>>> 181e33dcffb20f4fc339649f1a8c2a0671950497
+=======
 .flipbook-viewport .flipbook{
 	width:50em;
 	height:25em;
 	margin-top:2em;
 	margin-bottom:2em;
+>>>>>>> b7331493d72b734b1bc4a0864281bdf24ff005b1
 }
 
 .flipbook-viewport .page{
@@ -1163,4 +1208,4 @@ img{
 
 
 /*=============================Recommended Products Content=================================================*/
-/*=============================About Us Content=================================================*/
+/*=============================About Us Content=================================================*/
