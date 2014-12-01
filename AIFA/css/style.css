@@ -1000,10 +1000,10 @@ iframe{
 	margin:2em;
 	display: none;
 }
-.seven_hacks,h3{
+.seven_hacks h3{
 	margin-bottom:1em;
 }
-.seven_hacks_exercise,h3 {
+.seven_hacks_exercise h3 {
 	margin-top:.3em;
 	color: black;
 	padding:.2em;
@@ -1012,7 +1012,7 @@ iframe{
     cursor:pointer;
 }
 
-#seven_hacks,h3:hover, #seven_hacks,h3.close:hover {
+#seven_hacks h3:hover, #seven_hacks h3.close:hover {
 	background:#DF7401;
 	color: white;
 }
