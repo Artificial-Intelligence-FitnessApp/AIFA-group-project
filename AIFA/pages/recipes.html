@@ -29,11 +29,14 @@
 			<div id="logoIn"></div>
 			<p>Login to your AIFA account</p>
 			<label>Username:</label>
-			<input type="text" name="username" id="username_input" maxlength="15"></br>
+			<input type="text" name="username" id="username_input" maxlength="15"><br/>
 			<label>Password:</label>
-			<input type="password" name="password" id="password_input" maxlength="15">
+			<input type="password" name="password" id="password_input" maxlength="15"><br/>
+			<button type="button" name="Login" id="button_login_final">Login</button>
 		</div>	
-	</form>	<!----------------END OF IT--------------------------->
+	</form>
+	<div id="login_bg"></div>
+	<!----------------END OF IT--------------------------->
 		<!----------------header section--------------------------->
 		<header id="main_header">
 		<div id="head_wrap">
@@ -48,10 +51,15 @@
 				</section>
 		</div>
 			<div id="login_container">
-				<p class="logged_in">Welcome, USER</p>
-				<label class="logged_in"><a href="account.html" class="logged_in" >My Account</a><label><br/>
-				<input type="submit" value="Login" id="button_login" class="log_on log"/>
-				<input type="submit" value="Logoff" id="button_logoff" class="log_off log" />
+				<div id="login_header">
+					<p class="logged_off">You are not logged in.</p>
+					<input type="submit" value="Login" id="button_login" class="log_on log">
+				</div>
+				<div id="logoff_header">
+					<p class="logged_in">Welcome, <span id="username_output">USER</span></p>
+					<label class="logged_in"><a href="pages/account.html" class="logged_in" >My Account</a></label><br/>
+					<input type="submit" value="Logoff" id="button_logoff" class="log_off log">
+				</div>
 			</div>
 		</header><!----------------END OF IT--------------------------->
 		<!----------------Navigation of desktop--------------------------->	
@@ -257,7 +265,7 @@
 		</footer>
 	</div>
 	<script src="../scripts/recipe_script.js"></script>
-	<script src="../scripts/default.js"></script>
+	<script src="../scripts/mainScript.js"></script>
 	<script src="../scripts/responsive.js"></script>
 
 </body>
