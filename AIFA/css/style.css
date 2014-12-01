@@ -316,13 +316,13 @@ a{
 }
 /*=================SIDE BAR====================================*/
 #sidebar{
-	margin-top:2em;
+	margin-top:1.8em;
 	width:30%;
 	float:right;
 
 }
 /*===============FOOTER SECTION==================================*/
-footer{
+footer{   
 	width:100%;
 	clear:both;
 }
@@ -523,7 +523,7 @@ iframe{
 	background-image:url('../images/icons/copyright1.png');
 	background-repeat:no-repeat;	
 	width:50px;
-	height:50px;
+.height:50px;
 }
 #copyright{
 	margin:2em 20em 0 0;
@@ -550,7 +550,7 @@ iframe{
 
 /*=============================HOMEPAGE CONTENT=================================================*/
 .slider{
-	width:95%;
+	width:94%;
 	height:374px;
 	margin:2em 0 2em 0;
 	overflow:hidden;
@@ -573,7 +573,6 @@ iframe{
 	float:left;
 	width:66%;
 	margin-left:2em;
-	/* height:980px; */
 }
 
 .fitnessBook{
@@ -1164,4 +1163,4 @@ img{
 
 
 /*=============================Recommended Products Content=================================================*/
-/*=============================About Us Content=================================================*/
+/*=============================About Us Content=================================================*/

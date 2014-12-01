@@ -51,8 +51,9 @@
 	#navTablet{
 		display:none;
 	}
-	#banner{
+	.slider{
 		height:300px;
+		margin-top:2em;
 	}	
 		/*===================Section area============================*/
 	.fitnessBook{
@@ -110,7 +111,8 @@
 		float:none;
 	}
 
-	#banner{
+	.slider{
+		width:98%;
 		height:190px;
 	}
 	.fitnessBook{
@@ -122,7 +124,7 @@
 		padding:2em;
 	}
 	#content{
-		width:100%;
+		width:60%;
 	}
 	.fitnessBook h2{
 		font-size:1.1em;
@@ -150,14 +152,10 @@
 	}
 	
 	#sidebar{
-		width:100%;
+		width:36%;
 		margin:0;
-		float:none;
 	}
-	.promo{
-		width:30%;
-		float:left;
-	}
+
 	#gender{
 		margin-right:5em;
 	}	
@@ -247,7 +245,7 @@
 		width:100%;
 		float:none;
 	}
-	#banner{
+	.slider{
 		height:200px;
 	}
 	#art-one, #art-two, #art-three{
@@ -269,7 +267,7 @@
 		width:80%;
 		margin:0 auto;
 	}
-	#articles
+
 	#article h3{
 		margin-top:2em;
 	}
@@ -295,6 +293,9 @@
 	#sidebar{
 		float:none;
 		margin-top:5em;
+	}
+	.slider{
+	
 	}
 	.promo{
 		clear:both;
@@ -349,7 +350,7 @@
 	#close-icon{
 		left:14em;
 	}
-	#banner{
+	.slider{
 		height:160px;
 	}
 /*=======================footer===============================*/
