@@ -111,7 +111,7 @@
 	}
 
 	#banner{
-		height:280px;
+		height:190px;
 	}
 	.fitnessBook{
 		width:29.9%;
@@ -125,14 +125,15 @@
 		width:100%;
 	}
 	.fitnessBook h2{
-		font-size:1.4em;
+		font-size:1.1em;
 	}
 	.fitnessBook p{
-		font-size:.9em;
+		font-size:.8em;
 	}	
 	.fitnessBook img{
-		max-width:90%;
-		max-height:90%;
+		max-width:70%;
+		max-height:70%;
+		margin:0 2.5em 0 2.5em;
 	}
 	#articles{
 		float:left;
@@ -149,8 +150,13 @@
 	}
 	
 	#sidebar{
-		width:41%;
+		width:100%;
 		margin:0;
+		float:none;
+	}
+	.promo{
+		width:30%;
+		float:left;
 	}
 	#gender{
 		margin-right:5em;
