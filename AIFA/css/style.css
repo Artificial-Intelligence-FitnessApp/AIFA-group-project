@@ -82,12 +82,12 @@ h3,h4{
 	font-weight:bold;
 }
 #login_div{
-	background: rgba(0,0,0, 0.6);
 	width:100%;
 	height:3000px;
 	z-index:2;
 	position:absolute;
 	display:none;
+	z-index: 2;
 }
 #close-icon{
 	background-image:url('../images/close-icon.png');
@@ -95,8 +95,11 @@ h3,h4{
 	width:30px;
 	height:30px;
 	position:relative;
-	left:24.5em;
-	top:-5.7em;
+	left:23.5em;
+	top:-4.7em;
+}
+#close-icon:hover{
+	cursor: pointer;
 }
 #logoIn{
 	background-image:url('../images/placeholder.png');
@@ -160,7 +163,23 @@ a{
 	float:right;
 	width:20%;
 }
-
+#login_bg{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: black;
+	opacity: 0.3;
+	display: none;
+	z-index: 1;
+}
+#button_login_final{
+	display: inline-block;
+}
+#logoff_header{
+	display: none;
+}
 .log {
 	-webkit-box-shadow:rgba(0,0,0,0.98) 0 0.063em 0 0;
 	-moz-box-shadow:rgba(0,0,0,0.98) 0 0.063em 0 0;
