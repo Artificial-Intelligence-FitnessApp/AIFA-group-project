@@ -66,26 +66,21 @@
 .news_bold{
 	font-weight: bold;
 }
-.news_headline{
+.headline{
     cursor: pointer;
 	text-align: left;
 }
-.news_headline:hover{
+.headline:hover{
 	background:#DF7401;
 	color: white;
 }
-.news_headline>h3{
+.headline>h3{
 	font-size: 1.5em;
 	margin-left: 5px;
-	float: left;
 	width: 80%;
 }
-.news_headline>div{
+.headline>div{
 	display: none;
-}
-.news_headline>img{
-	float: left;
-	margin: 5px;
 }
 .news_a{
 	font-weight: bold;
