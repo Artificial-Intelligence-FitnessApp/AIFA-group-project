@@ -13,6 +13,9 @@
 	#news_bg{
 		margin-left:-26em;
 	}
+	#news_content{
+		width:100%;
+	}
 }
 @media screen and (max-width:1366px){
 /*--------------------Login Form--------------------*/		
@@ -102,12 +105,11 @@
 	.log_button p, .log_button{
 		width:4em;
 	}	
-/*===============NAVIGATION BAR==========================*/		
+	
 	#main_nav, #main_nav li{
 		float:none;
 	}
-	
-/*===================Section area============================*/
+
 	#banner{
 		height:280px;
 	}

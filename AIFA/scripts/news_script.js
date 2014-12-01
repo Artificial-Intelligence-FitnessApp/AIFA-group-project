@@ -1,5 +1,5 @@
 /* Toggle Popup */
-$(".headline").click(function(){
+$(".news_headline").click(function(){
 	$("#news_bg").css({"display":"block"});
 	$("#news_popup").css({"display":"inline-block"});
 });
