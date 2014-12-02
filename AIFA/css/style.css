@@ -214,8 +214,8 @@ a{
 	position:relative;
 }
 #navDesk .main_nav li{
-	border-right:.1em solid #0B610B;
-	height:2.4em;/*if I couldn't fix the submenu to down will take it out*/
+	border-right:.1em solid #000;
+	height:2.1em;/*if I couldn't fix the submenu to down will take it out*/
 }
 #navDesk .main_nav li a{
 	display:block;
@@ -709,7 +709,7 @@ iframe{
 }
 #BMI{
 	line-height:1.8;
-	margin-left:2em;
+	margin-left:1.5em;
 }
 #BMI > label{
 	color:#610B0B;
@@ -988,38 +988,7 @@ iframe{
 
 
 /*=============================Weight loss Content=================================================*/
-<<<<<<< HEAD
-#seven_hacks_exercise{
-	margin:0 auto;
-	width:70%;
-}
-#seven_hacks_header{
-	text-align:center;
-}
-#seven_hacks{
-	margin:2em;
-	display: none;
-}
-.seven_hacks,h3{
-	margin-bottom:1em;
-}
-.seven_hacks_exercise,h3 {
-	margin-top:.3em;
-	color: black;
-	padding:.2em;
-	background: #2ECCFA;
-    font-weight:700;
-    cursor:pointer;
-}
 
-#seven_hacks,h3:hover, #seven_hacks,h3.close:hover {
-	background:#DF7401;
-	color: white;
-}
-
-=======
-
->>>>>>> b7331493d72b734b1bc4a0864281bdf24ff005b1
 
 /*=============================Recipes Content=================================================*/
 /* Basic sample */
