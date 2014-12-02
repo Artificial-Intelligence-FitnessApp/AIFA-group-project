@@ -549,6 +549,19 @@ iframe{
 /*============================================================*/
 
 /*=============================HOMEPAGE CONTENT=================================================*/
+#about-aifa{
+
+	background:#000;
+	width:100%;
+	height:200px;
+}
+.col{
+	background:red;
+	width:30%;
+	height:100%;
+	margin:0 1em 0 1em;
+	float:left;
+}
 .slider{
 	width:94%;
 	height:374px;
