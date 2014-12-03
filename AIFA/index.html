@@ -5,7 +5,6 @@
 		<title>AIFA - Artificial Intelligence Fitness App | Homepage</title>
 		<meta name="viewport" content="initial-scale=1.0, width=device-width" />
 		<link rel="stylesheet" href="css/style.css" type="text/css"/>
-		<link rel="stylesheet" href="css/news_style.css" type="text/css"/>
 		<link rel="stylesheet" href="css/media_queries.css" type="text/css"/>
 	</head>
 	<body>
@@ -14,14 +13,19 @@
 	<!-- login box -->
 	<form id="login_div">
 		<div id="log-box">
+			<div id="logoIn">
+				<figure>
+					<img src="images/aifa-logo-sm.png" alt="our company logo - AFAI Artificial Intelligence Fitness App">
+				</figure>
+			</div>
 			<div id="close-icon"></div>
-			<div id="logoIn"></div>
 			<p>Login to your AIFA account</p>
 			<label>Username:</label>
 			<input type="text" name="username" id="username_input" maxlength="15"><br/>
 			<label>Password:</label>
 			<input type="password" name="password" id="password_input" maxlength="15"><br/>
 			<button type="button" name="Login" id="button_login_final">Login</button>
+			
 		</div>
 	</form>
 	<div id="login_bg"></div>
@@ -31,7 +35,7 @@
 		<div id="head_wrap">
 			<figure id="logo">
 				<a href="#">
-					<img src="images/placeholder.png">
+					<img src="images/aifa-logo.png" alt="our company logo - AFAI Artificial Intelligence Fitness App">
 				</a>
 			</figure>
 				<section id="main_headings">
@@ -105,45 +109,43 @@
 			<!-- banner -->
 				<div class="slider">
 					<img src="images/banner1.jpg" />
-				    <img src="images/banner3.jpg" />
+				    <img src="images/banner2.jpg" />
 				    <img src="images/banner4.jpg" />
 				</div>			
-				<article id="art-one" class="fitnessBook headline">
-					<article class= "page1">
-						<figure class="show-box">
+				<article id="art-one" class="fitnessBook">
+						<figure>
 							<img class="small" src="images/arnold_sm.jpg" alt="Arnold Schwarzenegger Mr. Olympia"/>
 						</figure>
-						<h2>Fitness Terminator </h2>
+						<h2><a href="fitness-terminator.html">Fitness Terminator</a></h2>
 							<p>Mr. Olympia titles, Arnold Schwarzenegger was a promising young bodybuilder</p>
-							
-					</article>
 				</article>	
-				<article id="art-two" class="fitnessBook headline">
-					<figure class="show-box">				
+				
+				<article id="art-two" class="fitnessBook">
+					<figure>				
 						<img class="small" src="images/eleven-mistakes_sm.jpg" alt="photo representing five mistake articles"/>
 					</figure>
-					<h2>Eleven Useless and Common Mistake Exercise</h2>						
+					<h2><a href="eleven-mistakes.html">Eleven Useless and Common Mistake Exercise</a></h2>						
 
 				</article>
 				
-				<article id="art-three" class="fitnessBook headline">
-					<figure class="show-box">
+				<article id="art-three" class="fitnessBook">
+					<figure>
 						<img class="small" src="images/healthybody_sm.jpg" alt="photo of a health body"/>
 					</figure>
-					<h2>5 Tips for a healthy body and six packs</h2>					
+					<h2><a href="tips4healthy-body-six-packs.html">5 Tips for a healthy body and six packs</a></h2>					
 
 				</article>
 				
-				<article id="art-four" class="fitnessBook headline">
-						<figure class="show-box">
+				<article id="art-four" class="fitnessBook">
+						<figure>
 							<img class="small" src="images/myth_sm.jpg" alt=""/>
 						</figure>
-						<h2>Myth and truth about bodybuilding and Women </h2>
+						<h2><a href="myth-truth.html">Myth and truth about bodybuilding and Women</a></h2>
 
 				</article>
 				
-				<article id="art-five" class="fitnessBook headline">
-					<figure class="show-box">
+				<article id="art-five" class="fitnessBook">
+					<figure>
 						<img class="small" src="images/arnold_sm.jpg" alt="Arnold Schwarzenegger Mr. Olympia"/>
 					</figure>
 					<h2>Fitness Terminator </h2>
@@ -151,8 +153,8 @@
 		
 				</article>
 				
-				<article id="art-six" class="fitnessBook headline">
-					<figure class="show-box">
+				<article id="art-six" class="fitnessBook">
+					<figure>
 							<img class="small" src="images/arnold_sm.jpg" alt="Arnold Schwarzenegger Mr. Olympia"/>
 					</figure>
 					<h2>Fitness Terminator </h2>
@@ -181,7 +183,7 @@
 				</section>
 				<section class="promo">
 					<h4>The Best Weight Training Exercises</h4>
-					<h5 id="chest" class="exercise-title">Chest Exercise<span class="arrow">&#65516;</span></h5>
+					<h5 id="chest" class="exercise-title">Chest Exercise<span class="arrow">click</span></h5>
 					<nav id="show-chest">
 						<ol class="exercise">
 							<li>Flat Barbell or Dumbbell Bench Press</li>

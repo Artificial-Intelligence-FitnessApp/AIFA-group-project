@@ -6,7 +6,6 @@
 		<meta name="viewport" content="initial-scale=1.0, width=device-width" />
 		<link rel="stylesheet" href="./../../css/style.css" type="text/css"/>
 		<link rel="stylesheet" href="./../../css/media_queries.css" type="text/css"/>
-		
 	</head>
 	<body>
 	<div id="homepage">	
@@ -14,21 +13,29 @@
 	<!-- login box -->
 	<form id="login_div">
 		<div id="log-box">
+			<div id="logoIn">
+				<figure>
+					<img src="./../../images/aifa-logo-sm.png" alt="our company logo - AFAI Artificial Intelligence Fitness App">
+				</figure>
+			</div>
 			<div id="close-icon"></div>
-			<div id="logoIn"></div>
 			<p>Login to your AIFA account</p>
 			<label>Username:</label>
 			<input type="text" name="username" id="username_input" maxlength="15"><br/>
 			<label>Password:</label>
-			<input type="password" name="password" id="password_input" maxlength="15">
-		</div>	
-	</form>	<!-- END OF IT -->
+			<input type="password" name="password" id="password_input" maxlength="15"><br/>
+			<button type="button" name="Login" id="button_login_final">Login</button>
+			
+		</div>
+	</form>
+	<div id="login_bg"></div>
+	<!-- END OF IT -->
 		<!-- header section -->
 		<header id="main_header">
 		<div id="head_wrap">
 			<figure id="logo">
 				<a href="#">
-					<img src="./../../images/placeholder.png">
+					<img src="./../../images/aifa-logo.png" alt="our company logo - AFAI Artificial Intelligence Fitness App">
 				</a>
 			</figure>
 				<section id="main_headings">
@@ -37,11 +44,19 @@
 				</section>
 		</div>
 			<div id="login_container">
-				<p class="logged_in">Welcome, USER</p>
-				<label class="logged_in"><a href="./../../pages/account.html" class="logged_in" >My Account</a></label><br/>
-				<input type="submit" value="Login" id="button_login" class="log_on log">
-				<input type="submit" value="Logoff" id="button_logoff" class="log_off log">
+				<div id="login_header">
+					<p class="logged_off">You are not logged in.</p>
+					<input type="submit" value="Login" id="button_login" class="log_on log">
+				</div>
+				<div id="logoff_header">
+					<p class="logged_in">Welcome, <span id="username_output">USER</span></p>
+					<label class="logged_in"><a href="pages/account.html" class="logged_in" >My Account</a></label><br/>
+					<input type="submit" value="Logoff" id="button_logoff" class="log_off log">
+				</div>
 			</div>
+			<!-- <form id="register"> -->
+		<!-- 		<input type="submit" value="Register" id="Register" class="log_off log">
+			</form> -->
 		</header><!-- END OF IT -->
 		<!-- Navigation of desktop -->	
 		<nav id="navDesk" class="cf">
@@ -150,11 +165,11 @@
 					
 				</section>
 				<section class="promo">
-					<h4>The Best Weight Training Exercises</h4>
-					<h5 id="chest">Chest Exercise</h5>
+					<h4>The Best training for your heart</h4>
+					<h5 id="chest"></h5>
 					<ol class="showExercise">
-						<li>Flat Barbell or Dumbbell Bench Press</li>
-						<li>Incline Barbell or Dumbbell Bench Pressq</li>
+						<li></li>
+						<li></li>
 						<li>Decline Barbell or Dumbbell Bench Press</li>
 						<li>Flat Chest Press Machine</li>
 						<li>Incline Chest Press Machine</li>
@@ -244,10 +259,9 @@
 			</div>
 		</footer>
 	</div>
-	
 	<script src="./../../scripts/jquery.js"></script>
-	<script src="./../../mainScript.js"></script>
-	<script src="./../../scripts/default.js"></script>
+	<script src="./../../scripts/jquery-ui.js"></script>
+	<script src="./../../scripts/mainScript.js"></script>
 	<script src="./../../scripts/responsive.js"></script>
 	</body>
 </html>
