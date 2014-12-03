@@ -11,7 +11,7 @@ $("#news_bg").click(function(){
 });
 
 /* Reset Popup Scroll */
-$(".headline").click(function(){
+$(".news_headline").click(function(){
 	$("#news_popup_content div").scrollTop(0);
 });
 
