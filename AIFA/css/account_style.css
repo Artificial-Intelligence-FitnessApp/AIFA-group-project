@@ -61,6 +61,24 @@
 	width: 45%;
 }
 
+#account_program_header{
+	display: inline-block;
+}
+
+#account_program_header>div>p:first-child{
+	margin-left: 0;
+}
+
+#account_program_header>div>p{
+	float: left;
+	margin-left: 1em;
+}
+
+.account_blog_content{
+	color: #DF7401;
+	font-size: 90%;
+}
+
 textarea{
 	resize: none;
 }
