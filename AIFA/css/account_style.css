@@ -1,0 +1,8 @@
+#account_header{
+	text-align:center;
+}
+
+#account_header>input{
+	border: 2px solid black;
+	border-bottom: 1px solid black;
+}

@@ -59,6 +59,8 @@ $("#news_six").click(function(){
 });
 
 // login script ====================================
+var loggedIn = false;
+
 document.getElementById("button_login").addEventListener("click", loginShow);
 document.getElementById("button_logoff").addEventListener("click", logout);
 document.getElementById("button_login_final").addEventListener("click", login);
@@ -76,6 +78,7 @@ function logout(){
 	document.getElementById("logoff_header").style.display = "none";
 	document.getElementById("login_div").style.display = "none";
 	document.getElementById("login_bg").style.display = "none";
+	loggedIn = false;
 }
 
 function login(){
@@ -87,6 +90,7 @@ function login(){
 	document.getElementById("logoff_header").style.display = "block";
 	document.getElementById("username_input").value = "";
 	document.getElementById("password_input").value = "";
+	loggedIn = true;
 }
 
 function loginShow(){
