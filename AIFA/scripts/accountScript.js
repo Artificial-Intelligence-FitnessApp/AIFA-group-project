@@ -38,7 +38,7 @@ function checkUsername(){
 var textArea = document.getElementById("account_textarea");
 var displayLength = document.getElementById("account_blog_limit");
 var remainingLength;
-textArea.addEventListener("keydown", checkLength);
+textArea.addEventListener("keyup", checkLength);
 document.getElementById("button_account_post").addEventListener("click", postMessage);
 
 function checkLength(){
