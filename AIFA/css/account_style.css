@@ -7,14 +7,56 @@
 	border-bottom: 1px solid black;
 }
 
-#account_profile{
-	background:#afada7;
+#account_column_side{
+	width: 15%;
 	float: left;
-	margin: 1em;
-	width:10em;
+}
+
+#account_column_main{
+	width: 75%;
+	margin-left: 3em;
+	float: left;
+}
+
+#account_badges{
+	display: inline-block;
+}
+
+#account_badges>div{
+	background: #F8FBEF;
+	width: 100%;
+	margin-bottom: 1em;
+	padding-top: .3em;
+	padding-bottom: .3em;
+	border-radius:.4em;
+}
+
+#account_badges>div:last-child{
+	margin-bottom: 0;
+}
+
+#account_badges>div>img{
+	margin-left: .3em;
+}
+
+#account_badges>div,#account_badges>div>img{
+	float: left;
+}
+
+#account_badges>div>p{
+	float: left;
+	margin-left: 1em;
+	width: 50%;
+}
+
+.account_divs{
+	background:#afada7;
+	width: 100%;
+	padding: 1em;
+	margin-left: 1em;
+	margin-top: 1em;
 	border-radius:.4em;
 	font-weight:bold;
 	font-family:Helvetica, "Calibri Light", "Franklin Gothic Book", Arial, sams-serif;
 	text-align:left;
-	padding:2em;
 }
