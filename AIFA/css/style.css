@@ -1142,25 +1142,9 @@ img{
 
 <<<<<<< HEAD
 .flipbook-viewport .flipbook{
-<<<<<<< HEAD
-	width:50em;
-	height:25em;
-	margin-top:2em;
-	margin-bottom:2em;
-=======
 	width:800px;
 	height:400px;
-
->>>>>>> 181e33dcffb20f4fc339649f1a8c2a0671950497
-=======
-.flipbook-viewport .flipbook{
-	width:50em;
-	height:25em;
-	margin-top:2em;
-	margin-bottom:2em;
->>>>>>> b7331493d72b734b1bc4a0864281bdf24ff005b1
 }
-
 .flipbook-viewport .page{
 	width:400px;
 	height:400px;
