@@ -37,13 +37,13 @@ function checkUsername(){
 /* blog system */
 var textArea = document.getElementById("account_textarea");
 var displayLength = document.getElementById("account_blog_limit");
+var postArea = document.getElementById("account_blog_posts");
 var remainingLength;
 textArea.addEventListener("keyup", checkLength);
 document.getElementById("button_account_post").addEventListener("click", postMessage);
 
 function checkLength(){
 	remainingLength = 150 - textArea.value.length;
-	console.log(remainingLength);
 	displayLength.innerHTML = remainingLength;
 	if(remainingLength < 0){
 		displayLength.style.color = "red";
@@ -54,9 +54,11 @@ function checkLength(){
 
 function postMessage(){
 	if(textArea.value.length > 150){
-		console.log("Denied Post");
+		alert("Post exceeds maximum length.");
 	} else {
-		console.log("Accepted Post");
+		alert("Message successfully posted.");
+		postArea.innerHTML = postArea.innerHTML + "<div class=account_divs><p>" +username+ " says...</p><p class=account_blog_content>"+textArea.value+"</p></div>";
 		textArea.value = "";
+		displayLength.innerHTML = "150";
 	}
 }
