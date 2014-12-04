@@ -102,7 +102,7 @@
 				<input type="submit" value="Login" id="button_login_cta" class="log_on log">
 			</div> -->
 			<div id="account_body">
-				<div id="account_column_side">
+				<div id="account_column_side" class="account_column">
 					<div id="account_profile" class="account_divs">
 						<img src="../images/account_profile_picture.png" alt="Your profile picture"></img>
 						<p>123456789012345</p>
@@ -126,8 +126,20 @@
 						</div>
 					</div>
 				</div>
-				<div id="account_column_main">
-					<div id="" class="account_divs"></div>
+				<div id="account_blog" class="account_column">
+					<div id="account_blog_newpost" class="account_divs">
+						<h3>Fitness Blog</h3>
+						<form>
+							<textarea name="post" rows="3" cols="50" maxlength="150" placeholder="What did you do today?"></textarea>
+							<label>Remaining Characters: <span id="account_blog_limit">100</span></label>
+							<input type="button" value="Submit"></input>
+						</form>
+					</div>
+				</div>
+				<div id="account_program" class="account_column">
+					<div id="" class="account_divs">
+						<h3>Fitness Program</h3>
+					</div>
 				</div>
 			</div>
 		</section>
