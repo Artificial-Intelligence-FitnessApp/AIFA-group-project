@@ -1,3 +1,4 @@
+/* extended login system */
 document.getElementById("button_login_cta").addEventListener("click", loginShowAlt);
 var accountShown = false;
 var usernameProcessed;
@@ -30,5 +31,32 @@ function checkUsername(){
 		usernameProcessed = username + '\'';
 	} else {
 		usernameProcessed = username + '\'s';
+	}
+}
+
+/* blog system */
+var textArea = document.getElementById("account_textarea");
+var displayLength = document.getElementById("account_blog_limit");
+var remainingLength;
+textArea.addEventListener("keydown", checkLength);
+document.getElementById("button_account_post").addEventListener("click", postMessage);
+
+function checkLength(){
+	remainingLength = 150 - textArea.value.length;
+	console.log(remainingLength);
+	displayLength.innerHTML = remainingLength;
+	if(remainingLength < 0){
+		displayLength.style.color = "red";
+	} else {
+		displayLength.style.color = "black";
+	}
+}
+
+function postMessage(){
+	if(textArea.value.length > 150){
+		console.log("Denied Post");
+	} else {
+		console.log("Accepted Post");
+		textArea.value = "";
 	}
 }
