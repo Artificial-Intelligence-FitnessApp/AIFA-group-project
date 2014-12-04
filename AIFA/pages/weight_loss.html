@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 	<head>
@@ -20,21 +21,29 @@
 	<!----------------login box--------------------------->
 	<form id="login_div">
 		<div id="log-box">
+			<div id="logoIn">
+				<figure>
+					<img src="../images/aifa-logo-sm.png" alt="our company logo - AFAI Artificial Intelligence Fitness App">
+				</figure>
+			</div>
 			<div id="close-icon"></div>
-			<div id="logoIn"></div>
 			<p>Login to your AIFA account</p>
 			<label>Username:</label>
-			<input type="text" name="username" id="username_input" maxlength="15"></br>
+			<input type="text" name="username" id="username_input" maxlength="15"><br/>
 			<label>Password:</label>
-			<input type="password" name="password" id="password_input" maxlength="15">
-		</div>	
-	</form>	<!----------------End of it --------------------------->
+			<input type="password" name="password" id="password_input" maxlength="15"><br/>
+			<button type="button" name="Login" id="button_login_final">Login</button>
+			
+		</div>
+	</form>
+	<div id="login_bg"></div>
+	<!----------------END OF IT--------------------------->
 		<!----------------header section--------------------------->
 		<header id="main_header">
 		<div id="head_wrap">
 			<figure id="logo">
 				<a href="#">
-					<img src="images/placeholder.png"/>
+					<img src="../images/aifa-logo.png"/>
 				</a>
 			</figure>
 				<section id="main_headings">
@@ -43,13 +52,18 @@
 				</section>
 		</div>
 			<div id="login_container">
-				<p class="logged_in">Welcome, USER</p>
-				<label><a href="account.html" class="logged_in" >My Account</a><label><br/>
-				<input type="submit" value="Login" id="button_login" class="log_on log"/>
-				<input type="submit" value="Logoff" id="button_logoff" class="log_off log" />
+				<div id="login_header">
+					<p class="logged_off">You are not logged in.</p>
+					<input type="submit" value="Login" id="button_login" class="log_on log">
+				</div>
+				<div id="logoff_header">
+					<p class="logged_in">Welcome, <span id="username_output">USER</span></p>
+					<label class="logged_in"><a href="pages/account.html" class="logged_in" >My Account</a></label><br/>
+					<input type="submit" value="Logoff" id="button_logoff" class="log_off log">
+				</div>
 			</div>
-		</header><!----------------End of it --------------------------->
-		<!----------------Navigation of desktop--------------------------->	
+		</header><!-- END OF IT -->
+		<!-- Navigation of desktop -->	
 		<nav id="navDesk" class="cf">
 			<ul class="main_nav">
 				<li><a href="../index.html">Home</a></li>
@@ -64,8 +78,8 @@
 				<li><a href="faq.html">FAQ's</a></li>
 				<li><a href="about_us.html">About us</a></li>
 			</ul>	
-		</nav>	<!----------------End of it --------------------------->
-		<!----TABLE PORTRAIT NAVIGATION----->
+		</nav>	<!-- End of it -->
+		<!-- TABLE PORTRAIT NAVIGATION -->
 		<div id="menu-trigger" title="menu button">
 			<figure id="menu-button"></figure>
 			<span class="menu-text">Menu</span>
@@ -84,111 +98,114 @@
 				<li><a href="faq.html">FAQ's</a></li>
 				<li><a href="about_us.html">About us</a></li>
 			</ul>	
-		</nav>	<!----------------End of it --------------------------->
-				<!-----Weight loss main page--------->
-<article id="seven_hacks_article">
-	<section id="seven_hacks_exercises">
-		<div id="seven_hacks_header">
-			<p>Name: Nick Tuminello</p>
-			<p>Occupation: Trainer, owner of Performance University, author of Strength Training for Fat Loss.</p>
-			<p>Location: Ft. Lauderdale, FL</p> 
-		</div>
+		</nav>	<!--  End of it -->
+		<!-- Main Section wrapper box-->
+		<aside id="sub-nav">
+			<nav id="tips-list">
+				<li>Gain Mass tips</li>
+				<li>7 Creative Hacks To Improve Classic Exercises</li>
+				<li>5 ingredients for the perfect fat loss circuit</li>
+				<li>Gym Hacks You Need To Know </li>
+				<li>Smart Dumbbell Lifting: Iso-Dynamic Training</li>
+				<li>Burn Fat Like Crazy With 3 Unconventional Cardio Styles!</li>
+				<li>HIIT Can Get You Huge, Especially If You Are A Meathead!</li>
+				<li>5 keys to doing high-intesity intervals the right way</li>
+				<li>5 Mistakes Holding  Back Your Gains</li>
+				<li>JAMIE EASON'S GYM GUIDE</li>
+			</nav>
+		</aside>
+		<section id="main_section">
+		
+				<!-- content -->
+			<article id="articles" class="weight-loss-pgs">
+				<section class="hgroup">
+					<h2>Gain Mass tips</h2>
+					<h3>Pack 10</h3>
+				</section>
+				<figure class="wrap-img">
+					<img class="img" src="images/arnold_lg.jpg" alt="Arnold Schwarzenegger Mr. Olympia"/>
+				</figure>
+			
+					<p>Maybe you've had sand kicked in your face. Maybe you've lost one too many attainable women to beefier guys. Or maybe you've read so much about weight loss that actually admitting you want to gain weight is a societal taboo. Whatever the reason, you want to bulk up. Now.</p>
+					<p>But forget about your alleged high-revving metabolism, says Doug Kalman, R.D., director of nutrition at Miami Research Associates. "Most lean men who can't gain muscle weight are simply eating and exercising the wrong way," he says.</p>
+					
+					<h3>10 principles to pack on as much as a pound of muscle each week.</h3>
+					<h4>1. Maximize muscle building</h4>
+						<p>The more protein your body stores—in a process called protein synthesis—the larger your muscles grow.</p>
+						<p id="one">Read further</p>
+						<span id="showCloseClose-one">
+							<p>But your body is constantly draining its protein reserves for other uses—making hormones, for instance. The result is less protein available for muscle building. To counteract that, you need to "build and store new proteins faster than your body breaks down old proteins," says Michael Houston, Ph.D., a professor of nutrition at Virginia Tech University.</p>
+						</span>
+					<h4>2. Eat meat</h4>
+						<p>Shoot for about 1 gram of protein per pound of body weight, which is roughly the maximum amount your body can use in a day, according to a landmark study in the Journal of Applied Physiology.</p>
+						<p id="two">Read further</p>
+						<span id="showClose-two">
+							<p>(For example, a 160-pound man should consume 160 grams of protein a day—the amount he'd get from an 8-ounce chicken breast, 1 cup of cottage cheese, a roast-beef sandwich, two eggs, a glass of milk, and 2 ounces of peanuts.) Split the rest of your daily calories equally between carbohydrates and fats.</p>
+						</span>
+					<h4>3. Eat more.</h4>
+						<p>In addition to adequate protein, you need more calories. Use the following formula to calculate the number you need to take in daily to gain 1 pound a week. (Give yourself 2 weeks for results to show up on the bathroom scale. If you haven't gained by then, increase your calories by 500 a day.)</p>
+					
+					<h5>Your Table Control</h5>
+						<p id="three">Explore Table</p>
+						<p>Insert your date to get result</p>
+						<div id="showClose-table">
+						</div>
+					<h4>4. Work your biggest muscles. </h4>
+						<p>If you're a beginner, just about any workout will be intense enough to increase protein synthesis.</p>
+						<p id="four">Read further</p>
+						<span id="showClose-four">
+							<p>But if you've been lifting for a while, you'll build the most muscle quickest if you focus on the large muscle groups, like the chest, back, and legs. Add squats, deadlifts, pullups, bent-over rows, bench presses, dips, and military presses to your workout. Do two or three sets of eight to 12 repetitions, with about 60 seconds' rest between sets.</p>
+						</span>
+						
+					<h4>5. But first, have a stiff drink. </h4>
+						<p>A 2001 study at the University of Texas found that lifters who drank a shake containing amino acids and carbohydrates before working out increased their protein synthesis more than lifters who drank the same shake after exercising.</p>
+						<p id="five">Read further</p>
+						<span id="showClose-five">
+							<p>The shake contained 6 grams of essential amino acids—the muscle-building blocks of protein—and 35 grams of carbohydrates. "Since exercise increases bloodflow to your working tissues, drinking a carbohydrate-protein mixture before your workout may lead to greater uptake of the amino acids in your muscles," says <a href="">Kevin Tipton, Ph.D.,</a> an exercise and nutrition researcher at the University of Texas in Galveston.</p>
+							<p>For your shake, you'll need about 10 to 20 grams of protein—usually about one scoop of a whey-protein powder.  Can't stomach protein drinks? You can get the same nutrients from a sandwich made with 4 ounces of deli turkey and a slice of American cheese on whole wheat bread. But a drink is better. "Liquid meals are absorbed faster," says Kalman. So tough it out. Drink one 30 to 60 minutes before your workout.</p>
+						
+						</span>
+						
+					<h4>6. Lift Every Other Day</h4>
+						<p>Do a full-body workout followed by a day of rest. Studies show that a challenging ...</p>
+						<p id="six">Read further</p>
+						<span id="showClose-six">
+							<p>weight workout increases protein synthesis for up to 48 hours immediately after your exercise session. "Your muscles grow when you're resting, not when you're working out," says Michael Mejia, C.S.C.S., Men's Health exercise advisor and a former skinny guy who packed on 40 pounds of muscle using this very program.</p>
+						</span>
+						
+					<h4>7. Down Carbs After Your Workout</h4>
+						<p>Research shows that you'll rebuild muscle faster on your rest days if you feed your body carbohydrates.</p>
+						<p id="seven">Read further</p>
+						<span id="showClose-seven">
+							<p>"Post-workout meals with carbs increase your insulin levels," which, in turn, slows the rate of protein breakdown, says Kalman. Have a banana, a sports drink, a peanut-butter sandwich.</p>
+						</span>
+					
+					<h4>8. Eat Every 3 Hours</h4>
+						<p>"If you don't eat often enough, you can limit the rate at which your body builds new proteins," says Houston.<p>
+						<p id="eight">Read further</p>
+						<span id="showClose-eight">						
+							<p>Take the number of calories you need in a day and divide by six. That's roughly the number you should eat at each meal. Make sure you consume some protein—around 20 grams—every 3 hours.</p>
+						</span>
+						
+					<h4>9. Make One Snack Ice Cream</h4>
+						<p>Have a bowl of ice cream (any kind) 2 hours after your workout.</p>
+						<p id="nine">Read further</p>
+						<span id="showClose-nine">	
+							<p>According to a study in the <a href="">American Journal of Clinical Nutrition</a>, this snack triggers a surge of insulin better than most foods do. And that'll put a damper on post-workout protein breakdown.</p>
+						</span>
+					
+					<h4>10. Have Some Milk Before Bed</h4>
+					<p>Eat a combination of carbohydrates and protein 30 minutes before you go to bed.</p>
+					<p id="nine">Read further</p>
+					<span id="showClose-nine">	
+						<p>The calories are more likely to stick with you during sleep and reduce protein breakdown in your muscles, says Kalman. Try a cup of raisin bran with a cup of skim milk or a cup of cottage cheese and a small bowl of fruit. Eat again as soon as you wake up. "The more diligent you are, the better results you'll get," says Kalman.</p>
+					</span>
+					
+			</article>				
+		</section>	
+		<aside id="sidebar">
 
-		<p>I'm the sort of trainer who believes that proper technique is crucial—and that no technique is sacred. Sound contradictory? It isn't to me. Sure, we may have a perfectly adequate way of performing a movement, but that doesn't mean there isn't a better way to make it work for you, your body, and your goals. </p>
-		<p>I've found that some people are resistant to refining classic exercises; they assume these exercises are just fine the way they are, since old-school athletes and bodybuilders have been using them forever. But here's the thing: Those old-school athletes and bodybuilders were innovators, too. They built upon knowledge they gained from those who came before them, and then they forged their own path. This is the basis of all progress, in all parts of life. </p>
-		<p>In my article, "7 Gym Hacks You Need to Know," I showed you some novel ways to solve common equipment problems in the weight room. This time around, I'm focusing on refinements we've developed for specific exercises. We use these modifications in the Performance U approach to increase the safety, productivity, and efficiency of classic exercises. </p>
-
-		<p>"Sure, we may have a perfectly adequate way of performing a movement, but that doesn't mean there isn't a better way to make it work for you, your body, and your goals."</p>
-		<br />
-
-	<h3>1 Burpees </h3>
-		<div class="seven_hacks">
-			<p>Most trainers and fitness enthusiasts—of all varieties, not just CrossFit athletes—perform the burpee exercise with less-than-optimal form.What do I mean by this? By going down with their feet together and back bent over, they make the movement both less safe and less metabolically demanding than it could be. </p>
-			<p>So what's the solution? Perform your squat thrusts—as burpees are alternately known—less like a squat and more like a sumo deadlift. This moves the stress from the back to the hips, which also enables you to work harder. Lucky you! </p> 
-			Burpee Exercise How to do Perfect Burpees
-			<p>Watch The Video - 1:31</p>
-			<iframe width="560" height="315" src="https://www.youtube.com/embed/Pf7wZvraWV0" frameborder="0" allowfullscreen></iframe>
-			<p>Of course, you can add a push-up at the bottom of each burpee, if you'd like. You can also add a jump at the top of each burpee if you're looking to make this exercise more dynamic, and want to further increase the metabolic demands. </p>
-		</div>
-
-	<h3>2 Push-Ups</h3> 
-		<div class="seven_hacks">
-			<p>You already know that letting your head or hips sag toward the floor displays poor control during push-ups. But that's not all you need to know! Here are three ways to make your push-ups safer on the joints and more powerful, allowing you to crank out more reps and boost the intensity of your workout. </p>
-			Push-Up Exercise How to do a Perfect Push Up
-		<h4>Variations </h4>
-			1 Arm Angle 
-
-			<p>In order to maximize your ability to create force and get better leverage on each rep, keep your elbows closer to your sides at roughly a 20- to 40-degree angle from your body instead of flaring them out at a 90-degree angle as most people do. This easy tweak shortens the lever arm, which gives you an immediate mechanical advantage. You'll be able to better incorporate your lats and upper-back muscles—after all, this is a total upper-body movement—but it will also make it a better chest movement as you crank out rep after solid rep. </p>
-			2 Elbow Positioning 
-			<p>The push-up is a compound exercise that strengthens the chest, shoulders, and triceps. However, many people allow their elbows to wander past their wrists—either behind or out to the side—which reduces the chest and shoulder involvement and makes it more of a triceps-dominant movement. Unless you're trying to isolate your triceps, keep your elbows above your wrists through the entire push-up action. Your elbows should form a 90-degree angle at the bottom position of the movement. </p>
-			3 Hand Positioning 
-			<p>This is a very common problem. If your hands are pointed slightly inward, toward your body's midline, it encourages you to make both of the mistakes I've already covered. Your arms will flare out away from your sides, and your elbows will wander beyond your wrists. Instead, when performing push-ups, turn your hands outward slightly, pointing your fingers out away from your body's middle at roughly a 45-degree angle. </p>
-		</div>
-
-	<h3>3 One-Arm Push-Ups<h3> 
-		<div class="seven_hacks">
-			<p>I consider the one-arm push-up (let's call it the OAP for short) to be the king of upper-body pushing exercises. As I say in the video below, unless you're training the bench press for a specific competition like a football combine or powerlifting competition, the payoff for mastering the one-arm push-up is usually higher. </p>
-			<p>Whether you agree with me or not, you can't argue that the OAP is a great exercise for improving upper-body pushing strength and core stiffness—if you do it right. And when I peruse online OAP videos, I see plenty of examples you shouldn't be following. </p>
-			One-Arm Push-Up How to do it the RIGHT Way
-			<p>Watch The Video - 5:19</p>
-			<iframe width="560" height="315" src="https://www.youtube.com/embed/UzkDI0_4I2g" frameborder="0" allowfullscreen></iframe>
-			<p>As I note in the video, some of the same cues that make a great push-up make a great single-armer. For instance, keep your wrist below your elbow and turn your hand out, rather than in. Likewise, you need to keep your elbow in—even more so than in the two-arm version. </p>
-			<p>Some people gauge the quality of their OAP by how level they keep their shoulders. Meanwhile, their spine bends and extends so much, they look like they're doing the cobra pose in yoga. Let's be clear: I think it's OK if your pressing shoulder rotates toward your hand on the descent, as long as your shoulders and hips rotate together. Rotating your shoulder slightly can help you corkscrew your working arm into the push-up, which is what makes for truly strong OAPs. </p>
-			<p>On the way up, try to push the floor down away from you, and don't lean upward. Get square at the top, and lower yourself back down for another go! </p>
-		</div>
-
-	<h3>4 Bent-Over Rows And Inverted Rows<h3> 
-		<div class="seven_hacks">
-			<p>Wide-grip bent-over rows are a go-to move in the Performance U training approach when it comes to the mid-back musculature. However, while many people know the great cue of pulling the bar to—or "through"—the chest, few can do it without having to rotate their shoulders inward in the last couple of inches. This changes the training effect of the movement and takes the focus off of where it should be. </p>
-			<p>The answer to this common problem is simple: Just wander over to the squat rack and pick up that fat-bar pad someone left lying on the floor. Put it on the bar, and pull the pad—not the bar—up to your chest. </p>
-			Barbell Bent Over Rows Wide Grip
-			<p>Watch The Video - 2:24</p>
-			<iframe width="560" height="315" src="https://www.youtube.com/embed/Z-IoFDbVFGk" frameborder="0" allowfullscreen></iframe>
-
-			<p>The same hack works wonders on the wide-grip inverted row, another movement where the last couple of inches become a sloppy struggle for far too many people. Use the pad as I direct in these videos, and you'll find yourself rubbing—or at least trying to rub— your middle back the next day, rather than your front delts or biceps. </p>
-			Inverted Row Exercise Best Form Tips
-			<p>Watch The Video - 1:49</p>
-
-			<iframe width="560" height="315" src="https://www.youtube.com/embed/5LZa9TzkjRg" frameborder="0" allowfullscreen></iframe>
-		</div>
-
-	<h3>5 Dumbbell Biceps Curls <h3>
-		<div class="seven_hacks">
-			<p>Your biceps don't just flex your elbow, they also supinate your forearm, meaning they help you rotate it outward so your palm faces upward. It stands to reason that's it's a smart idea to perform biceps curls in a manner that involves both elbow flexion and forearm supination. </p>
-			<p>Here's how: Instead of gripping the dumbbell in the middle, as you might think makes the most sense, grip it with your hand as far to the thumb side as possible. Then, as you curl, keep rotating the dumbbell until you can touch the non-thumb side to the front of your shoulder at the top of the movement. </p>
-			Biceps Curls A Better Way to do Dumbbell Biceps Exercise
-			<p>Watch The Video - 1:28</p>
-			<iframe width="560" height="315" src="https://www.youtube.com/embed/2SoGXiHDJx4" frameborder="0" allowfullscreen></iframe>
-			<p>This small change in hand position can make a huge difference, because this grip forces you to resist forearm pronation. All of a sudden, a weight that was easy for 10 reps might seem a whole lot harder. </p>
-		</div>
-
-	<h3>6 Determining Chin-Up Grip Width<h3> 
-		<div class="seven_hacks">
-			<p>There are some exercises I have almost all athletes I work with perform, such as chin-ups, squats, deadlifts, and push-ups. But I definitely don't expect everyone to do them the same way. Why would you try to make your body fit into an exercise, when you could easily customize the movement to your anatomy? </p>
-			<p>In this video below, which is a clip taken from my "Secrets of Back Training" DVD, IFBB pro bodybuilder Alex Cambronero and I show you the Performance U approach for determining the chin-up grip width. It's as simple as doing an unweighted biceps curl, and in my experience, it's quite effective at helping athletes optimize their pulling strength. </p>
-			Chin Ups Best Chin Up Grip Width
-			<p>Watch The Video - 2:24</p>
-			<iframe width="560" height="315" src="https://www.youtube.com/embed/EUTlo0daeEI" frameborder="0" allowfullscreen></iframe>
-
-			<p>Now, your arms certainly won't explode if you decide to use a wider or narrower chin-up grip, or if you don't even think about grip width and just "grip and go." Consider this a simple way to help personalize the chin-up movement, feel a little stronger performing it, and maybe squeeze out a rep or two more than you would otherwise. </p>
-		</div>
-
-	<h3>7 Sprinting Minimizing Hamstring Injuries<h3>  
-		<div class="seven_hacks">
-			<p>It no secret to any coach or trainer that athletes are most likely to injure a hamstring in the moments after they explode off the line. If you've watched much Olympic sprinting, football, or even baseball, you've no doubt seen someone "come up lame" after a quick start. </p>
-			<p>If you're one of those athletes, the risk is part of the game. It doesn't have to be that way for the rest of us, though. If you're someone who uses sprint training outside a competitive setting, you can minimize your risk of suffering a hamstring injury simply by skipping the quick start. </p>
-			<p>Here's how it works: Instead of starting from a still position and exploding off the line, simply jog to the line and begin sprinting once you cross it. Beginning with a preliminary jog means your body will simply be asked to go from a lower gear to a higher gear, rather than going from nothing straight to maximal contraction. </p>
-			<p>If you're an athlete training for an event that requires you to begin sprinting from a still position—such as a football combine— you'll need to train specifically for that event by using still starts. That said, there's no reason why you can't also integrate some jog-up starts. They'll help you build your speed while minimizing the risk of injury along the way. </p>
-		</div>
-	</section>
-</article>
-
-				<!----------------End of it---------------------------->
-
-	<article>
-		<section>
-		</section>
-	</article>
+		</aside>		
 		<footer>
 			<div id="subfooter">
 				<div class="column" id="columnOne">
@@ -258,4 +275,7 @@
 <script src="../scripts/jquery.js"></script>
 <script src="../scripts/weight_loss_script.js"></script>
 <script src="../scripts/responsive.js"></script>
+<script src="../scripts/mainScript.js"></script>
 </body>
+=======
+>>>>>>> dbcd132e4ce4b465538a7ac9b7bd6b90a5f85057
