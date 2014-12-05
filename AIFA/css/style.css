@@ -762,12 +762,35 @@ iframe{
 }
 #BMI > label{
 	color:#610B0B;
+	font-weight:bold;
+}
+#message{
+	font-size:1em;
+	color:#610B0B;
+}
+.opaci{
+   background: rgb(0, 0, 0); /* The Fallback */
+   background: rgba(0, 0, 0, 0.2); 
 }
 #couple{
 	background-image:url('../images/icons/couple.png');
 	background-repeat:no-repeat;
 	width:118px;
 	height:95px;
+}
+#img-male{
+	background-image:url('../images/icons/male.png');
+	background-repeat:no-repeat;
+	width:118px;
+	height:95px;
+	display:none;
+}
+#img-female{
+	background-image:url('../images/icons/female.png');
+	background-repeat:no-repeat;
+	width:118px;
+	height:95px;
+	display:none;
 }
 #gender{
 	width:6em;
@@ -776,24 +799,40 @@ iframe{
 	margin-right:6em;
 }
 #male{
-	background:#0072B9;
-	color:#001322;
+	color:#0072B9;
 }
 #female{
-	background:#E94E6D;
-	color:#5E001A;
+	color:#E94E6D;
 }
-.height-weight, .feet-inch-lbs{
+.height-weight, .feet-inch-lbs, #result{
 	width:6em;
 	margin-bottom:.3em;
 	height:1.5em;
 	border-radius:.5em;
 }
-.height-weight, .feet-inch-lbs{
-	margin-left:.2em;
+.unit-box{
+	float:left;
 }
-.feet-inch-lbs{
+#unit-lbs{
+	margin:0 0 1em 3.5em;
+}
+#unit-imperial{
+	display:none; 
+}
+#underweight-treatment, #overweight-treatment, #obsity-treatment{
 	display:none;
+}
+#showTreat1, #showTreat2, #showTreat3{
+	display:none;
+}
+#foodTips1, #foodTips2{
+	display:none;
+}
+.foodTips p, .feedbackAdvice p{
+	text-align:left;
+}
+.feedbackAdvice p{
+	margin-bottom:1em;
 }
 .button {
 	font-family: Impact;
@@ -889,7 +928,7 @@ iframe{
 	margin-bottom:2em;
 }
 
-#articles{
+#articles, #weight-loss-pgs{
 	padding:0 2em 2em 2em;
 	width:59%;
 	box-shadow:1em 1em 1em #000;			
@@ -1037,8 +1076,7 @@ iframe{
 
 
 /*=============================Weight loss Content=================================================*/
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 #seven_hacks_exercise{
 	margin:0 auto;
 	width:70%;
@@ -1085,6 +1123,8 @@ iframe{
 #weight-loss-pgs{
     width:46%;
 }
+=======
+>>>>>>> c747cd4f6adab5b2b663c3306d3defe6d75b49e5
 
 /*=============================Recipes Content=================================================*/
 /* Basic sample */
@@ -1150,13 +1190,28 @@ img{
 
 .page3_wrapper{
 	margin-right:2em;
-	background-color:#2ecc71;
 }
 .recipe_calories{
 	
 	background-color:#2ecc71;
 	width:30%;
 	float:left;
+}
+
+.recipe_fill{
+	width:100%;
+	height:100%;
+}
+
+.recipe_para{
+	margin-left:1em;
+	margin-top:1em;
+	margin-right:1em;
+}
+
+.recipe_para2{
+	margin-left:1em;
+	margin-right:1em;
 }
 
 .recipe_fat{
@@ -1180,7 +1235,7 @@ img{
 
 .recipe_mainHeading{
 	width:92%;
-	height:20%;
+	height:15%;
 	clear:both;
 	
 	float:left;
@@ -1202,7 +1257,7 @@ img{
 
 .flipbook-viewport .container{
 
-	margin:auto;
+	margin: 0 auto;
 }
 
 
@@ -1211,9 +1266,9 @@ img{
 	height:400px;
 }
 .flipbook-viewport .page{
-	width:400px;
-	height:400px;
-	background-color:white;
+	width:800px;
+	height:800px;
+	background-color:#ecf0f1;
 	background-repeat:no-repeat;
 	background-size:100% 100%;
 }
