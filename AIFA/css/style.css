@@ -1131,7 +1131,6 @@ img{
 
 .page3_wrapper{
 	margin-right:2em;
-	background-color:#2ecc71;
 }
 .recipe_calories{
 	
@@ -1148,6 +1147,11 @@ img{
 .recipe_para{
 	margin-left:1em;
 	margin-top:1em;
+	margin-right:1em;
+}
+
+.recipe_para2{
+	margin-left:1em;
 	margin-right:1em;
 }
 
@@ -1172,7 +1176,7 @@ img{
 
 .recipe_mainHeading{
 	width:92%;
-	height:20%;
+	height:15%;
 	clear:both;
 	
 	float:left;
@@ -1194,7 +1198,7 @@ img{
 
 .flipbook-viewport .container{
 
-	margin:auto;
+	margin: 0 auto;
 }
 
 
@@ -1205,7 +1209,7 @@ img{
 .flipbook-viewport .page{
 	width:800px;
 	height:800px;
-	background-color:white;
+	background-color:#ecf0f1;
 	background-repeat:no-repeat;
 	background-size:100% 100%;
 }

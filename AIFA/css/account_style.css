@@ -1,3 +1,22 @@
+#account_body{
+	display: inline-block;
+}
+
+#account_program>div.account_program_article{
+	background: #afada7;
+	color: black;
+	padding:.3em;
+    font-weight:700;
+    cursor:pointer;
+}
+#account_program>div.account_program_article>div{
+	display: none;
+}
+#account_program>div.account_program_article:hover{
+	background:#DF7401;
+	color: white;
+}
+
 #account_header{
 	text-align:center;
 }
@@ -56,12 +75,15 @@
 #account_program{
 	display: inline-block;
 	float: left;
-	height: 5em;
 	width: 45%;
 }
 
 #account_program_header{
 	display: inline-block;
+}
+
+#account_program>div{
+	float: left;
 }
 
 #account_program_header>div>p:first-child{
@@ -71,6 +93,10 @@
 #account_program_header>div>p{
 	float: left;
 	margin-left: 1em;
+}
+
+#account_textarea{
+	width: 95%;
 }
 
 .account_blog_content{
@@ -91,6 +117,7 @@ form{
 }
 
 .account_divs{
+	display: inline-block;
 	background:#afada7;
 	width: 100%;
 	padding: .3em;
