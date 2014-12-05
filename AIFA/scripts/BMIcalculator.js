@@ -106,19 +106,19 @@
 				document.getElementById('obsity-treatment').style.display = 'none';
 			}
 			if(finalBmi > 30 && finalBmi < 34.9){
-				document.getElementById('meaning').innerHTML = "Obese first degree: reduze your nutrition ";
+				document.getElementById('meaning').innerHTML = "Obese: reduze your nutrition ";
 				document.getElementById('underweight-treatment').style.display = 'none';
 				document.getElementById('overweight-treatment').style.display = 'none';			
 				document.getElementById('obsity-treatment').style.display = 'block';			
 			}
 			else if(finalBmi > 35 && finalBmi < 39.9){
-				document.getElementById('meaning').innerHTML = "Obese second degree: Attention reduze your nutrition ";
+				document.getElementById('meaning').innerHTML = "Severely Obese: Attention reduze your nutrition ";
 				document.getElementById('underweight-treatment').style.display = 'none';
 				document.getElementById('overweight-treatment').style.display = 'none';			
 				document.getElementById('obsity-treatment').style.display = 'block';			
 			}
 			else if(finalBmi > 40){
-				document.getElementById('meaning').innerHTML = "Obese third degree: Danger check your nutritionist ";
+				document.getElementById('meaning').innerHTML = "Morbidly: Danger check your nutritionist ";
 				document.getElementById('underweight-treatment').style.display = 'none';
 				document.getElementById('overweight-treatment').style.display = 'none';			
 				document.getElementById('obsity-treatment').style.display = 'block';			
