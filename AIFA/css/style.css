@@ -132,6 +132,7 @@ a{
 	display:none;
 }
 #close-icon{
+	display: none;
 	background-image:url('../images/icons/close-icon.png');
 	background-repeat:no-repeat;
 	cursor: pointer;
@@ -161,11 +162,13 @@ a{
 }
 #login_bg{
 	background: black;
+	cursor: pointer;
 	opacity: 0.3;
 	position: fixed;
 	z-index: 1;
+	left: -150%;
 	height: 100%;
-	width: 100%;
+	width: 300%;
 }
 #login_container{
 	float:right;
