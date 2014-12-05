@@ -1,3 +1,4 @@
+/* extended login system */
 document.getElementById("button_login_cta").addEventListener("click", loginShowAlt);
 var accountShown = false;
 var usernameProcessed;
@@ -32,3 +33,40 @@ function checkUsername(){
 		usernameProcessed = username + '\'s';
 	}
 }
+
+/* blog system */
+var textArea = document.getElementById("account_textarea");
+var displayLength = document.getElementById("account_blog_limit");
+var postArea = document.getElementById("account_blog_posts");
+var remainingLength;
+textArea.addEventListener("keyup", checkLength);
+document.getElementById("button_account_post").addEventListener("click", postMessage);
+
+function checkLength(){
+	remainingLength = 150 - textArea.value.length;
+	displayLength.innerHTML = remainingLength;
+	if(remainingLength < 0){
+		displayLength.style.color = "red";
+	} else {
+		displayLength.style.color = "black";
+	}
+}
+
+function postMessage(){
+	if(textArea.value.length > 150){
+		alert("Post exceeds maximum length.");
+	} else {
+		alert("Message successfully posted.");
+		postArea.innerHTML = "<div class=account_divs><p>" +username+ " says...</p><p class=account_blog_content>"+textArea.value+"</p></div>" + postArea.innerHTML;
+		textArea.value = "";
+		displayLength.innerHTML = "150";
+	}
+}
+
+/* fitness system */
+$(document).ready(function() {
+	$('#account_program div.account_program_article').click(function() {
+		$(this).children('div').slideToggle(500);
+		console.log("kek");
+	});
+});
