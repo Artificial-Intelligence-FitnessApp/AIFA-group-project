@@ -57,8 +57,16 @@ function postMessage(){
 		alert("Post exceeds maximum length.");
 	} else {
 		alert("Message successfully posted.");
-		postArea.innerHTML = postArea.innerHTML + "<div class=account_divs><p>" +username+ " says...</p><p class=account_blog_content>"+textArea.value+"</p></div>";
+		postArea.innerHTML = "<div class=account_divs><p>" +username+ " says...</p><p class=account_blog_content>"+textArea.value+"</p></div>" + postArea.innerHTML;
 		textArea.value = "";
 		displayLength.innerHTML = "150";
 	}
 }
+
+/* fitness system */
+$(document).ready(function() {
+	$('#account_program div.account_program_article').click(function() {
+		$(this).children('div').slideToggle(500);
+		console.log("kek");
+	});
+});
