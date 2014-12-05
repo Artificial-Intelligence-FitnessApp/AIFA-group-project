@@ -64,7 +64,7 @@ var loggedIn = false;
 document.getElementById("button_login").addEventListener("click", loginShow);
 document.getElementById("button_logoff").addEventListener("click", logout);
 document.getElementById("button_login_final").addEventListener("click", login);
-document.getElementById("close-icon").addEventListener("click", loginCancel);
+document.getElementById("login_bg").addEventListener("click", loginCancel);
 
 var username;
 
