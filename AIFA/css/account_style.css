@@ -5,7 +5,7 @@
 #account_program>div.account_program_article{
 	background: #afada7;
 	color: black;
-	padding:.2em;
+	padding:.3em;
     font-weight:700;
     cursor:pointer;
 }
@@ -93,6 +93,10 @@
 #account_program_header>div>p{
 	float: left;
 	margin-left: 1em;
+}
+
+#account_textarea{
+	width: 95%;
 }
 
 .account_blog_content{
