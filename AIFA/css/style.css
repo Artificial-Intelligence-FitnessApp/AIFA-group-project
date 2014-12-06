@@ -1147,13 +1147,22 @@ iframe{
 }
 
 #recipe_cover{
-	background-image:url('../images/RecipeCover.jpg');
+	background-image:url('../images/r_cover.jpg');
 }
 
+#recipe_pie{
+	height:100%;
+	width:100%;
+}
 
-img{
-	max-height:100%;
-	max-width:100%;
+#fruit_salad{
+	height:100%;
+	width:100%;
+}
+
+#soup{
+	height:100%;
+	width:100%;
 }
 
 .page2_wrapper{
@@ -1196,6 +1205,11 @@ img{
 	background-color:#2ecc71;
 	width:30%;
 	float:left;
+}
+
+.recipe_name{
+	margin-left:2em;
+	
 }
 
 .recipe_fill{
@@ -1253,6 +1267,7 @@ img{
 	overflow:hidden;
 	width:100%;
 	height:100%;
+	margin:0 auto;
 }
 
 .flipbook-viewport .container{
@@ -1264,10 +1279,11 @@ img{
 .flipbook-viewport .flipbook{
 	width:800px;
 	height:400px;
+	margin:0 auto;
 }
 .flipbook-viewport .page{
-	width:800px;
-	height:800px;
+	width:1000px;
+	height:1000px;
 	background-color:#ecf0f1;
 	background-repeat:no-repeat;
 	background-size:100% 100%;
