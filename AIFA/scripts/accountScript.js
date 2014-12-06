@@ -1,3 +1,36 @@
+/* get date */
+var date = new Date();
+var day = date.getDate();
+var weekday = date.getDay();
+var month = date.getMonth() + 1;
+var year = date.getFullYear();
+var weekday_eng;
+
+switch(weekday) {
+	case 0:
+        weekday_eng = "Sunday";
+        break;
+    case 1:
+        weekday_eng = "Monday";
+        break;
+    case 2:
+        weekday_eng = "Tuesday";
+        break;
+    case 3:
+        weekday_eng = "Wednesday";
+        break;
+    case 4:
+        weekday_eng = "Thursday";
+        break;
+    case 5:
+        weekday_eng = "Friday";
+        break;
+    case 6:
+        weekday_eng = "Saturday";
+        break;
+	default:
+		weekday_eng = "idontknowday";
+}
 /* extended login system */
 document.getElementById("button_login_cta").addEventListener("click", loginShowAlt);
 var accountShown = false;
@@ -14,13 +47,27 @@ var interval = setInterval(function() {
 			checkUsername();
 			document.getElementById("account_header_heading").innerHTML = usernameProcessed + ' Account';
 			document.getElementById("account_header_paragraph").innerHTML = "Welcome to your account, " + username;
+			document.getElementById("account_username").innerHTML = username;
+			document.getElementById("account_username_p").innerHTML = usernameProcessed;
 			document.getElementById("button_login_cta").style.display = "none";
+			document.getElementById("account_body").style.display = "inline-block";
+			/* fitness slider */
+			$(document).ready(function() {
+				$('#account_program div.account_program_article').click(function() {
+					$(this).children('div').slideToggle(500);
+				});
+			});
+			document.getElementById("day").innerHTML = day;
+			document.getElementById("month").innerHTML = month;
+			document.getElementById("year").innerHTML = year;
+			document.getElementById("weekday_eng").innerHTML = weekday_eng;
 			accountShown = true;
 		}
 	} else {
 		if(accountShown == true){
 			document.getElementById("account_content").innerHTML = htmlContent;
 			document.getElementById("button_login_cta").addEventListener("click", loginShowAlt);
+			document.getElementById("account_body").style.display = "none";
 			accountShown = false;
 		}
 	}
@@ -62,11 +109,3 @@ function postMessage(){
 		displayLength.innerHTML = "150";
 	}
 }
-
-/* fitness system */
-$(document).ready(function() {
-	$('#account_program div.account_program_article').click(function() {
-		$(this).children('div').slideToggle(500);
-		console.log("kek");
-	});
-});
