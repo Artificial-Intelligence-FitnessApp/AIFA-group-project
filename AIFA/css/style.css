@@ -68,6 +68,7 @@ body{
 	margin:0 auto;
 	font-family:Georgia, Verdana, "Times New Roman", serif;
 }
+
 h1,h2,h3,h4{
 	font-family:"Calibri Light", "Franklin Gothic Book", Arial, sams-serif;
 }
@@ -81,52 +82,13 @@ h3,h4{
 	font-size:1.2em;
 	font-weight:bold;
 }
-#login_div{
-	background: rgba(0,0,0, 0.6);
-	width:100%;
-	height:3000px;
-	z-index:2;
-	position:absolute;
-	display:none;
-}
-#close-icon{
-	background-image:url('../images/close-icon.png');
-	background-repeat:no-repeat;
-	width:30px;
-	height:30px;
-	position:relative;
-	left:24.5em;
-	top:-5.7em;
-}
-#logoIn{
-	background-image:url('../images/placeholder.png');
-	background-repeat:no-repeat;
-	width:100px;
-	height:100px;
-	margin:0 auto;
-}
-#log-box{
-	background:white;
-	position:absolute;
-	top:3em;
-	left:8em;
-	z-index:2;
-	width:20em;
-	height:10em;
-	border-radius:.4em;
-	line-height:2em;
-	font-size:1.7em;
-	font-weight:bold;
-	font-family:Helvetica, "Calibri Light", "Franklin Gothic Book", Arial, sams-serif;
-	text-align:center;
-	padding:5em;
-}
 #homepage{/*initialize height to other part work with percentage*/
 	width:100%;
 	height:780px;
 }
 a{
-	text-decoration:none
+	text-decoration:none;
+	color:#000;
 }
 
 /*========================HEADER SECTION========================*/
@@ -146,7 +108,9 @@ a{
 #logo{
 	float:left;
 }
-#logo #lg{
+#logo img{
+	position:relative;
+	top:2em;
 	max-width:100%;
 }
 #logo #sm{
@@ -156,12 +120,56 @@ a{
 	padding:2em;
 	margin-left:1em;
 	float:left;
-	color:#DF7401;
+	color:#F8FBEF;
 	font-weight:bold;
 	width:60%;
 }
 /*=============login and buttons layout=======================*/
-
+#login_div{
+	top: 15%;
+	left: 15%;
+	width:70%;
+	height:50px;
+	z-index:2;
+	position:fixed;
+	display:none;
+}
+#close-icon{
+	background-image:url('../images/icons/close-icon.png');
+	background-repeat:no-repeat;
+	cursor: pointer;
+	width:30px;
+	height:30px;
+	float:right;
+	margin:-4.8em -4.8em 0 0;
+}
+#close-icon:hover{
+	background-image:url('../images/icons/close-icon-hover.png');
+}
+#log-box{
+	background:white;
+	position:absolute;
+	top:3em;
+	left:8em;
+	z-index:2;
+	width:20em;
+	height:10em;
+	border-radius:.4em;
+	line-height:2em;
+	font-size:1.7em;
+	font-weight:bold;
+	font-family:Helvetica, "Calibri Light", "Franklin Gothic Book", Arial, sams-serif;
+	text-align:center;
+	padding:5em;
+}
+#login_bg{
+	background: black;
+	opacity: 0.3;
+	position: fixed;
+	z-index: 1;
+	height: 100%;
+	width: 100%;
+}
 #login_container{
 	float:right;
 	width:20%;
@@ -189,10 +197,12 @@ a{
 .log_on:hover{
 	background: #DF7401;
 	color:#F8FBEF;
+	cursor: pointer;
 }
 .log_off:hover{
 	background: #DF7401;
 	color:#F8FBEF;
+	cursor: pointer;
 }
 .log:active, .log:focus{
 	background: #BCC6CC; 
@@ -320,6 +330,14 @@ a{
 	background:#F8FBEF;
 	
 }
+
+#content{
+	float:left;
+	width:66%;
+	padding-left:2em;
+
+}
+
 /*=================SIDE BAR====================================*/
 #sidebar{
 	margin-top:1.8em;
@@ -556,7 +574,6 @@ iframe{
 
 /*=============================HOMEPAGE CONTENT=================================================*/
 #about-aifa{
-
 	background:#000;
 	width:100%;
 	height:200px;
@@ -566,10 +583,12 @@ iframe{
 	width:30%;
 	height:100%;
 	margin:0 1em 0 1em;
+}
+#one, #two, #three{
 	float:left;
 }
 .slider{
-	width:94%;
+	width:98%;
 	height:374px;
 	margin:2em 0 2em 0;
 	overflow:hidden;
@@ -587,15 +606,8 @@ iframe{
 	height:374px;
 	display:none;
 }
-
-#content{
-	float:left;
-	width:66%;
-	margin-left:2em;
-}
-
 .fitnessBook{
-	width:28.9%;
+	width:40%;
 	height:210px;
 	background: rgb(0, 0, 0);
 	background: rgba(0, 0, 0, 0.3); 
@@ -603,19 +615,25 @@ iframe{
     zoom: 1;	
 	padding:.5em .5em;
 	float:left;
-	margin:.4em .4em .4em .6em;
 }
 .fitnessBook h2{
 	font-size:1.2em;
 	font-weight:bold;
 }
+.fitnessBook h2 a:hover{
+	color:#DF7401;
+}
 .fitnessBook p{
 	font-size:.7em;
 }
-.fitnessBook img{
+.fitnessBook img, .related-articles img {
 	max-width:100%;
 	border:.4em solid #F8FBEF;
 }
+.fitnessBook img:hover, .promo img:hover{
+    opacity: 0.4;
+    filter: alpha(opacity=40); /* For IE8 and earlier */
+} 
 #healthybody{
 	display:none;
 }
@@ -694,12 +712,25 @@ iframe{
 	left:2em;
 	padding:.2em;
 }
-.promo > img{
+.promo img{
 	max-width:100%;
 	margin:0 auto;
 }
+.arrow{
+	text-indent:-9999em;
+}
 
 /*=============================Articles pages========================================================*/
+.related-articles{
+	margin:1em;
+}
+.related-articles h2{
+	font-size:1.4em;
+	border-bottom:.0765em solid #999;
+}
+.related-articles p{
+	font-size:.8em;
+}
 #healthy-heart{
 	padding-top:2em;
 	margin:0 auto;
@@ -804,7 +835,6 @@ iframe{
 .feedbackAdvice p{
 	margin-bottom:1em;
 }
-
 .button {
 	font-family: Impact;
 	height: 40px;
@@ -899,7 +929,7 @@ iframe{
 	margin-bottom:2em;
 }
 
-#articles, #weight-loss-pgs{
+#articles{
 	padding:0 2em 2em 2em;
 	width:59%;
 	box-shadow:1em 1em 1em #000;			
@@ -1079,6 +1109,9 @@ iframe{
 	display:none;
 }
 
+
+
+
 /*=============================Recipes Content=================================================*/
 /* Basic sample */
 
@@ -1122,6 +1155,7 @@ iframe{
 
 .page2_wrapper{
 	width:100%;
+	
 	background-color:#2ecc71;
 	margin-left:2em;
 }
@@ -1239,71 +1273,6 @@ iframe{
 	width:1000px;
 	height:1000px;
 	background-color:#ecf0f1;
-	background-repeat:no-repeat;
-	background-size:100% 100%;
-}
-
-.flipbook .page{
-	-webkit-box-shadow:0 0 20px rgba(0,0,0,0.2);
-	-moz-box-shadow:0 0 20px rgba(0,0,0,0.2);
-	-ms-box-shadow:0 0 20px rgba(0,0,0,0.2);
-	-o-box-shadow:0 0 20px rgba(0,0,0,0.2);
-	box-shadow:0 0 20px rgba(0,0,0,0.2);
-}
-
-.flipbook-viewport .page img{
-	-webkit-touch-callout: none;
-	-webkit-user-select: none;
-	-khtml-user-select: none;
-	-moz-user-select: none;
-	-ms-user-select: none;
-	user-select: none;
-	margin:0;
-}
-
-.flipbook-viewport .shadow{
-	-webkit-transition: -webkit-box-shadow 0.5s;
-	-moz-transition: -moz-box-shadow 0.5s;
-	-o-transition: -webkit-box-shadow 0.5s;
-	-ms-transition: -ms-box-shadow 0.5s;
-
-	-webkit-box-shadow:0 0 20px #ccc;
-	-moz-box-shadow:0 0 20px #ccc;
-	-o-box-shadow:0 0 20px #ccc;
-	-ms-box-shadow:0 0 20px #ccc;
-	box-shadow:0 0 20px #ccc;
-}
-
-.flipbook-viewport .double{
-	width:800px;
-	height:400px;
-	background-size:100%;
-}
-
-
-<<<<<<< HEAD
-	width:50em;
-	height:25em;
-	margin-top:2em;
-	margin-bottom:2em;
-=======
-	width:800px;
-	height:400px;
-
->>>>>>> 181e33dcffb20f4fc339649f1a8c2a0671950497
-=======
-.flipbook-viewport .flipbook{
-	width:50em;
-	height:25em;
-	margin-top:2em;
-	margin-bottom:2em;
->>>>>>> b7331493d72b734b1bc4a0864281bdf24ff005b1
-}
-
-.flipbook-viewport .page{
-	width:400px;
-	height:400px;
-	background-color:white;
 	background-repeat:no-repeat;
 	background-size:100% 100%;
 }

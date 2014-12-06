@@ -112,7 +112,6 @@
 	}
 
 	.slider{
-		width:98%;
 		height:190px;
 	}
 	.fitnessBook{
@@ -179,7 +178,12 @@
 	#main_header{
 		border-bottom:.3em solid #C38F00;
 	}
-	
+	#logo #lg{
+		display:none;
+	}
+	#logo #sm{
+		display:block;
+	}
 /*===============NAVIGATION BAR==========================*/	
 	#navDesk{
 		display:none;
@@ -241,11 +245,17 @@
 		border-bottom:none;
 	}
 /*========================Content area============================*/
+	#three{
+		width:90%;
+		float:none;
+		
+	}
 	#content{
 		width:100%;
 		float:none;
 	}
 	.slider{
+
 		height:200px;
 	}
 	#art-one, #art-two, #art-three{
@@ -293,9 +303,6 @@
 	#sidebar{
 		float:none;
 		margin-top:5em;
-	}
-	.slider{
-	
 	}
 	.promo{
 		clear:both;
@@ -419,27 +426,25 @@
 		font-size:.7em;
 	}
 	#main_header{
-		height:35%;
+		height:39%;
 	}
 	#logo{
 		width:100%;
-		margin:0 auto;
+		margin:0 0 2em 10em;
+		float:none;
 	}
-	
+	#logo #lg{
+		display:block;
+	}
+	#logo #sm{
+		display:none;
+	}	
 	#main_headings{
 		float:none;
 		width:85%;
 		text-align:center;
-		font-size:.8em;		
+		font-size:.8em;	
 	}
-	#login_container{
-		margin-top:3em;
-		font-size:1.2em;
-	}
-	.log_button{
-		width:100%;
-	}
-	
 
 /*--------------------Login Form--------------------*/	
 	#log-box{
@@ -457,8 +462,11 @@
 		left:13em;
 		top:-6em;
 	}	
-	.log, 
-	.log{
+	#login_container{
+		margin-top:8em;
+		font-size:1.3em;
+	}	
+ 	.log{
 		position:relative;
 		top:-3.3em;
 		margin-left:10em;
@@ -467,7 +475,30 @@
 	.logged_in{
 		margin-top:3em;
 	}
-	
+	#button_login{
+		float:right;
+		position:relative;
+		top:-2em;
+		left:5em;
+	}
+	.log_button{
+		width:100%;
+	}
+	.logged_in, #button_logoff{
+		position:relative;
+		top:-3em;
+	}
+	#button_logoff{
+		top:-7em;
+	}	
+	.col{
+		float:none;
+		width:100%;
+		margin:0;
+	}
+	.banner{
+		width:90%;
+	}
 /*===============NAVIGATION BAR==========================*/		
 	div.nav_expanded{
 		display:block;
