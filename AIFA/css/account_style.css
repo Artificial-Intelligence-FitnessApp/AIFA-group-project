@@ -1,5 +1,5 @@
 #account_body{
-	display: inline-block;
+	display: none;
 }
 
 #account_program>div.account_program_article{
@@ -100,7 +100,7 @@
 }
 
 .account_blog_content{
-	color: #DF7401;
+	font-style: italic;
 	font-size: 90%;
 }
 
