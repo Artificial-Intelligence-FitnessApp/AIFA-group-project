@@ -1121,10 +1121,25 @@ iframe{
     border-bottom:.1em solid #999;
 }
 #weight-loss-pgs{
-    width:46%;
+    width:45%;
 }
 =======
 >>>>>>> c747cd4f6adab5b2b663c3306d3defe6d75b49e5
+#sidebar-weightloss{
+    width:25%;
+    float:right;
+    margin-top:2em;
+}
+.product{
+    width:45%;
+    height:150px;
+    margin:0 .5em .5em 0;
+    background:#000;
+    float:left;
+}
+.all-weightloss-spans{
+    display:none;
+}
 
 /*=============================Recipes Content=================================================*/
 /* Basic sample */
