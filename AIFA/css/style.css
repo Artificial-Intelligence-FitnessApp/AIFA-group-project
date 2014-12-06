@@ -1076,69 +1076,36 @@ iframe{
 
 
 /*=============================Weight loss Content=================================================*/
-
-#seven_hacks_exercise{
-	margin:0 auto;
-	width:70%;
-}
-#seven_hacks_header{
-	text-align:center;
-}
-#seven_hacks{
-	margin:2em;
-	display: none;
-}
-.seven_hacks h3{
-	margin-bottom:1em;
-}
-.seven_hacks_exercise h3 {
-	margin-top:.3em;
-	color: black;
-	padding:.2em;
-	background: #2ECCFA;
-    font-weight:700;
-    cursor:pointer;
-}
-
-#seven_hacks h3:hover, #seven_hacks h3.close:hover {
-	background:#DF7401;
-	color: white;
-}
-=======
->>>>>>> 4b8770ebd828445a9f1e3d030066932bc0a93aba
-
 #sub-nav{
-    float:left;
-    width:18%;
-    padding:2em 0 0 2em;
+	float:left;
+	width:18%;
+	padding:2em 0 0 2em;
 }
 #sub-nav h3{
-    margin-bottom:2em;
+	margin-bottom:2em;
 }
 #sub-nav li{
-    list-style:none;
-    margin-bottom:.4em;
-    border-bottom:.1em solid #999;
+	list-style:none;
+	margin-bottom:.4em;
+	border-bottom:.1em solid #999;
 }
 #weight-loss-pgs{
-    width:45%;
+	width:45%;
 }
-=======
->>>>>>> c747cd4f6adab5b2b663c3306d3defe6d75b49e5
 #sidebar-weightloss{
-    width:25%;
-    float:right;
-    margin-top:2em;
+	width:25%;
+	float:right;
+	margin-top:2em;
 }
 .product{
-    width:45%;
-    height:150px;
-    margin:0 .5em .5em 0;
-    background:#000;
-    float:left;
+	width:45%;
+	height:150px;
+	margin:0 .5em .5em 0;
+	background:#000;
+	float:left;
 }
 .all-weightloss-spans{
-    display:none;
+	display:none;
 }
 
 /*=============================Recipes Content=================================================*/

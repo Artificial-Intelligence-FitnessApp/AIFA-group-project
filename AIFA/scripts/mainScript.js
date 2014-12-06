@@ -128,6 +128,9 @@ $(document).ready(function(){
 		$("#show-legs").slideToggle();
 	});	
 
+//weight loss toggle script copy here===============
+	
+	
 });
 //slider banner-----------------------------------
        var hovering = false;
