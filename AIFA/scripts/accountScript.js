@@ -36,6 +36,7 @@ document.getElementById("button_login_cta").addEventListener("click", loginShowA
 var accountShown = false;
 var usernameProcessed;
 var htmlContent = document.getElementById("account_content").innerHTML;
+var blogContent = document.getElementById("account_blog_posts").innerHTML;
 
 function loginShowAlt(){
 	loginShow();
@@ -45,17 +46,20 @@ var interval = setInterval(function() {
 	if(loggedIn == true){
 		if(accountShown == false){
 			checkUsername();
+			textArea = document.getElementById("account_textarea");
+			displayLength = document.getElementById("account_blog_limit");
+			postArea = document.getElementById("account_blog_posts");
+			document.getElementById("account_blog_posts").innerHTML = blogContent;
 			document.getElementById("account_header_heading").innerHTML = usernameProcessed + ' Account';
 			document.getElementById("account_header_paragraph").innerHTML = "Welcome to your account, " + username;
 			document.getElementById("account_username").innerHTML = username;
 			document.getElementById("account_username_p").innerHTML = usernameProcessed;
 			document.getElementById("button_login_cta").style.display = "none";
 			document.getElementById("account_body").style.display = "inline-block";
+			document.getElementById("button_account_post").addEventListener("click", postMessage);
 			/* fitness slider */
-			$(document).ready(function() {
-				$('#account_program div.account_program_article').click(function() {
-					$(this).children('div').slideToggle(500);
-				});
+			$('#account_program div.account_program_article').click(function() {
+				$(this).children('div').slideToggle(500);
 			});
 			document.getElementById("day").innerHTML = day;
 			document.getElementById("month").innerHTML = month;
@@ -65,6 +69,7 @@ var interval = setInterval(function() {
 		}
 	} else {
 		if(accountShown == true){
+			blogContent = document.getElementById("account_blog_posts").innerHTML;
 			document.getElementById("account_content").innerHTML = htmlContent;
 			document.getElementById("button_login_cta").addEventListener("click", loginShowAlt);
 			document.getElementById("account_body").style.display = "none";
