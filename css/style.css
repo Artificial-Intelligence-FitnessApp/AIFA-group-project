@@ -90,6 +90,50 @@ a{
 	text-decoration:none;
 	color:#000;
 }
+body img{
+	max-width:100%;
+}
+/*=================================================================*/
+/*=============box shadow defaults=================================*/
+
+.img, #list-introduction, .profile, .weight-loss-pgs{
+	box-shadow:1em 1em 1em #999;
+	-webkit-box-shadow:1em 1em 1em #999;
+	-moz-box-shadow:1em 1em 1em #999;
+	-ms-box-shadow:1em 1em 1em #999;
+}
+#articles, #one, .slider{
+	box-shadow:1em 1em 1em #000;			
+	-webkit-box-shadow:1em 1em 1em #000;			
+	-moz-box-shadow:1em 1em 1em #000;	
+	-ms-box-shadow:1em 1em 1em #000;	
+}
+
+/*==============WRAP IMAGES DEFAULTS============================*/
+.wrap-img, #intro-img, #intro-img2, #intro-img3, #gain-mass{
+	border:.2em solid #000;
+	margin-bottom:2em;
+}
+.wrap-img{
+	width:25.750em;
+	height:17.375em;
+}
+#intro-img{
+	width:18.750em;
+	height:18.563em;
+} 
+#intro-img2{
+	width:21.250em;
+	height:14.063em;
+	float:left;
+}
+#intro-img3{
+	width:45em;
+	height:22em;
+}
+
+/*==============================END OF it============================*/
+
 
 /*========================HEADER SECTION========================*/
 #main_header, #main_header a{
@@ -111,7 +155,7 @@ a{
 #logo img{
 	position:relative;
 	top:2em;
-	max-width:100%;
+	
 }
 #logo #sm{
 	display:none;
@@ -405,7 +449,7 @@ footer{
 	
 }
 iframe{
-	max-width:100%;
+	
 	border:.6em solid white;
 	border-radius:.2em;
 	cursor:default;
@@ -559,7 +603,7 @@ iframe{
 	margin-top:2em;
 }
 .designers {
-	max-width:100%;
+	
 	margin-left:.4em;
 	padding:.2em;
 	border-radius:50%;
@@ -603,7 +647,7 @@ iframe{
 	margin-bottom:1em;
 }
 #two img{
-	max-width:100%;
+	
 }
 
 .slider{
@@ -617,7 +661,7 @@ iframe{
 	z-index:-1;
 }
 .slider img{
-	max-width:100%;
+	
 	display:none;
 }
 .fitnessBook{
@@ -641,7 +685,7 @@ iframe{
 	font-size:.7em;
 }
 .fitnessBook img, .related-articles img {
-	max-width:100%;
+	
 	border:.4em solid #F8FBEF;
 }
 .fitnessBook img:hover, .promo img:hover{
@@ -730,7 +774,7 @@ iframe{
 	padding:.2em;
 }
 .promo img{
-	max-width:100%;
+	
 	margin:0 auto;
 }
 .arrow{
@@ -738,21 +782,7 @@ iframe{
 }
 
 
-/*=================================================================*/
-/*=============box shadow defaults=================================*/
 
-.img, #list-introduction, .profile, .weight-loss-pgs{
-	box-shadow:1em 1em 1em #999;
-	-webkit-box-shadow:1em 1em 1em #999;
-	-moz-box-shadow:1em 1em 1em #999;
-	-ms-box-shadow:1em 1em 1em #999;
-}
-#articles, #one, .slider{
-	box-shadow:1em 1em 1em #000;			
-	-webkit-box-shadow:1em 1em 1em #000;			
-	-moz-box-shadow:1em 1em 1em #000;	
-	-ms-box-shadow:1em 1em 1em #000;	
-}
 /*=============================Articles pages========================================================*/
 .related-articles{
 	margin:1em;
@@ -788,7 +818,7 @@ iframe{
 #promo-bmi{
 	background-image:url('../images/bmi-background.png');
 	background-repeat:no-repeat;
-	max-width:100%;
+	
 	background-position:98% 7%;
 }
 #BMI{
@@ -991,27 +1021,8 @@ iframe{
 #articles h3{
 	margin:0 0 2em 0;
 }
-.wrap-img, #intro-img, #intro-img2, #intro-img3{
-	border:.2em solid #000;
-	margin-bottom:2em;
-}
-.wrap-img{
-	width:25.750em;
-	height:17.375em;
-}
-#intro-img{
-	width:18.750em;
-	height:18.563em;
-} 
-#intro-img2{
-	width:21.250em;
-	height:14.063em;
-	float:left;
-}
-#intro-img3{
-	width:45em;
-	height:22em;
-}
+
+
 .profile{
 	float:right;
 	width:40%;
@@ -1031,7 +1042,7 @@ iframe{
 	padding:.5em;
 }
 .img{
-	max-width:100%;
+	
 	height:100%;
 }
 #list-introduction{
@@ -1104,6 +1115,7 @@ iframe{
 #teen{
 	margin-bottom:1em;
 }
+
 #sidebar-weightloss{
 	width:25%;
 	float:right;
@@ -1143,7 +1155,7 @@ iframe{
 	display:none;
 }
 .supli{
-	max-width:100%;
+	
 }
 /*=============================Recipes Content=================================================*/
 /* Basic sample */
@@ -1168,7 +1180,7 @@ iframe{
 
 #recipe_cover{
 	background-image:url('../images/r_cover.jpg');
-	max-width:100%;
+	
 }
 
 #recipe_pie{
