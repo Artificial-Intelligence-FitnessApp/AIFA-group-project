@@ -116,6 +116,10 @@ form{
 	margin-left: 2%;
 }
 
+.account_program_article>div>h4{
+	padding-top: 1em;
+}
+
 .account_divs{
 	display: inline-block;
 	background:#afada7;
