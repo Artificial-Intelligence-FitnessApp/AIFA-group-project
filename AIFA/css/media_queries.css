@@ -28,10 +28,6 @@
 	.log_button p, .log_button{
 		width:4.4em;
 	}	
-	#login_div{
-		width:100%;
-		height:100%;
-	}
 	#close-icon{
 		left:19em;
 		top:-5.7;
@@ -52,7 +48,6 @@
 		display:none;
 	}
 	.slider{
-		height:300px;
 		margin-top:2em;
 	}	
 		/*===================Section area============================*/
@@ -73,12 +68,7 @@
 	.fitnessBook img{
 		max-width:90%;
 	}
-/* 	.promo{
-		width:90%;
-		float:right;
-		margin:0;
-	}	 */
-	
+
 	#termsDownload{
 		margin-right:8em;
 	}
@@ -110,13 +100,9 @@
 	#main_nav, #main_nav li{
 		float:none;
 	}
-
-	.slider{
-		height:190px;
-	}
 	.fitnessBook{
 		width:29.9%;
-		height:145px;
+		/* height:145px; */
 		padding:.4em .4em;
 	}
 	#main_section{
@@ -124,7 +110,11 @@
 	}
 	#content{
 		width:60%;
+		padding-left:0;
 	}
+	.fitnessBook{
+		width:46%;
+	}	
 	.fitnessBook h2{
 		font-size:1.1em;
 	}
@@ -151,13 +141,20 @@
 	}
 	
 	#sidebar{
-		width:36%;
+		width:40%;
 		margin:0;
 	}
-
+	#body-m-index{
+		margin-bottom:10em;
+	}
+	#promo-bmi{
+		background-position:50% 7%;
+	}
 	#gender{
 		margin-right:5em;
-	}	
+		float:right;
+	}
+	
 }
 
 @media screen and (max-width:769px){
@@ -245,25 +242,34 @@
 		border-bottom:none;
 	}
 /*========================Content area============================*/
-	#three{
-		width:90%;
+	.col{
 		float:none;
-		
+		margin-bottom:3em;
+	}
+	#one{
+		width:93.3%;
+	}
+	#one h2,#one h3, #one p{
+		width:70%;
+		margin:0 auto;
+		padding:1 4em 1em 4em;
+		line-height:2.5
+	}
+	#one p{
+		margin-bottom:1.5em;
+	}
+	#two, #three{
+		width:45%;
+		margin-bottom:1em;
 	}
 	#content{
 		width:100%;
 		float:none;
 	}
 	.slider{
+		clear:both;
+	}
 
-		height:200px;
-	}
-	#art-one, #art-two, #art-three{
-		margin-bottom:.2em;
-	}
-	#art-one, #art-two, #art-four, #art-five{
-		margin-right:.2em;
-	}
 	#faq_content{
 		width:100%;
 	}
@@ -302,10 +308,18 @@
 	}
 	#sidebar{
 		float:none;
-		margin-top:5em;
+		margin-top:2em;
+		width:100%;
+		outline:1px solid red;
+		/* clear:both; */
 	}
 	.promo{
-		clear:both;
+		outline:1px solid red;
+		float:left;
+		margin-left:2em;
+	}
+	#promo-BMI{
+		background-image:url('../images/bmi-background-md.png');
 	}
 	#subfooter{
 		background-image:url('../images/aifa-footer-md.png');
@@ -357,8 +371,12 @@
 	#close-icon{
 		left:14em;
 	}
-	.slider{
-		height:160px;
+	#content{
+		width:90%;
+	}
+	.fitnessBook{
+		float:none;
+		width:90%;
 	}
 /*=======================footer===============================*/
 	#subfooter{
@@ -495,9 +513,6 @@
 		float:none;
 		width:100%;
 		margin:0;
-	}
-	.banner{
-		width:90%;
 	}
 /*===============NAVIGATION BAR==========================*/		
 	div.nav_expanded{

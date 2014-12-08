@@ -129,7 +129,7 @@ a{
 	top: 15%;
 	left: 15%;
 	width:70%;
-	height:50px;
+	height:0px;
 	z-index:2;
 	position:fixed;
 	display:none;
@@ -142,6 +142,7 @@ a{
 	height:30px;
 	float:right;
 	margin:-4.8em -4.8em 0 0;
+	display: none; /*will remove button later*/
 }
 #close-icon:hover{
 	background-image:url('../images/icons/close-icon-hover.png');
@@ -166,9 +167,11 @@ a{
 	background: black;
 	opacity: 0.3;
 	position: fixed;
+	cursor: pointer;
 	z-index: 1;
+	left: -100%;
 	height: 100%;
-	width: 100%;
+	width: 200%;
 }
 #login_container{
 	float:right;
@@ -335,7 +338,7 @@ a{
 	float:left;
 	width:66%;
 	padding-left:2em;
-
+	outline:1px solid red;
 }
 
 /*=================SIDE BAR====================================*/
@@ -572,49 +575,60 @@ iframe{
 /*IF YOU ARE SEEING THIS SAM, WE FORGOT TO DELETE THIS LINE!*/
 /*============================================================*/
 
-/*=============================HOMEPAGE CONTENT=================================================*/
+/*=============================CONTENT=================================================*/
 #about-aifa{
-	background:#000;
 	width:100%;
-	height:200px;
+	float:left;
+	margin:1em 0 1em 0;
+	outline:1px solid red;
 }
 .col{
-	background:red;
 	width:30%;
-	height:100%;
-	margin:0 1em 0 1em;
+	margin:0 1em 1em 1em;
 }
 #one, #two, #three{
 	float:left;
 }
+#one h2, #three h2{
+	color:#2980b9;
+	text-align:center;
+}
+#one h3{
+	color:#DF7401;
+}
+#one p{
+	line-height:1.6;
+	text-align:justify;
+	padding:0 .6em 0 .2em;
+	margin-bottom:1em;
+}
+#two img{
+	max-width:100%;
+}
+
 .slider{
-	width:98%;
-	height:374px;
+	width:95%;
+	height:auto;
 	margin:2em 0 2em 0;
 	overflow:hidden;
-	box-shadow:1em 1em 1em #000;
-	-webkit-box-shadow:1em 1em 1em #000;
-	-moz-box-shadow:1em 1em 1em #000;
-	-ms-box-shadow:1em 1em 1em #000;
 /* 	background:url('../images/loader.gif');
 	background-repeat:no-repeat;
 	background-position:center; */
 	z-index:-1;
 }
 .slider img{
-	width:100%;
-	height:374px;
+	max-width:100%;
 	display:none;
 }
 .fitnessBook{
-	width:40%;
-	height:210px;
+	/* height:210px; */
 	background: rgb(0, 0, 0);
 	background: rgba(0, 0, 0, 0.3); 
     filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#50990000,endColorstr=#50990000); 
     zoom: 1;	
 	padding:.5em .5em;
 	float:left;
+	outline:1px solid red;
 }
 .fitnessBook h2{
 	font-size:1.2em;
@@ -642,7 +656,6 @@ iframe{
 }
 /*-----------Side Bar---------------*/
 .promo{
-	margin:.2em 1em .4em 1em;
 	width:90%;
 	background:#F8FBEF;
 	border:1px solid #999;
@@ -650,15 +663,19 @@ iframe{
 #healing-fitness{
 	border:none;
 }
-#promoherbalife {
+.videoWrapper {
 	position: relative;
-	padding-bottom: 56.25%; /* 16:9 */
+	padding-bottom: 56.25%; 
+	padding-top: 25px;
 	height: 0;
 }
-#promoherbalife iframe{
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width:90.5%;
+	height:92.5%;
 	margin:0 auto;
-	width:94.5%;
-	height:94.5;
 }
 .promo h4, .promo p{
 	width:90%;
@@ -720,6 +737,12 @@ iframe{
 	text-indent:-9999em;
 }
 
+#articles, #one, .slider{
+	box-shadow:1em 1em 1em #000;			
+	-webkit-box-shadow:1em 1em 1em #000;			
+	-moz-box-shadow:1em 1em 1em #000;	
+	-ms-box-shadow:1em 1em 1em #000;	
+}
 /*=============================Articles pages========================================================*/
 .related-articles{
 	margin:1em;
@@ -756,22 +779,19 @@ iframe{
 	background-image:url('../images/bmi-background.png');
 	background-repeat:no-repeat;
 	max-width:100%;
+	background-position:98% 7%;
 }
 #BMI{
+	width:100%;
+	margin:0;
+	padding:.8em;
 	line-height:1.8;
-	margin-left:1.5em;
 }
-#BMI > label{
+#BMI label{
 	color:#610B0B;
 	font-weight:bold;
-}
-#message{
-	font-size:1em;
-	color:#610B0B;
-}
-.opaci{
-   background: rgb(0, 0, 0); /* The Fallback */
-   background: rgba(0, 0, 0, 0.2); 
+	background: rgb(255, 255, 0); /* The Fallback */
+	background: rgba(255, 255, 0, 0.2);	
 }
 #couple{
 	background-image:url('../images/icons/couple.png');
@@ -795,15 +815,22 @@ iframe{
 }
 #gender{
 	width:6em;
-	float:right;
-	margin-top:-3em;
-	margin-right:6em;
+	margin:-3em 6em 1em 0;
 }
 #male{
 	color:#0072B9;
 }
 #female{
 	color:#E94E6D;
+}
+#message{
+	font-size:1em;
+	color:#610B0B;
+	margin-left:-.5em;
+}
+.opaci{
+   background: rgb(255,255, 0); /* The Fallback */
+   background: rgba(255, 255, 0, 0.2); 
 }
 .height-weight, .feet-inch-lbs, #result{
 	width:6em;
@@ -932,28 +959,10 @@ iframe{
 #articles{
 	padding:0 2em 2em 2em;
 	width:59%;
-	box-shadow:1em 1em 1em #000;			
-	-webkit-box-shadow:1em 1em 1em #000;			
-	-moz-box-shadow:1em 1em 1em #000;	
-	-ms-box-shadow:1em 1em 1em #000;	
+	float:left;
 	margin:1.5em;
 	line-height:1.7;
-	text-align:justify;
-	float:left;
-}
-.video-wrapper {
-	position: relative;
-	padding-bottom: 56.25%; /* 16:9 */
-	padding-top: 25px;
-	height: 0;
-}
-.video-wrapper iframe {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width:80.5%;
-	height:80.5%;
-	margin:0 auto;
+	text-align:justify;	
 }
 .hgroup{
 	width:100%;
@@ -1114,6 +1123,16 @@ iframe{
 
 /*=============================Recipes Content=================================================*/
 /* Basic sample */
+
+#recipes_tableContents{
+	margin-left:2em;
+	margin-top:2em;
+	border-style: solid;
+    border-width: 1px;
+	width:90%;
+	height:75%;
+	text-align:center;
+}
 
 .recipes_screen{
 	background: rgba(0,0,0, 0.6);
