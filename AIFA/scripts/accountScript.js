@@ -56,6 +56,7 @@ var interval = setInterval(function() {
 			document.getElementById("account_username_p").innerHTML = usernameProcessed;
 			document.getElementById("button_login_cta").style.display = "none";
 			document.getElementById("account_body").style.display = "inline-block";
+			textArea.addEventListener("keyup", checkLength);
 			document.getElementById("button_account_post").addEventListener("click", postMessage);
 			/* fitness slider */
 			$('#account_program div.account_program_article').click(function() {
