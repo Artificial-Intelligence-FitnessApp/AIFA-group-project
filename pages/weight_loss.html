@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8"/>
+		<title>AIFA - Artificial Intelligence Fitness App | Homepage</title>
+		<meta name="viewport" content="initial-scale=1.0, width=device-width" />
+		<link rel="stylesheet" href="../css/style.css" type="text/css"/>
+		<link rel="stylesheet" href="../css/media_queries.css" type="text/css"/>
+		<!--[if gte IE 9]>
+			<style type="text/css">
+			.gradient {
+				filter: none;
+			}
+			</style>
+		<![endif]-->
+	</head>
+	<body>
+	<div id="homepage">	
+	
+	<!----------------login box--------------------------->
+	<form id="login_div">
+		<div id="log-box">
+			<div id="close-icon"></div>
+			<div id="logoIn"></div>
+			<p>Login to your AIFA account</p>
+			<label>Username:</label>
+			<input type="text" name="username" id="username_input" maxlength="15"><br/>
+			<label>Password:</label>
+			<input type="password" name="password" id="password_input" maxlength="15"><br/>
+			<button type="button" name="Login" id="button_login_final">Login</button>
+		</div>	
+	</form>
+	<div id="login_bg"></div>
+	<!----------------END OF IT--------------------------->
+		<!----------------header section--------------------------->
+		<header id="main_header">
+		<div id="head_wrap">
+			<figure id="logo">
+				<a href="#">
+					<img src="../images/placeholder.png"/>
+				</a>
+			</figure>
+				<section id="main_headings">
+					<h1>Artificial Intelligence Fitness App</h1>
+					<h2>Your very own personal trainer!</h2>	
+				</section>
+		</div>
+			<div id="login_container">
+				<div id="login_header">
+					<p class="logged_off">You are not logged in.</p>
+					<input type="submit" value="Login" id="button_login" class="log_on log">
+				</div>
+				<div id="logoff_header">
+					<p class="logged_in">Welcome, <span id="username_output">USER</span></p>
+					<label class="logged_in"><a href="pages/account.html" class="logged_in" >My Account</a></label><br/>
+					<input type="submit" value="Logoff" id="button_logoff" class="log_off log">
+				</div>
+			</div>
+		</header><!-- END OF IT -->
+		<!-- Navigation of desktop -->	
+		<nav id="navDesk" class="cf">
+			<ul class="main_nav">
+				<li><a href="../index.html">Home</a></li>
+				<li><a href="#">Nutrition</a>
+					<ul class="submenu">
+						<li><a href="recipes.html">Recipes</a></li>
+						<li><a href="#" class="current">Weight Loss</a></li>
+					</ul>
+				</li>
+				<li class="products"><a href="recommended_products.html">Recommeded Products</a></li>
+				<li><a href="news.html">News</a></li>
+				<li><a href="faq.html">FAQ's</a></li>
+				<li><a href="about_us.html">About us</a></li>
+			</ul>	
+		</nav>	<!-- End of it -->
+		<!-- TABLE PORTRAIT NAVIGATION -->
+		<div id="menu-trigger" title="menu button">
+			<figure id="menu-button"></figure>
+			<span class="menu-text">Menu</span>
+		</div>
+		<nav id="navTablet" class="cf">
+			<ul class="main_nav">
+				<li><a href="../index.html">Home</a></li>
+				<li><a href="#">Nutrition</a>
+					<ul class="submenu">
+						<li><a href="recipes.html">Recipes</a></li>
+						<li><a href="#" class="current">Weight Loss</a></li>
+					</ul>
+				</li>
+				<li class="products"><a href="recommended_products.html">Recommeded Products</a></li>
+				<li><a href="news.html">News</a></li>
+				<li><a href="faq.html">FAQ's</a></li>
+				<li><a href="about_us.html">About us</a></li>
+			</ul>	
+		</nav>	<!--  End of it -->
+		<!-- Main Section wrapper box-->
+		<aside id="sub-nav">
+			<h3>Related Weight loss's articles</h3>
+			<nav id="tips-list">
+				<li id="li1">Gain Mass tips</li>
+				<li id="li2">7 Creative Hacks To Improve Classic Exercises</li>
+				<li>5 ingredients for the perfect fat loss circuit</li>
+				<li>Gym Hacks You Need To Know </li>
+				<li>Smart Dumbbell Lifting: Iso-Dynamic Training</li>
+				<li>Burn Fat Like Crazy With 3 Unconventional Cardio Styles!</li>
+				<li>HIIT Can Get You Huge, Especially If You Are A Meathead!</li>
+				<li>5 keys to doing high-intesity intervals the right way</li>
+				<li>5 Mistakes Holding  Back Your Gains</li>
+				<li>JAMIE EASON'S GYM GUIDE</li>
+			</nav>
+		</aside>
+		<section id="main_section">
+				<aside id="sidebar-weightloss">
+			<section id="recommended-products">
+				<h3>Recommended Products</h3>
+				<div id="1" class="product">
+					<figure>
+						<a href="" target="_blank">
+							<img class="supli" src="../images/protein-powder-herbalife.png" alt="picture of herbalife products">
+						</a>
+					</figure>
+					</a>
+					<p>Personalized protein powder</p>
+					<label class="price-product">27.90</label>
+					<a href="" target="_blank">
+						<input class="buy" type="submit" name="buy" value="buy">
+					</a>
+				</div>
+				<div id="2" class="product">
+					<figure>
+						<a href="" target="_blank">
+							<img class="supli" src="../images/pack1-herbalife.png" alt="picture of herbalife products">
+						</a>
+					</figure>
+					<p>Pack 1 (formula1 + protein powder + multivitamin</p>
+					<label class="price-product">110.99</label>
+					<a href="" target="_blank">
+						<input class="buy" type="submit" name="buy" value="buy">
+					</a>
+				</div>
+				<div id="3" class="product">
+					<figure>
+						<a href="" target="_blank">
+							<img class="supli" src="../images/pack2-herbalife.png" alt="picture of herbalife products">
+						</a>
+					</figure>
+					<p>Powder for Drinks</p>
+					<label class="price-product">89.90</label>
+					<a href="" target="_blank">
+						<input class="buy" type="submit" name="buy" value="buy">
+					</a>
+				</div>
+				<div id="4" class="product">
+					<figure>
+						<a href="http://www.amazon.co.uk/USN-Muscle-Anabolic-Powder-Chocolate/dp/B001FFJ6PO/ref=sr_1_7?ie=UTF8&qid=1418072199&sr=8-7&keywords=protein+shakes" target="_blank">
+							<img class="supli" src="../images/muscle-fuel-usn.png" alt="picture of usn products for gym">
+						</a>
+					</figure>
+					<p>Muscle Fuel Anabolic</p>
+					<label class="price-product">29.95</label>
+					<a href="" target="_blank">
+						<input class="buy" type="submit" name="buy" value="buy">
+					</a>
+				</div>
+				<div id="5" class="product">
+					<figure>
+						<a href="http://www.amazon.co.uk/MaxiNutrition-Promax-Chocolate-Recover-Rebuild/dp/B000X43V90/ref=sr_1_4?ie=UTF8&qid=1418072436&sr=8-4&keywords=protein+bar" target="_blank">
+							<img class="supli" src="../images/maxi-proteinbar.png" alt="picture of maxi products" >
+						</a>
+					</figure>
+					<p>Maxi Protein Bar Original</p>
+					<label class="price-product">19.39</label>
+					<a href="" target="_blank">
+						<input class="buy" type="submit" name="buy" value="buy">
+					</a>
+				</div>
+				<div id="6" class="product">
+					<figure>
+						<a href="http://www.amazon.co.uk/Maximuscle-Promax-Lean-Weight-Definition/dp/B004VD0YRG/ref=sr_1_1?ie=UTF8&qid=1418072436&sr=8-1&keywords=protein+bar" target="_blank">
+							<img class="supli" src="../images/maxi-proteinbar-mint.png" alt="picture of maxi products">
+						</a>
+					</figure>
+					<p>Maxi Protein Bar Mint</p>
+					<label class="price-product">14.98</label>
+					<a href="" target="_blank">
+						<input class="buy" type="submit" name="buy" value="buy">
+					</a>
+				</div>
+				<div id="7" class="product">
+					<figure>
+						<a href="http://www.amazon.co.uk/PVL-Mutant-Cookies-Weight-Powder/dp/B003JTGE5E/ref=sr_1_14?ie=UTF8&qid=1418072844&sr=8-14&keywords=protein+shakes" target="_blank">
+							<img class="supli" src="../images/mass-mutant.png">
+						</a>
+					</figure>
+					<p>Mutant Mass Protein Shake</p>
+					<label class="price-product">22.56</label>
+					<a href="" target="_blank">
+						<input class="buy" type="submit" name="buy" value="buy">
+					</a>
+				</div>
+				<div id="8" class="product">
+					<figure>
+						<a href="http://www.amazon.co.uk/MaxiMuscle-Promax-Chocolate-Protein-Powder/dp/B000OC1U8K/ref=sr_1_12?ie=UTF8&qid=1418072844&sr=8-12&keywords=protein+shakes" target="_blank">
+							<img class="supli" src="../images/promax-protein-shake.png">
+						</a>
+					</figure>
+					<p>Promax Protein Shake</p>
+					<label class="price-product">32.97</label>
+					<a href="" target="_blank">
+						<input class="buy" type="submit" name="buy" value="buy">
+					</a>
+				</div>	
+				<div id="9" class="product">
+					<figure>
+						<a href="" target="_blank">
+							<img class="supli" src="../images/protein-soup.png">
+						</a>
+					</figure>
+					<p>Diet Fuel protein soup</p>
+					<label class="price-product">13.10</label>
+					<a href="http://www.amazon.co.uk/USN-Diet-Fuel-Soup-Chicken/dp/B00DTPR6LE/ref=sr_1_1?s=drugstore&ie=UTF8&qid=1418073123&sr=1-1&keywords=protein+soup" target="_blank">
+						<input class="buy" type="submit" name="buy" value="buy">
+					</a>
+				</div>
+				<div id="10" class="product">
+					<figure>
+						<a href="" target="_blank">
+							<img class="supli" src="../images/ultralen-protein.png">
+						</a>
+					</figure>
+					<p>Diet Fuel Ultralean</p>
+					<label class="price-product">18.95</label>
+					<a href="http://www.amazon.co.uk/USN-Ultralean-Control-Replacement-Strawberry/dp/B0013GKCE4/ref=sr_1_5?ie=UTF8&qid=1418072844&sr=8-5&keywords=protein+shakes" target="_blank">
+						<input class="buy" type="submit" name="buy" value="buy">
+					</a>
+				</div>
+				<div id="11" class="product">
+					<figure>
+						<a href="" target="_blank">
+							<img class="supli" src="../images/gojiberry.png">
+						</a>
+					</figure>
+					<p>Organic dried Goji Berries</p>
+					<label class="price-product">14.99</label>
+					<a href="" target="_blank">
+						<input class="buy" type="submit" name="buy" value="buy">
+					</a>
+				</div>
+				<div id="12" class="product">
+					<figure>
+					<a href="http://www.amazon.co.uk/100-Organic-Dried-Berries-15-9oz/dp/B00CGILB6G/ref=pd_rhf_se_s_cp_2_5M0E?ie=UTF8&refRID=099MWGQWVPW0H40JB956" target="_blank">
+						<img class="supli"src="../images/gojiberry-powder.png">
+					</a>
+					</figure>
+					<p>RealFoodSource Goji Berries (1kg)</p>
+					<label class="price-product">11.99</label>
+					<a href="" target="_blank">
+						<input class="buy" type="submit" name="buy" value="buy">
+					</a>
+				</div>
+				<div id="13" class="product">
+					<figure>
+						<a href="" target="_blank">
+							<img class="supli" src="../images/hb-protein-shake.png">
+						</a>
+					</figure>
+					<p> turpis scelerisque a</p>
+					<label class="price-product">2.59</label>
+					<a href="" target="_blank">
+						<input class="buy" type="submit" name="buy" value="buy">
+					</a>
+				</div>
+				<div id="14" class="product">
+					<figure>
+						<a href="" target="_blank">
+							<img class="supli" src="../images/hb-protein-shake.png">
+						</a>
+					</figure>
+					<p> turpis scelerisque a</p>
+					<label class="price-product">2.59</label>
+					<a href="" target="_blank">
+						<input class="buy" type="submit" name="buy" value="buy">
+					</a>
+				</div>
+				<div id="15" class="product">
+					<figure>
+						<a href="" target="_blank">
+							<img class="supli" src="../images/hb-protein-shake.png">
+						</a>
+					</figure>
+					<p> turpis scelerisque a</p>
+					<label class="price-product">2.59</label>
+					<a href="" target="_blank">
+						<input class="buy" type="submit" name="buy" value="buy">
+					</a>
+				</div>
+				<div id="16" class="product">
+					<figure>
+						<a href="" target="_blank">
+							<img class="supli" src="../images/hb-protein-shake.png">
+						</a>
+					</figure>
+					<p> turpis scelerisque a</p>
+					<label class="price-product">2.59</label>
+					<a href="" target="_blank">
+						<input class="buy" type="submit" name="buy" value="buy">
+					</a>
+				</div>				
+			</section>
+		</aside>
+		
+				<!-- content -->
+			<article class="weight-loss-pgs" id="pg1">
+				<section class="hgroup">
+					<h2>Gain Mass tips</h2>
+					<h3>Pack 10</h3>
+				</section>
+				<figure class="wrap-img">
+					<img class="supli"class="img" src="images/arnold_lg.jpg" alt="Arnold Schwarzenegger Mr. Olympia"/>
+				</figure>
+			
+					<p>Maybe you've had sand kicked in your face. Maybe you've lost one too many attainable women to beefier guys. Or maybe you've read so much about weight loss that actually admitting you want to gain weight is a societal taboo. Whatever the reason, you want to bulk up. Now.</p>
+					<p>But forget about your alleged high-revving metabolism, says Doug Kalman, R.D., director of nutrition at Miami Research Associates. "Most lean men who can't gain muscle weight are simply eating and exercising the wrong way," he says.</p>
+					
+					<h3>10 principles to pack on as much as a pound of muscle each week.</h3>
+					<h4>1. Maximize muscle building</h4>
+						<p>The more protein your body stores—in a process called protein synthesis—the larger your muscles grow.</p>
+						<p id="uno"><input type="submit" name="submit" value="Read More"></p>
+						<span id="show-one" class="all-weightloss-spans">
+							<p>But your body is constantly draining its protein reserves for other uses—making hormones, for instance. The result is less protein available for muscle building. To counteract that, you need to "build and store new proteins faster than your body breaks down old proteins," says Michael Houston, Ph.D., a professor of nutrition at Virginia Tech University.</p>
+						</span>
+					<h4>2. Eat meat</h4>
+						<p>Shoot for about 1 gram of protein per pound of body weight, which is roughly the maximum amount your body can use in a day, according to a landmark study in the Journal of Applied Physiology.</p>
+						<p id="two"><input type="submit" name="submit" value="Read More"></p>
+						<span id="show-two" class="all-weightloss-spans">
+							<p>(For example, a 160-pound man should consume 160 grams of protein a day—the amount he'd get from an 8-ounce chicken breast, 1 cup of cottage cheese, a roast-beef sandwich, two eggs, a glass of milk, and 2 ounces of peanuts.) Split the rest of your daily calories equally between carbohydrates and fats.</p>
+						</span>
+					<h4>3. Eat more.</h4>
+						<p>In addition to adequate protein, you need more calories. Use the following formula to calculate the number you need to take in daily to gain 1 pound a week. (Give yourself 2 weeks for results to show up on the bathroom scale. If you haven't gained by then, increase your calories by 500 a day.)</p>
+					
+					<h5>Your Table Control</h5>
+						<p id="three">Explore Table</p>
+						<p>Insert your date to get result</p>
+						<div id="show-table" class="all-weightloss-spans">
+						</div>
+					<h4>4. Work your biggest muscles. </h4>
+						<p>If you're a beginner, just about any workout will be intense enough to increase protein synthesis.</p>
+						<p id="four"><input type="submit" name="submit" value="Read More"></p>
+						<span id="show-four" class="all-weightloss-spans">
+							<p>But if you've been lifting for a while, you'll build the most muscle quickest if you focus on the large muscle groups, like the chest, back, and legs. Add squats, deadlifts, pullups, bent-over rows, bench presses, dips, and military presses to your workout. Do two or three sets of eight to 12 repetitions, with about 60 seconds' rest between sets.</p>
+						</span>
+						
+					<h4>5. But first, have a stiff drink. </h4>
+						<p>A 2001 study at the University of Texas found that lifters who drank a shake containing amino acids and carbohydrates before working out increased their protein synthesis more than lifters who drank the same shake after exercising.</p>
+						<p id="five"><input type="submit" name="submit" value="Read More"></p>
+						<span id="show-five" class="all-weightloss-spans">
+							<p>The shake contained 6 grams of essential amino acids—the muscle-building blocks of protein—and 35 grams of carbohydrates. "Since exercise increases bloodflow to your working tissues, drinking a carbohydrate-protein mixture before your workout may lead to greater uptake of the amino acids in your muscles," says <a href="">Kevin Tipton, Ph.D.,</a> an exercise and nutrition researcher at the University of Texas in Galveston.</p>
+							<p>For your shake, you'll need about 10 to 20 grams of protein—usually about one scoop of a whey-protein powder.  Can't stomach protein drinks? You can get the same nutrients from a sandwich made with 4 ounces of deli turkey and a slice of American cheese on whole wheat bread. But a drink is better. "Liquid meals are absorbed faster," says Kalman. So tough it out. Drink one 30 to 60 minutes before your workout.</p>
+						
+						</span>
+						
+					<h4>6. Lift Every Other Day</h4>
+						<p>Do a full-body workout followed by a day of rest. Studies show that a challenging ...</p>
+						<p id="six"><input type="submit" name="submit" value="Read More"></p>
+						<span id="show-six" class="all-weightloss-spans">
+							<p>weight workout increases protein synthesis for up to 48 hours immediately after your exercise session. "Your muscles grow when you're resting, not when you're working out," says Michael Mejia, C.S.C.S., Men's Health exercise advisor and a former skinny guy who packed on 40 pounds of muscle using this very program.</p>
+						</span>
+						
+					<h4>7. Down Carbs After Your Workout</h4>
+						<p>Research shows that you'll rebuild muscle faster on your rest days if you feed your body carbohydrates.</p>
+						<p id="seven"><input type="submit" name="submit" value="Read More"></p>
+						<span id="show-seven" class="all-weightloss-spans">
+							<p>"Post-workout meals with carbs increase your insulin levels," which, in turn, slows the rate of protein breakdown, says Kalman. Have a banana, a sports drink, a peanut-butter sandwich.</p>
+						</span>
+					
+					<h4>8. Eat Every 3 Hours</h4>
+						<p>"If you don't eat often enough, you can limit the rate at which your body builds new proteins," says Houston.<p>
+						<p id="eight"><input type="submit" name="submit" value="Read More"></p>
+						<span id="show-eight" class="all-weightloss-spans">						
+							<p>Take the number of calories you need in a day and divide by six. That's roughly the number you should eat at each meal. Make sure you consume some protein—around 20 grams—every 3 hours.</p>
+						</span>
+						
+					<h4>9. Make One Snack Ice Cream</h4>
+						<p>Have a bowl of ice cream (any kind) 2 hours after your workout.</p>
+						<p id="nine"><input type="submit" name="submit" value="Read More"></p>
+						<span id="show-nine" class="all-weightloss-spans">	
+							<p>According to a study in the <a href="">American Journal of Clinical Nutrition</a>, this snack triggers a surge of insulin better than most foods do. And that'll put a damper on post-workout protein breakdown.</p>
+						</span>
+					
+					<h4>10. Have Some Milk Before Bed</h4>
+					<p>Eat a combination of carbohydrates and protein 30 minutes before you go to bed.</p>
+					<p id="teen"><input type="submit" name="submit" value="Read More"></p>
+					<span id="show-tee" class="all-weightloss-spans">	
+						<p>The calories are more likely to stick with you during sleep and reduce protein breakdown in your muscles, says Kalman. Try a cup of raisin bran with a cup of skim milk or a cup of cottage cheese and a small bowl of fruit. Eat again as soon as you wake up. "The more diligent you are, the better results you'll get," says Kalman.</p>
+					</span>
+					
+			</article>	
+<!-- 			<article class="weight-loss-pgs" id="pg2">
+				<section class="hgroup">
+					<h2>Gain Mass tips</h2>
+					<h3>Pack 10</h3>
+				</section>
+				<figure class="wrap-img">
+					<img class="img" src="images/arnold_lg.jpg" alt="Arnold Schwarzenegger Mr. Olympia"/>
+				</figure>
+			
+					<p>Maybe you've had sand kicked in your face. Maybe you've lost one too many attainable women to beefier guys. Or maybe you've read so much about weight loss that actually admitting you want to gain weight is a societal taboo. Whatever the reason, you want to bulk up. Now.</p>
+					<p>But forget about your alleged high-revving metabolism, says Doug Kalman, R.D., director of nutrition at Miami Research Associates. "Most lean men who can't gain muscle weight are simply eating and exercising the wrong way," he says.</p>
+					
+					<h3>10 principles to pack on as much as a pound of muscle each week.</h3>
+					<h4>1. Maximize muscle building</h4>
+						<p>The more protein your body stores—in a process called protein synthesis—the larger your muscles grow.</p>
+						<input type="submit" name="submit" value="Read More">
+						<span id="show-one" class="all-weightloss-spans">
+							<p>But your body is constantly draining its protein reserves for other uses—making hormones, for instance. The result is less protein available for muscle building. To counteract that, you need to "build and store new proteins faster than your body breaks down old proteins," says Michael Houston, Ph.D., a professor of nutrition at Virginia Tech University.</p>
+						</span>			
+			
+			</article>	 -->
+		</section>	
+		
+		<footer>
+			<div id="subfooter">
+				<div class="column" id="columnOne">
+					<form id="newsLetter">
+						<label for="email" id="newsletter">Newsletter</label></br>
+						<input type="email" id="news" placeholder="type your email"/>
+						<input type="submit" id="submitnews" value="Sign up"/></br>
+					</form>
+						<p>AIFA's Head Office</p>
+						<p>Mayor Street</p>
+						<p>IFSC</p>
+						<p>Dublin 1</p>
+						<iframe src="http://www.yourmapmaker.com/preview.php?a=Mayor Street,Ireland&w=520&h=490&n=AIFA's Office &z=14&t=Map"  scrolling="no" frameborder="0"></iframe>				
+				</div>
+				
+				<div class="column" id="columnTwo">
+					<p>Download AIFA</p>
+					<p class="appStore"><a href="" id="apple" alt="Apple app store">Apple store</a></p>
+					<p class="appStore"><a href="" id="google" alt="Google app store">Google store</a></p>
+					<p class="appStore"><a href="" id="win" alt="Windows app store">Windows store</a></p>
+					<p class="appStore"><a href="" id="amazon" alt="amazon app store">Amazon store</a></p>
+				</div>
+				
+				<div class="column" id="columnThree">
+					<span>Useful Fitness links</span>
+					<ul id="useful-links">
+						<li><a href="http://www.ideafit.com/fitness-conferences/idea-world-fitness-convention">Idea World Fitness Convenstion</a></li>
+						<li><a href="http://www.jamieoliver.com/">Jamie Oliver's recipes</a></li>
+						<li><a href="http://www.health.com/health/">Health magazine</a></li>
+						<li><a href="http://www.virginactive.it/">Virgin Active Village Fitness</a></li>
+						<li><a href="http://www.fitnessireland.ie/">Fitness Ireland</a></li>
+						<li><a href="http://www.treinoemfoco.com.br/">Treino em Foco</a></li>
+						<li><a href="http://www.fitnessfirst.co.uk/">Fitnes First</a></li>
+						<li><a href="http://www.fitnessmagazine.com/">Fitness magazine USA</a></li>
+				</div>
+				<div class="column" id="columnFour">
+					<span>Social Networks</span>
+					<ul id="social-network">
+						<li id="facebook"><a href="https://www.facebook.com">Facebook</a></li>
+						<li id="twitter"><a href="https://twitter.com/">Twitter</a></li>
+						<li id="linkedin"><a href="http://linkedin.com">Linkedin</a></li>
+						<li id="instagram"><a href="http://instagram.com">Instagram</a></li>
+					</ul>	
+					<a href="" id="terms">Terms and Conditions</a>
+				</div>				
+			</div>	
+			<div id="footer">
+					<span id="copyrightSymbol"></span>
+					<span id="copyright">Copyright 2014</span>
+					
+				<div id="credits">
+					<span>Web design developed by</span>
+					<img class="designers" src="../images/placeperfil.jpg" alt="Web design Aaron"/>
+					<img class="designers" src="../images/placeperfil.jpg" alt="Web design Alexander"/>
+					<img class="designers" src="../images/placeperfil.jpg" alt="Web design Paul"/>
+					<img class="designers" src="../images/wagner.jpg" alt="Web design Wagner"/>
+					<ul id="group">
+						<li><a href="" >Aaron</a></li>
+						<li><a href="" >Alexander</a></li>
+						<li><a href="" >Paul</a></li>
+						<li><a href="" >Wagner</a></li>
+					</ul>
+				</div>			
+			</div>
+		</footer>
+</div>
+<script src="../scripts/jquery.js"></script>
+<script src="../scripts/responsive.js"></script>
+<script src="../scripts/mainScript.js"></script>
+<script src="../scripts/weight_loss_script.js"></script>
+</body>

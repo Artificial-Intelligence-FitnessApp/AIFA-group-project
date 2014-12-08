@@ -1,0 +1,29 @@
+#faq_section{
+	margin:0 auto;
+	width:70%;
+}
+#faq_header{
+	text-align:center;
+}
+#faq_spacer{
+	padding-top: 5px;
+}
+.faq_answer{
+	padding-top: 1em;
+	display: none;
+}
+.faq_answer>p{
+	padding-bottom: 1em;
+}
+#faq_section>h3 {
+	background: #afada7;
+	margin-top: .3em;
+	color: black;
+	padding:.2em;
+    font-weight:700;
+    cursor:pointer;
+}
+#faq_section>h3:hover{
+	background:#DF7401;
+	color: white;
+}
