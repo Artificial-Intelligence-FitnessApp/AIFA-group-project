@@ -131,9 +131,27 @@ body img{
 	width:45em;
 	height:22em;
 }
-
+#gain-mass{
+	width:33em;
+	height:19.45em;
+}
 /*==============================END OF it============================*/
-
+/*==========================VIDEO DEFAULT RESPONSIVE=================*/
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; 
+	padding-top: 25px;
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width:90.5%;
+	height:92.5%;
+	margin:0 auto;
+}
+/*================================================================*/
 
 /*========================HEADER SECTION========================*/
 #main_header, #main_header a{
@@ -646,10 +664,6 @@ iframe{
 	padding:0 .6em 0 .2em;
 	margin-bottom:1em;
 }
-#two img{
-	
-}
-
 .slider{
 	width:95%;
 	height:auto;
@@ -707,20 +721,7 @@ iframe{
 #healing-fitness{
 	border:none;
 }
-.videoWrapper {
-	position: relative;
-	padding-bottom: 56.25%; 
-	padding-top: 25px;
-	height: 0;
-}
-.videoWrapper iframe {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width:90.5%;
-	height:92.5%;
-	margin:0 auto;
-}
+
 .promo h4, .promo p{
 	width:90%;
 	text-align:center;
