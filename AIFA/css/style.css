@@ -1139,16 +1139,21 @@ iframe{
 /*=============================Recipes Content=================================================*/
 /* Basic sample */
 
-#recipes_tableContents{
-	margin-left:2em;
+.recipes_tableContents{
+	float:right;
+	text-align:right;
 	margin-top:2em;
-	border-style: solid;
-    border-width: 1px;
 	width:90%;
 	height:75%;
-	text-align:center;
 }
 
+.recipe_tableContents{
+	text-align:left;
+	margin-top:2em;
+	width:90%;
+	height:75%;
+	margin-left:4px;
+}
 
 #recips_content{
 	width:100%;
