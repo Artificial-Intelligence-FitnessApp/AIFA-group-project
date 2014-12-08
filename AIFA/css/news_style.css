@@ -1,0 +1,118 @@
+#news_articles{
+	margin:0 auto;
+	width:70%;
+}
+#news_header{
+	text-align:center;
+}
+#news_popup{
+	width: 80%;
+	height: 80%;
+	position: fixed;
+	background: #F8FBEF;
+	border: .3em solid #DF7401;
+	border-radius: 25px;
+	top: 10%;
+	left: 10%;
+	z-index: 1;
+	display: none;
+}
+#news_popup_header{
+	border-bottom: .3em solid #DF7401;
+}
+#news_popup_header>h2{
+	text-align: center;
+}
+#news_popup_content{
+	width: 100%;
+	height: 85%;
+}
+#news_popup_content>div{
+	float: left;
+	width: 75%;
+	height: 100%;
+	margin: 1.5%;
+	overflow-y: scroll;
+}
+#news_popup_content>div>p,#news_popup_content>div>h3{
+	margin-bottom: 1em;
+}
+#news_popup_content>div>p:last-child,#news_popup_content>div>h3:last-child{
+	margin-bottom: 0;
+}
+#news_popup_content>img{
+	float: left;
+	width: 20%;
+	border-right: .3em solid #DF7401;
+	border-bottom: .3em solid #DF7401;
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+}
+#news_bg{
+	background: black;
+	opacity: 0.3;
+	height: 500%;
+	width: 500%;
+	top: -250%;
+	position: fixed;
+	cursor: pointer;
+	z-index: 0;
+	display: none;
+}
+#news_spacer{
+	padding-top: 5px;
+}
+.news_bold{
+	font-weight: bold;
+}
+.news_headline{
+    cursor: pointer;
+	text-align: left;
+	width:28.9%;
+	height:210px;
+	background: rgb(0, 0, 0);
+	background: rgba(0, 0, 0, 0.3); 
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#50990000,endColorstr=#50990000); 
+    zoom: 1;	
+	padding:.5em .5em;
+	float:left;
+	margin:.4em .4em .4em .6em;
+}
+.news_headline>h2{
+	font-size:1.2em;	
+	font-weight:bold;
+}
+.news_headline>p{
+	font-size:.7em;
+}
+.news_headline>figure>img{
+	max-width:100%;
+	border:.4em solid #F8FBEF;
+}
+.news_headline:hover{
+	background:#DF7401;
+	color: white;
+}
+.news_headline>h3{
+	font-size: 1.5em;
+	margin-left: 5px;
+	float: left;
+	width: 80%;
+}
+.news_headline>div{
+	display: none;
+}
+.news_headline>img{
+	float: left;
+	margin: 5px;
+}
+.news_a{
+	font-weight: bold;
+	color: #DF7401;
+	text-decoration: none;
+}
+.news_a:hover{
+	text-decoration: underline;
+	color: #2980b9;
+}

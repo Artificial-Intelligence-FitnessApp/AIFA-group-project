@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8"/>
+		<title>AIFA - Artificial Intelligence Fitness App | Homepage</title>
+		<meta name="viewport" content="initial-scale=1.0, width=device-width" />
+		<link rel="stylesheet" href="../css/style.css" type="text/css"/>
+		<link rel="stylesheet" href="../css/media_queries.css" type="text/css"/>
+		<script src="../scripts/jquery.js"></script>
+		<script src="../scripts/turnjs4/lib/scissor.js"></script>
+		<script src="../scripts/turnjs4/lib/turn.js"></script>
+		<script src="../scripts/turnjs4/lib/zoom.js"></script>
+		<script src="../scripts/turnjs4/extras/modernizr.2.5.3.min.js"></script>
+		<!--[if gte IE 9]>
+			<style type="text/css">
+			.gradient {
+				filter: none;
+			}
+			</style>
+		<![endif]-->
+	</head>
+	<body>
+	<div id="homepage">	
+	
+	<!----------------login box--------------------------->
+	<form id="login_div">
+		<div id="log-box">
+			<div id="logoIn">
+				<figure>
+					<img src="../images/aifa-logo-sm.png" alt="our company logo - AFAI Artificial Intelligence Fitness App">
+				</figure>
+			</div>
+			<div id="close-icon"></div>
+			<p>Login to your AIFA account</p>
+			<label>Username:</label>
+			<input type="text" name="username" id="username_input" maxlength="15"><br/>
+			<label>Password:</label>
+			<input type="password" name="password" id="password_input" maxlength="15"><br/>
+			<button type="button" name="Login" id="button_login_final">Login</button>
+			
+		</div>
+	</form>
+	<div id="login_bg"></div>
+	<!----------------END OF IT--------------------------->
+		<!----------------header section--------------------------->
+		<header id="main_header">
+		<div id="head_wrap">
+			<figure id="logo">
+				<a href="#">
+					<img src="../images/aifa-logo.png" alt="our company logo - AFAI Artificial Intelligence Fitness App">
+				</a>
+			</figure>
+				<section id="main_headings">
+					<h1>Artificial Intelligence Fitness App</h1>
+					<h2>Your very own personal trainer!</h2>	
+				</section>
+		</div>
+			<div id="login_container">
+				<div id="login_header">
+					<p class="logged_off">You are not logged in.</p>
+					<input type="submit" value="Login" id="button_login" class="log_on log">
+				</div>
+				<div id="logoff_header">
+					<p class="logged_in">Welcome, <span id="username_output">USER</span></p>
+					<label class="logged_in"><a href="pages/account.html" class="logged_in" >My Account</a></label><br/>
+					<input type="submit" value="Logoff" id="button_logoff" class="log_off log">
+				</div>
+			</div>
+		</header><!----------------END OF IT--------------------------->
+		<!----------------Navigation of desktop--------------------------->	
+		<nav id="navDesk" class="cf">
+			<ul class="main_nav">
+				<li><a href="../index.html">Home</a></li>
+				<li><a href="#">Nutrition</a>
+					<ul class="submenu">
+						<li><a href="recipes.html" class="current">Recipes</a></li>
+						<li><a href="weight_loss.html">Weight Loss</a></li>
+					</ul>
+				</li>
+				<li class="products"><a href="recommended_products.html">Recommeded Products</a></li>
+				<li><a href="news.html">News</a></li>
+				<li><a href="faq.html">FAQ's</a></li>
+				<li><a href="about_us.html">About us</a></li>
+			</ul>	
+		</nav>	<!----------------END OF IT--------------------------->
+	
+<!----TABLE PORTRAIT NAVIGATION----->
+		<div id="menu-trigger" title="menu button">
+			<figure id="menu-button"></figure>
+			<span class="menu-text">Menu</span>
+		</div>
+		<nav id="navTablet" class="cf">
+			<ul class="main_nav">
+				<li><a href="../index.html">Home</a></li>
+				<li><a href="#" class="sub current">Nutrition</a>
+					<ul class="submenu">
+						<li><a href="#" class="current">Recipes</a></li>
+						<li><a href="weight_loss.html">Weight Loss</a></li>
+					</ul>
+				</li>
+				<li class="products"><a href="recommended_products.html">Recommeded Products</a></li>
+				<li><a href="news.html">News</a></li>
+				<li><a href="faq.html">FAQ's</a></li>
+				<li><a href="about_us.html">About us</a></li>
+			</ul>	
+		</nav>	<!----------------END OF IT--------------------------->
+	
+	
+		<!-- Main Section wrapper box-->
+		<section id="main_section">
+				<!----------content---------->
+			<section id="recipes_content">
+			<br><br>
+			<div class="flipbook-viewport">
+				<div class="container">
+				<div class="flipbook">
+					<div id="recipe_cover">
+						<img class="r_cover" src="../images/r_cover.jpg">
+						
+					</div>
+					<nav>
+						<div class="recipes_tableContents">
+						<ul>
+							<h2>Table of</h2>
+							<li>
+								<a href="recipe_page4">
+								Turkey-Pie...........................
+								</a>
+							</li>
+							<br>
+							<p>Fruit salad.............................</p>
+							<br>
+							<p>Mushroom Soup...........................</p>
+							<br>
+							<p>salmon gravadlax.........................</p>
+						</ul>
+						</div>
+					</nav>
+					<div class="page">
+					<div class="recipe_tableContents">
+						<h2> Contents</h2>
+						<p>page3</p>
+						<br>
+						<p>page6</p>
+						<br>
+						<p>page8</p>
+						<br>
+						<p>page10</p>
+					</div>
+					</div>
+					<div class="page">
+						<div class="recipe_name">
+							<br><br>
+							<h2>Turkey Pie Recipe</h2>
+							<br><br>
+							<h3>Difficulty Intermediate</h3>
+						</div>
+					</div>
+					<div class="recipe_page1010">
+						<img id ="recipe_pie" src="../images/recipe_pie.jpg">
+					</div>
+					
+					
+					<div class="page">
+						<br><br>
+						<div class="page2_wrapper">
+							<div class="servings">
+								<h6>Servings</h6>
+								<p>6-8</p>
+							</div>
+							<div class="prep">
+								<h6>Prep Time</h6>
+								<p>30 mins.</p>
+							</div>
+							<div class="cookTime">
+								<h6>Cook Time</h6>
+								<p>1 Hr.</p>
+							</div>
+						</div>
+						<br>
+						<div class="recipe_ingredients">
+							<h5>Ingredients:</h5>
+							<p>2 tablespoons of butter</p>
+							<p>1 cup chopped onion</p>
+							<p>1 small onion,minced</p>
+							<p>2 stalks celery,chopped</p>
+							<p>2 carrots,diced</p>
+							<p>1 turkey,obv</p>
+							<p>3 tablespoons dried parsley</p>
+							<p>3 tablespoons all-purpose flavour</p>
+							<p>3 tablespoons dried parsley</p>
+							<p>1/2 cup of milk</p>
+						</div>
+					</div>
+					<div class="page">
+						<br><br>
+						<div class="page3_wrapper">
+							<div class="recipe_calories">
+								<h6>Calories*</h6> <!-- * means per serving will be added later at the bottom -->
+								<p>350.0</p>
+							</div>
+							<div class="recipe_fat">
+							<h6>Fat*</h6>
+							<p>19g</p>
+						
+							</div>
+							<div class="recipe_carbs">
+								<h6>Carbs*</h6>
+								<p>50g</p>
+							</div>
+							<div class="recipe_protein">
+								<h6>Protein</h6>
+								<p>9g</p>
+							</div>
+							
+						</div>
+						<div class="recipe_page3Body">
+							<div class="recipe_mainHeading"><h2>Method</h2></div>
+							<div class="recipe_mainContent"><p>Pre heat your oven to 190°C/375°F/gas 5. 
+							Put your bacon in a large pan on a medium 
+							heat and add your thyme leaves. Add a lug of 
+							olive oil and let it all fry off a few minutes. 
+							Add all of your prepped leeks and fry them off for about 3 minutes.
+							Add a pinch of salt and pepper then pop the lid on top, turn the heat down to medium and 
+							let them cook away gently for 30 minutes, stirring every 5 to 10 minutes to make sure they 
+							don't catch. There's going to be enough moisture in the leeks to keep them happy in the pan 
+							so they should be soft and melt in your mouth once they're done.</p>
+							</div>
+						</div>
+					</div>
+					<div class="page">
+						<div class="recipe_para">
+							<p>When your leeks are ready, add the turkey meat to them and stir. 
+							If you've got a bit of stuffing mixed in there you can put that in too. 
+							Add the flour, mix it in well then pour in your stock and stir again. 
+							Add the crème fraîche then turn the heat up and bring everything back up to the boil. 
+							Have a taste and add a bit more salt and pepper if it needs it then turn the heat off.
+							Pour the mixture through a sieve over another empty pan and let the gravy from 
+							the mixture drip into the pan while you roll out your pastry. </p>
+							
+							<p>Get a baking dish roughly 22 x 30cm.
+							Roll your pastry out so it's double the size of your dish. 
+							Crumble the chestnuts over the pastry then tear some of the leaves over them.
+							Fold the other half of pastry on top then roll it out
+							evenly so you have a rectangle big enough to cover your baking tray.
+							</p>
+						</div>
+					</div>
+					<div class="page">
+						<div class="recipe_para">
+							<p>Spoon that thick leek mixture from your sieve into the pie dish and spread it out evenly.
+							Lay your pastry on top, tuck the ends under then gently score the pastry diagonally with your knife. 
+							Add a pinch of salt to your beaten egg then paint this egg wash over the top of your pastry. 
+							Pop your pie in the oven for about 35 to 40 minutes or until the pastry is puffed up and golden brown. 
+							When the pie is ready, re-heat the lovely gravy and serve with your pie, along with some peas tossed in butter, lemon, salt and pepper and everyone's happy!
+							</p>
+						</div>
+					</div>
+					<div class="page">
+					<br><br>
+						<div class="recipe_name">
+							<h2>Fruit Salad with Pineapple mint syrup</h2>
+							<br><br>
+							<h3>Difficulty:easy</h3>
+						</div>
+					</div>
+					<div class="page">
+						<div class="recipe_fill">
+							<div id="fruit_salad">
+								<img id="fruit_salad" src="../images/fruit_salad.jpg">
+							</div>
+						</div>
+					</div>
+					<div class="page">
+						<br><br>
+						<div class="page2_wrapper">
+								<div class="servings">
+									<h6>Servings</h6>
+									<p>4</p>
+								</div>
+								<div class="prep">
+									<h6>Prep Time</h6>
+									<p>5 mins.</p>
+								</div>
+								<div class="cookTime">
+									<h6>Cook Time</h6>
+									<p>5 mins</p>
+								</div>
+						</div>
+							<br>
+							<div class="recipe_ingredients">
+							<h5>Ingredients:</h5>
+							<p>100g caster suger</p>
+							<p>1/2 teacup of water</p>
+							<p>1 bunch pineapple mint, finely chopped, optional</p>
+							<p>1 kg mixed fruit</p>
+							
+						</div>
+					</div>
+					<div class="page">
+						<br><br>
+						<div class="page3_wrapper">
+							<div class="recipe_calories">
+									<h6>Calories*</h6> <!-- * means per serving will be added later at the bottom -->
+									<p>220</p>
+								</div>
+								<div class="recipe_fat">
+								<h6>Fat*</h6>
+								<p>0.4g</p>
+							
+								</div>
+								<div class="recipe_carbs">
+									<h6>Carbs*</h6>
+									<p>51.2</p>
+								</div>
+								<div class="recipe_protein">
+									<h6>Protein</h6>
+									<p>1.5g</p>
+								</div>
+							</div>
+							<div class="recipe_page3Body">
+							<br>
+							<div class="recipe_mainHeading"><h2>Method</h2></div>
+							<div class="recipe_para2">
+								<p>Pineapple mint is great in all sorts of desserts.
+								Try it chopped and sprinkled over ripe melon for a refreshing summer dessert.
+								</p>
+								<p>Place the sugar and a teacup of water in a saucepan and heat up. Stir until the sugar dissolves. 
+								For a fuller flavour, 
+								add half a bunch of whole pineapple mint stems to the hot syrup and leave to infuse until cool. 
+								</p>
+								<p>When the syrup has cooled down, remove the stems and add the peeled and chopped fruit. 
+								Chill well and add half a bunch of picked pineapple mint leaves.
+								</p>
+							</div>
+							</div>
+						</div>
+					<div class="page">
+						<br><br>
+						<div class="recipe_name">
+						
+							<h2>Mushroom soup with stilton, apple & walnut croutes</h2>
+							<br><br>
+							<h3>Difficulty:Easy</h3>
+						</div>
+					</div>
+					<div class="page">
+						
+							<div id="soup">
+								<img id="soup" src="../images/recipe_soup.jpg" >
+							</div>
+						
+					</div>
+					<div class="page">
+						<br><br>
+						<div class="page2_wrapper">
+								<div class="servings">
+									<h6>Servings</h6>
+									<p>4</p>
+								</div>
+								<div class="prep">
+									<h6>Prep Time</h6>
+									<p>2 mins.</p>
+								</div>
+								<div class="cookTime">
+									<h6>Cook Time</h6>
+									<p>15 mins</p>
+								</div>
+						</div>
+							<br>
+							<div class="recipe_ingredients">
+							<h5>Ingredients:</h5>
+							<p>100g caster suger</p>
+							<p>1/2 teacup of water</p>
+							<p>1 bunch pineapple mint, finely chopped, optional</p>
+							<p>1 kg mixed fruit</p>
+							
+						</div>
+					</div>
+					
+					<div class="page">
+						<br><br>
+						<div class="page3_wrapper">
+							<div class="recipe_calories">
+									<h6>Calories*</h6> <!-- * means per serving will be added later at the bottom -->
+									<p>405</p>
+								</div>
+								<div class="recipe_fat">
+								<h6>Fat*</h6>
+								<p>16.8g</p>
+							
+								</div>
+								<div class="recipe_carbs">
+									<h6>Carbs*</h6>
+									<p>51.2</p>
+								</div>
+								<div class="recipe_protein">
+									<h6>Protein</h6>
+									<p>13.5g</p>
+								</div>
+							</div>
+							
+							<div class="recipe_page3Body">
+							<br>
+							<div class="recipe_mainHeading"><h2>Method</h2></div>
+							<div class="recipe_mainContent">
+								<p>Peel, halve and finely slice the onions 
+								and put them into the large pan with 2 tablespoons 
+								of olive oil . Crumble in the stock cube,
+								add a pinch of salt and pepper, strip in the thyme leaves and squash in 2 unpeeled cloves of garlic
+								through a garlic crusher . De-stalk the chestnut mushrooms and place the tops on the griddle pan, turning when charred . 
+								Tear the chestnut stalks and portobellos into the onion pan, add the rice and cook for a couple of minutes . Pour in 1 litre of boiling water and boil 
+								with the lid on
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="page">
+						<div class="recipe_para">
+						<p>Cut 4 slices of ciabatta at an angle and add to the griddle pan 
+						. When charred on both sides, rub with a halved garlic clove . Coarsely grate or slice the apple 
+						into matchsticks and toss with the roughly chopped parsley and a little lemon juice . Place the chestnut mushrooms on the toasts, 
+						crumble over the stilton and walnuts, 
+						then pop under the grill until the cheese is melted</p>
+						<br>
+						<p>Use the stick blender to purée the soup to a consistency you like, 
+						then season to taste, if needed, and swirl in the cream and truffle oil . Top the toasts with pinches of apple and parsley
+						and serve on the side
+						</p>
+						</div>
+					</div>
+					<div class="page"></div>
+					<div class="page">
+						<br><br>
+						<div class="recipe_name">
+						
+							<h2>Salmon Gravadlax</h2>
+							<br><br>
+							<h3>Difficulty:Intermediate</h3>
+						</div>
+					</div>
+					<div class="page">
+						<img id="salmon" src="../images/salmon.jpg" >
+					</div>
+					<div class ="page">
+					<br><br>
+						<div class="page2_wrapper">
+								<div class="servings">
+									<h6>Servings</h6>
+									<p>4</p>
+								</div>
+								<div class="prep">
+									<h6>Prep Time</h6>
+									<p>10 mins.</p>
+								</div>
+								<div class="cookTime">
+									<h6>Cook Time</h6>
+									<p>20 mins</p>
+								</div>
+						</div>
+							<br>
+							<div class="recipe_ingredients">
+							<h5>Ingredients:</h5>
+							<p>1 tablespoon brown sugar</p>
+							<p>25ml vodka</p>
+							<p>1/2 an orange</p>
+							<p>2 lemons</p>
+							<p>2 x 150g salmon fillets</p>
+							<p>4 tablespoons soured cream</p>
+							<p>1 teaspoon of horseradish</p>
+							<p>extra virgin olive oil</p>
+							<p>1 x 250 g vacuum pack of beetroots</p>
+							<p>balsamic vinegar</p>
+						</div>
+					</div>
+					<div class ="page">
+					<br><br>
+						<div class="page3_wrapper">
+							<div class="recipe_calories">
+									<h6>Calories*</h6> <!-- * means per serving will be added later at the bottom -->
+									<p>457</p>
+								</div>
+								<div class="recipe_fat">
+								<h6>Fat*</h6>
+								<p>14.9g</p>
+							
+								</div>
+								<div class="recipe_carbs">
+									<h6>Carbs*</h6>
+									<p>55.7</p>
+								</div>
+								<div class="recipe_protein">
+									<h6>Protein</h6>
+									<p>25.6g</p>
+								</div>
+							</div>
+							
+							<div class="recipe_page3Body">
+							<br>
+							<div class="recipe_mainHeading"><h2>Method</h2></div>
+							<div class="recipe_mainContent">
+								<p>Place the sugar, vodka, 3 tablespoons of salt, 
+								the orange zest and the zest from 1 lemon into a bowl. 
+								Pick the leaves and reserve in a bowl of cold water in the fridge, 
+								then chop the stalks and stir into the mixture. Pop the salmon fillets into the bowl, 
+								turning them over in the marinade,
+								then cover with cling film and place in the fridge for 5 hours. 
+								</p>
+								<p>Make the horseradish sauce. Add the cream, horseradish 
+								and the juice from ½ a lemon to a small bowl. Mix well, 
+								season with a pinch of salt and add a drizzle of extra virgin olive oil, 
+								then place in the fridge until needed. 
+								</p>
+							</div>
+						</div> 
+					</div>
+					<div class="page">
+						<div class="recipe_para">
+							<p>
+							Meanwhile, make the horseradish sauce. Add the soured cream, 
+							grated horseradish and the juice from ½ a lemon to a small bowl. Mix well, 
+							season with a pinch of salt and add a drizzle of extra virgin olive oil, 
+							then place in the fridge until needed.
+							</p>
+							<br>
+							<p>
+							Add the beetroot (including the juices) to a bowl with a splash of balsamic vinegar. 
+							Season well with salt, then mash with a fork to a rough paste. 
+							Have a taste and add a splash more vinegar if you think it needs it, then set aside until needed.
+							</p>
+							<p>
+							After around 5 hours, remove the salmon from the bowl, then wipe off and discard any excess salt
+							. Drain and chop the reserved leaves and rub all over the salmon. 
+							
+							</p>
+							
+						</div>
+					</div>
+					<div class="page">
+						<div class="recipe_para">
+							<p>
+							To serve, remove the cling film and peel away the salmon skin, then transfer to a board and finely slice. 
+							Snip over the cress, then serve alongside the horseradish sauce, balsamic beets, 
+							rye bread and lemon wedges for squeezing over. 
+							I sometimes like to serve it with a shot of vodka on the side too. Enjoy!
+							</p>
+						</div>
+					</div>
+					<div class="page"></div>
+					
+					</div>
+					
+					
+				</div>
+				
+			</div>
+			</section>	
+			<br><br>
+			
+		<footer>
+			<div id="subfooter">
+				<div class="column" id="columnOne">
+					<form id="newsLetter">
+						<label for="email" id="newsletter">Newsletter</label></br>
+						<input type="email" id="news" placeholder="type your email"/>
+						<input type="submit" id="submitnews" value="Sign up"/></br>
+					</form>
+						<p>AIFA's Head Office</p>
+						<p>Mayor Street</p>
+						<p>IFSC</p>
+						<p>Dublin 1</p>
+						<iframe src="http://www.yourmapmaker.com/preview.php?a=Mayor Street,Ireland&w=520&h=490&n=AIFA's Office &z=14&t=Map"  scrolling="no" frameborder="0"></iframe>				
+				</div>
+				
+				<div class="column" id="columnTwo">
+					<p>Download AIFA</p>
+					<p class="appStore"><a href="" id="apple" alt="Apple app store">Apple store</a></p>
+					<p class="appStore"><a href="" id="google" alt="Google app store">Google store</a></p>
+					<p class="appStore"><a href="" id="win" alt="Windows app store">Windows store</a></p>
+					<p class="appStore"><a href="" id="amazon" alt="amazon app store">Amazon store</a></p>
+				</div>
+				
+				<div class="column" id="columnThree">
+					<span>Useful Fitness links</span>
+					<ul id="useful-links">
+						<li><a href="http://www.ideafit.com/fitness-conferences/idea-world-fitness-convention">Idea World Fitness Convenstion</a></li>
+						<li><a href="http://www.jamieoliver.com/">Jamie Oliver's recipes</a></li>
+						<li><a href="http://www.health.com/health/">Health magazine</a></li>
+						<li><a href="http://www.virginactive.it/">Virgin Active Village Fitness</a></li>
+						<li><a href="http://www.fitnessireland.ie/">Fitness Ireland</a></li>
+						<li><a href="http://www.treinoemfoco.com.br/">Treino em Foco</a></li>
+						<li><a href="http://www.fitnessfirst.co.uk/">Fitnes First</a></li>
+						<li><a href="http://www.fitnessmagazine.com/">Fitness magazine USA</a></li>
+				</div>
+				<div class="column" id="columnFour">
+					<span>Social Networks</span>
+					<ul id="social-network">
+						<li id="facebook"><a href="https://www.facebook.com">Facebook</a></li>
+						<li id="twitter"><a href="https://twitter.com/">Twitter</a></li>
+						<li id="linkedin"><a href="http://linkedin.com">Linkedin</a></li>
+						<li id="instagram"><a href="http://instagram.com">Instagram</a></li>
+					</ul>
+					<a href="" id="terms">Terms and Conditions</a>
+				</div>				
+			</div>	
+			<div id="footer">
+					<span id="copyrightSymbol"></span>
+					<span id="copyright">Copyright 2014</span>
+					
+				<div id="credits">
+					<span>Web design developed by</span>
+					<img class="designers" src="../images/placeperfil.jpg" alt="Web design Aaron"/>
+					<img class="designers" src="../images/placeperfil.jpg" alt="Web design Alexander"/>
+					<img class="designers" src="../images/placeperfil.jpg" alt="Web design Paul"/>
+					<img class="designers" src="../images/wagner.jpg" alt="Web design Wagner"/>
+					<ul id="group">
+						<li><a href="" >Aaron</a></li>
+						<li><a href="" >Alexander</a></li>
+						<li><a href="" >Paul</a></li>
+						<li><a href="" >Wagner</a></li>
+					</ul>
+				</div>			
+			</div>
+		</footer>
+	</div>
+	<script src="../scripts/recipe_script.js"></script>
+	<script src="../scripts/mainScript.js"></script>
+	<script src="../scripts/responsive.js"></script>
+
+</body>
+</html>
