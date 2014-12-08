@@ -1134,27 +1134,22 @@ iframe{
 	text-align:center;
 }
 
-.recipes_screen{
-	background: rgba(0,0,0, 0.6);
+
+#recips_content{
 	width:100%;
+	
+	z-index:-3;
+	margin:0 auto;
+}
+
+#r_cover{
 	height:100%;
-	z-index:-1;
-	position:absolute;
-	top:0;
-	left:0;
-	display:none;
-}
-
-#recipe_content{
 	width:100%;
-	background:yellow;
-	z-index:-2;
-	margin:2em;
 }
 
-#recipe_cover{
-	background-image:url('../images/r_cover.jpg');
-	max-width:100%;
+#salmon{
+	height:100%;
+	width:100%;
 }
 
 #recipe_pie{
@@ -1263,6 +1258,16 @@ iframe{
 	text-align:center;
 }
 
+.flipbook{
+	margin:0 auto;
+	z-index:0;
+}
+
+#recipe-pie{
+	height:100%;
+	width:100%;
+}
+
 .recipe_mainContent{
 	width:92%;
 	height:40%;
@@ -1278,7 +1283,6 @@ iframe{
 }
 
 .flipbook-viewport .container{
-
 	margin: 0 auto;
 }
 
@@ -1311,7 +1315,7 @@ iframe{
 	-moz-user-select: none;
 	-ms-user-select: none;
 	user-select: none;
-	margin:0;
+	margin:0 auto;
 }
 
 .flipbook-viewport .shadow{
