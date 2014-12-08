@@ -550,7 +550,7 @@ iframe{
 	background-image:url('../images/icons/copyright1.png');
 	background-repeat:no-repeat;	
 	width:50px;
-.height:50px;
+	height:50px;
 }
 #copyright{
 	margin:2em 20em 0 0;
@@ -1101,6 +1101,10 @@ iframe{
 }
 #weight-loss-pgs{
 	width:45%;
+	float:left;
+}
+.pg2{
+	display:none;
 }
 #sidebar-weightloss{
 	width:25%;
@@ -1109,17 +1113,28 @@ iframe{
 }
 .product{
 	width:45%;
-	height:150px;
 	margin:0 .5em .5em 0;
-	background:#000;
+	outline:1px solid red;
 	float:left;
+	font-size:.8em;
+}
+.product p, .product label{
+	margin-left:1em;
+}
+.buy{
+	background:red;
+	border:1px solid #000;
+	color:#fff;
+	width:5em;
+	padding:.2em;
+	border-radius:16px;
+	-webkit-border-radius: 16px;
+	-moz-border-radius: 16px;
+	margin-bottom:.2em;
 }
 .all-weightloss-spans{
 	display:none;
 }
-
-
-
 
 /*=============================Recipes Content=================================================*/
 /* Basic sample */
