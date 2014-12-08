@@ -104,6 +104,10 @@
 	font-size: 90%;
 }
 
+.account_program_article>div>h4{
+	padding-top: 1em;
+}
+
 textarea{
 	resize: none;
 }
