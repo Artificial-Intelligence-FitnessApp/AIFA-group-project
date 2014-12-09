@@ -175,8 +175,8 @@ body img{
 	float:left;
 }
 #logo img{
-	position:relative;
-	top:2em;
+/* 	position:relative;
+	top:2em; */
 	
 }
 #logo #sm{
@@ -1123,7 +1123,7 @@ iframe{
 .weight-loss-pgs p{
 	margin-bottom:.5em;
 }
-#teen{
+#teen, #show-hamstring{
 	margin-bottom:1em;
 }
 
