@@ -326,6 +326,7 @@ body img{
 	top:2em;
 	float:none;
 	left:-9000em;
+	z-index:1;
 	/*--   CSS TRANSITIONS   --*   I return the transitions so we can have a small code of CSS3*/ 
  	max-height:0;
 	-moz-transition:max-height 0.6s ease-in-out;
