@@ -1170,27 +1170,37 @@ iframe{
 /*=============================Recipes Content=================================================*/
 /* Basic sample */
 
-.recipes_screen{
-	background: rgba(0,0,0, 0.6);
-	width:100%;
-	height:100%;
-	z-index:-1;
-	position:absolute;
-	top:0;
-	left:0;
-	display:none;
+.recipes_tableContents{
+	float:right;
+	text-align:right;
+	margin-top:2em;
+	width:90%;
+	height:75%;
 }
 
-#recipe_content{
-	width:100%;
-	background:yellow;
-	z-index:-2;
-	margin:2em;
+.recipe_tableContents{
+	text-align:left;
+	margin-top:2em;
+	width:90%;
+	height:75%;
+	margin-left:4px;
 }
 
-#recipe_cover{
-	background-image:url('../images/r_cover.jpg');
+#recips_content{
+	width:100%;
 	
+	z-index:-3;
+	margin:0 auto;
+}
+
+.r_cover{
+	height:100%;
+	width:100%;
+}
+
+#salmon{
+	height:100%;
+	width:100%;
 }
 
 #recipe_pie{
@@ -1299,6 +1309,16 @@ iframe{
 	text-align:center;
 }
 
+.flipbook{
+	margin:0 auto;
+	z-index:0;
+}
+
+#recipe-pie{
+	height:100%;
+	width:100%;
+}
+
 .recipe_mainContent{
 	width:92%;
 	height:40%;
@@ -1314,8 +1334,8 @@ iframe{
 }
 
 .flipbook-viewport .container{
-
-	margin: 0 auto;
+	margin:0 auto;
+	margin-left:16em;
 }
 
 
@@ -1347,7 +1367,7 @@ iframe{
 	-moz-user-select: none;
 	-ms-user-select: none;
 	user-select: none;
-	margin:0;
+	margin:0 auto;
 }
 
 .flipbook-viewport .shadow{
