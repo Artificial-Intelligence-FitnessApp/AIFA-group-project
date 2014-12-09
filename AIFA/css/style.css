@@ -1303,7 +1303,8 @@ iframe{
 }
 
 .flipbook-viewport .container{
-	margin: 0 auto;
+	margin:0 auto;
+	margin-left:16em;
 }
 
 
