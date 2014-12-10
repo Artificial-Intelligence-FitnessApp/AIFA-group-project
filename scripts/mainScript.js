@@ -115,56 +115,32 @@ $(document).ready(function() {
 });
 // index side bar =================================
 $(document).ready(function(){
-	$("#chest").click(function(){
-		$("#show-chest").slideToggle();
+		$("#chest").click(function(){
+			$("#show-chest").slideToggle();
+		});
+		$("#back").click(function(){
+			$("#show-back").slideToggle();
+		});
+		$("#arms").click(function(){
+			$("#show-arms").slideToggle();
+		});
+		$("#legs").click(function(){
+			$("#show-legs").slideToggle();
+		});	
 	});
-	$("#back").click(function(){
-		$("#show-back").slideToggle();
-	});
-	$("#arms").click(function(){
-		$("#show-arms").slideToggle();
-	});
-	$("#legs").click(function(){
-		$("#show-legs").slideToggle();
-	});	
+//weight loss toggle script copy here===============
+	var readMore = true;
 
-//weight loss toggle script copy here===============	
-	$("#uno").click(function(){
-		$("#show-one").slideToggle();
+	$(".button_weightloss").click(function(){
+		$(this).next().slideToggle(500);
+		if(readMore == true){
+			$(this).children("p").html("Read less");
+			readMore = false;
+		} else {
+			$(this).children("p").html("Read more");
+			readMore = true;
+		}
 	});	
-	$("#due").click(function(){
-		$("#show-two").slideToggle();
-	});	
-	$("#tre").click(function(){
-		$("#show-three").slideToggle();
-	});	
-	$("#quatre").click(function(){
-		$("#show-four").slideToggle();
-	});	
-	$("#five").click(function(){
-		$("#show-five").slideToggle();
-	});	
-	$("#six").click(function(){
-		$("#show-six").slideToggle();
-	});	
-	$("#seven").click(function(){
-		$("#show-seven").slideToggle();
-	});	
-	$("#eight").click(function(){
-		$("#show-eight").slideToggle();
-	});	
-	$("#nine").click(function(){
-		$("#show-nine").slideToggle();
-	});	
-	$("#teen").click(function(){
-		$("#show-teen").slideToggle();
-	});		
-
-
-
-	
-	
-});
 //slider banner-----------------------------------
        var hovering = false;
         var slideshow = $(".slider");

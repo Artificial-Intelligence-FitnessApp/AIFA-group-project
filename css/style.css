@@ -1124,8 +1124,17 @@ iframe{
 	line-height:1.8;
 	padding:0 .3em 0 .3em;
 }
-.weight-loss-pgs p{
+.weight-loss-pgs>p{
 	margin-bottom:.5em;
+}
+.button_weightloss{
+	padding-left: .3em;
+	padding-right: .3em;
+	margin: 0;
+	font-family: "Calibri Light", "Franklin Gothic Book", Arial, sans-serif;
+	background: #afada7;
+	display: inline-block;
+	cursor: pointer;
 }
 #teen, #show-hamstring{
 	margin-bottom:1em;
