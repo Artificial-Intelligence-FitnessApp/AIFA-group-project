@@ -1117,6 +1117,15 @@ iframe{
 	margin-bottom:.4em;
 	border-bottom:.1em solid #999;
 }
+.weight-loss-pgs>h4{
+	margin-top: 1em;
+}
+.button_weightloss:last-child{
+	margin-bottom: 1em;
+}
+.last{
+	height: 1em;
+}
 .weight-loss-pgs{
 	width:44%;
 	float:left;
@@ -1135,6 +1144,11 @@ iframe{
 	background: #afada7;
 	display: inline-block;
 	cursor: pointer;
+}
+
+.button_weightloss:hover{
+	background:#DF7401;
+	color: white;
 }
 #teen, #show-hamstring{
 	margin-bottom:1em;
