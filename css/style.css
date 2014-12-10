@@ -180,7 +180,7 @@ body img{
 #logo img{
 /* 	position:relative;
 	top:2em; */
-	padding-top: 2em;
+	
 }
 #logo #sm{
 	display:none;
@@ -1117,15 +1117,6 @@ iframe{
 	margin-bottom:.4em;
 	border-bottom:.1em solid #999;
 }
-.weight-loss-pgs>h4{
-	margin-top: 1em;
-}
-.button_weightloss:last-child{
-	margin-bottom: 1em;
-}
-.last{
-	height: 1em;
-}
 .weight-loss-pgs{
 	width:44%;
 	float:left;
@@ -1133,22 +1124,8 @@ iframe{
 	line-height:1.8;
 	padding:0 .3em 0 .3em;
 }
-.weight-loss-pgs>p{
+.weight-loss-pgs p{
 	margin-bottom:.5em;
-}
-.button_weightloss{
-	padding-left: .3em;
-	padding-right: .3em;
-	margin: 0;
-	font-family: "Calibri Light", "Franklin Gothic Book", Arial, sans-serif;
-	background: #afada7;
-	display: inline-block;
-	cursor: pointer;
-}
-
-.button_weightloss:hover{
-	background:#DF7401;
-	color: white;
 }
 #teen, #show-hamstring{
 	margin-bottom:1em;
@@ -1186,9 +1163,6 @@ iframe{
 	-webkit-border-radius: 16px;
 	-moz-border-radius: 16px;
 	margin-bottom:.2em;
-}
-.all-weightloss-spans{
-	display: none;
 }
 .supli{
 	
