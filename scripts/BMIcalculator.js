@@ -166,87 +166,87 @@
 		function bmiResult(){
 			if( /*select == male*/){
 				if(age > 18 && age < 25){
-					if(finalBf > 4 && finalBf < 6){
+					if(finalBf > 4 && finalBf < 7){
 						document.getElementById('meaning').innerHTML = "Your body fat are Excellent - keep checking";
-					}else if(finalBf > 6.1 && finalBf < 10){
+					}else if(finalBf > 7.1 && finalBf < 11){
 						document.getElementById('meaning').innerHTML = "You are in good shape keep going";
-					}else if(finalBf > 10.1 && finalBf < 14){
+					}else if(finalBf > 11.1 && finalBf < 14){
 						//above of media 
 					}else if(finalBf > 14.1 && finalBf < 17){
 						//media 
-					}else if(finalBf > 17.1 && finalBf < 20){
+					}else if(finalBf > 17.1 && finalBf < 21){
 						//under of medi
-					}else if(finalBf > 20.1 && finalBf < 24){
+					}else if(finalBf > 21.1 && finalBf < 25){
 						//bad
-					}else if(finalBf > 24.1 && finalBf < 36){
+					}else if(finalBf > 25.1 && finalBf < 36){
 						//very bad
 					}					
 				}//end of inner statement age 18 to 25 
-				else if(age > 18 && age < 25){
-					if(finalBf > 4 && finalBf < 6){
+				else if(age > 26 && age < 35){
+					if(finalBf > 8 && finalBf < 12){
 						document.getElementById('meaning').innerHTML = "Your body fat are Excellent - keep checking";
-					}else if(finalBf > 6.1 && finalBf < 10){
+					}else if(finalBf > 12.1 && finalBf < 16){
 						document.getElementById('meaning').innerHTML = "You are in good shape keep going";
-					}else if(finalBf > 10.1 && finalBf < 14){
+					}else if(finalBf > 16.1 && finalBf < 19){
 						//above of media 
-					}else if(finalBf > 14.1 && finalBf < 17){
+					}else if(finalBf > 19.1 && finalBf < 21){
 						//media 
-					}else if(finalBf > 17.1 && finalBf < 20){
+					}else if(finalBf > 21.1 && finalBf < 24){
 						//under of medi
-					}else if(finalBf > 20.1 && finalBf < 24){
+					}else if(finalBf > 24.1 && finalBf < 27){
 						//bad
-					}else if(finalBf > 24.1 && finalBf < 36){
+					}else if(finalBf > 27.1 && finalBf < 36){
 						//very bad
 					}					
 				}//end of inner statement age 26 to age 35
-				else if(age > 18 && age < 25){
-					if(finalBf > 4 && finalBf < 6){
+				else if(age > 36 && age < 45){
+					if(finalBf > 10 && finalBf < 15){
 						document.getElementById('meaning').innerHTML = "Your body fat are Excellent - keep checking";
-					}else if(finalBf > 6.1 && finalBf < 10){
+					}else if(finalBf > 15.1 && finalBf < 19){
 						document.getElementById('meaning').innerHTML = "You are in good shape keep going";
-					}else if(finalBf > 10.1 && finalBf < 14){
+					}else if(finalBf > 19.1 && finalBf < 21){
 						//above of media 
-					}else if(finalBf > 14.1 && finalBf < 17){
+					}else if(finalBf > 21.1 && finalBf < 24){
 						//media 
-					}else if(finalBf > 17.1 && finalBf < 20){
+					}else if(finalBf > 24.1 && finalBf < 26){
 						//under of medi
-					}else if(finalBf > 20.1 && finalBf < 24){
+					}else if(finalBf > 26.1 && finalBf < 30){
 						//bad
-					}else if(finalBf > 24.1 && finalBf < 36){
+					}else if(finalBf > 30.1 && finalBf < 39){
 						//very bad
 					}					
 				}//end of inner statement age 36 to age 54 
-				else if(age > 18 && age < 25){
-					if(finalBf > 4 && finalBf < 6){
+				else if(age > 46 && age < 55){
+					if(finalBf > 12 && finalBf < 17){
 						document.getElementById('meaning').innerHTML = "Your body fat are Excellent - keep checking";
-					}else if(finalBf > 6.1 && finalBf < 10){
+					}else if(finalBf > 17.1 && finalBf < 21){
 						document.getElementById('meaning').innerHTML = "You are in good shape keep going";
-					}else if(finalBf > 10.1 && finalBf < 14){
+					}else if(finalBf > 21.1 && finalBf < 24){
 						//above of media 
-					}else if(finalBf > 14.1 && finalBf < 17){
+					}else if(finalBf > 24.1 && finalBf < 26){
 						//media 
-					}else if(finalBf > 17.1 && finalBf < 20){
+					}else if(finalBf > 26.1 && finalBf < 28){
 						//under of medi
-					}else if(finalBf > 20.1 && finalBf < 24){
+					}else if(finalBf > 28.1 && finalBf < 31){
 						//bad
-					}else if(finalBf > 24.1 && finalBf < 36){
+					}else if(finalBf > 31.1 && finalBf < 38){
 						//very bad
 					}					
 				}//end of inner statement
-				else if(age > 18 && age < 25){
-					if(finalBf > 4 && finalBf < 6){
+				else if(age > 56 && age < 65){
+					if(finalBf > 13 && finalBf < 19){
 						document.getElementById('meaning').innerHTML = "Your body fat are Excellent - keep checking";
-					}else if(finalBf > 6.1 && finalBf < 10){
+					}else if(finalBf > 19.1 && finalBf < 22){
 						document.getElementById('meaning').innerHTML = "You are in good shape keep going";
-					}else if(finalBf > 10.1 && finalBf < 14){
+					}else if(finalBf > 22.1 && finalBf < 24){
 						//above of media 
-					}else if(finalBf > 14.1 && finalBf < 17){
+					}else if(finalBf > 24.1 && finalBf < 26){
 						//media 
-					}else if(finalBf > 17.1 && finalBf < 20){
+					}else if(finalBf > 26.1 && finalBf < 27){
 						//under of medi
-					}else if(finalBf > 20.1 && finalBf < 24){
+					}else if(finalBf > 28.1 && finalBf < 31){
 						//bad
-					}else if(finalBf > 24.1 && finalBf < 36){
+					}else if(finalBf > 31.1 && finalBf < 38){
 						//very bad
 					}					
 				}//end of inner statement age 46 to age 55				
