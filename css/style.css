@@ -177,7 +177,7 @@ body img{
 #logo img{
 /* 	position:relative;
 	top:2em; */
-	
+	padding-top: 2em;
 }
 #logo #sm{
 	display:none;
