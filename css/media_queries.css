@@ -451,15 +451,15 @@
 		height:39%;
 	}
 	#logo{
-		width:100%;
-		margin:0 0 2em 10em;
+		width:90%;
 		float:none;
 	}
 	#logo #lg{
-		display:block;
+		display:none;
 	}
 	#logo #sm{
-		display:none;
+		display:block;
+		padding:2em 3em 0 10em;
 	}	
 	#main_headings{
 		float:none;

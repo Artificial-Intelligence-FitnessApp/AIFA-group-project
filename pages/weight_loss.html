@@ -16,35 +16,39 @@
 	</head>
 	<body>
 	<div id="homepage">	
-	
-	<!----------------login box--------------------------->
-	<form id="login_div">
-		<div id="log-box">
-			<div id="close-icon"></div>
-			<div id="logoIn"></div>
-			<p>Login to your AIFA account</p>
-			<label>Username:</label>
-			<input type="text" name="username" id="username_input" maxlength="15"><br/>
-			<label>Password:</label>
-			<input type="password" name="password" id="password_input" maxlength="15"><br/>
-			<button type="button" name="Login" id="button_login_final">Login</button>
-		</div>	
-	</form>
-	<div id="login_bg"></div>
-	<!----------------END OF IT--------------------------->
-		<!----------------header section--------------------------->
+	<!-- login box -->
+		<form id="login_div">
+			<div id="log-box">
+				<div id="logoIn">
+					<figure>
+						<img src="../images/aifa-logo-sm.png" alt="our company logo - AFAI Artificial Intelligence Fitness App">
+					</figure>
+				</div>
+				<p>Login to your AIFA account</p>
+				<label>Username:</label>
+				<input type="text" name="username" id="username_input" maxlength="15"><br/>
+				<label>Password:</label>
+				<input type="password" name="password" id="password_input" maxlength="15"><br/>
+				<button class="log-button" type="button" name="Login" id="button_login_final">Login</button>
+				
+			</div>
+		</form>
+		<div id="login_bg"></div>
+	<!-- END OF IT -->
+<!-- header section -->
 		<header id="main_header">
-		<div id="head_wrap">
-			<figure id="logo">
-				<a href="#">
-					<img src="../images/placeholder.png"/>
-				</a>
-			</figure>
-				<section id="main_headings">
-					<h1>Artificial Intelligence Fitness App</h1>
-					<h2>Your very own personal trainer!</h2>	
-				</section>
-		</div>
+			<div id="head_wrap">
+				<figure id="logo">
+					<a href="../index.html">
+						<img id="lg" src="../images/aifa-logo.png" alt="our company logo - AFAI Artificial Intelligence Fitness App">
+						<img id="sm" src="../images/aifa-logo-sm.png" alt="our company logo - AFAI Artificial Intelligence Fitness App">
+					</a>
+				</figure>
+					<section id="main_headings">
+						<h1>Artificial Intelligence Fitness App</h1>
+						<h2>Your very own personal trainer!</h2>	
+					</section>
+			</div>
 			<div id="login_container">
 				<div id="login_header">
 					<p class="logged_off">You are not logged in.</p>
@@ -52,7 +56,7 @@
 				</div>
 				<div id="logoff_header">
 					<p class="logged_in">Welcome, <span id="username_output">USER</span></p>
-					<label class="logged_in"><a href="pages/account.html" class="logged_in" >My Account</a></label><br/>
+					<label class="logged_in"><a href="account.html" class="logged_in" >My Account</a></label><br/>
 					<input type="submit" value="Logoff" id="button_logoff" class="log_off log">
 				</div>
 			</div>
@@ -67,7 +71,7 @@
 						<li><a href="#" class="current">Weight Loss</a></li>
 					</ul>
 				</li>
-				<li class="products"><a href="recommended_products.html">Recommeded Products</a></li>
+				<li class="products"><a href="yourBMIandBFC">YOUR BMI & BFC</a></li>
 				<li><a href="news.html">News</a></li>
 				<li><a href="faq.html">FAQ's</a></li>
 				<li><a href="about_us.html">About us</a></li>
@@ -87,7 +91,7 @@
 						<li><a href="#" class="current">Weight Loss</a></li>
 					</ul>
 				</li>
-				<li class="products"><a href="recommended_products.html">Recommeded Products</a></li>
+				<li class="products"><a href="yourBMIandBFC">YOUR BMI & BFC</a></li>
 				<li><a href="news.html">News</a></li>
 				<li><a href="faq.html">FAQ's</a></li>
 				<li><a href="about_us.html">About us</a></li>
@@ -315,8 +319,8 @@
 					<h2>Gain Mass tips</h2>
 					<h3>Pack 10</h3>
 				</section>
-				<figure id="gain-mass">
-					<img class="supli" src="../images/gainmass.jpg" alt="Arnold Schwarzenegger Mr. Olympia"/>
+				<figure id="wrap-img">
+					<img class="img" src="../images/gainmass.jpg" alt="Arnold Schwarzenegger Mr. Olympia"/>
 				</figure>
 			
 					<p>Maybe you've had sand kicked in your face. Maybe you've lost one too many attainable women to beefier guys. Or maybe you've read so much about weight loss that actually admitting you want to gain weight is a societal taboo. Whatever the reason, you want to bulk up. Now.</p>
