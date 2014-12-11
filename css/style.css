@@ -1070,6 +1070,25 @@ iframe{
 	width:85%;
 	margin:0 auto;
 }
+
+.zodiaco-container{
+	width:40%;
+	height:600px;
+	border:.1em solid #ccc;
+	background:#f8f8f8;
+	margin:10% auto;
+	border-radius:.4em;
+}
+.progress-container{
+	
+}
+.progress-selected{
+	display:block;
+	position:absolute;
+	z-index:4;
+	
+}
+
 /*=============================Weight loss Content=================================================*/
 #sub-nav{
 	float:left;
