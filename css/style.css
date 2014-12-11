@@ -72,7 +72,7 @@ body{
 	font-family:Georgia, Verdana, "Times New Roman", serif;
 }
 
-h1,h2,h3,h4{
+h1,h2,h3,h4,h5,h6{
 	font-family:"Calibri Light", "Franklin Gothic Book", Arial, sams-serif;
 }
 h1{
@@ -203,19 +203,6 @@ body img{
 	position:fixed;
 	display:none;
 }
-#close-icon{
-	background-image:url('../images/icons/close-icon.png');
-	background-repeat:no-repeat;
-	cursor: pointer;
-	width:30px;
-	height:30px;
-	float:right;
-	margin:-4.8em -4.8em 0 0;
-	display: none; /*will remove button later*/
-}
-#close-icon:hover{
-	background-image:url('../images/icons/close-icon-hover.png');
-}
 #log-box{
 	background:white;
 	position:absolute;
@@ -226,9 +213,7 @@ body img{
 	height:10em;
 	border-radius:.4em;
 	line-height:2em;
-	font-size:1.7em;
-	font-weight:bold;
-	font-family:Helvetica, "Calibri Light", "Franklin Gothic Book", Arial, sams-serif;
+	font-size:.9em;
 	text-align:center;
 	padding:5em;
 }
@@ -247,7 +232,7 @@ body img{
 	width:20%;
 }
 
-.log {
+/* .log {
 	-webkit-box-shadow:rgba(0,0,0,0.98) 0 0.063em 0 0;
 	-moz-box-shadow:rgba(0,0,0,0.98) 0 0.063em 0 0;
 	box-shadow:rgba(0,0,0,0.98) 0 0.063em 0 0;
@@ -279,6 +264,108 @@ body img{
 .log:active, .log:focus{
 	background: #BCC6CC; 
 
+} */
+/*  Reference CSS TRICK  */
+.button {
+	position: relative;
+	display: inline-block;
+	/* padding: 0.3em 0.4em; */
+	/* margin: 0 0.625em; */
+	background-color: #3E9ED6;
+	background-image:-webkit-gradient(linear, left top, left bottom,
+						color-stop(0, rgb(112,181,242)),
+						color-stop(0.49, rgb(84,164,238)),
+						color-stop(0.5, rgb(54,144,240)),
+						color-stop(1, rgb(26,97,219))
+					);
+	background-image:-moz-linear-gradient(center top, 
+						rgb(112,181,242) 0%,
+						rgb(84,164,238) 49%,
+						rgb(54,144,240) 50%,
+						rgb(26,97,219) 100%
+					);
+	color: #fff;
+	font-size: 1.2em;
+	text-decoration: none;
+	text-align: center;
+	/* line-height: 1; */
+	text-shadow: 0 -0.063em 0 rgba(0,0,0,0.5);
+	border: 0.063em solid;
+	border-color: #2f71a3 #265a82 #1e4766 #265a82;
+	border-radius: 0.3em;
+	-moz-border-radius: 0.3em;
+	-webkit-border-radius: 0.3em;
+
+	box-shadow: 		inset 0 -0.250em 0.313em rgba(255,255,255,0.2),
+						inset 0 0.063em 0.313em rgba(255,255,255,0.2),
+						/**/
+						0 0.125em 0 #1e4766,
+						0 0.250em 0 #1e4766,
+						0 0.375em 0 #1e4766,
+						/**/
+						0 0.500em 0.313em rgba(0,0,0,0.5);
+
+	-moz-box-shadow: 	inset 0 -0.250em 0.313em rgba(255,255,255,0.2),
+						inset 0 0.063em 0.313em rgba(255,255,255,0.2),
+						/**/
+						0 0.125em 0 #1e4766,
+						0 0.250em 0 #1e4766,
+						0 0.375em 0 #1e4766,
+						/**/
+						0 0.500em 0.313em rgba(0,0,0,0.5);
+
+	-webkit-box-shadow: inset 0 -0.250em 0.313em rgba(255,255,255,0.2),
+						inset 0 0.063em 0.313em rgba(255,255,255,0.2),
+						/**/
+						0 0.125em 0 #1e4766,
+						0 0.250em 0 #1e4766,
+						0 0.375em 0 #1e4766,
+						/**/
+						0 0.500em 0.313em rgba(0,0,0,0.5);
+}
+
+.button:hover {
+	background-color: #8AC5FD;
+
+	background-image: -webkit-gradient(
+		linear,
+		left top,
+		left bottom,
+		color-stop(0, rgb(134,193,253)),
+		color-stop(0.49, rgb(153,213,255)),
+		color-stop(0.5, rgb(130,194,253)),
+		color-stop(1, rgb(108,170,229))
+	);
+	background-image: -moz-linear-gradient(
+		center top,
+		rgb(134,193,253) 0%,
+		rgb(153,213,255) 49%,
+		rgb(130,194,253) 50%,
+		rgb(108,170,229) 100%
+	);
+}
+.button:active {
+	top: 0.250em;
+	box-shadow: 		inset 0 -0.063em .250em 0.313em rgba(255,255,255,0.4),
+						inset 0 -0.063em 0.313em rgba(255,255,255,0.2),
+						/**/
+						0 0.125em 0 #1e4766,
+						/**/
+						0 0.250em 0.313em rgba(0,0,0,0.5);
+
+	-moz-box-shadow: 	inset 0 0.250em 0.313em rgba(255,255,255,0.4),
+						inset 0 -0.063em 0.313em rgba(255,255,255,0.2),
+						/**/
+						0 0.125em 0 #1e4766,
+						/**/
+						0 0.250em 0.313em rgba(0,0,0,0.5);
+
+	-webkit-box-shadow: inset 0 0.250em 0.313em rgba(255,255,255,0.4),
+						inset 0 -0.063em 0.313em rgba(255,255,255,0.2),
+						/**/
+						0 0.125em 0 #1e4766,
+						/**/
+						0 0.250em 0.313em rgba(0,0,0,0.5);
 }
 
 /*====================NAVIGATION AREA ============================*/
@@ -1164,9 +1251,6 @@ iframe{
 	-moz-border-radius: 16px;
 	margin-bottom:.2em;
 }
-.supli{
-	
-}
 /*=============================Recipes Content=================================================*/
 /* Basic sample */
 
@@ -1390,7 +1474,7 @@ iframe{
 }
 
 
-/*=============================Recommended Products Content=================================================*/
+/*=============================BMI Content=================================================*/
 #bmi_section{
 	width:60%;
 	margin:0 auto;
