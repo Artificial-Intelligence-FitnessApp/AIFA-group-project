@@ -115,19 +115,56 @@ $(document).ready(function() {
 });
 // index side bar =================================
 $(document).ready(function(){
-		$("#chest").click(function(){
-			$("#show-chest").slideToggle();
-		});
-		$("#back").click(function(){
-			$("#show-back").slideToggle();
-		});
-		$("#arms").click(function(){
-			$("#show-arms").slideToggle();
-		});
-		$("#legs").click(function(){
-			$("#show-legs").slideToggle();
-		});	
-	});
+    $("#chest").click(function(){
+        if($(this).next("#show-chest").css("display")=="none"){
+            $(this).next("#show-chest").show();
+            $(this).find(".arrow-up").show();
+            $(this).find(".arrow-down").hide();
+        }
+        else{
+            $(this).next("#show-chest").hide();
+            $(this).find(".arrow-up").hide();
+            $(this).find(".arrow-down").show();
+        }
+    });	
+    $("#back").click(function(){
+        if($(this).next("#show-back").css("display")=="none"){
+            $(this).next("#show-back").show();
+            $(this).find(".arrow-up").show();
+            $(this).find(".arrow-down").hide();
+        }
+        else{
+            $(this).next("#show-back").hide();
+            $(this).find(".arrow-up").hide();
+            $(this).find(".arrow-down").show();
+        }
+    });	
+    $("#arms").click(function(){
+        if($(this).next("#show-arms").css("display")=="none"){
+            $(this).next("#show-arms").show();
+            $(this).find(".arrow-up").show();
+            $(this).find(".arrow-down").hide();
+        }
+        else{
+            $(this).next("#show-arms").hide();
+            $(this).find(".arrow-up").hide();
+            $(this).find(".arrow-down").show();
+        }
+    });	
+    $("#legs").click(function(){
+        if($(this).next("#show-legs").css("display")=="none"){
+            $(this).next("#show-legs").show();
+            $(this).find(".arrow-up").show();
+            $(this).find(".arrow-down").hide();
+        }
+        else{
+            $(this).next("#show-legs").hide();
+            $(this).find(".arrow-up").hide();
+            $(this).find(".arrow-down").show();
+        }
+    });		
+		
+});
 //weight loss toggle script copy here===============
 	var readMore = true;
 

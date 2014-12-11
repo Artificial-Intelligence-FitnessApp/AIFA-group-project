@@ -69,11 +69,7 @@ body{
 	width:100%;
 	line-height:1.4;
 	margin:0 auto;
-	font-family:Georgia, Verdana, "Times New Roman", serif;
-}
-
-h1,h2,h3,h4,h5,h6{
-	font-family:"Calibri Light", "Franklin Gothic Book", Arial, sams-serif;
+	font-family: "Franklin Gothic Book", Helvetica,"Calibri Light", Arial, sams-serif;
 }
 h1{
 	font-size:2.4em;
@@ -99,17 +95,17 @@ body img{
 /*=================================================================*/
 /*=============box shadow defaults=================================*/
 
-.img, #list-introduction, .profile, .weight-loss-pgs{
-	box-shadow:1em 1em 1em #999;
-	-webkit-box-shadow:1em 1em 1em #999;
-	-moz-box-shadow:1em 1em 1em #999;
-	-ms-box-shadow:1em 1em 1em #999;
+.img, #list-introduction, .profile, .weight-loss-pgs, .col{
+	box-shadow:.4em .4em .4em #999;
+	-webkit-box-shadow:.4em .4em .4em #999;
+	-moz-box-shadow:.4em .4em .4em #999;
+	-ms-box-shadow:.4em .4em .4em #999;
 }
 #articles, #one, .slider{
-	box-shadow:1em 1em 1em #000;			
-	-webkit-box-shadow:1em 1em 1em #000;			
-	-moz-box-shadow:1em 1em 1em #000;	
-	-ms-box-shadow:1em 1em 1em #000;	
+	box-shadow:.4em .4em .4em #000;			
+	-webkit-box-shadow:.4em .4em .4em #000;			
+	-moz-box-shadow:.4em .4em .4em #000;	
+	-ms-box-shadow:.4em .4em .4em #000;	
 }
 
 /*==============WRAP IMAGES DEFAULTS============================*/
@@ -232,7 +228,7 @@ body img{
 	width:20%;
 }
 
-/* .log {
+.log {
 	-webkit-box-shadow:rgba(0,0,0,0.98) 0 0.063em 0 0;
 	-moz-box-shadow:rgba(0,0,0,0.98) 0 0.063em 0 0;
 	box-shadow:rgba(0,0,0,0.98) 0 0.063em 0 0;
@@ -264,108 +260,6 @@ body img{
 .log:active, .log:focus{
 	background: #BCC6CC; 
 
-} */
-/*  Reference CSS TRICK  */
-.button {
-	position: relative;
-	display: inline-block;
-	/* padding: 0.3em 0.4em; */
-	/* margin: 0 0.625em; */
-	background-color: #3E9ED6;
-	background-image:-webkit-gradient(linear, left top, left bottom,
-						color-stop(0, rgb(112,181,242)),
-						color-stop(0.49, rgb(84,164,238)),
-						color-stop(0.5, rgb(54,144,240)),
-						color-stop(1, rgb(26,97,219))
-					);
-	background-image:-moz-linear-gradient(center top, 
-						rgb(112,181,242) 0%,
-						rgb(84,164,238) 49%,
-						rgb(54,144,240) 50%,
-						rgb(26,97,219) 100%
-					);
-	color: #fff;
-	font-size: 1.2em;
-	text-decoration: none;
-	text-align: center;
-	/* line-height: 1; */
-	text-shadow: 0 -0.063em 0 rgba(0,0,0,0.5);
-	border: 0.063em solid;
-	border-color: #2f71a3 #265a82 #1e4766 #265a82;
-	border-radius: 0.3em;
-	-moz-border-radius: 0.3em;
-	-webkit-border-radius: 0.3em;
-
-	box-shadow: 		inset 0 -0.250em 0.313em rgba(255,255,255,0.2),
-						inset 0 0.063em 0.313em rgba(255,255,255,0.2),
-						/**/
-						0 0.125em 0 #1e4766,
-						0 0.250em 0 #1e4766,
-						0 0.375em 0 #1e4766,
-						/**/
-						0 0.500em 0.313em rgba(0,0,0,0.5);
-
-	-moz-box-shadow: 	inset 0 -0.250em 0.313em rgba(255,255,255,0.2),
-						inset 0 0.063em 0.313em rgba(255,255,255,0.2),
-						/**/
-						0 0.125em 0 #1e4766,
-						0 0.250em 0 #1e4766,
-						0 0.375em 0 #1e4766,
-						/**/
-						0 0.500em 0.313em rgba(0,0,0,0.5);
-
-	-webkit-box-shadow: inset 0 -0.250em 0.313em rgba(255,255,255,0.2),
-						inset 0 0.063em 0.313em rgba(255,255,255,0.2),
-						/**/
-						0 0.125em 0 #1e4766,
-						0 0.250em 0 #1e4766,
-						0 0.375em 0 #1e4766,
-						/**/
-						0 0.500em 0.313em rgba(0,0,0,0.5);
-}
-
-.button:hover {
-	background-color: #8AC5FD;
-
-	background-image: -webkit-gradient(
-		linear,
-		left top,
-		left bottom,
-		color-stop(0, rgb(134,193,253)),
-		color-stop(0.49, rgb(153,213,255)),
-		color-stop(0.5, rgb(130,194,253)),
-		color-stop(1, rgb(108,170,229))
-	);
-	background-image: -moz-linear-gradient(
-		center top,
-		rgb(134,193,253) 0%,
-		rgb(153,213,255) 49%,
-		rgb(130,194,253) 50%,
-		rgb(108,170,229) 100%
-	);
-}
-.button:active {
-	top: 0.250em;
-	box-shadow: 		inset 0 -0.063em .250em 0.313em rgba(255,255,255,0.4),
-						inset 0 -0.063em 0.313em rgba(255,255,255,0.2),
-						/**/
-						0 0.125em 0 #1e4766,
-						/**/
-						0 0.250em 0.313em rgba(0,0,0,0.5);
-
-	-moz-box-shadow: 	inset 0 0.250em 0.313em rgba(255,255,255,0.4),
-						inset 0 -0.063em 0.313em rgba(255,255,255,0.2),
-						/**/
-						0 0.125em 0 #1e4766,
-						/**/
-						0 0.250em 0.313em rgba(0,0,0,0.5);
-
-	-webkit-box-shadow: inset 0 0.250em 0.313em rgba(255,255,255,0.4),
-						inset 0 -0.063em 0.313em rgba(255,255,255,0.2),
-						/**/
-						0 0.125em 0 #1e4766,
-						/**/
-						0 0.250em 0.313em rgba(0,0,0,0.5);
 }
 
 /*====================NAVIGATION AREA ============================*/
@@ -495,7 +389,7 @@ body img{
 	float:left;
 	width:66%;
 	padding-left:2em;
-	outline:1px solid red;
+	
 }
 
 /*=================SIDE BAR====================================*/
@@ -737,7 +631,7 @@ iframe{
 	width:100%;
 	float:left;
 	margin:1em 0 1em 0;
-	outline:1px solid red;
+	
 }
 .col{
 	width:30%;
@@ -761,7 +655,7 @@ iframe{
 }
 .slider{
 	width:95%;
-	height:auto;
+	height:19.318em;
 	margin:2em 0 2em 0;
 	overflow:hidden;
 /* 	background:url('../images/loader.gif');
@@ -770,18 +664,13 @@ iframe{
 	z-index:-1;
 }
 .slider img{
-	
 	display:none;
 }
 .fitnessBook{
-	/* height:210px; */
-	background: rgb(0, 0, 0);
-	background: rgba(0, 0, 0, 0.3); 
-    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#50990000,endColorstr=#50990000); 
-    zoom: 1;	
+	background:#E6E6E6;
 	padding:.5em .5em;
 	float:left;
-	outline:1px solid red;
+	
 }
 .fitnessBook h2{
 	font-size:1.2em;
@@ -830,11 +719,13 @@ iframe{
 .promo h4{
 	margin:1em 1em 1.5em 1em;
 	font-size:1.3em;
-	border-bottom:.1em solid #DF7401;;
+	border-bottom:.1em solid #DF7401;
 }
 .promo h5{
 	text-decoration:underline;
-	margin-bottom:.6em;
+}
+.promo h5:hover{
+	color:#DF7401;
 }
 .promo p{
 	font-size:.8em;
@@ -846,10 +737,10 @@ iframe{
 	margin:0 0 1em 1em;
 	width:10em;
 	padding:.2em;
-	box-shadow:.6em .6em .6em #000;
-	-webkit-box-shadow:.6em .6em .6em #000;
-	-moz-box-shadow:.6em .6em .6em #000;
-	-ms-box-shadow:.6em .6em .6em #000;
+	box-shadow:.2em .2em .2em #000;
+	-webkit-box-shadow:.2em .2em .2em #000;
+	-moz-box-shadow:.2em .2em .2em #000;
+	-ms-box-shadow:.2em .2em .2em #000;
 	cursor:pointer;
 }
 .exercise{
@@ -869,11 +760,10 @@ iframe{
 	padding:.2em;
 }
 .promo img{
-	
 	margin:0 auto;
 }
-.arrow{
-	text-indent:-9999em;
+.arrow-up{
+	display:none;
 }
 
 
@@ -1184,11 +1074,6 @@ iframe{
 	width:85%;
 	margin:0 auto;
 }
-
-
-
-
-
 /*=============================Weight loss Content=================================================*/
 #sub-nav{
 	float:left;
