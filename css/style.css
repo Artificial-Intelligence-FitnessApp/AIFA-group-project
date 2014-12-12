@@ -115,7 +115,7 @@ body img{
 
 /*=============box shadow defaults=================================*/
 
-.img, #list-introduction, #one, .slider, .weight-loss-pgs, .col, .exercise-title{
+.img, #list-introduction, .slider, .weight-loss-pgs, .exercise-title{
 	box-shadow:.2em .2em .2em #999;
 	-webkit-box-shadow:.2em .2em .2em #999;
 	-moz-box-shadow:.2em .2em .2em #999;
@@ -576,6 +576,7 @@ iframe{
 	background:#20160D;
 	height:70px;
 	color:#999999;
+	font-size:.7em;
 }
 #copy{
 	float:left;
@@ -629,7 +630,6 @@ iframe{
 }
 .col{
 	width:30%;
-	height:304px;
 	margin:0 1em 1em 1em;
 }
 #one, #two, #three{

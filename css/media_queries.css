@@ -161,6 +161,9 @@
 	#credits{
 		margin-left:10em;
 	}
+	#footer{
+		height:100px;
+	}
 }
 
 
@@ -340,7 +343,7 @@
 	#footer{
 		height:100px;
 	}
-	#wagner {
+	#wagner, #aaron, #alex, #paul{
 		background-image:none;
 		border-radius:none;
 		box-shadow:none;
