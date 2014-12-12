@@ -165,6 +165,35 @@ $(document).ready(function(){
     });		
 });
 //weight loss toggle script copy here===============
+	$("#li1").click(function(){
+		$("#pg1").slideToggle();
+		$("#pg2").hide();
+	});	
+	$("#li2").click(function(){
+		$("#pg2").slideToggle();
+		$("#pg1").hide();
+	});		
+	$("#burpees").click(function(){
+		$("#show-burpees").slideToggle();
+	});	
+	$("#one-arm-push-ups").click(function(){
+		$("#show-one-arm-push-ups").slideToggle();
+	});		
+	$("#bent-over").click(function(){
+		$("#show-bent-over").slideToggle();
+	});	
+	$("#biceps-curls").click(function(){
+		$("#show-biceps-curls").slideToggle();
+	});	
+	$("#chin-up-grip").click(function(){
+		$("#show-chin-up-grip").slideToggle();
+	});	
+	$("#hamstring-injuries").click(function(){
+		$("#show-hamstring").slideToggle();
+	});		
+	
+	
+	
 	var readMore = true;
 
 	$(".button_weightloss").click(function(){

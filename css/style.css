@@ -93,9 +93,29 @@ body img{
 	max-width:100%;
 }
 /*=================================================================*/
+/*===================MAIN SECTION=============================*/
+#main_section{
+	background:#F8FBEF;
+	
+}
+#content{
+	float:left;
+	width:66%;
+	padding-left:2em;
+	
+}
+
+/*=================SIDE BAR====================================*/
+#sidebar{
+	margin-top:1.8em;
+	width:30%;
+	float:right;
+
+}
+
 /*=============box shadow defaults=================================*/
 
-.img, #list-introduction, #one, .slider, .profile, .weight-loss-pgs, .col{
+.img, #list-introduction, #one, .slider, .weight-loss-pgs, .col{
 	box-shadow:.2em .2em .2em #999;
 	-webkit-box-shadow:.2em .2em .2em #999;
 	-moz-box-shadow:.2em .2em .2em #999;
@@ -132,7 +152,6 @@ body img{
 	width:33em;
 	height:16.45em;
 }
-/*==============================END OF it============================*/
 /*==========================VIDEO DEFAULT RESPONSIVE=================*/
 .videoWrapper {
 	position: relative;
@@ -148,9 +167,9 @@ body img{
 	height:92.5%;
 	margin:0 auto;
 }
-/*================================================================*/
 
-/*========================HEADER SECTION========================*/
+/*========================HEADER SECTION AND FOOTER========================*/
+/*================================================================================*/
 #main_header, #main_header a{
 	width:100%;
 	height:25%;
@@ -370,28 +389,6 @@ body img{
 	letter-spacing:.1em;
 	text-align:right;
 }
-/*===================MAIN SECTION=============================*/
-#main_section{
-	background:#F8FBEF;
-	
-}
-#content{
-	float:left;
-	width:66%;
-	padding-left:2em;
-	
-}
-
-
-
-/*=================SIDE BAR====================================*/
-#sidebar{
-	margin-top:1.8em;
-	width:30%;
-	float:right;
-
-}
-
 
 /*===============FOOTER SECTION==================================*/
 footer{   
@@ -1004,11 +1001,12 @@ iframe{
 .profile{
 	float:right;
 	width:40%;
-	padding:2em;
+	padding:1em;
 	margin-left:2em;
 	margin-bottom:2em;
 	text-align:left;
-	line-height:2;
+	line-height:1.4;
+	background:#E6E6E6;
 }
 .profile h4{
 	margin-bottom:1em;
@@ -1148,7 +1146,7 @@ iframe{
 	float:left;
 	margin:0 1em 2em 1em;
 	line-height:1.8;
-	padding:0 .3em 0 .3em;
+	padding:.3em .3em 0 .3em;
 }
 .weight-loss-pgs p{
 	margin-bottom:.5em;
@@ -1191,6 +1189,16 @@ iframe{
 	-webkit-border-radius: 16px;
 	-moz-border-radius: 16px;
 	margin-bottom:.2em;
+}
+#pg2{
+	display:none;
+}
+.author{
+	background:#E6E6E6;
+	line-height:1;
+	margin:.5em 0 .5em 0;
+	text-align:right;
+	font-weight:bold;
 }
 /*=============================Recipes Content=================================================*/
 /* Basic sample */
