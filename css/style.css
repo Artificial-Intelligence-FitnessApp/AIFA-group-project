@@ -115,7 +115,7 @@ body img{
 
 /*=============box shadow defaults=================================*/
 
-.img, #list-introduction, #one, .slider, .weight-loss-pgs, .col{
+.img, #list-introduction, .slider, .weight-loss-pgs, .exercise-title{
 	box-shadow:.2em .2em .2em #999;
 	-webkit-box-shadow:.2em .2em .2em #999;
 	-moz-box-shadow:.2em .2em .2em #999;
@@ -576,39 +576,44 @@ iframe{
 	background:#20160D;
 	height:70px;
 	color:#999999;
+	font-size:.7em;
 }
-#footer span{
+#copy{
 	float:left;
 }
-#group{
-	display:none;
+#copyright span{
+	font-size:4em;
+	color:#000;
 }
-#group li a{
-	color:#999999;
-}
-#copyrightSymbol{
+#credits{
 	float:left;
-	margin-left:2em;
-	background-image:url('../images/icons/copyright1.png');
-	background-repeat:no-repeat;	
-	width:50px;
-	height:50px;
+	margin-left:25em;
 }
-#copyright{
-	margin:2em 20em 0 0;
-}
-#credits span{
-	margin-top:2em;
-}
-.designers {
-	margin-left:.4em;
-	padding:.2em;
+#wagner, #aaron, #alex, #paul{
+	display:block;
+	background-repeat:no-repeat;
+	width:40px;
+	height:40px;
 	border-radius:50%;
 	box-shadow:.1em .1em .0689em .0689em #888888;
 	-webkit-box-shadow:.1em .1em .0689em .0689em #888888;
 	-moz-box-shadow:.1em .1em .0689em .0689em #888888;
 	-ms-box-shadow:.1em .1em .0689em .0689em #888888;
+	text-indent:-9999em;
 	float:left;
+	margin-left:1em;
+}
+#wagner{
+	background-image:url('../images/wagner.jpg');
+}
+#aaron{
+		/*insert your image URL here and the last person to insert the image , delete this comment and uncomment the text indent above*/
+}
+#alex{
+	/*insert your image URL here and the last person to insert the image , delete this comment and uncomment the text indent above*/
+}
+#paul{
+	/*insert your image URL here and the last person to insert the image , delete this comment and uncomment the text indent above*/
 }
 
 /*============================================================*/
@@ -625,7 +630,6 @@ iframe{
 }
 .col{
 	width:30%;
-	height:304px;
 	margin:0 1em 1em 1em;
 }
 #one, #two, #three{
@@ -645,7 +649,7 @@ iframe{
 	margin-bottom:1em;
 }
 .slider{
-	width:95%;
+	width:96%;
 	height:19.318em;
 	margin:2em 0 2em 0;
 	overflow:hidden;
@@ -728,10 +732,6 @@ iframe{
 	margin:0 0 1em 1em;
 	width:10em;
 	padding:.2em;
-	box-shadow:.2em .2em .2em #000;
-	-webkit-box-shadow:.2em .2em .2em #000;
-	-moz-box-shadow:.2em .2em .2em #000;
-	-ms-box-shadow:.2em .2em .2em #000;
 	cursor:pointer;
 }
 .exercise{

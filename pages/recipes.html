@@ -6,7 +6,11 @@
 		<meta name="viewport" content="initial-scale=1.0, width=device-width" />
 		<link rel="stylesheet" href="../css/style.css" type="text/css"/>
 		<link rel="stylesheet" href="../css/media_queries.css" type="text/css"/>
-
+		<script src="../scripts/jquery.js"></script>
+		<script src="../scripts/turnjs4/lib/scissor.js"></script>
+		<script src="../scripts/turnjs4/lib/turn.js"></script>
+		<script src="../scripts/turnjs4/lib/zoom.js"></script>
+		<script src="../scripts/turnjs4/extras/modernizr.2.5.3.min.js"></script>
 		<!--[if gte IE 9]>
 			<style type="text/css">
 			.gradient {
@@ -18,39 +22,39 @@
 	<body>
 	<div id="homepage">	
 	
-		<!-- login box -->
-		<form id="login_div">
-			<div id="log-box">
-				<div id="logoIn">
-					<figure>
-						<img src="../images/aifa-logo-sm.png" alt="our company logo - AFAI Artificial Intelligence Fitness App">
-					</figure>
-				</div>
-				<p>Login to your AIFA account</p>
-				<label>Username:</label>
-				<input type="text" name="username" id="username_input" maxlength="15"><br/>
-				<label>Password:</label>
-				<input type="password" name="password" id="password_input" maxlength="15"><br/>
-				<button class="log-button" type="button" name="Login" id="button_login_final">Login</button>
-				
-			</div>
-		</form>
-		<div id="login_bg"></div>
-		<!-- END OF IT -->
-		<!-- header section -->
-		<header id="main_header">
-			<div id="head_wrap">
-				<figure id="logo">
-					<a href="../index.html">
-						<img id="lg" src="../images/aifa-logo.png" alt="our company logo - AFAI Artificial Intelligence Fitness App">
-						<img id="sm" src="../images/aifa-logo-sm.png" alt="our company logo - AFAI Artificial Intelligence Fitness App">
-					</a>
+	<!----------------login box--------------------------->
+	<form id="login_div">
+		<div id="log-box">
+			<div id="logoIn">
+				<figure>
+					<img src="../images/aifa-logo-sm.png" alt="our company logo - AFAI Artificial Intelligence Fitness App">
 				</figure>
-					<section id="main_headings">
-						<h1>Artificial Intelligence Fitness App</h1>
-						<h2>Your very own personal trainer!</h2>	
-					</section>
 			</div>
+			<div id="close-icon"></div>
+			<p>Login to your AIFA account</p>
+			<label>Username:</label>
+			<input type="text" name="username" id="username_input" maxlength="15"><br/>
+			<label>Password:</label>
+			<input type="password" name="password" id="password_input" maxlength="15"><br/>
+			<button type="button" name="Login" id="button_login_final">Login</button>
+			
+		</div>
+	</form>
+	<div id="login_bg"></div>
+	<!----------------END OF IT--------------------------->
+		<!----------------header section--------------------------->
+		<header id="main_header">
+		<div id="head_wrap">
+			<figure id="logo">
+				<a href="#">
+					<img src="../images/aifa-logo.png" alt="our company logo - AFAI Artificial Intelligence Fitness App">
+				</a>
+			</figure>
+				<section id="main_headings">
+					<h1>Artificial Intelligence Fitness App</h1>
+					<h2>Your very own personal trainer!</h2>	
+				</section>
+		</div>
 			<div id="login_container">
 				<div id="login_header">
 					<p class="logged_off">You are not logged in.</p>
@@ -58,56 +62,53 @@
 				</div>
 				<div id="logoff_header">
 					<p class="logged_in">Welcome, <span id="username_output">USER</span></p>
-					<label class="logged_in"><a href="../account.html" class="logged_in" >My Account</a></label><br/>
+					<label class="logged_in"><a href="pages/account.html" class="logged_in" >My Account</a></label><br/>
 					<input type="submit" value="Logoff" id="button_logoff" class="log_off log">
 				</div>
 			</div>
-				<!-- <form id="register"> -->
-			<!-- 		<input type="submit" value="Register" id="Register" class="log_off log">
-				</form> -->
-		</header><!-- END OF IT -->
-		<!-- Navigation of desktop -->	
+		</header><!----------------END OF IT--------------------------->
+		<!----------------Navigation of desktop--------------------------->	
 		<nav id="navDesk" class="cf">
 			<ul class="main_nav">
-				<li><a href="../index.html" >Home</a></li>
-				<li><a href="#" class="current">Nutrition</a>
+				<li><a href="../index.html">Home</a></li>
+				<li><a href="#">Nutrition</a>
 					<ul class="submenu">
-						<li><a href="recipes.html" title="recipes">Recipes</a></li>
-						<li><a href="weight_loss.html" title="weight_loss">Weight Loss</a></li>
+						<li><a href="recipes.html" class="current">Recipes</a></li>
+						<li><a href="weight_loss.html">Weight Loss</a></li>
 					</ul>
 				</li>
-				<li><a href="#">YOUR BMI & BFC</a></li>
+				<li class="products"><a href="recommended_products.html">Recommeded Products</a></li>
 				<li><a href="news.html">News</a></li>
 				<li><a href="faq.html">FAQ's</a></li>
 				<li><a href="about_us.html">About us</a></li>
 			</ul>	
-		</nav>	<!-- END OF IT -->
+		</nav>	<!----------------END OF IT--------------------------->
 	
-<!-- TABLE PORTRAIT NAVIGATION -->
+<!----TABLE PORTRAIT NAVIGATION----->
 		<div id="menu-trigger" title="menu button">
 			<figure id="menu-button"></figure>
 			<span class="menu-text">Menu</span>
 		</div>
 		<nav id="navTablet" class="cf">
 			<ul class="main_nav">
-				<li><a href="../index.html" >Home</a></li>
-				<li><a href="#" class="current">Nutrition</a>
+				<li><a href="../index.html">Home</a></li>
+				<li><a href="#" class="sub current">Nutrition</a>
 					<ul class="submenu">
-						<li><a href="recipes.html" title="recipes">Recipes</a></li>
-						<li><a href="weight_loss.html" title="weight_loss">Weight Loss</a></li>
+						<li><a href="#" class="current">Recipes</a></li>
+						<li><a href="weight_loss.html">Weight Loss</a></li>
 					</ul>
 				</li>
-				<li><a href="yourBMIandBFC.html">YOUR BMI & BFC</a></li>
+				<li class="products"><a href="recommended_products.html">Recommeded Products</a></li>
 				<li><a href="news.html">News</a></li>
 				<li><a href="faq.html">FAQ's</a></li>
 				<li><a href="about_us.html">About us</a></li>
 			</ul>	
-		</nav>	<!-- END OF IT -->
-
+		</nav>	<!----------------END OF IT--------------------------->
+	
 	
 		<!-- Main Section wrapper box-->
 		<section id="main_section">
-				<!-- content -->
+				<!----------content---------->
 			<section id="recipes_content">
 			
 			<div class="flipbook-viewport">
@@ -438,34 +439,33 @@
 				
 				<div class="column" id="columnTwo">
 					<p>Download AIFA</p>
-					<p class="appStore"><a href="https://itunes.apple.com/ie/genre/ios/id36?mt=8" target="_blank" id="apple" alt="Apple app store">Apple store</a></p>
-					<p class="appStore"><a href="https://play.google.com/store?hl=en" id="google" alt="Google app store" target="_blank" >Google store</a></p>
-					<p class="appStore"><a href="http://windows.microsoft.com/en-ie/windows-8/apps#Cat=t0" id="win" alt="Windows app store" target="_blank" >Windows store</a></p>
-					<p class="appStore"><a href="http://www.amazon.com/mobile-apps/b?node=2350149011" id="amazon" alt="amazon app store" target="_blank" >Amazon store</a></p>
+					<p class="appStore"><a href="" id="apple" alt="Apple app store">Apple store</a></p>
+					<p class="appStore"><a href="" id="google" alt="Google app store">Google store</a></p>
+					<p class="appStore"><a href="" id="win" alt="Windows app store">Windows store</a></p>
+					<p class="appStore"><a href="" id="amazon" alt="amazon app store">Amazon store</a></p>
 				</div>
 				
 				<div class="column" id="columnThree">
 					<span>Useful Fitness links</span>
 					<ul id="useful-links">
-						<li><a href="http://www.ideafit.com/fitness-conferences/idea-world-fitness-convention" target="_blank">Idea World Fitness Convenstion</a></li>
-						<li><a href="http://www.jamieoliver.com/" target="_blank">Jamie Oliver's recipes</a></li>
-						<li><a href="http://www.health.com/health/" target="_blank">Health magazine</a></li>
+						<li><a href="http://www.ideafit.com/fitness-conferences/idea-world-fitness-convention">Idea World Fitness Convenstion</a></li>
+						<li><a href="http://www.jamieoliver.com/">Jamie Oliver's recipes</a></li>
+						<li><a href="http://www.health.com/health/">Health magazine</a></li>
 						<li><a href="http://www.virginactive.it/">Virgin Active Village Fitness</a></li>
-						<li><a href="http://www.fitnessireland.ie/" target="_blank">Fitness Ireland</a></li>
-						<li><a href="http://www.treinoemfoco.com.br/" target="_blank">Treino em Foco</a></li>
-						<li><a href="http://www.fitnessfirst.co.uk/" target="_blank">Fitnes First</a></li>
-						<li><a href="http://www.fitnessmagazine.com/" target="_blank">Fitness magazine USA</a></li>
+						<li><a href="http://www.fitnessireland.ie/">Fitness Ireland</a></li>
+						<li><a href="http://www.treinoemfoco.com.br/">Treino em Foco</a></li>
+						<li><a href="http://www.fitnessfirst.co.uk/">Fitnes First</a></li>
+						<li><a href="http://www.fitnessmagazine.com/">Fitness magazine USA</a></li>
 				</div>
 				<div class="column" id="columnFour">
 					<span>Social Networks</span>
 					<ul id="social-network">
-						<li id="facebook"><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
-						<li id="twitter"><a href="https://twitter.com/" target="_blank">Twitter</a></li>
-						<li id="linkedin"><a href="http://linkedin.com" target="_blank">Linkedin</a></li>
-						<li id="instagram"><a href="http://instagram.com" target="_blank">Instagram</a></li>
+						<li id="facebook"><a href="https://www.facebook.com">Facebook</a></li>
+						<li id="twitter"><a href="https://twitter.com/">Twitter</a></li>
+						<li id="linkedin"><a href="http://linkedin.com">Linkedin</a></li>
+						<li id="instagram"><a href="http://instagram.com">Instagram</a></li>
 					</ul>
 					<a href="" id="terms">Terms and Conditions</a>
-					<div id="termsDownload" target="_blank"></div>
 				</div>				
 			</div>	
 			<div id="footer">
@@ -488,13 +488,9 @@
 			</div>
 		</footer>
 	</div>
-	<script src="../scripts/jquery.js"></script>
 	<script src="../scripts/recipe_script.js"></script>
 	<script src="../scripts/mainScript.js"></script>
-	<script src="../scripts/responsive.js"></script>	
-	<script src="../scripts/turnjs4/lib/scissor.js"></script>
-	<script src="../scripts/turnjs4/lib/turn.js"></script>
-	<script src="../scripts/turnjs4/lib/zoom.js"></script>
-	<script src="../scripts/turnjs4/extras/modernizr.2.5.3.min.js"></script>
+	<script src="../scripts/responsive.js"></script>
+
 </body>
 </html>

@@ -158,8 +158,16 @@
 		margin-right:5em;
 		float:right;
 	}
-	
+	#credits{
+		margin-left:10em;
+	}
+	#footer{
+		height:100px;
+	}
 }
+
+
+
 
 @media screen and (max-width:769px){
 	body{
@@ -314,23 +322,33 @@
 		float:none;
 		margin-top:2em;
 		width:100%;
-		outline:1px solid red;
-		/* clear:both; */
 	}
 	.promo{
-		outline:1px solid red;
 		float:left;
 		margin-left:2em;
 	}
 	#promo-BMI{
 		background-image:url('../images/bmi-background-md.png');
 	}
+	
 	#subfooter{
 		background-image:url('../images/aifa-footer-md.png');
 		background-repeat:repeat-x;
-	}	
-
-
+	}
+	#credits{
+		width:60%;
+		position:relative;
+		left:16em;
+	}
+	#footer{
+		height:100px;
+	}
+	#wagner, #aaron, #alex, #paul{
+		background-image:none;
+		border-radius:none;
+		box-shadow:none;
+		text-indent:0;
+	}
 /*====================subfooter==========================*/
 	#subfooter{
 		width:100%;
@@ -369,22 +387,31 @@
 		width:30%;
 		height:10%;
 	}
-	#log-box p, #log-box label, #log-box input{
-		margin-top:-5em;
+	#log-box p, #log-box label, #log-box input, #log-box button{
+		position:relative;
+		top:3em;
 	}
-	#close-icon{
-		left:14em;
-	}
-	#content{
-		width:90%;
+	#content, #one , #two, #three, .fitnessBook{
+		width:100%;
 	}
 	.fitnessBook{
 		float:none;
-		width:90%;
+	}
+	#one, #two, #three{
+		float:none;
+		margin-bottom:3px;
+	}
+	.slider{
+		height:11.1em;
+		margin:0 auto;
+	}
+	.img, #list-introduction, #one, .slider, .weight-loss-pgs, .col{
+		box-shadow:.2em .2em .2em #999;
+		border:1px solid #000;
 	}
 /*=======================footer===============================*/
 	#subfooter{
-		/* height:1200px; */
+		height:1300px;
 		width:100%;
 	}
 	.column{
@@ -411,7 +438,8 @@
 	
 /*------------ sub --------------*/
 	#footer{
-		height:80px;
+		height:110px;
+		clear:both;
 	}
 	#footer span{
 		float:left;
@@ -425,6 +453,7 @@
 	}
 	#credits{
 		float:none;
+		width:40%;
 	}
 	#group{
 		display:block;
@@ -584,6 +613,10 @@
 	}
 	#footer{
 		height:130px;
+	}
+	#credits{
+		float:none;
+		margin:0;
 	}
 	#group{
 		float:left;
