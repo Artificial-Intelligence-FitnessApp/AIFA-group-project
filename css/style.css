@@ -1070,25 +1070,67 @@ iframe{
 	width:85%;
 	margin:0 auto;
 }
-
-.zodiaco-container{
-	width:40%;
-	height:600px;
-	border:.1em solid #ccc;
-	background:#f8f8f8;
-	margin:10% auto;
+.zodiaco{
+	margin:0 auto;
+	height:700px;
+	display:block;
 	border-radius:.4em;
+	border:.1em solid #ccc;
+	width:40%;
 }
-.progress-container{
-	
+.zodiaco-container, .progress-selected{
+	margin-top:1em;
+}
+.zodiaco-container{
+	height:600px;
+	background:#f8f8f8;
 }
 .progress-selected{
 	display:block;
-	position:absolute;
-	z-index:4;
-	
+	height:100px;
 }
-
+#larrow, #rarrow{
+	position:relative;
+	display:block;
+	background-repeat:no-repeat;
+	width:67px;
+	height:67px;
+	text-indent:-9999em;
+}
+#larrow{
+	float:left;
+	background-image:url('../images/icons/backlarrow.png');
+}
+#rarrow{
+	float:right;
+	background-image:url('../images/icons/backrarrow.png');
+}
+#inner-larrow, #inner-rarrow{
+	position:absolute;
+	width:43px;
+	height:43px;
+	z-index:1;
+}
+#inner-larrow{
+	top:.778em;
+	right:1.09em;
+	float:right;
+	background-image:url('../images/icons/larrow.png');
+}
+#inner-rarrow{
+	top:.778em;
+	right:.456em;
+	float:right;
+	background-image:url('../images/icons/rarrow.png');
+}
+.page{
+	display:none;
+	opacity:0;
+}
+.present{
+	display:block;
+	opacity:1;
+}
 /*=============================Weight loss Content=================================================*/
 #sub-nav{
 	float:left;

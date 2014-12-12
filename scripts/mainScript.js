@@ -113,7 +113,7 @@ $(document).ready(function() {
 		$(this).toggleClass('close');
 	});
 });
-// index side bar =================================
+// Toogle  =================================
 $(document).ready(function(){
     $("#chest").click(function(){
         if($(this).next("#show-chest").css("display")=="none"){
@@ -163,7 +163,16 @@ $(document).ready(function(){
             $(this).find(".arrow-down").show();
         }
     });		
-		
+	 $("#rarrow").click(function(){
+			if($(this).next("#container2").css("display")=="none"){
+				$(this).next("#container2").show();
+				$(this).find("#container1").hide();
+			}
+			else{
+				$(this).next("#container2").hide();
+				$(this).find("#container1").show();
+			}
+		});	
 });
 //weight loss toggle script copy here===============
 	var readMore = true;
@@ -203,3 +212,22 @@ $(document).ready(function(){
         $(document).ready(function() {
             slideShow();
         });
+		
+		
+//simple fade in pages
+
+$(function() {
+    var request = window.location.hash;
+    if(request == '#page2') {
+        $('.page.present').removeClass('present');
+        $('.page').eq(1).addClass('present');
+    }
+    $('nav a').click(function(){
+        var speed = 200;
+        var i = $(this).index();
+        $('.page.present').animate({opacity: 0, marginTop:80},speed,function(){
+            $(this).removeClass('present');
+            $('.page').eq(i).css('marginTop',30).animate({opacity:1,marginTop: 50},speed).addClass('present');
+        });
+    });
+});

@@ -22,7 +22,7 @@
 			<div id="log-box">
 				<div id="logoIn">
 					<figure>
-						<img src="images/aifa-logo-sm.png" alt="our company logo - AFAI Artificial Intelligence Fitness App">
+						<img src="../../images/aifa-logo-sm.png" alt="our company logo - AFAI Artificial Intelligence Fitness App">
 					</figure>
 				</div>
 				<p>Login to your AIFA account</p>
@@ -34,15 +34,15 @@
 				
 			</div>
 		</form>
-		<div id="login_bg"></div>
+		<!-- <div id="login_bg"></div> -->
 		<!-- END OF IT -->
 		<!-- header section -->
 		<header id="main_header">
 			<div id="head_wrap">
 				<figure id="logo">
 					<a href="#">
-						<img id="lg" src="images/aifa-logo.png" alt="our company logo - AFAI Artificial Intelligence Fitness App">
-						<img id="sm" src="images/aifa-logo-sm.png" alt="our company logo - AFAI Artificial Intelligence Fitness App">
+						<img id="lg" src="../../images/aifa-logo.png" alt="our company logo - AFAI Artificial Intelligence Fitness App">
+						<img id="sm" src="../../images/aifa-logo-sm.png" alt="our company logo - AFAI Artificial Intelligence Fitness App">
 					</a>
 				</figure>
 					<section id="main_headings">
@@ -68,7 +68,7 @@
 		<!-- Navigation of desktop -->	
 		<nav id="navDesk" class="cf">
 			<ul class="main_nav">
-				<li><a href="#" class="current">Home</a></li>
+				<li><a href="./../../index.html" >Home</a></li>
 				<li><a href="#">Nutrition</a>
 					<ul class="submenu">
 						<li><a href="pages/recipes.html" title="recipes">Recipes</a></li>
@@ -89,7 +89,7 @@
 		</div>
 		<nav id="navTablet" class="cf">
 			<ul class="main_nav">
-				<li><a href="index.html" class="current">Home</a></li>
+				<li><a href="./../../index.html" >Home</a></li>
 				<li><a href="#" class="sub">Nutrition</a>
 					<ul class="submenu">
 						<li><a href="pages/recipes.html" title="recipes">Recipes</a></li>
@@ -104,14 +104,41 @@
 		</nav>	<!-- END OF IT -->
 		<!-- Main Section wrapper box-->
 		<section id="main_section">
-			<article class="zodiaco-container">
-				 <h2>Aries</h2>
-				 <img class="img" src="" alt="">
-				<data>Birthday: March 21–April 20</data>
-				<p>Your personality: You're a bold, adventurous competitor, and we wish lots of luck to anyone who tries to take you on. "You're an expert at being first," says Star. "The more you compete, the more driven your spirit will be to commit to routines."</p>
-				<p>Try: Metric-based cycling, like Flywheel Sports or Equinox's Pursuit</p>
-				<p>Metric-based cycling allows you to monitor your progress and engage in a little friendly competition, whether that's through numbers only—like at Flywheel—or through video game–like competitions throughout class, which you'll find in Pursuit. "At Flywheel, every studio is equipped with TorqBoards—large flat screens at the front of the room that show class leaders and performance data," says Ruth Zukerman, creative director and co-founder of Flywheel Sports. "The boards flash real-time data throughout class for those who want to see how they rank against others." But don't freak if you're having an off day—adding your name to the board in either studio is completely optional.</p>
-			</article>
+				<section class="zodiaco-container zodiaco">
+					<article class="page present" id="page1">
+						 <h2>Aries</h2>
+						 <img class="img" src="" alt="">
+						<data>Birthday: March 21–April 20</data>
+						<p>Your personality: You're a bold, adventurous competitor, and we wish lots of luck to anyone who tries to take you on. "You're an expert at being first," says Star. "The more you compete, the more driven your spirit will be to commit to routines."</p>
+						<p>Try: Metric-based cycling, like Flywheel Sports or Equinox's Pursuit</p>
+						<p>Metric-based cycling allows you to monitor your progress and engage in a little friendly competition, whether that's through numbers only—like at Flywheel—or through video game–like competitions throughout class, which you'll find in Pursuit. "At Flywheel, every studio is equipped with TorqBoards—large flat screens at the front of the room that show class leaders and performance data," says Ruth Zukerman, creative director and co-founder of Flywheel Sports. "The boards flash real-time data throughout class for those who want to see how they rank against others." But don't freak if you're having an off day—adding your name to the board in either studio is completely optional.</p>
+					</article>
+				
+					<article class="page" id="page2">
+						 <h2>Taurus</h2>
+						 <img class="img" src="" alt="">
+						<data>Birthday: April 21–May 21</data>
+						<p>Your personality: Known for being a chill, calm stabilizer, the grounded Taurus exercises patience more than any other sign. "Wherever workouts take you, doing them in nature makes your soul sing," says Star. "When you know you are grounded, the rewards are yours for the taking."</p>
+						<p>Try: Outdoor boot camp, like <a href="http://www.stacysbootcamp.com/" target="_blank">Stacy's Bootcamp</a> or <a href="http://november-project.com/" target="_blank">November Project</a></p>
+						<p>Clocking a hardcore workout of burpees, push-ups, and planks while still connecting with the earth is the perfect balance for the persistent, yet patient, Taurus. Many of these workouts have you rising with the sun, too, giving your day a rejuvenating start. "For the powerful bull, this combination is a perfect fit...at one moment it's peacefully grazing the land [translation: gentle warm-ups], at the next it's charging full force [hello, burpees!]," says Stacy Berman, founder of Stacy's Bootcamp. "Opt for a program that offers all outdoor classes—all year long, rain or shine—so your commune with nature is complete."</p>
+					</article>
+				</section>
+				<div class="progress-selected zodiaco">
+				
+					<div id="larrow">
+						<span id="inner-larrow">left</span>
+					</div>
+					
+					<div id="rarrow">right
+						<div id="inner-rarrow"></div>
+					</div>
+				</div>
+
+</body>
+</html>				
+				
+
+				
 		</section>
 		
 		<footer>
@@ -183,9 +210,9 @@
 			</div>
 		</footer>
 	</div>
-	<script src="scripts/jquery.js"></script>
-	<script src="scripts/jquery-ui.js"></script>
-	<script src="scripts/mainScript.js"></script>
-	<script src="scripts/responsive.js"></script>
+	<script src="./../../scripts/jquery.js"></script>
+	<script src="./../../scripts/jquery-ui.js"></script>
+	<script src="./../../scripts/mainScript.js"></script>
+	<script src="./../../scripts/responsive.js"></script>
 	</body>
 </html>
