@@ -234,19 +234,27 @@ $(document).ready(function(){
 		
 		
 //simple fade in pages
-
 $(function() {
-    var request = window.location.hash;
-    if(request == '#page2') {
-        $('.page.present').removeClass('present');
-        $('.page').eq(1).addClass('present');
-    }
-    $('nav a').click(function(){
-        var speed = 200;
-        var i = $(this).index();
-        $('.page.present').animate({opacity: 0, marginTop:80},speed,function(){
-            $(this).removeClass('present');
-            $('.page').eq(i).css('marginTop',30).animate({opacity:1,marginTop: 50},speed).addClass('present');
-        });
-    });
+	$("#rarrow").click(function(){
+		if($(".present").is(":last-child")){
+			console.log("return first");
+			$(".page:first").addClass("present");
+			$(".page:last").removeClass("present");
+		} else {
+			$(".present").next().addClass("present");
+			$(".present:first").removeClass("present");
+			console.log("next");
+		}
+	});
+	$("#larrow").click(function(){
+		if($(".present").is(":first-child")){
+			console.log("return last");
+			$(".page:last").addClass("present");
+			$(".page:first").removeClass("present");
+		} else {
+			$(".present").prev().addClass("present");
+			$(".present:last").removeClass("present");
+			console.log("prev");
+		}
+	});
 });
