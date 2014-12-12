@@ -607,10 +607,10 @@ iframe{
 	margin-left:.4em;
 	padding:.2em;
 	border-radius:50%;
-	box-shadow:.2em .2em .1em .1em #888888;
-	-webkit-box-shadow:.2em .2em .1em .1em #888888;
-	-moz-box-shadow:.2em .2em .1em .1em #888888;
-	-ms-box-shadow:.2em .2em .1em .1em #888888;
+	box-shadow:.1em .1em .0689em .0689em #888888;
+	-webkit-box-shadow:.1em .1em .0689em .0689em #888888;
+	-moz-box-shadow:.1em .1em .0689em .0689em #888888;
+	-ms-box-shadow:.1em .1em .0689em .0689em #888888;
 	float:left;
 }
 
@@ -628,6 +628,7 @@ iframe{
 }
 .col{
 	width:30%;
+	height:304px;
 	margin:0 1em 1em 1em;
 }
 #one, #two, #three{
