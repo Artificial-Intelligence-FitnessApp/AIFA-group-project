@@ -95,17 +95,11 @@ body img{
 /*=================================================================*/
 /*=============box shadow defaults=================================*/
 
-.img, #list-introduction, .profile, .weight-loss-pgs, .col{
-	box-shadow:.4em .4em .4em #999;
-	-webkit-box-shadow:.4em .4em .4em #999;
-	-moz-box-shadow:.4em .4em .4em #999;
-	-ms-box-shadow:.4em .4em .4em #999;
-}
-#articles, #one, .slider{
-	box-shadow:.4em .4em .4em #000;			
-	-webkit-box-shadow:.4em .4em .4em #000;			
-	-moz-box-shadow:.4em .4em .4em #000;	
-	-ms-box-shadow:.4em .4em .4em #000;	
+.img, #list-introduction, #one, .slider, .profile, .weight-loss-pgs, .col{
+	box-shadow:.2em .2em .2em #999;
+	-webkit-box-shadow:.2em .2em .2em #999;
+	-moz-box-shadow:.2em .2em .2em #999;
+	-ms-box-shadow:.2em .2em .2em #999;
 }
 
 /*==============WRAP IMAGES DEFAULTS============================*/
@@ -381,13 +375,14 @@ body img{
 	background:#F8FBEF;
 	
 }
-
 #content{
 	float:left;
 	width:66%;
 	padding-left:2em;
 	
 }
+
+
 
 /*=================SIDE BAR====================================*/
 #sidebar{
@@ -396,6 +391,8 @@ body img{
 	float:right;
 
 }
+
+
 /*===============FOOTER SECTION==================================*/
 footer{   
 	width:100%;
@@ -607,7 +604,6 @@ iframe{
 	margin-top:2em;
 }
 .designers {
-	
 	margin-left:.4em;
 	padding:.2em;
 	border-radius:50%;
@@ -623,7 +619,7 @@ iframe{
 /*IF YOU ARE SEEING THIS SAM, WE FORGOT TO DELETE THIS LINE!*/
 /*============================================================*/
 
-/*=============================CONTENT=================================================*/
+/*=============================INDEX CONTENT=================================================*/
 #about-aifa{
 	width:100%;
 	float:left;

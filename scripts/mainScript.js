@@ -163,16 +163,6 @@ $(document).ready(function(){
             $(this).find(".arrow-down").show();
         }
     });		
-	 $("#rarrow").click(function(){
-			if($(this).next("#container2").css("display")=="none"){
-				$(this).next("#container2").show();
-				$(this).find("#container1").hide();
-			}
-			else{
-				$(this).next("#container2").hide();
-				$(this).find("#container1").show();
-			}
-		});	
 });
 //weight loss toggle script copy here===============
 	var readMore = true;
