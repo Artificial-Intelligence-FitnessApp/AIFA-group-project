@@ -1083,8 +1083,11 @@ iframe{
 	height:755px;
 }
 .progress-selected{
+	background:
 	display:block;
 	height:50px;
+	border-radius:.4em;
+	border:.1em solid #ccc;	
 }
 .page{
 	margin:0 auto;
