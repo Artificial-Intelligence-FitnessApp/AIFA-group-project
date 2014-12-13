@@ -111,9 +111,6 @@
 	}
 	
 	/*    content   */	
-	.slider{
-		/* height:22em; */
-	}
 	.fitnessBook{
 		width:29.9%;
 		/* height:145px; */
@@ -164,6 +161,9 @@
 	}
 	#body-m-index{
 		margin-bottom:10em;
+	}
+	#bmi_section{
+		width:60%;
 	}
 	#promo-bmi{
 		background-position:50% 7%;
@@ -298,7 +298,6 @@
 	}
 	.slider{
 		clear:both;
-		/* height:23em; */
 	}
 	#faq_content{
 		width:100%;
@@ -387,6 +386,18 @@
 		margin-left:2em;
 		font-size:1.2em;
 	}
+	#bmi_section{
+		width:75%;
+		margin:0;
+	}
+	#BMI{
+		width:60%;
+		margin:-9em 2em 2em 5em;
+	}
+	#body-m-index{
+		font-size:2em;
+	}
+
 	#promo-BMI{
 		background-image:url('../images/bmi-background-md.png');
 	}
@@ -505,8 +516,18 @@
 	
 	
 	
-	
-		
+	/*    sidebar    */
+	#bmi_section #promo-bmi{
+		width:95%;
+		border:1em ridge #2980b9;
+	}
+	#BMI{
+		margin-left:2em;
+	}
+	#gender{
+		position:relative;
+		left:4em;
+	}	
 	/*    footer    */
 	#subfooter{
 		height:1300px;
@@ -657,13 +678,20 @@
 		background-image:url('../images/icons/up-hover-sm.png');
 		background-repeat:no-repeat;
 	}
-	.slider{
-		/* height:10.3em; */
-	}	
+	.wrap-img{
+		margin:0;
+	}
 	
 	/*    sidebar    */	
 	#sidebar{
 		width:100%;
+	}
+	#BMI{
+		margin-left:1em;
+	}
+	#gender{
+		position:relative;
+		left:2em;
 	}
 	.button{
 		height: 30px;
@@ -696,12 +724,18 @@
 		height:1300px;
 		clear:both;
 	}
+	#columnOne{
+		position:relative;
+	}
 	#footer{
 		height:130px;
 	}
+	#copy{
+		float:none;
+	}
 	#credits{
 		float:none;
-		margin:0;
+		margin:2em;
 	}
 
 

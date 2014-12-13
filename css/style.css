@@ -587,7 +587,9 @@ iframe{
 }
 #credits{
 	float:right;
-	/* margin-left:25em; */
+}
+#credits a:hover, #copy a:hover{
+	color:#DF7401;
 }
 #wagner, #aaron, #alex, #paul{
 	display:block;
@@ -607,13 +609,13 @@ iframe{
 	background-image:url('../images/wagner.jpg');
 }
 #aaron{
-		/*insert your image URL here and the last person to insert the image , delete this comment and uncomment the text indent above*/
+	background-image:url('../images/aaron.jpg');	
 }
 #alex{
 	/*insert your image URL here and the last person to insert the image , delete this comment and uncomment the text indent above*/
 }
 #paul{
-	/*insert your image URL here and the last person to insert the image , delete this comment and uncomment the text indent above*/
+	background-image:url('../images/paul.jpg');
 }
 
 /*============================================================*/
@@ -649,19 +651,18 @@ iframe{
 	margin-bottom:1em;
 }
 .slider{
+	background:#000;
+	border:.1em solid #000;
 	width:100%;
 	height:auto;
 	margin:2em 0 2em 0;
 	overflow:hidden;
-/* 	background:url('../images/loader.gif');
-	background-repeat:no-repeat;
-	background-position:center; */
 	z-index:-1;
 }
 .slider img{
 	display:none;
 	max-width:100%;
-	max-width:100%;
+	height:auto;
 }
 .fitnessBook{
 	background:#E6E6E6;
@@ -1260,6 +1261,10 @@ iframe{
 	margin:0;
 	padding:.8em;
 	line-height:1.8;
+}
+#body-m-index{
+	color:#610B0B;
+	text-shadow:1px 1px #ff0000;
 }
 #BMI label{
 	color:#610B0B;

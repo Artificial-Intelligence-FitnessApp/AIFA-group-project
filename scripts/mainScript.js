@@ -207,6 +207,7 @@ $(document).ready(function(){
 		}
 	});	
 //slider banner-----------------------------------
+
        var hovering = false;
         var slideshow = $(".slider");
 
