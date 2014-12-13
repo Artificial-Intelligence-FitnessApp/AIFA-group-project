@@ -445,31 +445,13 @@
 		float:left;
 		font-size:1em;
 	}
-	#copyright{
-		margin-left:-.1em;
-	}
-	#credits img{
-		display:none;
-	}
+
+
 	#credits{
 		float:none;
 		width:40%;
 	}
-	#group{
-		display:block;
-		float:right;
-	}
-	#group li{
-		float:left;
-	}
-	#group a{
-		color:#000;
-		margin-right:1.2em;
-	}
-	#group a:hover{
-		color:#DF7401;
-		text-decoration:underline;
-	}
+
 
 }
 @media screen and (max-width:480px){
@@ -606,6 +588,9 @@
 		background-image:url('../images/icons/up-hover-sm.png');
 		background-repeat:no-repeat;
 	}
+	.slider{
+		height:10.3em;
+	}
 	#subfooter{
 		background-image:url('../images/aifa-footer-sm.png');
 		background-repeat:repeat-x;
@@ -618,10 +603,8 @@
 		float:none;
 		margin:0;
 	}
-	#group{
-		float:left;
-		margin-left:20em;
-	}
+
+
 
 }
 
@@ -636,12 +619,6 @@
 		padding:0;
 
 	}
-	#credits, #group a{
-		margin:0;
-	}
-	#group{
-		margin-left:1.6em;
-	}
-	#group a{
-		margin:1em;
+	.slider{
+		height:8em;
 	}
