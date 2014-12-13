@@ -1203,13 +1203,7 @@ iframe{
 /*=============================Recipes Content=================================================*/
 /* Basic sample */
 
-.recipes_tableContents{
-	float:right;
-	text-align:right;
-	margin-top:2em;
-	width:90%;
-	height:75%;
-}
+
 
 .recipe_tableContents{
 	text-align:left;
@@ -1219,10 +1213,9 @@ iframe{
 	margin-left:4px;
 }
 
-#recips_content{
+#recipes_content{
 	width:100%;
 	
-	z-index:-3;
 	margin:0 auto;
 }
 
@@ -1231,25 +1224,6 @@ iframe{
 	width:100%;
 }
 
-#salmon{
-	height:100%;
-	width:100%;
-}
-
-#recipe_pie{
-	height:100%;
-	width:100%;
-}
-
-#fruit_salad{
-	height:100%;
-	width:100%;
-}
-
-#soup{
-	height:100%;
-	width:100%;
-}
 
 .page2_wrapper{
 	width:100%;
@@ -1296,6 +1270,11 @@ iframe{
 .recipe_name{
 	margin-left:2em;
 	
+}
+
+.recipe_image{
+	width:max-width:100%;
+	height:auto
 }
 
 .recipe_fill{
@@ -1360,7 +1339,7 @@ iframe{
 }
 
 .flipbook-viewport{
-	overflow:hidden;
+	
 	width:100%;
 	height:100%;
 	margin:0 auto;
@@ -1378,8 +1357,8 @@ iframe{
 	margin:0 auto;
 }
 .flipbook-viewport .page{
-	width:1000px;
-	height:1000px;
+	width:800px;
+	height:400px;
 	background-color:#ecf0f1;
 	background-repeat:no-repeat;
 	background-size:100% 100%;
@@ -1429,3 +1408,42 @@ iframe{
 	margin:0 auto;
 }
 /*=============================About Us Content=================================================*/
+
+
+#au_team{
+	background-color:#ecf0f1;
+	text-align:center;
+}
+
+#au_paul{
+	float:left;
+	height:20%;
+	width:40%;
+	margin-top:2em;
+	margin-left:4em;
+}
+
+#au_wagner{
+	float:right;
+	height:2o%;
+	width:40%;
+	margin-top:2em;
+	margin-left:4em;
+}
+
+#au_aaron{
+	float:left;
+	height:20%;
+	width:40%;
+	margin-top:2em;
+	margin-left:4em;
+	clear:both;
+}
+
+#au_alex{
+	float:right;
+	height:25%;
+	width:40%;
+	margin-top:2em;
+	margin-left:4em;
+}
