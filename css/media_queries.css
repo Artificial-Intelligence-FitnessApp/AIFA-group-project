@@ -153,6 +153,9 @@
 		width:80%;
 		clear:both;
 	}
+	.page{
+		font-size:1.4em;
+	}
 	
 	/*    side bar   */
 	#sidebar{
@@ -337,12 +340,22 @@
 		float:left;
 		width:98%;
 	}
-	#sidebar-weightloss{
-		width:90%;
+	.zodiaco_section{
+		background:#F8FBEF;
+		
+	}
+	.page{
+		font-size:1.2em;
+	}
+	.zodiaco-container{
+		background-image:url('../images/paper_texture-md.png');
+		width:400px;
+		height:604px;
 	}
 	.news_headline{
 		width:40%;
 	}
+
 	#news_articles{
 		width:90%;
 	}
@@ -384,6 +397,9 @@
 	.product{
 		width:20%;
 	}
+	#sidebar-weightloss{
+		width:90%;
+	}	
 
 	/*    footer    */
 	#subfooter{
@@ -435,8 +451,9 @@
 	}
 	#main_headings{
 		font-size:.8em;
-	}	
-/*--------------------Login Form--------------------*/	
+	}
+	
+	/* Login Form */	
 	#log-box{
 		width:30%;
 		height:10%;
@@ -465,7 +482,17 @@
 		box-shadow:.2em .2em .2em #999;
 		border:1px solid #000;
 	}
-	
+	.zodiaco_section{
+		height:670px;
+	}
+	.page h2{
+		margin-top:3em;
+	}
+	.zodiaco-container{
+		background-image:url('../images/paper_texture-sm.png');
+		width:320px;
+		height:730px;
+	}	
 /*==========================account area=====================*/	
 	/*code your account responsive here in one columns*/
 	
@@ -484,6 +511,7 @@
 	#subfooter{
 		height:1300px;
 		width:100%;
+		background-image:url('../images/aifa-footer-sm.png');
 	}
 	.column{
 		float:none;
@@ -666,6 +694,7 @@
 		background-image:url('../images/aifa-footer-sm.png');
 		background-repeat:repeat-x;
 		height:1300px;
+		clear:both;
 	}
 	#footer{
 		height:130px;
