@@ -649,8 +649,8 @@ iframe{
 	margin-bottom:1em;
 }
 .slider{
-	width:96%;
-	height:19.318em;
+	width:100%;
+	height:auto;
 	margin:2em 0 2em 0;
 	overflow:hidden;
 /* 	background:url('../images/loader.gif');
@@ -660,6 +660,8 @@ iframe{
 }
 .slider img{
 	display:none;
+	max-width:100%;
+	max-width:100%;
 }
 .fitnessBook{
 	background:#E6E6E6;
@@ -1067,22 +1069,31 @@ iframe{
 }
 .zodiaco{
 	margin:0 auto;
-	height:700px;
 	display:block;
-	border-radius:.4em;
-	border:.1em solid #ccc;
 	width:40%;
 }
 .zodiaco-container, .progress-selected{
 	margin-top:1em;
 }
 .zodiaco-container{
-	height:600px;
 	background:#f8f8f8;
+	background-image:url('../images/paper_texture.png');
+	background-repeat:no-repeat;
+	width:500px;
+	height:755px;
 }
 .progress-selected{
 	display:block;
-	height:100px;
+	height:50px;
+}
+.page{
+	margin:0 auto;
+	width:80%;
+	padding:2em;
+	font-size:1em;
+}
+.page h2{
+	margin-top:2.3em;
 }
 #larrow, #rarrow{
 	position:relative;
@@ -1094,29 +1105,18 @@ iframe{
 }
 #larrow{
 	float:left;
-	background-image:url('../images/icons/backlarrow.png');
+	background-image:url('../images/icons/left-arrow.png');
 }
+#larrow:hover{
+	background-image:url('../images/icons/left-arrow-hover.png');
+}
+
 #rarrow{
 	float:right;
-	background-image:url('../images/icons/backrarrow.png');
+	background-image:url('../images/icons/right-arrow.png');
 }
-#inner-larrow, #inner-rarrow{
-	position:absolute;
-	width:43px;
-	height:43px;
-	z-index:1;
-}
-#inner-larrow{
-	top:.778em;
-	right:1.09em;
-	float:right;
-	background-image:url('../images/icons/larrow.png');
-}
-#inner-rarrow{
-	top:.778em;
-	right:.456em;
-	float:right;
-	background-image:url('../images/icons/rarrow.png');
+#rarrow:hover{
+	background-image:url('../images/icons/right-arrow-hover.png');
 }
 .page{
 	display:none;
