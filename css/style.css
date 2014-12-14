@@ -624,6 +624,9 @@ iframe{
 /*============================================================*/
 
 /*=============================INDEX CONTENT=================================================*/
+#aifa-content-title, .adds{
+	text-indent:-9999em;
+}
 #about-aifa{
 	width:100%;
 	float:left;
@@ -688,6 +691,7 @@ iframe{
     opacity: 0.4;
     filter: alpha(opacity=40); /* For IE8 and earlier */
 } 
+
 #healthybody{
 	display:none;
 }
@@ -744,14 +748,15 @@ iframe{
 }
 .exercise li{
 	border-bottom:1px solid #999;
-	margin-bottom:.6em;
-	padding:.2em;
+	margin-bottom:.7em;
+	padding:.5em;
+	cursor:pointer;
 }
 .exercise li:hover{
 	background:#FBFBEF;
 	position:relative;
-	left:2em;
-	padding:.2em;
+	padding:.5em;
+	color:#DF7401;
 }
 .promo img{
 	margin:0 auto;
@@ -759,8 +764,31 @@ iframe{
 .arrow-up{
 	display:none;
 }
-
-
+.leg, .chest{
+	display:none;
+	margin:0 2em 0 2em;
+	padding:1em;
+	line-height:1.6;
+	font-size:1.3em;
+}
+.leg img, .chest img{
+	float:left;
+	margin-right:1em;
+}
+.leg p, .chest p{
+	margin-left:.7em;
+}
+#show-legs li:hover > span, #show-chest li:hover > span{
+	background:#E6E6E6;
+	display:block;
+	width:480px;
+	position:absolute;
+	right:15em;
+	top:-16em;
+	border:.2em solid #000;
+	border-radius:2em;
+	color:#000;
+}
 
 /*=============================Articles pages========================================================*/
 .related-articles{
@@ -1272,31 +1300,31 @@ iframe{
 	background: rgb(255, 255, 0); /* The Fallback */
 	background: rgba(255, 255, 0, 0.2);	
 }
-#couple{
+#couple, #couple-bf{
 	background-image:url('../images/icons/couple.png');
 	background-repeat:no-repeat;
 	width:118px;
 	height:95px;
 }
-#img-male{
+#img-male, #img-male-bf{
 	background-image:url('../images/icons/male.png');
 	background-repeat:no-repeat;
 	width:118px;
 	height:95px;
 	display:none;
 }
-#img-female{
+#img-female, #img-female-bf{
 	background-image:url('../images/icons/female.png');
 	background-repeat:no-repeat;
 	width:118px;
 	height:95px;
 	display:none;
 }
-#gender{
+#gender, #gender-bf{
 	width:6em;
 	margin:-3em 6em 1em 0;
 }
-#male{
+#male, #gender-bf{
 	color:#0072B9;
 }
 #female{

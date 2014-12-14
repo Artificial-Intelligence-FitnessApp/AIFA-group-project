@@ -207,6 +207,102 @@
 								<p>FOR GOOD RECIPES <a href="">CLICK HERE</a></p>
 						</fieldset>
 					</form>
+				</section>	
+					
+					<!-- Body Fat Form -->
+				<section class="promo" id="promo-bf">
+					<h3 id="body-f-index">BMI -Body Measure Index</h3>	
+					<form id="BF" name="bfForm">
+						<div id="couple-bf"></div>
+						<div id="img-male-bf"></div>
+						<div id="img-female-bf"></div>
+						<select id="gender-bf">
+							<option value="default-gender" class="selector">Gender</option>
+							<option value="male" id="male-bf" class="selector" >Male</option>
+							<option value="female" id="female-bf" class="selector">Female</option>
+						</select><br/>
+						<p id="message" class="opaci"></P>
+						<label>Measurement Type:</label><br/>
+						<input type="radio" name="unit" id="metric-bf" checked="metric">Metric(kg's & cm's)
+						<input type="radio" name="unit" id="imperial-bf">Imperial(Lbs & inches)<br/>
+						<fieldset id="unit-metric-bf">
+							<div class="bf-box" id="unit-height-bf">
+								<label>Height</label>
+								<input type="text" name="height" size="7" id="h-bf" class="bf" placeholder="Cm's">
+							</div>
+							<div class="bf-box" id="unit-weight-bf">
+								<label>Weight</label>	
+								<input type="text" name="weight" size="7" id="w-bf" class="bf" placeholder="Kg's">
+							</div>
+							<div class="bf-box" id="unit-neck">
+								<label>Neck (colar)</label>	
+								<input type="text" name="neck" size="7" id="neck" class="bf" placeholder="Cm's">
+							</div>
+							<div class="bf-box" id="unit-waist">
+								<label>Waist (smallest point)</label>	
+								<input type="text" name="waist" size="7" id="waist" class="bf" placeholder="Cm's">
+							</div>
+							<div class="bf-box" id="unit-hips">
+								<label>Hips (widest point)</label>	
+								<input type="text" name="hips" size="7" id="hips" class="bf" placeholder="Cm's">
+							</div>
+							<div class="bf-box" id="unit-forearm">
+								<label>Forearm (unflexed)</label>	
+								<input type="text" name="forearm" size="7" id="forearm" class="bf" placeholder="Cm's">
+							</div>
+							<div class="bf-box" id="unit-forearm">
+								<label>Wrist</label>	
+								<input type="text" name="forearm" size="7" id="forearm" class="bf" placeholder="Cm's">
+							</div>							
+						</fieldset>
+						
+						<fieldset id="unit-imperial-bf">
+							<div class="bf-box" id="unit-feet-bf">
+								<label>Height</label>
+								<input type="text" name="feet" size="7" id="ft-bf" class="feet-inch-lbs" placeholder="Feet's">
+							</div>
+							<div class="bf-box" id="unit-inch">		
+								<label>Weight(Lbs's)</label>	
+								<input type="text" name="inch" size="7" id="ih-bf" class="feet-inch-lbs" placeholder="Inches's">
+							</div>
+							<div class="bf-box" id="unit-neck">
+								<label>Neck (colar)</label>	
+								<input type="text" name="neck" size="7" id="neck" class="bf" placeholder="Inch's">
+							</div>
+							<div class="bf-box" id="unit-waist">
+								<label>Waist (smallest point)</label>	
+								<input type="text" name="waist" size="7" id="waist" class="bf" placeholder="Inch's">
+							</div>
+							<div class="bf-box" id="unit-hips">
+								<label>Hips (widest point)</label>	
+								<input type="text" name="hips" size="7" id="hips" class="bf" placeholder="Inch's">
+							</div>
+							<div class="bf-box" id="unit-forearm">
+								<label>Forearm (unflexed)</label>	
+								<input type="text" name="forearm" size="7" id="forearm" class="bf" placeholder="Inch's">
+							</div>
+							<div class="bf-box" id="unit-forearm">
+								<label>Wrist</label>	
+								<input type="text" name="wrist" size="7" id="wrist" class="bf" placeholder="Inch's">
+							</div>							
+						</fieldset>
+						<div class="button" id="submit" ">
+							<div class="outer">
+								<div class="height">
+									<div class="inner">
+										Calculate
+									</div>
+								</div>
+							</div>
+						</div>
+						<label class="opaci">Result</label>
+						<input type="text" name="result" id="result">	
+						<input type="reset" value="Reset" />
+						<fieldset id="fitness-feedback-bf">
+							<label>Fitness Feedback</label>
+							<p id="meaning-bf"></p>
+					</form>
+					
 				</section>		
 		</section>
 						
@@ -275,5 +371,6 @@
 <script src="../scripts/responsive.js"></script>
 <script src="../scripts/mainScript.js"></script>
 <script src="../scripts/BMIcalculator.js"></script>
+<script src="../scripts/bfcalculator.js"></script>
 </body>
 </html>
