@@ -6,7 +6,7 @@
 -Fix recipes page -CANT FIX
 -Fix content headers -COMPLETE
 -Standardize fonts on all pages -COMPLETE
--Check for spelling mistakes
+-Check for spelling mistakes -COMPLETE
 -Validate CSS			
 -Validate HTML
 -Push Draft commit to GitHub
