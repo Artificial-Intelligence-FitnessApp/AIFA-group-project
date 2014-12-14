@@ -3,9 +3,9 @@
 -Fix target:blank on some links	done -COMPLETE
 -Combine CSS -COMPLETE
 -Fix CSS if errors occur -NO ERRORS
--Fix recipes page			
--Fix content headers
--Standardize fonts on all pages
+-Fix recipes page -CANT FIX
+-Fix content headers -COMPLETE
+-Standardize fonts on all pages -COMPLETE
 -Check for spelling mistakes
 -Validate CSS			
 -Validate HTML

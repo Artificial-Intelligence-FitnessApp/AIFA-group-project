@@ -1,4 +1,4 @@
-/*THIS IS THE LAST VERSION OF CSS AIFA PROJECT 10-12-2014*/
+/*THIS IS THE LAST VERSION OF CSS AIFA PROJECT 14-12-2014*/
 
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
@@ -621,11 +621,6 @@ iframe{
 	background-image:url('../images/paul.jpg');
 }
 
-/*============================================================*/
-/*DO NOT EDIT CONTENT ABOVE THESE COMMENTS! THESE ARE DEFAULTS*/
-/*IF YOU ARE SEEING THIS SAM, WE FORGOT TO DELETE THIS LINE!*/
-/*============================================================*/
-
 /*=============================INDEX CONTENT=================================================*/
 #about-aifa{
 	width:100%;
@@ -998,7 +993,10 @@ iframe{
 	display:block;
 	opacity:1;
 }
-/* Account Content */
+#bmi_heading{
+	text-align: center;
+}
+/* ===================Account Content======================= */
 #account_body{
 	display: none;
 }
@@ -1127,7 +1125,7 @@ form{
 	font-weight:bold;
 	text-align:left;
 }
-/* News Content */
+/* ============================News Content============================ */
 #news_articles{
 	margin:0 auto;
 	width:70%;
@@ -1246,7 +1244,7 @@ form{
 	text-decoration: underline;
 	color: #2980b9;
 }
-/* FAQ Content */
+/* ============================FAQ Content========================== */
 #faq_section{
 	margin:0 auto;
 	width:70%;
@@ -1277,6 +1275,9 @@ form{
 	color: white;
 }
 /*=============================Weight loss Content=================================================*/
+#weight_loss_heading{
+	text-align: center;
+}
 #sub-nav{
 	float:left;
 	width:18%;
@@ -1802,7 +1803,6 @@ form{
 
 
 #au_team{
-	background-color:#ecf0f1;
 	text-align:center;
 }
 
