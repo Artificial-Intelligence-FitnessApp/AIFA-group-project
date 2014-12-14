@@ -183,6 +183,13 @@ $(document).ready(function(){
 		$("#pg1").hide();
 		$("#pg2").hide();
 		$("#pg3").hide();
+	});	
+	$("#li5").click(function(){
+		$("#pg5").slideToggle();
+		$("#pg1").hide();
+		$("#pg2").hide();
+		$("#pg3").hide();
+		$("#pg4").hide();
 	});		
 	$("#burpees").click(function(){
 		$("#show-burpees").slideToggle();

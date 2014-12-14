@@ -1065,7 +1065,7 @@ iframe{
 	-moz-border-radius: 16px;
 	margin-bottom:.2em;
 }
-#pg2, #pg3, #pg4{
+#pg2, #pg3, #pg4, #pg5{
 	display:none;
 }
 .fat-loss-circuit-list li{
@@ -1083,6 +1083,9 @@ iframe{
 	margin:.5em 0 .5em 0;
 	text-align:right;
 	font-weight:bold;
+}
+.float-right{
+	float:right;
 }
 /*========= Read More Read Less Button =====================*/
 .button_weightloss {
