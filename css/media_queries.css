@@ -54,10 +54,6 @@
 		display:none;
 	}
 	
-	/*    banner    */
-	.slider{
-		/* height:16.45em; */
-	}	
 		/*    content   */
 	.fitnessBook{
 		width:28.3%;
@@ -113,7 +109,7 @@
 	/*    content   */	
 	.fitnessBook{
 		width:29.9%;
-		/* height:145px; */
+
 		padding:.4em .4em;
 	}
 	#main_section{
@@ -172,7 +168,6 @@
 		margin-right:5em;
 		float:right;
 	}
-	
 	
 	/*    footer   */
 	#footer{
@@ -405,6 +400,15 @@
 		float:none;
 		width:90%;
 	}
+	.exercise li{
+		margin:0;
+		position:relative;
+		left:-5em;
+	}
+	#show-legs li:hover > p, #show-chest li:hover > p, #show-back li:hover > p, #show-arms li:hover > p{
+		left:18em;
+		width:80%;
+	}
 	.product{
 		width:20%;
 	}
@@ -528,6 +532,10 @@
 		position:relative;
 		left:4em;
 	}	
+	#show-legs li:hover > p, #show-chest li:hover > p, #show-back li:hover > p, #show-arms li:hover > p{
+		left:18em;
+		width:70%;
+	}
 	/*    footer    */
 	#subfooter{
 		height:1300px;

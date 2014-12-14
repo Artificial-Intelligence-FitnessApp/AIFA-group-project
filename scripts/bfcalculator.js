@@ -7,7 +7,7 @@
 //Gender Selector===============================================================
 //==============================================================================	
 	function checkGender(){
-		if(document.getElementById('gender-bf').value == "default-gender"){
+		if(document.getElementById('gender-bf').value == "default-gender-bf"){
 			document.getElementById('couple-bf').style.display = "block";
 			document.getElementById('img-male-bf').style.display = "none";
 			document.getElementById('img-female-bf').style.display = "none";

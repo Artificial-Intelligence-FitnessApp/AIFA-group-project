@@ -572,6 +572,9 @@ iframe{
 		height:32px;
 		margin-right:10em;
 	}
+	#termsDownload p{
+		text-indent:-9999em;
+	}
 #footer{
 	background:#20160D;
 	height:70px;
@@ -624,7 +627,7 @@ iframe{
 /*============================================================*/
 
 /*=============================INDEX CONTENT=================================================*/
-#aifa-content-title, .adds{
+.aifa-content-title, .adds{
 	text-indent:-9999em;
 }
 #about-aifa{
@@ -752,6 +755,9 @@ iframe{
 	padding:.5em;
 	cursor:pointer;
 }
+.exercise li > p{
+	font-size:1em;
+}
 .exercise li:hover{
 	background:#FBFBEF;
 	position:relative;
@@ -764,30 +770,31 @@ iframe{
 .arrow-up{
 	display:none;
 }
-.leg, .chest{
+.workout{
 	display:none;
 	margin:0 2em 0 2em;
 	padding:1em;
-	line-height:1.6;
-	font-size:1.3em;
+	z-index:1;
 }
-.leg img, .chest img{
+.workout img{
 	float:left;
 	margin-right:1em;
 }
-.leg p, .chest p{
-	margin-left:.7em;
-}
-#show-legs li:hover > span, #show-chest li:hover > span{
+
+#show-legs li:hover > p, #show-chest li:hover > p, #show-back li:hover > p, #show-arms li:hover > p{
 	background:#E6E6E6;
 	display:block;
 	width:480px;
 	position:absolute;
-	right:15em;
-	top:-16em;
+	right:21em;
+	top:-18em;
 	border:.2em solid #000;
 	border-radius:2em;
 	color:#000;
+}
+.exercise em{
+	font-weight:bold;
+	text-transform:upperletter;
 }
 
 /*=============================Articles pages========================================================*/
