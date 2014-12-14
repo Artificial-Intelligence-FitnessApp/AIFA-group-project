@@ -1,6 +1,6 @@
 -Synchronize headers and footers across all pages. -COMPLETE
--Fix links on headers and footers
--Fix target:blank on some links	done
+-Fix links on headers and footers -COMPLETE
+-Fix target:blank on some links	done -COMPLETE
 -Combine CSS		
 -Fix CSS if errors occur
 -Fix recipes page			
