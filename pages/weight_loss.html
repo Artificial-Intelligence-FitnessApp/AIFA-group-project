@@ -269,49 +269,49 @@
 				</div>
 				<div id="13" class="product">
 					<figure>
-						<a href="" target="_blank">
-							<img class="supli" src="../images/hb-protein-shake.png">
+						<a href="http://www.amazon.co.uk/Quest-Nutrition-Protein-Cookies-Cream/dp/B00I2P7XXM/ref=sr_1_9?ie=UTF8&qid=1418576904&sr=8-9&keywords=protein+bar" target="_blank">
+							<img class="supli" src="../images/guestbar.png">
 						</a>
 					</figure>
-					<p> turpis scelerisque a</p>
-					<label class="price-product">2.59</label>
-					<a href="" target="_blank">
+					<p>Quest Nutrition Protein Bar, Cookies & Cream, 12 Bars, 2.12 (60 g) Each</p>
+					<label class="price-product">22.54</label>
+					<a href="http://www.amazon.co.uk/Quest-Nutrition-Protein-Cookies-Cream/dp/B00I2P7XXM/ref=sr_1_9?ie=UTF8&qid=1418576904&sr=8-9&keywords=protein+bar" target="_blank">
 						<input class="buy" type="submit" name="buy" value="buy">
 					</a>
 				</div>
 				<div id="14" class="product">
 					<figure>
-						<a href="" target="_blank">
-							<img class="supli" src="../images/hb-protein-shake.png">
+						<a href="https://www.foreverliving.com/retail/entry/Shop.do?store=IRL&distribID=353000019959&language=nl" target="_blank">
+							<img class="supli" src="../images/forever-pack.png">
 						</a>
 					</figure>
-					<p> turpis scelerisque a</p>
-					<label class="price-product">2.59</label>
-					<a href="" target="_blank">
+					<p>Forever living nutrition kit pack</p>
+					<label class="price-product">150.00</label>
+					<a href="https://www.foreverliving.com/retail/entry/Shop.do?store=IRL&distribID=353000019959&language=nl" target="_blank">
 						<input class="buy" type="submit" name="buy" value="buy">
 					</a>
 				</div>
 				<div id="15" class="product">
 					<figure>
-						<a href="" target="_blank">
-							<img class="supli" src="../images/hb-protein-shake.png">
+						<a href="http://www.herbalife.ie/" target="_blank">
+							<img class="supli" src="../images/herbalife-tea.png">
 						</a>
 					</figure>
-					<p> turpis scelerisque a</p>
-					<label class="price-product">2.59</label>
-					<a href="" target="_blank">
+					<p>Detox Herbalife Tea (Pack of four)</p>
+					<label class="price-product">39.00</label>
+					<a href="http://www.herbalife.ie/" target="_blank">
 						<input class="buy" type="submit" name="buy" value="buy">
 					</a>
 				</div>
 				<div id="16" class="product">
 					<figure>
-						<a href="" target="_blank">
-							<img class="supli" src="../images/hb-protein-shake.png">
+						<a href="http://www.amazon.co.uk/Bench-Pressed-Oats-Cinnamon-Porridge/dp/B009OL8472/ref=pd_rhf_se_s_cp_17_NVBT?ie=UTF8&refRID=04X6W64J09KR9SJ26DG3" target="_blank">
+							<img class="supli" src="../images/protein-porrige.png">
 						</a>
 					</figure>
-					<p> turpis scelerisque a</p>
-					<label class="price-product">2.59</label>
-					<a href="" target="_blank">
+					<p>Bench Pressed Oats Apple, Whey Protein Porridge</p>
+					<label class="price-product">12.72</label>
+					<a href="http://www.amazon.co.uk/Bench-Pressed-Oats-Cinnamon-Porridge/dp/B009OL8472/ref=pd_rhf_se_s_cp_17_NVBT?ie=UTF8&refRID=04X6W64J09KR9SJ26DG3" target="_blank">
 						<input class="buy" type="submit" name="buy" value="buy">
 					</a>
 				</div>				
@@ -348,9 +348,118 @@
 						<p>In addition to adequate protein, you need more calories. Use the following formula to calculate the number you need to take in daily to gain 1 pound a week. (Give yourself 2 weeks for results to show up on the bathroom scale. If you haven't gained by then, increase your calories by 500 a day.)</p>
 					
 					<h5>Your Table Control</h5>
-						<p id="tre"><input type="submit" name="submit" value="Explore Table"></p>
-						<p>Insert your date to get result</p>
+						<p>Insert your date to get result of your BMI and controls your weight</p>
+						<div class="button_weightloss"><p>Read more</p></div>
 						<div id="show-table" class="all-weightloss-spans">
+							<h3 id="body-m-index">BMI -Body Measure Index</h3>
+							<form id="BMI" name="bmiForm">
+								<div id="couple"></div>
+								<div id="img-male"></div>
+								<div id="img-female"></div>
+								<select id="gender">
+									<option value="default-gender" class="selector">Gender</option>
+									<option value="male" id="male" class="selector" >Male</option>
+									<option value="female" id="female" class="selector">Female</option>
+								</select><br/>
+								<p id="message" class="opaci"></P>
+								<label>Measurement Type:</label><br/>
+								<input type="radio" name="unit" id="metric" checked="metric">Metric(kg's & cm's)
+								<input type="radio" name="unit" id="imperial">Imperial(Lbs & inches)<br/>
+								<fieldset id="unit-metric">
+									<div class="unit-box" id="unit-height">
+										<label>Height</label>
+										<input type="text" name="height" size="7" id="h" class="height-weight" placeholder="Cm's">
+									</div>
+									<div class="unit-box" id="unit-weight">
+										<label>Weight</label>	
+										<input type="text" name="weight" size="7" id="w" class="height-weight" placeholder="Kg's">
+									</div>
+								</fieldset>
+								<fieldset id="unit-imperial">
+									<div class="unit-box" id="unit-feet">
+										<label>Feet</label>
+										<input type="text" name="feet" size="7" id="ft" class="feet-inch-lbs" placeholder="feet's">
+									</div>
+									<div class="unit-box" id="unit-inch">		
+										<label>Inch</label>	
+										<input type="text" name="inch" size="7" id="ih" class="feet-inch-lbs" placeholder="inches's">
+									</div>
+									<div class="unit-box" id="unit-lbs">
+										<label>Lbs</label>
+										<input type="text" name="lbs" size="7" id="lbs" class="feet-inch-lbs" placeholder="Lbs">
+									</div>
+								</fieldset>
+								<div class="button" id="submit">
+									<div class="outer">
+										<div class="height">
+											<div class="inner">
+												Calculate
+											</div>
+										</div>
+									</div>
+								</div>
+								<label class="opaci">Result</label>
+								<input type="text" name="result" id="result">	
+								<input type="reset" value="Reset" />
+								<fieldset id="fitness-feedback">
+									<label>Fitness Feedback</label>
+									<p id="meaning"></p>
+									<div id="underweight-treatment">
+										<h4 id="treat1">Underweight Treatment</h4>
+									</div>
+									<div id="overweight-treatment">
+										<h4 id="treat2">Overweight Treatment</h4>
+									</div>
+									<div id="obsity-treatment">
+										<h4 id="treat3">Obsity Treatment</h4>
+									</div>
+								</fieldset>
+								<fieldset id="showTreat1" class="feedback-advice">
+										<p>Increase your intake of complex carbohydrates, particularly whole grain ones.</p>
+										<p>In order to gain weight, you will have to eat more calories. You will need to include regular exercise and strength training into your lifestyle in order to prevent gaining too much weight as fat.</p>
+									<h4 id="food1" class="food">Some food tips</h4>
+								</fieldset>
+								<fieldset id="showTreat2" class="feedback-advice">
+										<p>Your body weight is controlled by the number of calories you eat and the number of calories you use each day. So, if you consume fewer calories than you burn, you will lose weight. You can do this by becoming more physically active or by eating less.</p>
+										<p>Our app wil help you to achieve your goal.</p>
+									<h4 id="food2" class="food">Some food tips</h4>
+								</fieldset>
+								<fieldset id="showTreat3" class="feedbackAdvice">
+										<p>The method of treatment depends on your level of obesity, overall health condition, and motivation to lose weight.</p>
+										<p>Treatment includes a combination of diet, exercise, behavior modification, and sometimes weightloss drugs. In some cases of severe obesity, gastrointestinal surgery may be recommended.</p>
+										<p>If you are overweight, losing as little as 7-10 percent of your body weight may improve many of the problems linked to being overweight, such as high blood pressure and diabetes.</p>
+										<p>Slow and steady weight loss of no more than 1-2 pounds per week is the safest way to lose weight. Too rapid weight loss can cause you to lose muscle rather than fat. It also increases your chances of developing other problems, such as gallstones and nutrient deficiencies. Making long-term changes in your eating and physical activity habits is the only way to lose weight and keep it off!</p>
+										<p>Whether you are trying to lose weight or maintain your weight, you must improve your eating habits. Eat a variety of foods, especially pasta, rice, wholemeal bread, and other whole-grain foods. Reduce your fat-intake. You should also eat lots of fruits and vegetables.</p>
+										<p>Making physical activity a part of your daily life is an important way to help control your weight. Try to do at least 30 minutes of physical activity a day on most days of the week. The activity does not have to be done all at once. It can be done in stages: 10 minutes here, 20 minutes there, providing it adds up to 30 minutes a day.</p>			
+										<p>Get advice with your Nutritionist, also our app will guide you through the treatment</p>
+									
+								</fieldset>						
+								<fieldset id="foodTips1" class="foodTips">
+									<p>Drink 6-8 glasses of distilled water a day.</p>
+									<p>Eat frequent but small meals.</p>
+									<p>Eat lots of raw fruits and vegetables (green leafy vegetables are great)
+									<p>Do not drink coffee, alcohol, soda pop,...
+									<p>Do not eat processed foods; white sugar, white flower,...
+									<p>Avoid red meat and animal fats.
+									<p>Reduce intake of dairy products.
+									<p>Do not smoke and avoid second hand smoke. 
+									<p>FOR GOOD RECIPES <a href="">CLICK HERE</a></p>
+								</fieldset>
+								<fieldset id="foodTips2" class="foodTips">
+									<h5>Eliminate Red Meat</h5>
+										<p>If foods like burgers are basic to your current diet, cutting out red meat can go a long way in helping you make healthier meal choices. Build your meals around fish or poultry.</p>
+									<h5>Cut out fried foods</h5>
+										<p>Grill, bake, roast, broil or boil your food. This also means doing without French Fries and snack foods like Potato Strings, Chips,...</p>
+									<h5>Start with a soup or a salad</h5>
+										<p>By starting dinner with a soup or salad, you will curb your hunger, which will in turn help you keep portion sizes in check and prevent you from overeating.</p>
+									</h5>Stop Cola consumption</h5>
+										<p>For every 20 ounces of Coca-Cola you drink, you're consuming 250 calories. If you're trying to consume around 1500 calories a day in order to lose weight, you can blow your entire calorie budget on soda!</p>
+									<h5>Drink water</h5>
+										<p>Reach for the goal of eight glasses a day. Even if you don't drink eight, you're drinking more than usual. </p>
+										<p>FOR GOOD RECIPES <a href="">CLICK HERE</a></p>
+								</fieldset>
+							</form>
+	
 						</div>
 					<h4>4. Work your biggest muscles. </h4>
 						<p>If you're a beginner, just about any workout will be intense enough to increase protein synthesis.</p>
@@ -648,6 +757,9 @@
 					</div>						
 			</article>
 			<article class="weight-loss-pgs" id="pg4">
+						<figure class="widescreen-img">
+							<img class="img" src="../images/smart.jpg" alt=""/>
+						</figure>					
 					<h2>Smart Dumbbell Lifting: Iso-Dynamic Training</h2>
 						<p>Isometric training can be difficult and tedious, but you can reap its benefits with this overload technique. Pick up two dumbbells and start moving one of them!</p>
 					<footer class="author">
@@ -659,7 +771,7 @@
 						<p>In this article, I'm showing you how to use what I call "iso-dynamic training" to create a new training stimulus from the staples of your program. Put simply, iso-dynamic training is where, within a set of a given dumbbell exercise, you hold one side in an isometric contraction while the other arm moves through a dynamic (concentric and eccentric) movement. Then, in the same set, you switch so that the side that was doing the isometric moves dynamically.</p>
 						<p>Sound simple enough? Check out the video to see what I mean.</p>
 						<div class="videoWrapper">
-							<iframe src="https://www.youtube.com/embed/maJJj7UJF_s"></iframe>
+							<iframe src="https://www.youtube.com/embed/nk7RksvqGQs" ></iframe>					
 						</div>
 													
 						<h3>Why To Hold It</h3>	
@@ -680,8 +792,8 @@
 						<div  class="all-weightloss-spans">
 							<p>To perform it, hold your isometric arm's elbow at a 90-degree angle, straight out from the body.</p>
 							<p>On this and all of the other iso-dynamic exercises here, make sure your arm on the isometric side is totally still while the other side moves. Don't let it drop from starting position, no matter how tempting it may be!</p>
-							<figure class="widescreen-img">
-								<img class="img" src="../images/.jpg" alt=""/>
+							<figure class="img560x341">
+								<img class="img" src="../images/smart-dumbbell-lifting-img1.jpg" alt="a guy hold two dumbell doing biceps"/>
 								<figcaption>Iso-Dynamic Biceps Curl</figcaption>
 							</figure>						
 						</div>
@@ -703,8 +815,8 @@
 						<div class="button_weightloss"><p>Read more</p></div>
 						<div  class="all-weightloss-spans">		
 							<p>Seated or standing, hold your right arm isometrically in the middle of the range of motion, making a 90-degree angle at the elbow, while your left arm performs a standard, full-range-of-motion overhead press. Once you perform several dynamic reps on your left side, swap arms.</p>
-							<figure class="widescreen-img">
-								<img class="img" src="../images/.jpg" alt=""/>							
+							<figure class="img560x341">
+								<img class="img" src="../images/smart-dumbbell-lifting-img2.jpg" alt=" a guy holding dumbbells in position reverse Arnold press"/>							
 								<figcaption>Iso-Dynamic Shoulder Press</figcaption>
 							</figure>
 						</div>
@@ -713,7 +825,7 @@
 						<div class="button_weightloss"><p>Read more</p></div>
 						<div  class="all-weightloss-spans">	
 							<p>Perform the dumbbell press along the same lines as the dumbbell shoulder press. Keep an arm performing the isometric hold at a 90-degree angle, with your humerus (upper-arm bone) parallel to the floor. Don't allow it to droop.</p>
-							<figure class="widescreen-img">
+							<figure class="img560x341">
 								<img class="img" src="../images/.jpg" alt=""/>								
 								<figcaption>Iso-Dynamic Dumbbell Press</figcaption>
 							</figure>
@@ -723,7 +835,7 @@
 						<div class="button_weightloss"><p>Read more</p></div>
 						<div  class="all-weightloss-spans">	
 							<p>This is the opposite of the iso-dynamic dumbbell press. Grab a dumbbell in each hand and assume a bent-over rowing position with your torso parallel to the ground. Then perform a bent-over row with both arms. Hold your right arm at the top of the row while you perform normal rows with your left arm. Then switch.</p>
-							<figure class="widescreen-img">
+							<figure class="img560x341">
 								<img class="img" src="../images/.jpg" alt=""/>							
 								<figcaption>Iso-Dynamic Dumbbell Rows</figcaption>
 							</figure>	
@@ -806,4 +918,5 @@
 <script src="../scripts/jquery.js"></script>
 <script src="../scripts/responsive.js"></script>
 <script src="../scripts/mainScript.js"></script>
+<script src="../scripts/BMIcalculator.js"></script>
 </body>

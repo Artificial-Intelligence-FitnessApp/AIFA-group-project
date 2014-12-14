@@ -177,6 +177,12 @@ $(document).ready(function(){
 		$("#pg3").slideToggle();
 		$("#pg1").hide();
 		$("#pg2").hide();
+	});	
+	$("#li4").click(function(){
+		$("#pg4").slideToggle();
+		$("#pg1").hide();
+		$("#pg2").hide();
+		$("#pg3").hide();
 	});		
 	$("#burpees").click(function(){
 		$("#show-burpees").slideToggle();
