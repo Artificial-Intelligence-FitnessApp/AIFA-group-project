@@ -1,15 +1,15 @@
--Synchronize headers and footers across all pages.
--Fix links on headers and footers
--Fix target:blank on some links
--Combine CSS
--Fix CSS if errors occur
--Fix recipes page
--Fix content headers
--Standardize fonts on all pages
--Check for spelling mistakes
--Validate CSS
--Validate HTML
--Push Draft commit to GitHub
--Check the list again!
+-Synchronize headers and footers across all pages. done 
+-Fix links on headers and footers	done
+-Fix target:blank on some links	done
+-Combine CSS		
+-Fix CSS if errors occur	not check
+-Fix recipes page			
+-Fix content headers		done
+-Standardize fonts on all pages	done
+-Check for spelling mistakes	done
+-Validate CSS			
+-Validate HTML			index done
+-Push Draft commit to GitHub	done lol 
+-Check the list again!		done lol 
 -Deploy website
--Get drunk and celebrate
+-Get drunk and celebrate	lATTER DEFINITLY rain check
