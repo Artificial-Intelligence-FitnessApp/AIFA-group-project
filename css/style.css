@@ -941,7 +941,6 @@ iframe{
 .page{
 	margin:0 auto;
 	width:80%;
-	padding:2em;
 	font-size:1em;
 }
 .page p, .page h2, .page data{
@@ -1415,8 +1414,9 @@ form{
 
 #recipes_content{
 	width:100%;
-	
 	margin:0 auto;
+	margin-top: 2em;
+	margin-bottom: 2em;
 }
 
 .r_cover{
@@ -1600,8 +1600,6 @@ form{
 	height:400px;
 	background-size:100%;
 }
-
-
 /*=============================BMI Content=================================================*/
 #bmi_section{
 	width:40%;
