@@ -172,6 +172,11 @@ $(document).ready(function(){
 	$("#li2").click(function(){
 		$("#pg2").slideToggle();
 		$("#pg1").hide();
+	});	
+	$("#li3").click(function(){
+		$("#pg3").slideToggle();
+		$("#pg1").hide();
+		$("#pg2").hide();
 	});		
 	$("#burpees").click(function(){
 		$("#show-burpees").slideToggle();
