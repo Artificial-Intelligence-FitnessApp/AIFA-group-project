@@ -1,4 +1,4 @@
--Synchronize headers and footers across all pages. -HEADERS COMPLETE
+-Synchronize headers and footers across all pages. -COMPLETE
 -Fix links on headers and footers
 -Fix target:blank on some links	done
 -Combine CSS		
