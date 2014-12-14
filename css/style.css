@@ -998,6 +998,284 @@ iframe{
 	display:block;
 	opacity:1;
 }
+/* Account Content */
+#account_body{
+	display: none;
+}
+
+#account_program>div.account_program_article{
+	background: #afada7;
+	color: black;
+	padding:.3em;
+    font-weight:700;
+    cursor:pointer;
+}
+#account_program>div.account_program_article>div{
+	display: none;
+}
+#account_program>div.account_program_article:hover{
+	background:#DF7401;
+	color: white;
+}
+
+#account_header{
+	text-align:center;
+}
+
+#account_header>input{
+	border: 2px solid black;
+	border-bottom: 1px solid black;
+}
+
+#account_column_side{
+	width: 15%;
+	float: left;
+}
+
+#account_column_main{
+	width: 75%;
+	float: left;
+}
+
+#account_badges{
+	display: inline-block;
+}
+
+#account_badges>div{
+	background: #F8FBEF;
+	width: 100%;
+	margin-bottom: 1em;
+	padding-top: .3em;
+	padding-bottom: .3em;
+}
+
+#account_badges>div:last-child{
+	margin-bottom: 0;
+}
+
+#account_badges>div>img{
+	margin-left: .3em;
+}
+
+#account_badges>div,#account_badges>div>img{
+	float: left;
+}
+
+#account_badges>div>p{
+	float: left;
+	margin-left: 1em;
+	width: 50%;
+}
+
+#account_blog{
+	display: inline-block;
+	float: left;
+	width: 30%;
+}
+
+#account_program{
+	display: inline-block;
+	float: left;
+	width: 45%;
+}
+
+#account_program_header{
+	display: inline-block;
+}
+
+#account_program>div{
+	float: left;
+}
+
+#account_program_header>div>p:first-child{
+	margin-left: 0;
+}
+
+#account_program_header>div>p{
+	float: left;
+	margin-left: 1em;
+}
+
+#account_textarea{
+	width: 95%;
+}
+
+.account_blog_content{
+	font-style: italic;
+	font-size: 90%;
+}
+
+textarea{
+	resize: none;
+}
+
+form{
+	display: inline-block;
+}
+
+.account_column{
+	margin-left: 2%;
+}
+
+.account_divs{
+	display: inline-block;
+	background:#afada7;
+	word-wrap: break-word;
+	width: 100%;
+	padding: .3em;
+	margin-top: 1em;
+	font-weight:bold;
+	text-align:left;
+}
+/* News Content */
+#news_articles{
+	margin:0 auto;
+	width:70%;
+}
+#news_header{
+	text-align:center;
+}
+#news_popup{
+	width: 80%;
+	height: 80%;
+	position: fixed;
+	background: #F8FBEF;
+	border: .3em solid #DF7401;
+	border-radius: 25px;
+	top: 10%;
+	left: 10%;
+	z-index: 1;
+	display: none;
+}
+#news_popup_header{
+	border-bottom: .3em solid #DF7401;
+}
+#news_popup_header>h2{
+	text-align: center;
+}
+#news_popup_content{
+	width: 100%;
+	height: 85%;
+}
+#news_popup_content>div{
+	float: left;
+	width: 75%;
+	height: 100%;
+	margin: 1.5%;
+	overflow-y: scroll;
+}
+#news_popup_content>div>p,#news_popup_content>div>h3{
+	margin-bottom: 1em;
+}
+#news_popup_content>div>p:last-child,#news_popup_content>div>h3:last-child{
+	margin-bottom: 0;
+}
+#news_popup_content>img{
+	float: left;
+	width: 20%;
+	border-right: .3em solid #DF7401;
+	border-bottom: .3em solid #DF7401;
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+}
+#news_bg{
+	background: black;
+	opacity: 0.3;
+	height: 500%;
+	width: 500%;
+	top: -250%;
+	position: fixed;
+	cursor: pointer;
+	z-index: 0;
+	display: none;
+}
+#news_spacer{
+	padding-top: 5px;
+}
+.news_bold{
+	font-weight: bold;
+}
+.news_headline{
+    cursor: pointer;
+	text-align: left;
+	width:28.9%;
+	height:210px;
+	background: rgb(0, 0, 0);
+	background: rgba(0, 0, 0, 0.3); 
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#50990000,endColorstr=#50990000); 
+    zoom: 1;	
+	padding:.5em .5em;
+	float:left;
+	margin:.4em .4em .4em .6em;
+}
+.news_headline>h2{
+	font-size:1.2em;	
+	font-weight:bold;
+}
+.news_headline>p{
+	font-size:.7em;
+}
+.news_headline>figure>img{
+	max-width:100%;
+	border:.4em solid #F8FBEF;
+}
+.news_headline:hover{
+	background:#DF7401;
+	color: white;
+}
+.news_headline>h3{
+	font-size: 1.5em;
+	margin-left: 5px;
+	float: left;
+	width: 80%;
+}
+.news_headline>div{
+	display: none;
+}
+.news_headline>img{
+	float: left;
+	margin: 5px;
+}
+.news_a{
+	font-weight: bold;
+	color: #DF7401;
+	text-decoration: none;
+}
+.news_a:hover{
+	text-decoration: underline;
+	color: #2980b9;
+}
+/* FAQ Content */
+#faq_section{
+	margin:0 auto;
+	width:70%;
+}
+#faq_header{
+	text-align:center;
+}
+#faq_spacer{
+	padding-top: 5px;
+}
+.faq_answer{
+	padding-top: 1em;
+	display: none;
+}
+.faq_answer>p{
+	padding-bottom: 1em;
+}
+#faq_section>h3 {
+	background: #afada7;
+	margin-top: .3em;
+	color: black;
+	padding:.2em;
+    font-weight:700;
+    cursor:pointer;
+}
+#faq_section>h3:hover{
+	background:#DF7401;
+	color: white;
+}
 /*=============================Weight loss Content=================================================*/
 #sub-nav{
 	float:left;
