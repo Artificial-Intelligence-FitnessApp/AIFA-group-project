@@ -986,8 +986,7 @@ iframe{
 	background-image:url('../images/icons/right-arrow-hover.png');
 }
 .page{
-	display:none;
-	opacity:0;
+	opacity: 100;
 }
 .present{
 	display:block;

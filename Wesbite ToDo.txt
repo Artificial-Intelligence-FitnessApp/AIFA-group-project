@@ -7,6 +7,7 @@
 -Fix content headers -COMPLETE
 -Standardize fonts on all pages -COMPLETE
 -Check for spelling mistakes -COMPLETE
+-Fix titles
 -Validate CSS			
 -Validate HTML
 -Push Draft commit to GitHub
