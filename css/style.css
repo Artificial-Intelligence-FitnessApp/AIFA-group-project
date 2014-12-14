@@ -58,10 +58,6 @@ table {
 .cf:after{
 	clear:both;
 }
-/*FOR IE 6,7 (triger hasLayout)*/
-.cf{
-	zoom:1;
-}
 
 /*==============body defaults===================================*/
 body{
@@ -123,7 +119,7 @@ body img{
 }
 
 /*==============WRAP IMAGES DEFAULTS============================*/
-.wrap-img, #intro-img, #intro-img2, #intro-img3, #gain-mass, .widescreen-img, .img560x341"{
+.wrap-img, #intro-img, #intro-img2, #intro-img3, #gain-mass, .widescreen-img, .img560x341{
 	border:.2em solid #000;
 	margin-bottom:2em;
 }
@@ -455,7 +451,7 @@ iframe{
 }
 /*---------column two---------*/
 #columnTwo p:first-child{
-	:Ariel, sans-serif;
+	font-family: Ariel, sans-serif;
 	font-size:1.2em;
 	margin:1em 3em;
 	text-align:center;
@@ -503,7 +499,7 @@ iframe{
 /*---------column thre and four-----------*/
 	.column span{
 		color:#fff;
-		font-style:underline;
+		text-decoration: underline;
 		line-height:3;
 	}	
 	#columnThree{
@@ -684,7 +680,6 @@ iframe{
 }
 .fitnessBook img:hover, .promo img:hover{
     opacity: 0.4;
-    filter: alpha(opacity=40); /* For IE8 and earlier */
 } 
 
 #healthybody{
@@ -786,7 +781,6 @@ iframe{
 }
 .exercise em{
 	font-weight:bold;
-	text-transform:upperletter;
 }
 
 /*=============================Articles pages========================================================*/
